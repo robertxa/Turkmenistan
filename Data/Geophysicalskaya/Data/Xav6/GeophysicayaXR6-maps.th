@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-GeophysicayaXR6 -title "GeophysicayaXR6"
+	SP-Xav6-1
+	break
+	SP-Xav6-2
+	#break
+	#SP-Xav4-2
+endmap
+
+#map MC-GeophysicayaXR6 -title "GeophysicayaXR6"
+#	SC-GeophysicayaXR6-1
+#endmap
+   

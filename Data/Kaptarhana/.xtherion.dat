@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 573.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.77m (from Kaptarhana@Kaptarhana.Kaptarhana at 620.00m to 23@Kaptarhana.Kaptarhana at 585.23m)\nnorth-south range: 203.45m (from 30@Kaptarhana.Kaptarhana at 4190075.92m to 13@Kaptarhana.Kaptarhana at 4189872.47m)\neast-west range: 277.82m (from 22@Kaptarhana.Kaptarhana at 272227.57m to F1@Kaptarhana.Kaptarhana at 271949.75m)\nnumber of shots: 39\nnumber of stations: 40"
+xth_cp_data_tree_insert 52 1 1 Kaptarhana Kaptarhana "Kaptarhana" "Kaptarhana" "length: 573.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.77m (from Kaptarhana@Kaptarhana.Kaptarhana at 620.00m to 23@Kaptarhana.Kaptarhana at 585.23m)\nnorth-south range: 203.45m (from 30@Kaptarhana.Kaptarhana at 4190075.92m to 13@Kaptarhana.Kaptarhana at 4189872.47m)\neast-west range: 277.82m (from 22@Kaptarhana.Kaptarhana at 272227.57m to F1@Kaptarhana.Kaptarhana at 271949.75m)\nnumber of shots: 39\nnumber of stations: 40"
+xth_cp_data_tree_insert 54 52 2 Kaptarhana Kaptarhana.Kaptarhana "Kaptarhana" "Kaptarhana" "length: 573.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.77m (from Kaptarhana@Kaptarhana.Kaptarhana at 620.00m to 23@Kaptarhana.Kaptarhana at 585.23m)\nnorth-south range: 203.45m (from 30@Kaptarhana.Kaptarhana at 4190075.92m to 13@Kaptarhana.Kaptarhana at 4189872.47m)\neast-west range: 277.82m (from 22@Kaptarhana.Kaptarhana at 272227.57m to F1@Kaptarhana.Kaptarhana at 271949.75m)\nnumber of shots: 39\nnumber of stations: 40"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 227X1 p1 1 MP-Kaptarhana MP-Kaptarhana@Kaptarhana "Kaptarhana" "Kaptarhana"
+xth_cp_map_tree_create
+xth_cp_comp_stat 574 6
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1710236636
+

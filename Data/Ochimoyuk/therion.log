@@ -1,0 +1,247 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Ochimoyuk.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 3.48%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 50 à (0,0,0)
+ 4> 
+ 5> La topographie contient 1429 stations, connectées par 1438 visées.
+ 6> Il y a 11 bouclages.
+ 7> La topographie contient 2 composants connectés.
+ 8> Longueur totale de la topographie = 3438.73m (3442.35m ajusté)
+ 9> Longueur totale en projection horizontale = 3131.40m
+10> Longueur totale verticale =  809.67m
+11> Intervalle vertical = 161.29m (de 9 à 128.65m jusqu’à 355 à -32.64m)
+12> Intervalle Nord-Sud = 540.94m (de 1234 à 391.07m jusqu’à 413 à -149.87m)
+13> Intervalle Est-Ouest = 523.34m (de 1288 à 287.33m jusqu’à 6 à -236.01m)
+14> 1251 1-nœuds.
+15>   21 2-nœuds.
+16>    3 3-nœuds.
+17>    3 4-nœuds.
+18>    5 5-nœuds.
+19>   31 6-nœuds.
+20>   22 7-nœuds.
+21>   11 8-nœuds.
+22>   11 9-nœuds.
+23>   10 10-nœuds.
+24>   13 11-nœuds.
+25>    9 12-nœuds.
+26>    6 13-nœuds.
+27>    9 14-nœuds.
+28>    8 15-nœuds.
+29>    3 16-nœuds.
+30>    6 19-nœuds.
+31>    1 20-nœud.
+32>    2 22-nœuds.
+33>    1 23-nœud.
+34>    1 24-nœud.
+35>    1 29-nœud.
+36>    1 33-nœud.
+37> 
+######################### transcription ########################
+ 3> 50 : B3@Entree2.Entree.Ochimoyuk
+ 5> 1429 : 70@ochy_muyuk.Boucle1.Ochimoyuk
+ 6> 11 : -@Entree.Entree.Ochimoyuk
+ 7> 2 : 1@Entree.Entree.Ochimoyuk
+11> 9 : -@Entree.Entree.Ochimoyuk -- 355 : .@AshimyukFond.AshimyukFond.Ochimoyuk
+12> 1234 : .@ochy_muyuk.Boucle1.Ochimoyuk -- 413 : 7@AshimyukFond.AshimyukFond.Ochimoyuk
+13> 1288 : 49@ochy_muyuk.Boucle1.Ochimoyuk -- 6 : 5@Entree.Entree.Ochimoyuk
+14> 1251 : .@ochy_muyuk.Boucle1.Ochimoyuk
+15> 21 : 9@Entree2.Entree.Ochimoyuk
+16> 3 : 2@Entree.Entree.Ochimoyuk
+17> 3 : 2@Entree.Entree.Ochimoyuk
+18> 5 : 4@Entree.Entree.Ochimoyuk
+19> 31 : 19@Entree2.Entree.Ochimoyuk
+20> 22 : 10@Entree2.Entree.Ochimoyuk
+21> 11 : -@Entree.Entree.Ochimoyuk
+22> 11 : -@Entree.Entree.Ochimoyuk
+23> 10 : -@Entree.Entree.Ochimoyuk
+24> 13 : 1@Entree2.Entree.Ochimoyuk
+25> 9 : -@Entree.Entree.Ochimoyuk
+26> 6 : 5@Entree.Entree.Ochimoyuk
+27> 9 : -@Entree.Entree.Ochimoyuk
+28> 8 : -@Entree.Entree.Ochimoyuk
+29> 3 : 2@Entree.Entree.Ochimoyuk
+30> 6 : 5@Entree.Entree.Ochimoyuk
+31> 1 : 0@Entree.Entree.Ochimoyuk
+32> 2 : 1@Entree.Entree.Ochimoyuk
+33> 1 : 0@Entree.Entree.Ochimoyuk
+34> 1 : 0@Entree.Entree.Ochimoyuk
+35> 1 : 0@Entree.Entree.Ochimoyuk
+36> 1 : 0@Entree.Entree.Ochimoyuk
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- Ochimoyuk.thconfig [305] -- object not found -- "MP-Ochimoyuk"
+
+therion: warning -- Ochimoyuk.thconfig [306] -- object not found -- "MC-Ochimoyuk-coupe"
+done
+processing projection plan ... done
+writing Data/Ochimoyuk-map.xvi ... done
+processing projection extended ... done
+writing Data/Ochimoyuk-coupe.xvi ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Ochimoyuk-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 16:11
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 24823 strings using 777249 characters
+ 4416264 bytes of node memory
+ 1741 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 16:11
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 275 strings out of 494671
+ 3899 string characters out of 6148971
+ 321552 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 18931 words of font info for 60 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,6p,322b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 101610 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Ochimoyuk-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 16:11
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [5] )
+ 
+Here is how much of MetaPost's memory you used:
+ 24038 strings using 746089 characters
+ 4315944 bytes of node memory
+ 1742 symbolic tokens
+ 10i,81n,19p,457b,5f stack positions out of 16i,96n,20p,487b,6f
+20 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 16:11
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 59 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 315 strings out of 494671
+ 4231 string characters out of 6148971
+ 302400 words of memory out of 5000000
+ 1943 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 105483 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Ochimoyuk.lox ... done
+therion: warning -- data not georeferenced -- unable to export KML file
+therion: warning -- data not georeferenced -- unable to export KML file
+compilation time: 5 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+ 12.25%   20.4m  166.6m  10  -18.4m   -8.2m   -3.4m [10@ochy_muyuk.Boucle1.Ochimoyuk - 21 - 20 - 19 - 18 - 17 - 16 - 13 - 12 - 11 - 10]
+  8.00%   18.3m  229.3m  15  -14.8m   -9.9m   -4.4m [B81@ochy_muyuk.Boucle1.Ochimoyuk - 56 - 55 - 54 - 53 - 52 - 51 - 50 - 42 - 41 - B82 - 36 - 35 - 34 - 29 - B81]
+  4.93%    9.3m  189.7m  15    8.2m   -2.5m   -3.8m [B00@ochy_muyuk.Boucle1.Ochimoyuk - 70 - 69 - 68 - 67 - 66 - 65 - 64 - 63 - 62 - 61 - 60 - 59 - 58 - 57 - B00]
+  0.86%    0.5m   58.6m   5   -0.2m    0.4m   -0.2m [24@AshimyukFond.AshimyukFond.Ochimoyuk - 26 - 27 - 28 - B76 - 24]
+  0.56%    1.3m  231.3m  10   -0.7m    0.7m   -0.8m [B77@AshimyukFond.AshimyukFond.Ochimoyuk - 19 - B79 - 10 - 11 - 12 - 13 - B78 - 16 - 17 - B77]
+  0.39%    0.5m  119.3m  10    0.1m   -0.4m   -0.1m [B00@Entree2.Entree.Ochimoyuk - 24.1 - 24 - 23 - B01 - 21 - 20 - 19 - 18 - 17 - B00]
+  0.39%    0.3m   69.8m   7   -0.3m   -0.0m   -0.0m [B76@AshimyukFond.AshimyukFond.Ochimoyuk - 29 - B75 - 31 - B77 - 21 - 22 - B76]
+  0.33%    0.7m  204.5m  15    0.3m   -0.5m    0.3m [B72@AshimyukFond.AshimyukFond.Ochimoyuk - 56 - 58 - 59 - 60 - 61 - 62 - 24 - B76 - 29 - B75 - 32 - B74 - 46 - B73 - B72]
+  0.33%    0.2m   67.7m   3   -0.1m   -0.2m    0.1m [B74@AshimyukFond.AshimyukFond.Ochimoyuk - 15 - B78 - B74]
+  0.24%    0.3m  133.0m   8    0.0m    0.3m    0.1m [B75@AshimyukFond.AshimyukFond.Ochimoyuk - 32 - B74 - B78 - 16 - 17 - B77 - 31 - B75]
+##################### end of loop errors #######################

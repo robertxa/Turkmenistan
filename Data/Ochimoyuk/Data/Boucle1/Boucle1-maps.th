@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Boucle1 -title "Boucle1"
+	#
+	#break
+	SP-Ashi-1
+endmap
+
+
+#map MC-Boucle1 -title "Boucle1"
+#	SC-Boucle1-1
+#endmap
+   

@@ -1,0 +1,69 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 272.75 245.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {115.58699999999999 1 1.0} {86.9298 0} Russes2-map.xvi 0 {}
+
+
+
+scrap SP-Russes2-1 -projection plan -station-names "" "@Russes2" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+point 14.0 71.5 breakdown-choke -orientation 70.0
+
+line pit -reverse on
+  82.25 116.0
+  82.25 116.0 69.75 67.75 70.0 65.25
+  smooth off
+endline
+
+line wall -subtype invisible
+  118.0 66.5
+  118.0 66.5 123.0 69.5 124.0 80.0
+  125.0 90.5 127.5 104.75 127.25 109.25
+  127.0 113.75 125.75 114.0 125.75 114.0
+  smooth off
+endline
+
+point 143.5 88.0 entrance -orientation 265.5
+
+line wall -subtype blocks
+  25.0 73.5
+  25.0 73.5 44.0 81.25 48.5 80.25
+  53.0 79.25 54.75 82.5 60.0 77.25
+  65.25 72.0 65.0 67.75 72.25 69.5
+  79.5 71.25 75.25 80.25 87.5 80.0
+  99.75 79.75 116.75 80.25 117.5 76.5
+  118.25 72.75 118.0 66.5 118.0 66.5
+  smooth off
+endline
+
+point 66.0 94.75 vegetable-debris
+
+point 42.5 84.75 vegetable-debris
+
+point 55.0 86.75 vegetable-debris
+
+point 92.0 52.75 air-draught -orientation 90.0
+
+line wall -subtype blocks
+  125.75 114.0
+  altitude .
+  125.75 114.0 124.5 104.75 120.0 104.75
+  115.5 104.75 114.75 102.5 108.5 105.5
+  102.25 108.5 92.25 112.25 84.75 113.0
+  77.25 113.75 71.0 116.25 65.5 113.0
+  60.0 109.75 61.5 97.0 57.75 94.5
+  54.0 92.0 41.0 87.75 36.75 86.0
+  altitude .
+  32.5 84.25 23.0 78.0 23.0 78.0
+  smooth off
+endline
+
+point 32.287 78.8998 station -name 2
+
+point 77.637 94.6498 station -name 1
+
+point 115.58699999999999 86.9298 station -name 0
+
+endscrap
+
+

@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 180.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.37m (from 1@Tush-Yurruck_06.Alex6 at 2.78m to 14@Tush-Yurruck_06.Alex6 at -8.59m)\nnorth-south range: 44.39m (from PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m to 17@Tush-Yurruck_06.Alex6 at -44.39m)\neast-west range: 70.65m (from 8@Tush-Yurruck_06.Alex6 at 70.65m to PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m)\nnumber of shots: 158\nnumber of stations: 159"
+xth_cp_data_tree_insert 48 1 1 Alex6 Alex6 "Alex6" "Alex6" "length: 180.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.37m (from 1@Tush-Yurruck_06.Alex6 at 2.78m to 14@Tush-Yurruck_06.Alex6 at -8.59m)\nnorth-south range: 44.39m (from PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m to 17@Tush-Yurruck_06.Alex6 at -44.39m)\neast-west range: 70.65m (from 8@Tush-Yurruck_06.Alex6 at 70.65m to PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m)\nnumber of shots: 158\nnumber of stations: 159"
+xth_cp_data_tree_insert 50 48 2 Tush-Yurruck_06 Tush-Yurruck_06.Alex6 "Tush-Yurruck 06" "Tush-Yurruck 06" "length: 180.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.37m (from 1@Tush-Yurruck_06.Alex6 at 2.78m to 14@Tush-Yurruck_06.Alex6 at -8.59m)\nnorth-south range: 44.39m (from PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m to 17@Tush-Yurruck_06.Alex6 at -44.39m)\neast-west range: 70.65m (from 8@Tush-Yurruck_06.Alex6 at 70.65m to PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 at 0.00m)\nnumber of shots: 158\nnumber of stations: 159"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 181 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1713532085
+

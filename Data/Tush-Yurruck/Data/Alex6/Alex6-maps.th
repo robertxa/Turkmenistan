@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Alex6 -title "Alex6"
+	SP-Alex6-1
+endmap
+
+#map MC-Alex6 -title "Alex6"
+#	SC-Alex6-1
+#endmap
+   

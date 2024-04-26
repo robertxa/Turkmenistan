@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-AshimyukFond -title "AshimyukFond"
+	SP-Ashi-4
+	break
+	SP-Ashi-3
+	break
+	SP-Ashi-2
+	break
+	SP-Ashi-1
+endmap
+
+
+#map MC-AshimyukFond -title "AshimyukFond"
+#	SC-AshimyukFond-1
+#endmap
+   

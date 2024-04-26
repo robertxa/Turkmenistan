@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 7.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.19m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -1.19m)\nnorth-south range: 2.57m (from 1@general.Petit-General at 2.57m to 0@general.Petit-General at 0.00m)\neast-west range: 7.22m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -7.22m)\nnumber of shots: 15\nnumber of stations: 16"
+xth_cp_data_tree_insert 52 1 1 Petit-General Petit-General "Petit-General" "Petit-General" "length: 7.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.19m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -1.19m)\nnorth-south range: 2.57m (from 1@general.Petit-General at 2.57m to 0@general.Petit-General at 0.00m)\neast-west range: 7.22m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -7.22m)\nnumber of shots: 15\nnumber of stations: 16"
+xth_cp_data_tree_insert 54 52 2 general general.Petit-General "general" "general" "length: 7.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.19m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -1.19m)\nnorth-south range: 2.57m (from 1@general.Petit-General at 2.57m to 0@general.Petit-General at 0.00m)\neast-west range: 7.22m (from 0@general.Petit-General at 0.00m to 1@general.Petit-General at -7.22m)\nnumber of shots: 15\nnumber of stations: 16"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 67X1 p1 1 MP-Petit-General MP-Petit-General@Petit-General "Grotte du Petit Général" "Grotte du Petit General"
+xth_cp_map_tree_create
+xth_cp_comp_stat 8 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1713543045
+

@@ -1,0 +1,15 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Chauve-Souris -title "Chauve-Souris"
+	SP-Chauve-Souris-1
+endmap
+
+
+#map MC-Chauve-Souris -title "Chauve-Souris"
+#	SC-Chauve-Souris-1
+#endmap
+   

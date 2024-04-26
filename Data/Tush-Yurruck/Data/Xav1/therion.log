@@ -1,0 +1,272 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Tush_YurruckXR1.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.84%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 1057 stations, connectées par 1060 visées.
+ 6> Il y a 5 bouclages.
+ 7> La topographie contient 2 composants connectés.
+ 8> Longueur totale de la topographie = 1407.03m (1407.02m ajusté)
+ 9> Longueur totale en projection horizontale = 1324.56m
+10> Longueur totale verticale =  281.35m
+11> Intervalle vertical = 42.78m (de 642 à 39.61m jusqu’à 519 à -3.16m)
+12> Intervalle Nord-Sud = 218.08m (de 985 à 180.95m jusqu’à 64 à -37.13m)
+13> Intervalle Est-Ouest = 251.06m (de 63 à 70.72m jusqu’à 847 à -180.35m)
+14>  989 1-nœuds.
+15>    1 2-nœud.
+16>    1 3-nœud.
+17>    1 4-nœud.
+18>    2 5-nœuds.
+19>    3 6-nœuds.
+20>    2 9-nœuds.
+21>    5 10-nœuds.
+22>    2 11-nœuds.
+23>    1 12-nœud.
+24>    4 13-nœuds.
+25>    9 14-nœuds.
+26>    3 15-nœuds.
+27>    5 16-nœuds.
+28>    3 17-nœuds.
+29>    5 18-nœuds.
+30>    1 19-nœud.
+31>    2 20-nœuds.
+32>    3 21-nœuds.
+33>    2 22-nœuds.
+34>    1 23-nœud.
+35>    2 25-nœuds.
+36>    2 26-nœuds.
+37>    2 27-nœuds.
+38>    1 30-nœud.
+39>    1 31-nœud.
+40>    1 33-nœud.
+41>    1 35-nœud.
+42>    1 36-nœud.
+43>    1 38-nœud.
+44> 
+######################### transcription ########################
+ 3> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+ 5> 1057 : .@Tush_YurruckXR1.Tush_YurruckXR1
+ 6> 5 : .@Tush_YurruckXR1.Tush_YurruckXR1
+ 7> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+11> 642 : 61@Tush_YurruckXR1.Tush_YurruckXR1 -- 519 : 50@Tush_YurruckXR1.Tush_YurruckXR1
+12> 985 : .@Tush_YurruckXR1.Tush_YurruckXR1 -- 64 : 3@Tush_YurruckXR1.Tush_YurruckXR1
+13> 63 : 2@Tush_YurruckXR1.Tush_YurruckXR1 -- 847 : 82@Tush_YurruckXR1.Tush_YurruckXR1
+14> 989 : .@Tush_YurruckXR1.Tush_YurruckXR1
+15> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+16> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+17> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+18> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+19> 3 : .@Tush_YurruckXR1.Tush_YurruckXR1
+20> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+21> 5 : .@Tush_YurruckXR1.Tush_YurruckXR1
+22> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+23> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+24> 4 : .@Tush_YurruckXR1.Tush_YurruckXR1
+25> 9 : .@Tush_YurruckXR1.Tush_YurruckXR1
+26> 3 : .@Tush_YurruckXR1.Tush_YurruckXR1
+27> 5 : .@Tush_YurruckXR1.Tush_YurruckXR1
+28> 3 : .@Tush_YurruckXR1.Tush_YurruckXR1
+29> 5 : .@Tush_YurruckXR1.Tush_YurruckXR1
+30> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+31> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+32> 3 : .@Tush_YurruckXR1.Tush_YurruckXR1
+33> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+34> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+35> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+36> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+37> 2 : .@Tush_YurruckXR1.Tush_YurruckXR1
+38> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+39> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+40> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+41> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+42> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+43> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- Tush_YurruckXR1.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+therion: warning -- Tush_YurruckXR1.thconfig [304] -- object not found -- "MC-Tush_YurruckXR1"
+done
+processing projection plan ... done
+average distortion: 0.01%
+writing Data/Tush_YurruckXR1-map.xvi ... done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Tush_YurruckXR1-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:50
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 12316 strings using 382788 characters
+ 4326896 bytes of node memory
+ 1740 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 278 strings out of 494671
+ 3915 string characters out of 6148971
+ 231024 words of memory out of 5000000
+ 1909 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,6p,322b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 65026 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     8.57 MP-Tush_YurruckXR1@Tush_YurruckXR1 (Tush Yurruck XR1)
+S    10.74 SP-Xav1-1@Tush_YurruckXR1 ()
+S     7.31 SP-Xav1-2@Tush_YurruckXR1 ()
+S     5.73 SP-Xav1-3@Tush_YurruckXR1 ()
+S    16.07 SP-Xav1-5@Tush_YurruckXR1 ()
+S     2.99 SP-Xav1-4@Tush_YurruckXR1 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Tush_YurruckXR1-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:50
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-3@Tush_YurruckXR1]
+[9] [10] [11] [12] [13] [14] [15] [16]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-1@Tush_YurruckXR1]
+[17] [18] [19] (./mptextmp.mp) [20] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [21] )
+ 
+Here is how much of MetaPost's memory you used:
+ 9836 strings using 223604 characters
+ 4298552 bytes of node memory
+ 1749 symbolic tokens
+ 11i,81n,16p,378b,5f stack positions out of 16i,96n,17p,390b,6f
+36 output files written: data-patt.1 .. data.21
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 78 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 326 strings out of 494671
+ 4417 string characters out of 6148971
+ 151755 words of memory out of 5000000
+ 1957 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,322b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 135116 bytes).
+PDF statistics:
+ 112 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Tush_YurruckXR1.lox .....
+therion: warning -- SP-Xav1-3@Tush_YurruckXR1 -- multiple scrap outer outlines not supported yet
+... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  1.39%    1.1m   77.3m   8   -0.3m    1.0m    0.4m [B23@Tush_YurruckXR1.Tush_YurruckXR1 - 51 - 49 - 48 - B22 - 43 - B20 - 53 - B23]
+  1.19%    0.7m   55.2m   5   -0.5m   -0.0m   -0.4m [B20@Tush_YurruckXR1.Tush_YurruckXR1 - 53 - 55 - B21 - 34 - B20]
+  0.60%    0.6m  105.7m   6   -0.4m    0.5m    0.1m [B24@Tush_YurruckXR1.Tush_YurruckXR1 - B27 - 65 - B26 - B25 - 58 - B24]
+  0.18%    0.2m  111.1m   7    0.0m    0.0m    0.2m [55@Tush_YurruckXR1.Tush_YurruckXR1 - B24 - B27 - 83 - B30 - B23 - 53 - 55]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    9.76%  SP-Xav1-1@Tush_YurruckXR1
+   0.00%    0.31%  SP-Xav1-2@Tush_YurruckXR1
+   0.00%    0.15%  SP-Xav1-3@Tush_YurruckXR1
+   0.00%    0.01%  SP-Xav1-4@Tush_YurruckXR1
+   0.00%    0.00%  SP-Xav1-5@Tush_YurruckXR1
+################### end of scrap distortions ###################

@@ -1,0 +1,36 @@
+# 2024.04.14 created by TopoDroid v 6.2.44
+
+survey general -title "general"
+
+  centerline
+    date 2024.04.14 
+      team "Gaël Cazes"
+      team "Xavier Robert"
+    
+    cs lat-long
+    fix 0 66.51977  37.89953  1509
+    station 0 "G. du Petit Général" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 1.06 208.5 7.9
+    0 . 1.02 241.9 30.5
+    0 . 0.96 274.3 32.8
+    0 . 0.34 353.5 29.5
+    0 . 0.59 187.8 -51.1
+    0 . 1.66 274.1 -17.3
+    0 . 2.79 285.5 -13.7
+    0 . 3.74 287.7 -4.2
+    0 . 1.96 280.6 8.7
+    0 . 4.02 284.3 -7.9
+    0 . 2.98 276.6 -5.4
+    0 . 1.63 255.7 -0.0
+    0 . 1.86 291.7 -4.1
+    0 . 2.18 288.1 -6.1
+    extend right
+    0 1 7.75 289.6 -8.8
+  endcenterline
+
+endsurvey

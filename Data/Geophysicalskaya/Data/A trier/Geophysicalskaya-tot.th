@@ -1,0 +1,26 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Geophysicalskaya -title "Geophysicalskaya"
+	# Pour importer les différentes données de différents fichiers topos 
+	
+	input Data/Geophysicalskaya_01_entree.th
+	
+	input Data/Geophysicalskaya_02.th
+		equate  PTR_FR24_A02_24@Geophysicaya_02 PTR_FR24_A02_24@Geophysicaya_01_entree
+		equate  PTR_FR24_A09_2@Geophysicaya_02 PTR_FR24_A09_80@Geophysicaya_01_entree   			
+	
+	
+	input Data/Geophysicalskaya_01_entree.th2
+
+	# Import du dessin en coupe
+	#input Data/Geophysicalskaya-coupe.th2
+
+	# Import des maps
+	input Geophysicalskaya-maps.th
+ 
+ endsurvey
+ 

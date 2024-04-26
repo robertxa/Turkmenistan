@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Russes-CA -title "Russes-CA"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Russes3/Russes3-tot.th
+	input Data/Russes2/Russes2-tot.th
+	input Data/RussesBauge/RussesBauge-tot.th
+	
+	# Import des maps
+	input Russes-CA-maps.th
+ 
+ endsurvey
+ 

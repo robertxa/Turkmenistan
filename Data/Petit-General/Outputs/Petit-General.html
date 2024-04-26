@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Petit-General.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Title</th><th align="right">Length</th><th align="right">Depth</th><th align="right">Explored</th><th align="right">X</th><th align="right">Y</th><th align="right">Altitude</th></tr>
+<tr id="Petit-General"><td align="left" style="padding-left: 0px"><a href="javascript:xTree('Petit-General')">Petit-General</a></td><td align="right" style="color:#808080">8</td><td align="right">1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td></tr>
+<tr id="Petit-General.general"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('Petit-General.general')">general</a></td><td align="right" style="color:#808080">8</td><td align="right">1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td></tr>
+<tr id="Petit-General.general."><td align="left" style="padding-left: 24px">G. du Petit Général</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">451074.120</td><td align="right">7378278.010</td><td align="right">1509.000</td></tr>
+</table>
+</body>
+</html>

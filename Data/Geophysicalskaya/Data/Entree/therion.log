@@ -1,0 +1,240 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Entree.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.5928
+geomag declinations (deg):
+  2024.1.1  4.6440
+  2025.1.1  4.6888
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.05%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 601 stations, connectées par 602 visées.
+ 5> Il y a 3 bouclages.
+ 6> La topographie contient 2 composants connectés.
+ 7> Longueur totale de la topographie =  860.04m ( 860.06m ajusté)
+ 8> Longueur totale en projection horizontale =  834.60m
+ 9> Longueur totale verticale =  147.36m
+10> Intervalle vertical = 68.19m (de 5 à 857.14m jusqu’à 407 à 788.95m)
+11> Intervalle Nord-Sud = 297.16m (de 76 à 4172758.49m jusqu’à 355 à 4172461.34m)
+12> Intervalle Est-Ouest = 242.05m (de 595 à 270490.13m jusqu’à 79 à 270248.08m)
+13>  525 1-nœuds.
+14>    1 3-nœud.
+15>    4 5-nœuds.
+16>   13 6-nœuds.
+17>    8 7-nœuds.
+18>    8 8-nœuds.
+19>   11 9-nœuds.
+20>   14 10-nœuds.
+21>    2 11-nœuds.
+22>    6 12-nœuds.
+23>    5 13-nœuds.
+24>    2 14-nœuds.
+25>    2 16-nœuds.
+26> 
+######################### transcription ########################
+ 4> 601 : PTR_FR24_A09_80@Geophysicaya_01_entree.Entree
+ 5> 3 : .@Geophysicaya_01_entree.Entree
+ 6> 2 : .@Geophysicaya_01_entree.Entree
+10> 5 : .@Geophysicaya_01_entree.Entree -- 407 : .@Geophysicaya_01_entree.Entree
+11> 76 : 8@Geophysicaya_01_entree.Entree -- 355 : .@Geophysicaya_01_entree.Entree
+12> 595 : 78@Geophysicaya_01_entree.Entree -- 79 : .@Geophysicaya_01_entree.Entree
+13> 525 : .@Geophysicaya_01_entree.Entree
+14> 1 : PTR_FR24_A00_Geophysicalskaya@Geophysicaya_01_entree.Entree
+15> 4 : .@Geophysicaya_01_entree.Entree
+16> 13 : .@Geophysicaya_01_entree.Entree
+17> 8 : .@Geophysicaya_01_entree.Entree
+18> 8 : .@Geophysicaya_01_entree.Entree
+19> 11 : .@Geophysicaya_01_entree.Entree
+20> 14 : 2@Geophysicaya_01_entree.Entree
+21> 2 : .@Geophysicaya_01_entree.Entree
+22> 6 : 1@Geophysicaya_01_entree.Entree
+23> 5 : .@Geophysicaya_01_entree.Entree
+24> 2 : .@Geophysicaya_01_entree.Entree
+25> 2 : .@Geophysicaya_01_entree.Entree
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- Entree.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+therion: warning -- Entree.thconfig [303] -- object not found -- "MP-Entree-plan"
+
+therion: warning -- Entree.thconfig [304] -- object not found -- "MC-Entree-coupe"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Entree-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  15 APR 2024 16:59
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 10219 strings using 307868 characters
+ 3883392 bytes of node memory
+ 1741 symbolic tokens
+ 8i,81n,16p,409b,5f stack positions out of 16i,96n,20p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  15 APR 2024 16:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 494671
+ 3884 string characters out of 6148971
+ 120675 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 16503 words of font info for 54 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb>
+Output written on data.pdf (1 page, 40593 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+average distortion: 0.21%
+
+
+############### export maps & scraps selection #################
+S   838.97 SP-Geophysicalskaya_01_entree@Entree ()
+S   802.15 SP-Geophysicalskaya_02@Entree ()
+S   798.81 SP-Geophysicalskaya_01@Entree ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Entree-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  15 APR 2024 16:59
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (./mptextmp.mp) [13]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 15198 strings using 406759 characters
+ 8244952 bytes of node memory
+ 1742 symbolic tokens
+ 11i,81n,16p,410b,5f stack positions out of 16i,96n,20p,487b,6f
+29 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  15 APR 2024 16:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 67 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 315 strings out of 494671
+ 4284 string characters out of 6148971
+ 993488 words of memory out of 5000000
+ 1946 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 220394 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Entree.lox ...... done
+writing Outputs/Entree.kml ... done
+writing Outputs/Entree-model.kml ... done
+writing Outputs/Entree.html ... done
+compilation time: 4 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  1.40%    0.9m   60.7m   5   -0.1m   -0.3m    0.8m [70@Geophysicaya_01_entree.Entree - 74 - PTR_FR24_A04_73 - 72 - 71 - 70]
+  0.92%    1.1m  115.8m  13   -0.3m   -0.4m    0.9m [PTR_FR24_A05_37@Geophysicaya_01_entree.Entree - 54 - 53 - 52 - 51 - 45 - 44 - 43 - 42 - 41 - 40 - 39 - 38 - PTR_FR24_A05_37]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.39%  100.00%  SP-Geophysicalskaya_01@Entree
+   0.09%    9.20%  SP-Geophysicalskaya_01_entree@Entree
+   0.19%    8.24%  SP-Geophysicalskaya_02@Entree
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (66.395, 37.673) (66.395, 37.673)
+  [UTM42 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 → UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Hanaka -title "Hanaka"
+	MP-HanakaMain@HanakaMain
+	#break
+	#MP-HanakaDown@HanakaDown
+endmap
+
+
+#map MC-Hanaka -title "Hanaka"
+#	SC-Hanaka-1
+#endmap
+   

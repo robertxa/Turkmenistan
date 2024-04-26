@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey GeophysicayaXR6 -title "GeophysicayaXR6"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/GeophysicayaXR6.th
+	
+	# Import du dessin en plan
+	input Data/GeophysicayaXR6.th2
+
+	# Import du dessin en coupe
+	#input Data/GeophysicayaXR6-coupe.th2
+
+	# Import des maps
+	input GeophysicayaXR6-maps.th
+ 
+ endsurvey
+ 

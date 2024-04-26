@@ -1,0 +1,19 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Russes-CA -title "Russes-CA"
+	MP-Russes3@Russes3
+	break
+	MP-Russes2@Russes2
+	break
+	MP-RussesBauge@RussesBauge
+endmap
+
+
+#map MC-Russes-CA -title "Russes-CA"
+#	SC-Russes-CA-1
+#endmap
+   

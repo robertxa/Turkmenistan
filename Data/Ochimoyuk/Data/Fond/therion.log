@@ -1,0 +1,267 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: AshimyukFond.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.43%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 683 stations, connectées par 688 visées.
+ 6> Il y a 7 bouclages.
+ 7> La topographie contient 2 composants connectés.
+ 8> Longueur totale de la topographie = 1161.07m (1161.08m ajusté)
+ 9> Longueur totale en projection horizontale = 1095.83m
+10> Longueur totale verticale =  217.73m
+11> Intervalle vertical = 73.55m (de 630 à 67.93m jusqu’à 41 à -5.63m)
+12> Intervalle Nord-Sud = 175.40m (de 632 à 166.69m jusqu’à 99 à -8.70m)
+13> Intervalle Est-Ouest = 205.96m (de 425 à 201.95m jusqu’à 4 à -4.02m)
+14>  627 1-nœuds.
+15>    5 2-nœuds.
+16>    1 4-nœud.
+17>    1 6-nœud.
+18>    2 7-nœuds.
+19>    1 8-nœud.
+20>    3 9-nœuds.
+21>    3 10-nœuds.
+22>    5 11-nœuds.
+23>    3 12-nœuds.
+24>    3 13-nœuds.
+25>    8 14-nœuds.
+26>    6 15-nœuds.
+27>    2 16-nœuds.
+28>    6 19-nœuds.
+29>    1 20-nœud.
+30>    3 22-nœuds.
+31>    1 24-nœud.
+32>    1 29-nœud.
+33>    1 33-nœud.
+34> 
+######################### transcription ########################
+ 3> 1 : B80@AshimyukFond.AshimyukFond
+ 5> 683 : 74@AshimyukFond.AshimyukFond
+ 6> 7 : .@AshimyukFond.AshimyukFond
+ 7> 2 : .@AshimyukFond.AshimyukFond
+11> 630 : 67b@AshimyukFond.AshimyukFond -- 41 : .@AshimyukFond.AshimyukFond
+12> 632 : .@AshimyukFond.AshimyukFond -- 99 : 7@AshimyukFond.AshimyukFond
+13> 425 : 41@AshimyukFond.AshimyukFond -- 4 : .@AshimyukFond.AshimyukFond
+14> 627 : .@AshimyukFond.AshimyukFond
+15> 5 : .@AshimyukFond.AshimyukFond
+16> 1 : B80@AshimyukFond.AshimyukFond
+17> 1 : B80@AshimyukFond.AshimyukFond
+18> 2 : .@AshimyukFond.AshimyukFond
+19> 1 : B80@AshimyukFond.AshimyukFond
+20> 3 : .@AshimyukFond.AshimyukFond
+21> 3 : .@AshimyukFond.AshimyukFond
+22> 5 : .@AshimyukFond.AshimyukFond
+23> 3 : .@AshimyukFond.AshimyukFond
+24> 3 : .@AshimyukFond.AshimyukFond
+25> 8 : .@AshimyukFond.AshimyukFond
+26> 6 : .@AshimyukFond.AshimyukFond
+27> 2 : .@AshimyukFond.AshimyukFond
+28> 6 : .@AshimyukFond.AshimyukFond
+29> 1 : B80@AshimyukFond.AshimyukFond
+30> 3 : .@AshimyukFond.AshimyukFond
+31> 1 : B80@AshimyukFond.AshimyukFond
+32> 1 : B80@AshimyukFond.AshimyukFond
+33> 1 : B80@AshimyukFond.AshimyukFond
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- AshimyukFond.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+therion: warning -- AshimyukFond.thconfig [306] -- object not found -- "MC-AshimyukFond-coupe"
+done
+processing projection plan ... done
+average distortion: 0.00%
+writing Data/AshimyukFond-map.xvi ... done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/AshimyukFond-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  12 APR 2024 19:03
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 9980 strings using 299791 characters
+ 4022440 bytes of node memory
+ 1741 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  12 APR 2024 19:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 494671
+ 3884 string characters out of 6148971
+ 145282 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 16503 words of font info for 54 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb>
+Output written on data.pdf (1 page, 38997 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M    21.25 MP-AshimyukFond@AshimyukFond (AshimyukFond)
+S    30.28 SP-Ashi-4@AshimyukFond ()
+S    21.67 SP-Ashi-3@AshimyukFond ()
+S    21.73 SP-Ashi-2@AshimyukFond ()
+S    11.31 SP-Ashi-1@AshimyukFond ()
+########## end of export maps & scraps selection ###############
+writing Outputs/AshimyukFond-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  12 APR 2024 19:03
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap SP-Ashi-2@AshimyukFond]
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] (./mptextmp.mp) [16]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [17] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [18] )
+ 
+Here is how much of MetaPost's memory you used:
+ 8013 strings using 186739 characters
+ 4008384 bytes of node memory
+ 1748 symbolic tokens
+ 11i,81n,19p,453b,5f stack positions out of 16i,96n,22p,487b,6f
+33 output files written: data-patt.1 .. data.18
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  12 APR 2024 19:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<
+th_gour_aaaaaad.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 83 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 335 strings out of 494671
+ 4479 string characters out of 6148971
+ 150640 words of memory out of 5000000
+ 1963 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 10i,6n,8p,388b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 122346 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/AshimyukFond.lox .....
+therion: warning -- SP-Ashi-2@AshimyukFond -- invalid scrap outline
+.. done
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  12 APR 2024 19:04
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
+
+
+#################### end of metapost log file ####################
+writing Outputs/AshimyukFond ... done
+therion: warning -- data not georeferenced -- unable to export KML file
+therion: warning -- data not georeferenced -- unable to export KML file
+writing Outputs/AshimyukFond.html ... done
+writing xtherion file ... done
+compilation time: 4 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.86%    0.5m   58.6m   5   -0.2m    0.4m   -0.2m [24@AshimyukFond.AshimyukFond - 26 - 27 - 28 - B76 - 24]
+  0.56%    1.3m  231.3m  10    0.7m   -0.7m    0.8m [B79@AshimyukFond.AshimyukFond - 19 - B77 - 17 - 16 - B78 - 13 - 12 - 11 - 10 - B79]
+  0.39%    0.3m   69.8m   7    0.3m    0.0m    0.0m [B77@AshimyukFond.AshimyukFond - 31 - B75 - 29 - B76 - 22 - 21 - B77]
+  0.33%    0.7m  204.5m  15    0.3m   -0.5m    0.3m [B74@AshimyukFond.AshimyukFond - 46 - B73 - B72 - 56 - 58 - 59 - 60 - 61 - 62 - 24 - B76 - 29 - B75 - 32 - B74]
+  0.33%    0.2m   67.7m   3   -0.1m   -0.2m    0.1m [B74@AshimyukFond.AshimyukFond - 15 - B78 - B74]
+  0.24%    0.3m  133.0m   8    0.0m    0.3m    0.1m [B75@AshimyukFond.AshimyukFond - 32 - B74 - B78 - 16 - 17 - B77 - 31 - B75]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.02%  SP-Ashi-1@AshimyukFond
+   0.00%    0.02%  SP-Ashi-4@AshimyukFond
+   0.00%    0.01%  SP-Ashi-3@AshimyukFond
+   0.00%    0.00%  SP-Ashi-2@AshimyukFond
+################### end of scrap distortions ###################

@@ -1,0 +1,3097 @@
+set XVIgrids {5.0 m}
+set XVIstations {
+  {    -2464.83      1058.82 0@Entree.Entree.Ochimoyuk}
+  {    -2518.87      1075.20 1@Entree.Entree.Ochimoyuk}
+  {    -2518.87      1075.20 1@Entree.Entree.Ochimoyuk}
+  {    -2596.08      1122.13 2@Entree.Entree.Ochimoyuk}
+  {    -2596.08      1122.13 2@Entree.Entree.Ochimoyuk}
+  {    -2669.86      1171.89 3@Entree.Entree.Ochimoyuk}
+  {    -2669.86      1171.89 3@Entree.Entree.Ochimoyuk}
+  {    -2705.95      1188.74 4@Entree.Entree.Ochimoyuk}
+  {    -2705.95      1188.74 4@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2750.78      1218.19 5@Entree.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2243.19       898.66 2@Entree2.Entree.Ochimoyuk}
+  {    -2243.19       898.66 2@Entree2.Entree.Ochimoyuk}
+  {    -2045.79       774.88 3@Entree2.Entree.Ochimoyuk}
+  {    -2045.79       774.88 3@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1191.75       326.06 7@Entree2.Entree.Ochimoyuk}
+  {    -1191.75       326.06 7@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {     1153.51      -520.71 14@Entree2.Entree.Ochimoyuk}
+  {     1153.51      -520.71 14@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1457.24      -621.81 B00@Entree2.Entree.Ochimoyuk}
+  {    -1508.00      -621.81 B00@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -562.14      -733.62 20.1@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -468.85      -732.05 21.1@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -432.04      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1150.45      -709.69 24@Entree2.Entree.Ochimoyuk}
+  {    -1150.45      -709.69 24@Entree2.Entree.Ochimoyuk}
+  {    -1303.80      -651.10 24.1@Entree2.Entree.Ochimoyuk}
+  {    -1303.80      -651.10 24.1@Entree2.Entree.Ochimoyuk}
+  {    -1508.00      -621.81 B00@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      285.80      -739.61 22.4.1@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      920.18      -758.03 22.4.0.3.1@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {     1105.60      -755.98 B3@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1768.82      -783.23 22.6.2@Entree2.Entree.Ochimoyuk}
+  {     1768.82      -783.23 22.6.2@Entree2.Entree.Ochimoyuk}
+  {     1938.14      -785.12 22.6.3@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2464.83      1058.82 0@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2336.41       966.06 1@Entree2.Entree.Ochimoyuk}
+  {    -2243.19       898.66 2@Entree2.Entree.Ochimoyuk}
+  {    -2243.19       898.66 2@Entree2.Entree.Ochimoyuk}
+  {    -2243.19       898.66 2@Entree2.Entree.Ochimoyuk}
+  {    -2045.79       774.88 3@Entree2.Entree.Ochimoyuk}
+  {    -2045.79       774.88 3@Entree2.Entree.Ochimoyuk}
+  {    -2045.79       774.88 3@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1871.20       670.94 4@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1691.78       605.12 5@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1451.30       471.73 6@Entree2.Entree.Ochimoyuk}
+  {    -1191.75       326.06 7@Entree2.Entree.Ochimoyuk}
+  {    -1191.75       326.06 7@Entree2.Entree.Ochimoyuk}
+  {    -1191.75       326.06 7@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -808.25       250.00 8@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {     -277.48       170.47 9@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {       23.68        -7.17 10@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      349.29      -197.72 11@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      589.77      -396.61 12@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {      946.74      -466.22 13@Entree2.Entree.Ochimoyuk}
+  {     1153.51      -520.71 14@Entree2.Entree.Ochimoyuk}
+  {     1153.51      -520.71 14@Entree2.Entree.Ochimoyuk}
+  {     1188.30      -362.44 14b@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1357.58      -605.91 15@Entree2.Entree.Ochimoyuk}
+  {     1457.24      -621.81 B00@Entree2.Entree.Ochimoyuk}
+  {     1457.24      -621.81 B00@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1331.91      -603.54 17@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1132.34      -606.06 18@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {    -1023.17      -611.42 19@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -723.30      -712.05 20@Entree2.Entree.Ochimoyuk}
+  {     -562.14      -733.62 20.1@Entree2.Entree.Ochimoyuk}
+  {     -533.90      -530.63 20.1b@Entree2.Entree.Ochimoyuk}
+  {     -562.14      -733.62 20.1@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -587.16      -766.22 21@Entree2.Entree.Ochimoyuk}
+  {     -534.97      -466.85 21b@Entree2.Entree.Ochimoyuk}
+  {     -468.85      -732.05 21.1@Entree2.Entree.Ochimoyuk}
+  {     -390.29      -479.45 21.1b@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {     -757.75      -795.67 B01@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1054.50      -735.83 23@Entree2.Entree.Ochimoyuk}
+  {    -1150.45      -709.69 24@Entree2.Entree.Ochimoyuk}
+  {    -1150.45      -709.69 24@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -625.99      -778.19 22.1@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {     -362.95      -767.48 22.2@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {       32.85      -746.85 22.3@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      148.80      -749.84 B02@Entree2.Entree.Ochimoyuk}
+  {      285.80      -739.61 22.4.1@Entree2.Entree.Ochimoyuk}
+  {      323.67      -550.94 22.4.1b@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      351.60      -727.17 22.4.0.1@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      611.83      -756.46 22.4.0.2@Entree2.Entree.Ochimoyuk}
+  {      778.97      -673.15 22.4.0.2b@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      788.41      -778.82 22.4.0.3@Entree2.Entree.Ochimoyuk}
+  {      920.18      -758.03 22.4.0.3.1@Entree2.Entree.Ochimoyuk}
+  {      920.18      -758.03 22.4.0.3.1@Entree2.Entree.Ochimoyuk}
+  {      965.98      -524.02 22.4.0.3.1b@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      838.20      -782.91 22.4.0.4@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {      511.48      -761.50 22.5@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1066.81      -774.25 22.6@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1404.93      -792.68 22.6.1@Entree2.Entree.Ochimoyuk}
+  {     1768.82      -783.23 22.6.2@Entree2.Entree.Ochimoyuk}
+  {     1768.82      -783.23 22.6.2@Entree2.Entree.Ochimoyuk}
+  {     1768.82      -783.23 22.6.2@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1575.76       557.87 4.1@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {    -1156.35       490.47 4.2@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {     -997.74       483.54 4.3@Entree2.Entree.Ochimoyuk}
+  {     -919.10       465.91 4.3b@Entree2.Entree.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1930.71     -1235.35 1@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1992.45     -1181.34 B80@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1731.30     -1169.53 2@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1988.17     -1264.96 4@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1877.03     -1216.77 3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1647.29     -1177.56 5@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1741.06     -1165.91 7@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1349.99     -1173.31 8@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -987.87     -1186.54 9@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1629.56     -1155.20 10@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1373.77     -1074.41 11@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -937.16     -1048.90 12@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -638.14     -1023.54 13@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -239.22     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43      -997.87 16@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1018.35 17@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -427.81     -1053.94 19@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -1228.77     -1153.46 B79@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -118.12     -1047.17 21@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1046.85 22@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      131.33     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      426.75      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.98      -972.05 25@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      665.64      -957.24 26@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      435.14     -1012.52 27@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      382.65     -1009.21 28@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      382.65     -1009.21 28@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      239.22     -1019.61 B76@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       86.66     -1016.30 29@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -42.85     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -42.85     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -42.85     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1057.09 31@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1057.09 31@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -289.76     -1049.53 B77@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -23.03     -1027.32 B75@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74     -1009.84 32@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74      -920.08 B74@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -267.58      -920.08 B74@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -617.43     -1014.72 B78@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74      -920.08 B74@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      105.96      -860.55 36@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -886.85 35@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      -74.49      -870.79 37@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       79.97      -852.20 38@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      155.02      -821.81 39@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      279.28      -786.69 40@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      338.19      -729.84 41@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -334.06      -901.81 15@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     -125.72      -904.02 42@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      365.84      -884.96 44@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      149.98      -908.90 43@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      351.02      -875.51 45@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {       64.74      -920.08 B74@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      297.22      -905.59 46@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -850.94 48@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      840.94      -816.93 49@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      686.69      -849.53 50@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      472.77      -909.21 B73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      767.73      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      767.73      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      767.73      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      767.73      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1005.60      -916.46 52@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -748.43 54@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      897.92      -900.71 B71b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      749.07      -794.57 55@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -2750.78      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {    -3384.23     -1052.20 57@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -961.97 56@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -947.64 58@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      830.66      -917.72 59@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1034.84      -927.17 60@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      815.44      -964.02 61@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      815.44      -964.02 61@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      534.95      -954.88 62@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      534.95      -954.88 62@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      475.52      -971.57 24@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      683.54      -932.68 B72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {      906.76      -834.72 64@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -412.83 66@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -505.28 67@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -505.28 67@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -111.57 67b@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1105.60      -755.98 B3@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1244.38      -764.65 68@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1386.34      -783.23 69@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.36      -802.44 70@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1546.15      -841.34 71@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1473.57      -773.94 73@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -819.45 72@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1596.08      -849.06 74@AshimyukFond.AshimyukFond.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1508.00      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1331.67      -590.63 1@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1258.37      -555.20 2@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1152.21      -517.24 3@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -701.88      -495.20 4@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -452.13      -493.46 5@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -33.82      -529.37 6@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      412.09      -585.59 7@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      412.09      -585.59 7@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      412.09      -585.59 7@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      412.09      -585.59 7@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      412.09      -585.59 7@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      826.90      -569.69 8@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -478.98 9b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1173.29      -636.46 9@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      812.73      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      568.22      -531.42 11@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      429.81      -527.48 12@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      831.42      -407.64 15@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      416.73      -547.95 14@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      109.81      -516.77 13@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -53.58      -491.26 16@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      304.95      -407.17 17@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      910.51      -415.35 19@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1376.29      -514.09 20@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1376.29      -514.09 20@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1674.65      -581.02 10@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1595.77      -565.91 21@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      577.54      -417.56 18@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      837.93      -468.58 22@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1293.94      -450.31 23@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1722.89      -517.40 24@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1893.08      -521.34 B80@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2683.64      -518.50 26@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2683.64      -518.50 26@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2683.64      -518.50 26@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     3367.82      -490.16 28@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2987.86      -496.14 27@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2387.42      -476.30 25@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -958.60      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -663.96      -181.65 29b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -695.26      -133.46 29c@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -456.33      -449.21 30@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -313.44      -465.12 31@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -237.13      -453.78 32@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -60.71      -492.52 33@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -716.83      -466.85 29@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -60.71      -492.52 33@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -535.49      -435.04 34@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -325.42      -452.36 35@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      236.10       -78.19 36b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       84.09      -404.17 36@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      808.50      -333.62 37@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1758.95        18.03 38@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2233.74       272.52 39@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2412.54       365.59 40@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      385.09      -377.40 B82@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      716.35      -337.72 41@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1138.66      -372.52 43@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1734.68       -82.60 45@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1790.06       -60.24 46@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1555.42      -166.54 44@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1556.40      -185.91 47@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1556.40      -185.91 47@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1712.72      -241.18 48@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1940.10      -364.65 49@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      879.78      -359.45 42@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1037.54      -370.00 50@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1387.35      -381.02 51@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1486.87      -368.58 52@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94        55.83 54b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1622.61      -368.27 53@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1735.94      -337.87 54@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1891.92      -411.10 55@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2222.60      -412.20 56@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     2613.92      -490.16 B81@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1508.00      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {    -1166.96      -579.76 57@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -911.06      -572.05 58@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -500.10      -604.33 59@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -365.49      -630.16 60@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      -10.42      -353.15 61b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     -164.44      -639.13 61@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {       32.04      -612.36 62@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      224.30      -612.36 63@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      476.90      -395.83 64b@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      464.82      -618.98 64@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      561.87      -642.44 65@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      561.87      -642.44 65@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      684.20      -623.23 66@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      862.65      -626.85 67@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      937.40      -658.66 68@ochy_muyuk.Boucle1.Ochimoyuk}
+  {      937.40      -658.66 68@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1119.80      -635.20 69@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1119.80      -635.20 69@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1421.74      -614.72 70@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1421.74      -614.72 70@ochy_muyuk.Boucle1.Ochimoyuk}
+  {     1457.24      -621.81 B00@ochy_muyuk.Boucle1.Ochimoyuk}
+}
+set XVIshots {
+  {    -2464.83      1058.82     -2518.87      1075.20}
+  {    -2518.87      1075.20     -2596.08      1122.13}
+  {    -2596.08      1122.13     -2669.86      1171.89}
+  {    -2669.86      1171.89     -2705.95      1188.74}
+  {    -2705.95      1188.74     -2750.78      1218.19}
+  {    -2750.78      1218.19     -2532.50      1259.13}
+  {    -2750.78      1218.19     -2680.65      1226.85}
+  {    -2750.78      1218.19     -2804.11      1270.00}
+  {    -2750.78      1218.19     -2537.99      1218.98}
+  {    -2750.78      1218.19     -2816.46      1221.18}
+  {    -2464.83      1058.82     -2336.41       966.06}
+  {    -2336.41       966.06     -2243.19       898.66}
+  {    -2243.19       898.66     -2045.79       774.88}
+  {    -2045.79       774.88     -1871.20       670.94}
+  {    -1871.20       670.94     -1691.78       605.12}
+  {    -1691.78       605.12     -1451.30       471.73}
+  {    -1451.30       471.73     -1191.75       326.06}
+  {    -1191.75       326.06      -808.25       250.00}
+  {     -808.25       250.00      -277.48       170.47}
+  {     -277.48       170.47        23.68        -7.17}
+  {       23.68        -7.17       349.29      -197.72}
+  {      349.29      -197.72       589.77      -396.61}
+  {      589.77      -396.61       946.74      -466.22}
+  {      946.74      -466.22      1153.51      -520.71}
+  {     1153.51      -520.71      1357.58      -605.91}
+  {     1357.58      -605.91      1457.24      -621.81}
+  {    -1508.00      -621.81     -1331.91      -603.54}
+  {    -1331.91      -603.54     -1132.34      -606.06}
+  {    -1132.34      -606.06     -1023.17      -611.42}
+  {    -1023.17      -611.42      -723.30      -712.05}
+  {     -723.30      -712.05      -562.14      -733.62}
+  {     -723.30      -712.05      -587.16      -766.22}
+  {     -587.16      -766.22      -468.85      -732.05}
+  {     -587.16      -766.22      -432.04      -795.67}
+  {     -757.75      -795.67     -1054.50      -735.83}
+  {    -1054.50      -735.83     -1150.45      -709.69}
+  {    -1150.45      -709.69     -1303.80      -651.10}
+  {    -1303.80      -651.10     -1508.00      -621.81}
+  {     -757.75      -795.67      -625.99      -778.19}
+  {     -625.99      -778.19      -362.95      -767.48}
+  {     -362.95      -767.48        32.85      -746.85}
+  {       32.85      -746.85       148.80      -749.84}
+  {      148.80      -749.84       285.80      -739.61}
+  {      148.80      -749.84       351.60      -727.17}
+  {      351.60      -727.17       611.83      -756.46}
+  {      611.83      -756.46       788.41      -778.82}
+  {      788.41      -778.82       920.18      -758.03}
+  {      788.41      -778.82       838.20      -782.91}
+  {      838.20      -782.91      1105.60      -755.98}
+  {      148.80      -749.84       511.48      -761.50}
+  {      511.48      -761.50      1066.81      -774.25}
+  {     1066.81      -774.25      1404.93      -792.68}
+  {     1404.93      -792.68      1768.82      -783.23}
+  {     1768.82      -783.23      1938.14      -785.12}
+  {    -1871.20       670.94     -1575.76       557.87}
+  {    -1575.76       557.87     -1156.35       490.47}
+  {    -1156.35       490.47      -997.74       483.54}
+  {    -2464.83      1058.82     -2452.39      1068.90}
+  {    -2464.83      1058.82     -2438.28      1066.85}
+  {    -2464.83      1058.82     -2434.96      1064.80}
+  {    -2464.83      1058.82     -2432.59      1067.95}
+  {    -2464.83      1058.82     -2519.85      1072.52}
+  {    -2464.83      1058.82     -2549.79      1075.35}
+  {    -2464.83      1058.82     -2423.54      1042.44}
+  {    -2464.83      1058.82     -2419.48      1041.34}
+  {    -2336.41       966.06     -2321.89      1019.76}
+  {    -2336.41       966.06     -2346.23       987.95}
+  {    -2336.41       966.06     -2332.18       968.27}
+  {    -2336.41       966.06     -2432.56       993.15}
+  {    -2336.41       966.06     -2225.94       934.41}
+  {    -2243.19       898.66     -2226.57       872.99}
+  {    -2243.19       898.66     -1971.14       859.61}
+  {    -2243.19       898.66     -2231.83       863.86}
+  {    -2045.79       774.88     -1894.61       771.57}
+  {    -2045.79       774.88     -2130.10       711.57}
+  {    -2045.79       774.88     -2016.56       868.58}
+  {    -1871.20       670.94     -1771.12       663.07}
+  {    -1871.20       670.94     -1436.46       682.76}
+  {    -1871.20       670.94     -1817.05       840.39}
+  {    -1871.20       670.94     -1579.33       661.50}
+  {    -1871.20       670.94     -1552.43       655.20}
+  {    -1871.20       670.94     -1448.24       554.88}
+  {    -1691.78       605.12     -1636.71       610.16}
+  {    -1691.78       605.12     -1703.11       806.69}
+  {    -1691.78       605.12     -1710.38       669.53}
+  {    -1691.78       605.12     -2144.70       905.28}
+  {    -1691.78       605.12     -1850.65       855.98}
+  {    -1691.78       605.12     -1515.04       570.00}
+  {    -1691.78       605.12     -1483.63       582.91}
+  {    -1691.78       605.12     -1412.49       566.38}
+  {    -1691.78       605.12     -1540.70       571.57}
+  {    -1451.30       471.73     -1262.25       500.87}
+  {    -1451.30       471.73     -1447.78       587.17}
+  {    -1451.30       471.73     -1476.88       608.90}
+  {    -1451.30       471.73     -1548.46       560.24}
+  {    -1451.30       471.73     -1580.77       626.06}
+  {    -1451.30       471.73     -1642.53       621.18}
+  {    -1451.30       471.73     -1534.90       635.67}
+  {    -1191.75       326.06     -1253.56       330.79}
+  {    -1191.75       326.06     -1205.29       570.47}
+  {    -1191.75       326.06      -740.77       593.46}
+  {     -808.25       250.00      -872.26       274.25}
+  {     -808.25       250.00      -757.40       568.74}
+  {     -808.25       250.00      -596.56       324.65}
+  {     -808.25       250.00      -404.71       328.90}
+  {     -808.25       250.00      -404.46       342.76}
+  {     -277.48       170.47       -36.06       171.89}
+  {     -277.48       170.47      -215.06       551.73}
+  {     -277.48       170.47      -282.86       197.24}
+  {     -277.48       170.47      -253.59       350.16}
+  {       23.68        -7.17        91.70        23.39}
+  {       23.68        -7.17        17.66       323.39}
+  {       23.68        -7.17       -21.77         3.23}
+  {       23.68        -7.17       234.43       -80.08}
+  {       23.68        -7.17       329.27       -71.42}
+  {       23.68        -7.17       294.14       -86.06}
+  {      349.29      -197.72       345.10      -180.87}
+  {      349.29      -197.72       387.97      -117.87}
+  {      349.29      -197.72       433.22      -240.55}
+  {      349.29      -197.72       487.82      -255.35}
+  {      349.29      -197.72       490.19      -258.19}
+  {      349.29      -197.72       420.81      -218.82}
+  {      589.77      -396.61      1263.56      -332.68}
+  {      589.77      -396.61       602.28      -349.37}
+  {      589.77      -396.61       591.52      -391.73}
+  {      589.77      -396.61       810.88      -426.06}
+  {      589.77      -396.61       854.49      -433.78}
+  {      589.77      -396.61      1099.14      -413.46}
+  {      946.74      -466.22       949.14      -385.28}
+  {      946.74      -466.22       928.08      -461.81}
+  {      946.74      -466.22      1001.27      -512.05}
+  {      946.74      -466.22      1105.81      -486.54}
+  {      946.74      -466.22      1120.90      -482.76}
+  {      946.74      -466.22      1222.42      -474.72}
+  {      946.74      -466.22      1245.52      -483.07}
+  {      946.74      -466.22      1163.52      -471.26}
+  {      946.74      -466.22      1064.56      -429.37}
+  {      946.74      -466.22      1226.62      -497.24}
+  {     1153.51      -520.71      1234.05      -515.04}
+  {     1153.51      -520.71      1188.30      -362.44}
+  {     1357.58      -605.91      1642.89      -596.14}
+  {     1357.58      -605.91      1383.78      -536.61}
+  {     1357.58      -605.91      1733.45      -589.84}
+  {     1357.58      -605.91      1325.43      -593.78}
+  {     1357.58      -605.91      1279.25      -567.64}
+  {     1357.58      -605.91      1488.96      -583.70}
+  {     1457.24      -621.81      1448.20      -543.39}
+  {     1457.24      -621.81      1567.40      -546.38}
+  {    -1331.91      -603.54     -1290.94      -548.74}
+  {    -1331.91      -603.54     -1314.32      -560.08}
+  {    -1331.91      -603.54     -1240.15      -604.17}
+  {    -1331.91      -603.54     -1132.74      -607.32}
+  {    -1132.34      -606.06     -1098.44      -587.17}
+  {    -1132.34      -606.06     -1128.82      -571.57}
+  {    -1132.34      -606.06     -1097.27      -603.86}
+  {    -1132.34      -606.06     -1295.40      -621.97}
+  {    -1132.34      -606.06     -1318.33      -614.72}
+  {    -1023.17      -611.42     -1017.56      -576.93}
+  {    -1023.17      -611.42      -998.61      -616.30}
+  {    -1023.17      -611.42      -945.66      -625.91}
+  {    -1023.17      -611.42      -888.11      -641.18}
+  {    -1023.17      -611.42      -911.93      -652.68}
+  {    -1023.17      -611.42      -939.99      -666.69}
+  {     -723.30      -712.05      -706.10      -702.44}
+  {     -723.30      -712.05      -657.24      -701.18}
+  {     -723.30      -712.05      -584.91      -706.06}
+  {     -723.30      -712.05      -533.36      -706.38}
+  {     -562.14      -733.62      -533.90      -530.63}
+  {     -562.14      -733.62      -598.01      -545.28}
+  {     -587.16      -766.22      -390.55      -708.43}
+  {     -587.16      -766.22      -473.36      -730.79}
+  {     -587.16      -766.22      -358.07      -731.10}
+  {     -587.16      -766.22      -534.97      -466.85}
+  {     -468.85      -732.05      -390.29      -479.45}
+  {     -757.75      -795.67      -841.56      -736.61}
+  {     -757.75      -795.67      -649.79      -739.13}
+  {     -757.75      -795.67      -729.19      -663.07}
+  {     -757.75      -795.67      -900.27      -736.14}
+  {     -757.75      -795.67      -974.78      -743.86}
+  {     -757.75      -795.67     -1026.09      -727.01}
+  {     -757.75      -795.67      -308.71      -699.76}
+  {     -757.75      -795.67      -173.76      -682.60}
+  {    -1054.50      -735.83     -1057.40      -722.91}
+  {    -1054.50      -735.83     -1119.66      -711.10}
+  {    -1054.50      -735.83     -1065.03      -626.69}
+  {    -1054.50      -735.83     -1185.22      -708.90}
+  {    -1054.50      -735.83     -1238.11      -689.69}
+  {    -1150.45      -709.69     -1182.29      -696.46}
+  {    -1150.45      -709.69     -1150.89      -614.41}
+  {     -625.99      -778.19      -853.47      -769.21}
+  {     -625.99      -778.19      -644.90      -737.72}
+  {     -625.99      -778.19      -585.51      -747.17}
+  {     -625.99      -778.19      -627.18      -665.43}
+  {     -625.99      -778.19      -543.45      -742.28}
+  {     -625.99      -778.19      -487.53      -730.94}
+  {     -625.99      -778.19      -381.36      -712.99}
+  {     -625.99      -778.19      -505.52      -736.46}
+  {     -625.99      -778.19      -440.17      -709.53}
+  {     -625.99      -778.19      -402.23      -731.57}
+  {     -362.95      -767.48      -384.89      -726.69}
+  {     -362.95      -767.48      -292.42      -720.55}
+  {     -362.95      -767.48      -234.07      -724.33}
+  {     -362.95      -767.48      -241.11      -708.43}
+  {     -362.95      -767.48      -200.09      -721.18}
+  {     -362.95      -767.48      -139.54      -620.71}
+  {     -362.95      -767.48      -309.84      -671.42}
+  {       32.85      -746.85        42.41      -731.42}
+  {       32.85      -746.85        27.69      -720.87}
+  {       32.85      -746.85        43.59      -734.72}
+  {       32.85      -746.85       -26.44      -728.74}
+  {       32.85      -746.85        36.73      -711.10}
+  {      148.80      -749.84       160.99      -731.57}
+  {      148.80      -749.84       185.17      -722.13}
+  {      148.80      -749.84       250.57      -711.89}
+  {      148.80      -749.84       329.76      -727.17}
+  {      148.80      -749.84       307.54      -734.88}
+  {      148.80      -749.84       157.90      -713.78}
+  {      285.80      -739.61       323.67      -550.94}
+  {      351.60      -727.17       344.63      -751.89}
+  {      351.60      -727.17       351.23      -716.77}
+  {      351.60      -727.17       353.91      -721.81}
+  {      351.60      -727.17       353.13      -727.01}
+  {      351.60      -727.17       307.73      -722.28}
+  {      351.60      -727.17       447.39      -723.07}
+  {      351.60      -727.17       247.93      -722.60}
+  {      351.60      -727.17       426.74      -727.01}
+  {      351.60      -727.17       482.22      -726.38}
+  {      351.60      -727.17       527.40      -715.51}
+  {      611.83      -756.46       610.99      -759.76}
+  {      611.83      -756.46       616.49      -720.87}
+  {      611.83      -756.46       688.93      -734.88}
+  {      611.83      -756.46       724.92      -726.54}
+  {      611.83      -756.46       683.99      -733.62}
+  {      611.83      -756.46       628.93      -734.57}
+  {      611.83      -756.46       680.25      -739.92}
+  {      611.83      -756.46       676.02      -729.69}
+  {      611.83      -756.46       579.66      -735.04}
+  {      611.83      -756.46       548.47      -730.47}
+  {      611.83      -756.46       748.01      -682.91}
+  {      611.83      -756.46       729.16      -701.02}
+  {      611.83      -756.46       778.97      -673.15}
+  {      788.41      -778.82       807.93      -690.00}
+  {      788.41      -778.82       985.67      -743.86}
+  {      788.41      -778.82      1030.47      -737.72}
+  {      788.41      -778.82      1035.70      -726.22}
+  {      788.41      -778.82       977.02      -724.96}
+  {      788.41      -778.82       732.27      -744.80}
+  {      788.41      -778.82       722.81      -754.41}
+  {      788.41      -778.82       926.16      -721.81}
+  {      920.18      -758.03       945.04      -834.25}
+  {      920.18      -758.03       965.98      -524.02}
+  {      838.20      -782.91       887.36      -797.40}
+  {      838.20      -782.91       835.65      -800.71}
+  {      838.20      -782.91       871.65      -797.87}
+  {      838.20      -782.91       944.50      -811.89}
+  {      838.20      -782.91       855.47      -708.27}
+  {      838.20      -782.91       858.19      -749.37}
+  {      838.20      -782.91       847.24      -746.54}
+  {      838.20      -782.91       805.62      -751.42}
+  {      838.20      -782.91       955.96      -742.13}
+  {      838.20      -782.91       959.36      -737.24}
+  {      838.20      -782.91       943.50      -737.87}
+  {      511.48      -761.50       501.45      -742.28}
+  {      511.48      -761.50       511.22      -713.31}
+  {      511.48      -761.50       540.24      -725.59}
+  {      511.48      -761.50       594.76      -727.64}
+  {      511.48      -761.50       674.78      -725.75}
+  {      511.48      -761.50       437.13      -727.64}
+  {      511.48      -761.50       407.31      -730.47}
+  {     1066.81      -774.25       817.66      -766.06}
+  {     1066.81      -774.25      1252.73      -766.69}
+  {     1066.81      -774.25      1076.91      -717.09}
+  {     1066.81      -774.25      1055.83      -752.83}
+  {     1066.81      -774.25       923.82      -756.30}
+  {     1066.81      -774.25       762.94      -750.47}
+  {     1066.81      -774.25      1476.79      -774.72}
+  {     1066.81      -774.25      1436.99      -749.53}
+  {     1404.93      -792.68      1503.86      -782.28}
+  {     1404.93      -792.68      1487.65      -773.62}
+  {     1404.93      -792.68      1466.52      -777.87}
+  {     1404.93      -792.68      1431.20      -770.31}
+  {     1404.93      -792.68      1337.39      -764.02}
+  {     1404.93      -792.68      1393.25      -735.51}
+  {     1404.93      -792.68      1475.48      -766.22}
+  {     1404.93      -792.68      1538.18      -769.37}
+  {     1404.93      -792.68      1573.97      -769.06}
+  {     1768.82      -783.23      1765.01      -739.76}
+  {     1768.82      -783.23      1653.95      -745.12}
+  {     1768.82      -783.23      1786.95      -707.80}
+  {    -1575.76       557.87     -1519.18       567.48}
+  {    -1575.76       557.87     -1299.35       595.67}
+  {    -1575.76       557.87     -1592.09       715.35}
+  {    -1575.76       557.87     -1474.74       493.78}
+  {    -1575.76       557.87     -1455.45       499.13}
+  {    -1156.35       490.47     -1173.99       493.46}
+  {    -1156.35       490.47     -1158.94       509.37}
+  {    -1156.35       490.47     -1151.50       493.15}
+  {    -1156.35       490.47     -1087.82       485.91}
+  {    -1156.35       490.47     -1085.86       484.96}
+  {    -1156.35       490.47     -1107.13       499.61}
+  {    -1156.35       490.47     -1087.37       499.29}
+  {    -1156.35       490.47     -1193.11       499.29}
+  {    -1156.35       490.47     -1148.82       505.59}
+  {    -1156.35       490.47     -1128.27       492.99}
+  {    -1156.35       490.47      -997.71       483.54}
+  {    -1156.35       490.47      -997.92       483.54}
+  {    -1156.35       490.47     -1160.92       490.31}
+  {    -1156.35       490.47     -1160.93       490.31}
+  {     -997.74       483.54      -997.09       484.02}
+  {     -997.74       483.54      -996.91       489.53}
+  {     -997.74       483.54      -997.89       484.33}
+  {     -997.74       483.54      -997.92       483.54}
+  {     -997.74       483.54      -919.10       465.91}
+  {    -1992.45     -1181.34     -1951.18     -1183.70}
+  {    -1992.45     -1181.34     -1976.28     -1179.29}
+  {    -1992.45     -1181.34     -1975.45     -1175.98}
+  {    -1992.45     -1181.34     -2007.55     -1179.92}
+  {    -1992.45     -1181.34     -1985.02     -1145.43}
+  {    -1992.45     -1181.34     -1953.24     -1207.64}
+  {    -1992.45     -1181.34     -1965.43     -1213.46}
+  {    -1992.45     -1181.34     -1957.05     -1229.21}
+  {    -1992.45     -1181.34     -1989.54     -1195.83}
+  {    -1992.45     -1181.34     -1941.94     -1196.77}
+  {    -1992.45     -1181.34     -1922.33     -1172.99}
+  {    -1992.45     -1181.34     -1956.92     -1149.53}
+  {    -1992.45     -1181.34     -1952.27     -1152.83}
+  {    -1992.45     -1181.34     -1877.22     -1160.71}
+  {    -1992.45     -1181.34     -1734.43     -1146.38}
+  {    -1992.45     -1181.34     -1902.18     -1179.76}
+  {    -1992.45     -1181.34     -1899.82     -1170.63}
+  {    -1992.45     -1181.34     -1930.71     -1235.35}
+  {    -1992.45     -1181.34     -1731.30     -1169.53}
+  {    -1731.30     -1169.53     -1737.29     -1200.71}
+  {    -1731.30     -1169.53     -1745.80     -1124.02}
+  {    -1731.30     -1169.53     -1771.00     -1123.23}
+  {    -1731.30     -1169.53     -1790.34     -1159.76}
+  {    -1731.30     -1169.53     -1868.31     -1158.35}
+  {    -1731.30     -1169.53     -1935.35     -1135.20}
+  {    -1731.30     -1169.53     -1793.70     -1156.61}
+  {    -1731.30     -1169.53     -1862.94     -1220.24}
+  {    -1731.30     -1169.53     -1761.59     -1194.72}
+  {    -1731.30     -1169.53     -1679.27     -1187.48}
+  {    -1731.30     -1169.53     -1691.53     -1172.20}
+  {    -1731.30     -1169.53     -1710.46     -1158.19}
+  {    -1731.30     -1169.53     -1704.87     -1118.66}
+  {    -1731.30     -1169.53     -1698.92     -1197.40}
+  {    -1731.30     -1169.53     -1877.03     -1216.77}
+  {    -1877.03     -1216.77     -1889.25     -1220.08}
+  {    -1877.03     -1216.77     -1895.54     -1196.46}
+  {    -1877.03     -1216.77     -1897.58     -1210.31}
+  {    -1877.03     -1216.77     -1892.59     -1212.83}
+  {    -1877.03     -1216.77     -1914.13     -1241.34}
+  {    -1877.03     -1216.77     -1973.19     -1270.00}
+  {    -1877.03     -1216.77     -1924.82     -1242.44}
+  {    -1877.03     -1216.77     -1915.64     -1246.06}
+  {    -1877.03     -1216.77     -1677.76     -1230.00}
+  {    -1877.03     -1216.77     -1689.47     -1230.94}
+  {    -1877.03     -1216.77     -1862.69     -1134.72}
+  {    -1877.03     -1216.77     -1911.25     -1128.43}
+  {    -1877.03     -1216.77     -1847.20     -1214.72}
+  {    -1877.03     -1216.77     -1814.07     -1184.65}
+  {    -1877.03     -1216.77     -1659.12     -1140.55}
+  {    -1877.03     -1216.77     -1718.35     -1010.16}
+  {    -1877.03     -1216.77     -1697.20     -1165.91}
+  {    -1877.03     -1216.77     -1712.41     -1198.35}
+  {    -1877.03     -1216.77     -1596.72     -1121.50}
+  {    -1877.03     -1216.77     -1988.17     -1264.96}
+  {    -1877.03     -1216.77     -1647.29     -1177.56}
+  {    -1647.29     -1177.56     -1620.53     -1169.37}
+  {    -1647.29     -1177.56     -1665.13     -1146.22}
+  {    -1647.29     -1177.56     -1605.67     -1145.59}
+  {    -1647.29     -1177.56     -1659.65     -1191.42}
+  {    -1647.29     -1177.56     -1702.73     -1184.17}
+  {    -1647.29     -1177.56     -1551.44     -1205.75}
+  {    -1647.29     -1177.56     -1493.15     -1194.88}
+  {    -1647.29     -1177.56     -1379.46     -1202.13}
+  {    -1647.29     -1177.56     -1413.76     -1186.06}
+  {    -1647.29     -1177.56     -1443.31     -1177.56}
+  {    -1647.29     -1177.56     -1534.13     -1182.13}
+  {    -1647.29     -1177.56     -1273.32     -1169.06}
+  {    -1647.29     -1177.56     -1283.85     -1141.02}
+  {    -1647.29     -1177.56     -1177.77     -1108.58}
+  {    -1647.29     -1177.56     -1327.65     -1102.60}
+  {    -1647.29     -1177.56     -1543.27     -1112.68}
+  {    -1647.29     -1177.56     -1616.84     -1131.89}
+  {    -1647.29     -1177.56     -1228.77     -1153.46}
+  {    -1228.77     -1153.46     -1216.67     -1102.44}
+  {    -1228.77     -1153.46     -1285.78     -1132.99}
+  {    -1228.77     -1153.46     -1233.77     -1167.48}
+  {    -1228.77     -1153.46     -1128.74     -1150.94}
+  {    -1228.77     -1153.46     -1157.46     -1132.20}
+  {    -1228.77     -1153.46     -1108.33     -1164.49}
+  {    -1228.77     -1153.46     -1210.80     -1184.17}
+  {    -1228.77     -1153.46     -1326.92     -1138.35}
+  {    -1228.77     -1153.46     -1374.27     -1141.97}
+  {    -1228.77     -1153.46     -1249.29     -1108.90}
+  {    -1228.77     -1153.46     -1429.19     -1123.70}
+  {    -1228.77     -1153.46     -1415.19     -1182.76}
+  {    -1228.77     -1153.46     -1276.07     -1172.99}
+  {    -1228.77     -1153.46     -1640.60     -1091.26}
+  {    -1228.77     -1153.46     -1612.05     -1059.45}
+  {    -1228.77     -1153.46     -1761.73     -1117.72}
+  {    -1228.77     -1153.46     -1558.79     -1129.84}
+  {    -1228.77     -1153.46     -1151.57     -1114.09}
+  {    -1228.77     -1153.46      -899.50     -1109.53}
+  {    -1228.77     -1153.46     -1077.34     -1111.73}
+  {    -1228.77     -1153.46     -1079.30     -1085.91}
+  {    -1228.77     -1153.46      -904.85     -1059.61}
+  {    -1228.77     -1153.46      -947.86     -1144.96}
+  {    -1228.77     -1153.46     -1190.10     -1162.44}
+  {    -1228.77     -1153.46     -1741.06     -1165.91}
+  {    -1228.77     -1153.46     -1349.99     -1173.31}
+  {    -1349.99     -1173.31     -1323.38     -1172.68}
+  {    -1349.99     -1173.31     -1293.99     -1192.36}
+  {    -1349.99     -1173.31     -1300.08     -1167.64}
+  {    -1349.99     -1173.31     -1297.11     -1178.66}
+  {    -1349.99     -1173.31     -1268.38     -1185.12}
+  {    -1349.99     -1173.31      -987.87     -1186.54}
+  {    -1228.77     -1153.46     -1629.56     -1155.20}
+  {    -1629.56     -1155.20     -1654.01     -1112.83}
+  {    -1629.56     -1155.20     -1634.81     -1152.20}
+  {    -1629.56     -1155.20     -1627.95     -1047.01}
+  {    -1629.56     -1155.20     -1582.84     -1099.76}
+  {    -1629.56     -1155.20     -1565.52     -1101.81}
+  {    -1629.56     -1155.20     -1608.24     -1167.64}
+  {    -1629.56     -1155.20     -1483.01     -1186.06}
+  {    -1629.56     -1155.20     -1481.56     -1076.77}
+  {    -1629.56     -1155.20     -1554.80     -1006.38}
+  {    -1629.56     -1155.20     -1546.00     -1089.84}
+  {    -1629.56     -1155.20     -1421.13     -1069.06}
+  {    -1629.56     -1155.20     -1369.07     -1058.35}
+  {    -1629.56     -1155.20     -1304.59      -971.10}
+  {    -1629.56     -1155.20     -1516.82     -1019.76}
+  {    -1629.56     -1155.20     -1377.97      -986.69}
+  {    -1629.56     -1155.20     -1363.65     -1072.52}
+  {    -1629.56     -1155.20     -1395.28     -1106.22}
+  {    -1629.56     -1155.20     -1489.01     -1141.34}
+  {    -1629.56     -1155.20     -1543.32     -1161.18}
+  {    -1629.56     -1155.20     -1565.34     -1141.34}
+  {    -1629.56     -1155.20     -1546.52     -1084.80}
+  {    -1629.56     -1155.20     -1529.49     -1123.54}
+  {    -1629.56     -1155.20     -1373.77     -1074.41}
+  {    -1373.77     -1074.41     -1366.00     -1052.20}
+  {    -1373.77     -1074.41     -1303.60     -1046.38}
+  {    -1373.77     -1074.41     -1364.67     -1087.48}
+  {    -1373.77     -1074.41     -1262.55      -987.48}
+  {    -1373.77     -1074.41     -1033.55      -979.45}
+  {    -1373.77     -1074.41      -839.53      -984.02}
+  {    -1373.77     -1074.41      -911.30     -1025.59}
+  {    -1373.77     -1074.41     -1154.33     -1045.28}
+  {    -1373.77     -1074.41     -1286.94     -1044.02}
+  {    -1373.77     -1074.41     -1338.91     -1088.43}
+  {    -1373.77     -1074.41     -1212.11     -1087.17}
+  {    -1373.77     -1074.41     -1199.91     -1059.45}
+  {    -1373.77     -1074.41      -937.16     -1048.90}
+  {     -937.16     -1048.90      -906.70     -1032.99}
+  {     -937.16     -1048.90      -924.07      -969.84}
+  {     -937.16     -1048.90      -927.24      -950.47}
+  {     -937.16     -1048.90      -958.73      -994.09}
+  {     -937.16     -1048.90      -973.62     -1026.54}
+  {     -937.16     -1048.90      -934.18     -1055.83}
+  {     -937.16     -1048.90      -970.71     -1044.02}
+  {     -937.16     -1048.90     -1045.96     -1099.45}
+  {     -937.16     -1048.90     -1020.48     -1008.74}
+  {     -937.16     -1048.90      -974.91      -978.50}
+  {     -937.16     -1048.90     -1075.63      -995.35}
+  {     -937.16     -1048.90     -1087.85     -1056.46}
+  {     -937.16     -1048.90      -804.59     -1014.25}
+  {     -937.16     -1048.90      -639.69      -995.04}
+  {     -937.16     -1048.90      -680.70     -1009.37}
+  {     -937.16     -1048.90      -814.92     -1015.35}
+  {     -937.16     -1048.90      -851.75     -1064.17}
+  {     -937.16     -1048.90      -715.16     -1044.96}
+  {     -937.16     -1048.90      -833.78      -971.89}
+  {     -937.16     -1048.90      -768.43      -974.09}
+  {     -937.16     -1048.90      -638.14     -1023.54}
+  {     -638.14     -1023.54      -652.67     -1013.15}
+  {     -638.14     -1023.54      -615.00      -936.93}
+  {     -638.14     -1023.54      -614.75      -995.35}
+  {     -638.14     -1023.54      -634.79     -1032.83}
+  {     -638.14     -1023.54      -543.09     -1043.86}
+  {     -638.14     -1023.54      -398.13     -1041.65}
+  {     -638.14     -1023.54      -268.82     -1035.83}
+  {     -638.14     -1023.54      -442.87     -1012.20}
+  {     -638.14     -1023.54      -516.19     -1009.21}
+  {     -638.14     -1023.54      -161.97      -990.00}
+  {     -638.14     -1023.54      -359.22      -950.63}
+  {     -638.14     -1023.54      -498.48      -992.05}
+  {     -638.14     -1023.54      -239.22     -1014.72}
+  {     -617.43     -1014.72      -572.36     -1013.62}
+  {     -617.43     -1014.72      -584.86     -1042.76}
+  {     -617.43     -1014.72      -603.95      -950.79}
+  {     -617.43     -1014.72      -476.37      -977.40}
+  {     -617.43     -1014.72      -118.31      -926.85}
+  {     -617.43     -1014.72      -129.65      -896.77}
+  {     -617.43     -1014.72      -521.76      -979.92}
+  {     -617.43     -1014.72      -571.49      -968.74}
+  {     -617.43     -1014.72      -420.09      -918.98}
+  {     -617.43     -1014.72      -433.84      -986.22}
+  {     -617.43     -1014.72      -575.53     -1013.46}
+  {     -617.43     -1014.72      -748.83      -968.43}
+  {     -617.43     -1014.72      -820.14      -972.36}
+  {     -617.43     -1014.72      -767.81      -962.76}
+  {     -617.43     -1014.72      -861.96      -974.72}
+  {     -617.43     -1014.72      -756.38     -1003.70}
+  {     -617.43     -1014.72      -735.68     -1022.60}
+  {     -617.43     -1014.72      -652.25     -1019.92}
+  {     -617.43     -1014.72      -584.98     -1025.43}
+  {     -617.43     -1014.72      -653.79     -1008.58}
+  {     -617.43     -1014.72      -754.90     -1015.35}
+  {     -617.43     -1014.72      -649.87     -1044.80}
+  {     -617.43     -1014.72      -779.12     -1032.83}
+  {     -617.43     -1014.72      -859.77      -981.18}
+  {     -617.43     -1014.72      -518.19      -979.92}
+  {     -617.43     -1014.72      -405.10      -882.76}
+  {     -617.43     -1014.72      -414.07      -939.13}
+  {     -617.43     -1014.72      -377.19      -953.94}
+  {     -617.43     -1014.72      -245.33      -875.83}
+  {     -617.43     -1014.72      -334.06      -901.81}
+  {     -617.43     -1014.72      -617.43      -997.87}
+  {     -617.43      -997.87      -624.24      -979.13}
+  {     -617.43      -997.87      -619.59      -995.35}
+  {     -617.43      -997.87      -621.42      -964.49}
+  {     -617.43      -997.87      -629.79      -977.09}
+  {     -617.43      -997.87      -621.85     -1002.13}
+  {     -617.43      -997.87      -637.86     -1005.28}
+  {     -617.43      -997.87      -733.68     -1010.63}
+  {     -617.43      -997.87      -933.29      -975.83}
+  {     -617.43      -997.87      -695.34      -966.69}
+  {     -617.43      -997.87      -763.39      -981.65}
+  {     -617.43      -997.87      -890.44      -992.99}
+  {     -617.43      -997.87      -825.89      -994.57}
+  {     -617.43      -997.87      -990.01      -995.83}
+  {     -617.43      -997.87      -617.43     -1018.35}
+  {     -617.43     -1018.35      -629.27     -1002.60}
+  {     -617.43     -1018.35      -620.68     -1028.90}
+  {     -617.43     -1018.35      -604.63     -1009.84}
+  {     -617.43     -1018.35      -609.37      -986.38}
+  {     -617.43     -1018.35      -543.01     -1017.24}
+  {     -617.43     -1018.35      -457.78     -1064.49}
+  {     -617.43     -1018.35      -606.65     -1032.68}
+  {     -617.43     -1018.35      -543.76     -1066.85}
+  {     -617.43     -1018.35      -289.76     -1049.53}
+  {     -289.76     -1049.53      -486.86     -1073.62}
+  {     -289.76     -1049.53      -148.67     -1010.31}
+  {     -289.76     -1049.53      -276.22     -1055.98}
+  {     -289.76     -1049.53      -273.69     -1007.64}
+  {     -289.76     -1049.53      -155.81     -1004.02}
+  {     -289.76     -1049.53       102.06     -1023.54}
+  {     -289.76     -1049.53       -37.26     -1010.47}
+  {     -289.76     -1049.53      -514.31     -1052.52}
+  {     -289.76     -1049.53      -424.58     -1046.69}
+  {     -289.76     -1049.53      -578.70     -1027.32}
+  {     -289.76     -1049.53      -437.79     -1004.17}
+  {     -289.76     -1049.53      -427.81     -1053.94}
+  {     -427.81     -1053.94      -528.97     -1049.69}
+  {     -427.81     -1053.94      -419.31     -1005.91}
+  {     -427.81     -1053.94      -317.61     -1027.01}
+  {     -427.81     -1053.94      -598.18     -1065.28}
+  {     -427.81     -1053.94      -627.88     -1080.39}
+  {     -427.81     -1053.94      -920.38     -1093.94}
+  {     -427.81     -1053.94      -646.54      -995.35}
+  {     -427.81     -1053.94      -445.67     -1015.51}
+  {     -427.81     -1053.94      -398.87     -1070.00}
+  {     -427.81     -1053.94      -504.04     -1114.72}
+  {     -427.81     -1053.94      -621.05     -1107.48}
+  {     -427.81     -1053.94     -1228.77     -1153.46}
+  {     -289.76     -1049.53      -118.12     -1047.17}
+  {     -118.12     -1047.17       -60.26     -1032.83}
+  {     -118.12     -1047.17       -12.20     -1042.13}
+  {     -118.12     -1047.17       -59.47     -1062.76}
+  {     -118.12     -1047.17        31.80     -1061.18}
+  {     -118.12     -1047.17       -46.12     -1015.20}
+  {     -118.12     -1047.17        73.21     -1039.29}
+  {     -118.12     -1047.17        -2.29     -1053.94}
+  {     -118.12     -1047.17       -72.10     -1042.13}
+  {     -118.12     -1047.17      -107.31      -997.56}
+  {     -118.12     -1047.17      -144.00     -1017.56}
+  {     -118.12     -1047.17       131.33     -1046.85}
+  {      131.33     -1046.85       190.05     -1038.19}
+  {      131.33     -1046.85       131.31     -1053.46}
+  {      131.33     -1046.85       122.69     -1010.94}
+  {      131.33     -1046.85       150.08      -991.57}
+  {      131.33     -1046.85        82.32      -979.29}
+  {      131.33     -1046.85       114.80     -1035.98}
+  {      131.33     -1046.85        47.74      -977.72}
+  {      131.33     -1046.85        21.86      -985.28}
+  {      131.33     -1046.85       -39.10      -981.97}
+  {      131.33     -1046.85       -57.66      -996.61}
+  {      131.33     -1046.85        77.63     -1023.39}
+  {      131.33     -1046.85       131.33     -1019.61}
+  {      239.22     -1019.61       144.23     -1001.50}
+  {      239.22     -1019.61       161.58     -1001.97}
+  {      239.22     -1019.61       205.10      -988.74}
+  {      239.22     -1019.61       254.38     -1007.48}
+  {      239.22     -1019.61       104.75      -999.29}
+  {      239.22     -1019.61       181.54      -999.76}
+  {      239.22     -1019.61       216.76     -1016.46}
+  {      239.22     -1019.61      -141.25      -977.09}
+  {      239.22     -1019.61         7.88     -1019.61}
+  {      239.22     -1019.61       173.86     -1006.06}
+  {      239.22     -1019.61       138.41      -993.31}
+  {      131.33     -1019.61       426.75      -971.57}
+  {      426.75      -971.57       347.91      -959.61}
+  {      426.75      -971.57       417.69      -942.44}
+  {      475.52      -971.57       484.93      -977.09}
+  {      426.75      -971.57       402.96      -967.17}
+  {      426.75      -971.57       301.27      -968.43}
+  {      426.75      -971.57       269.56      -955.67}
+  {      475.52      -971.57       577.52      -944.49}
+  {      475.52      -971.57       570.91      -973.31}
+  {      475.52      -971.57       516.12      -978.50}
+  {      475.52      -971.57       586.70      -942.60}
+  {      426.75      -971.57       279.98      -972.05}
+  {      475.52      -971.57       665.64      -957.24}
+  {      665.64      -957.24       669.31      -967.64}
+  {      665.64      -957.24       674.98      -943.70}
+  {      665.64      -957.24       909.70      -936.30}
+  {      665.64      -957.24       775.34      -936.61}
+  {      665.64      -957.24       669.95      -938.35}
+  {      665.64      -957.24       858.02      -893.62}
+  {      665.64      -957.24       702.42      -939.76}
+  {      665.64      -957.24       828.42      -870.31}
+  {      665.64      -957.24       683.61      -970.79}
+  {      665.64      -957.24       545.77      -970.79}
+  {      665.64      -957.24       459.00     -1002.44}
+  {      665.64      -957.24       468.52      -983.86}
+  {      665.64      -957.24       584.15      -979.92}
+  {      665.64      -957.24       435.14     -1012.52}
+  {      435.14     -1012.52       424.12     -1001.65}
+  {      435.14     -1012.52       424.27      -978.82}
+  {      435.14     -1012.52       417.78     -1004.02}
+  {      435.14     -1012.52       439.21     -1029.21}
+  {      435.14     -1012.52       422.95      -978.03}
+  {      435.14     -1012.52       506.93      -985.28}
+  {      435.14     -1012.52       521.45     -1006.38}
+  {      435.14     -1012.52       382.58     -1010.63}
+  {      435.14     -1012.52       382.65     -1009.21}
+  {      382.65     -1009.21       239.22     -1019.61}
+  {      239.22     -1019.61        86.66     -1016.30}
+  {       86.66     -1016.30       -33.51     -1023.70}
+  {       86.66     -1016.30       111.94      -997.09}
+  {       86.66     -1016.30        79.74     -1028.11}
+  {       86.66     -1016.30        66.27      -983.54}
+  {       86.66     -1016.30       -11.68     -1001.02}
+  {       86.66     -1016.30       116.99      -947.32}
+  {       86.66     -1016.30       -46.51      -962.60}
+  {       86.66     -1016.30       -23.03     -1027.32}
+  {      -23.03     -1027.32        26.52      -890.31}
+  {      -23.03     -1027.32        68.00      -843.86}
+  {      -23.03     -1027.32       366.27      -809.06}
+  {      -23.03     -1027.32       157.45      -958.03}
+  {      -23.03     -1027.32       226.00      -942.91}
+  {      -23.03     -1027.32       159.09      -960.71}
+  {      -23.03     -1027.32       -17.95     -1038.35}
+  {      -42.85     -1027.32      -352.47     -1023.70}
+  {      -42.85     -1027.32       -85.31     -1023.70}
+  {      -42.85     -1027.32      -289.76     -1057.09}
+  {     -289.76     -1057.09      -289.76     -1049.53}
+  {      -23.03     -1027.32        64.74     -1009.84}
+  {       64.74     -1009.84        62.12     -1009.84}
+  {       64.74     -1009.84        11.99      -883.39}
+  {       64.74     -1009.84        66.47      -978.98}
+  {       64.74     -1009.84        28.30     -1015.98}
+  {       64.74     -1009.84       -61.98     -1000.39}
+  {       64.74     -1009.84      -103.94      -960.39}
+  {       64.74     -1009.84      -464.95      -943.86}
+  {       64.74     -1009.84        64.74      -920.08}
+  {     -267.58      -920.08      -617.43     -1014.72}
+  {       64.74      -920.08      -334.06      -901.81}
+  {     -334.06      -901.81      -346.20      -908.90}
+  {     -334.06      -901.81      -339.31      -979.92}
+  {     -334.06      -901.81      -208.80      -959.29}
+  {     -334.06      -901.81      -152.48      -895.67}
+  {     -334.06      -901.81      -215.40      -886.06}
+  {     -334.06      -901.81      -274.38      -862.28}
+  {     -334.06      -901.81      -148.26      -865.43}
+  {     -334.06      -901.81      -153.94      -878.50}
+  {     -334.06      -901.81      -130.57      -893.46}
+  {     -334.06      -901.81      -183.54      -901.34}
+  {     -334.06      -901.81       -19.53      -876.61}
+  {     -334.06      -901.81       223.11      -903.86}
+  {     -334.06      -901.81       -17.53      -937.72}
+  {     -334.06      -901.81      -209.79      -962.76}
+  {     -334.06      -901.81      -449.91      -992.05}
+  {     -334.06      -901.81       -74.49      -886.85}
+  {      -74.49      -886.85       -89.21      -883.54}
+  {      -74.49      -886.85       -80.74      -899.61}
+  {      -74.49      -886.85      -154.60      -885.43}
+  {      -74.49      -886.85      -218.00      -861.97}
+  {      -74.49      -886.85      -175.68      -884.02}
+  {      -74.49      -886.85       -96.54      -863.54}
+  {      -74.49      -886.85      -119.19      -870.94}
+  {      -74.49      -886.85       -90.75      -894.25}
+  {      -74.49      -886.85      -133.85      -890.00}
+  {      -74.49      -886.85      -120.27      -862.76}
+  {      -74.49      -886.85       -79.01      -871.26}
+  {      -74.49      -886.85       -24.76      -866.38}
+  {      -74.49      -886.85       105.96      -860.55}
+  {      -74.49      -886.85       -74.49      -870.79}
+  {      -74.49      -870.79       -77.45      -866.38}
+  {      -74.49      -870.79       -69.19      -864.65}
+  {      -74.49      -870.79       -60.47      -827.01}
+  {      -74.49      -870.79       -63.34      -834.09}
+  {      -74.49      -870.79       -72.64      -883.70}
+  {      -74.49      -870.79       -21.27      -897.09}
+  {      -74.49      -870.79       -13.51      -887.32}
+  {      -74.49      -870.79        73.28      -858.82}
+  {      -74.49      -870.79       104.16      -821.81}
+  {      -74.49      -870.79        27.31      -804.65}
+  {      -74.49      -870.79       -41.06      -825.91}
+  {      -74.49      -870.79        10.31      -843.23}
+  {      -74.49      -870.79        79.97      -852.20}
+  {       79.97      -852.20        70.27      -804.96}
+  {       79.97      -852.20        84.20      -839.45}
+  {       79.97      -852.20        40.73      -849.53}
+  {       79.97      -852.20       -31.42      -851.10}
+  {       79.97      -852.20        37.88      -851.73}
+  {       79.97      -852.20        93.63      -853.15}
+  {       79.97      -852.20        85.54      -862.28}
+  {       79.97      -852.20       101.90      -804.49}
+  {       79.97      -852.20       113.71      -851.26}
+  {       79.97      -852.20       120.17      -839.92}
+  {       79.97      -852.20       113.14      -805.12}
+  {       79.97      -852.20       102.89      -810.79}
+  {       79.97      -852.20       155.02      -821.81}
+  {      155.02      -821.81       163.63      -808.27}
+  {      155.02      -821.81       158.01      -792.20}
+  {      155.02      -821.81       160.50      -809.69}
+  {      155.02      -821.81       161.71      -828.58}
+  {      155.02      -821.81       204.65      -840.24}
+  {      155.02      -821.81       237.44      -820.87}
+  {      155.02      -821.81       278.47      -791.89}
+  {      155.02      -821.81       243.46      -770.00}
+  {      155.02      -821.81       107.75      -810.79}
+  {      155.02      -821.81       279.28      -786.69}
+  {      279.28      -786.69       279.09      -759.45}
+  {      279.28      -786.69       291.48      -771.57}
+  {      279.28      -786.69       287.47      -795.35}
+  {      279.28      -786.69       278.94      -753.94}
+  {      279.28      -786.69       309.81      -742.28}
+  {      279.28      -786.69       338.19      -729.84}
+  {     -334.06      -901.81      -125.72      -904.02}
+  {     -125.72      -904.02      -155.16      -899.29}
+  {     -125.72      -904.02       -72.56      -924.02}
+  {     -125.72      -904.02       -39.19      -883.54}
+  {     -125.72      -904.02       -61.46      -815.04}
+  {     -125.72      -904.02        15.80      -879.92}
+  {     -125.72      -904.02       163.35      -920.39}
+  {     -125.72      -904.02        58.17      -928.58}
+  {     -125.72      -904.02      -341.77      -889.53}
+  {     -125.72      -904.02      -409.94      -928.58}
+  {     -125.72      -904.02      -182.19      -953.31}
+  {     -125.72      -904.02      -209.13      -890.94}
+  {     -125.72      -904.02       -85.00      -934.72}
+  {     -125.72      -904.02       -99.94      -874.88}
+  {     -125.72      -904.02      -152.27      -932.05}
+  {     -125.72      -904.02       150.45      -908.90}
+  {     -125.72      -904.02       149.98      -908.90}
+  {     -125.72      -904.02       194.38      -909.69}
+  {     -125.72      -904.02       149.82      -908.90}
+  {      149.98      -908.90       160.94      -872.36}
+  {      149.98      -908.90       228.65      -886.54}
+  {      149.98      -908.90       282.28      -893.78}
+  {      149.98      -908.90       251.69      -886.06}
+  {      149.98      -908.90       184.35      -917.24}
+  {      149.98      -908.90       274.63      -891.57}
+  {      149.98      -908.90       139.23      -920.71}
+  {      149.98      -908.90        -0.77      -905.12}
+  {      149.98      -908.90        87.49      -923.07}
+  {      149.98      -908.90        96.23      -881.65}
+  {      149.98      -908.90       106.95      -918.98}
+  {      149.98      -908.90       365.84      -884.96}
+  {      149.98      -908.90       351.02      -875.51}
+  {       64.74      -920.08       297.22      -905.59}
+  {      297.22      -905.59       225.81      -911.10}
+  {      297.22      -905.59       392.08      -903.23}
+  {      297.22      -905.59       459.96      -901.02}
+  {      297.22      -905.59       298.01      -883.39}
+  {      297.22      -905.59       317.13      -862.76}
+  {      297.22      -905.59       427.96      -854.72}
+  {      297.22      -905.59       356.57      -835.04}
+  {      297.22      -905.59       298.59      -890.47}
+  {      297.22      -905.59       297.39      -924.96}
+  {      297.22      -905.59       472.77      -909.21}
+  {      472.77      -909.21       485.31      -904.33}
+  {      472.77      -909.21       585.45      -938.50}
+  {      472.77      -909.21       627.13      -897.09}
+  {      472.77      -909.21       534.47      -880.87}
+  {      472.77      -909.21       516.40      -856.30}
+  {      472.77      -909.21       717.46      -910.16}
+  {      472.77      -909.21       919.48      -893.62}
+  {      472.77      -909.21       753.08      -953.15}
+  {      472.77      -909.21       670.87      -905.75}
+  {      472.77      -909.21       707.65      -882.91}
+  {      472.77      -909.21       539.86      -879.76}
+  {      472.77      -909.21       683.61      -841.65}
+  {      472.77      -909.21       730.07      -866.22}
+  {      472.77      -909.21       554.44      -867.95}
+  {      472.77      -909.21       739.35      -878.35}
+  {      472.77      -909.21       673.68      -914.88}
+  {      472.77      -909.21       522.60      -932.52}
+  {      472.77      -909.21       840.94      -850.94}
+  {      840.94      -850.94       898.67      -844.17}
+  {      840.94      -850.94       846.01      -864.02}
+  {      840.94      -850.94       857.76      -818.35}
+  {      840.94      -850.94       820.14      -790.47}
+  {      840.94      -850.94       748.89      -833.94}
+  {      840.94      -850.94       720.01      -867.01}
+  {      840.94      -850.94       729.40      -830.94}
+  {      840.94      -850.94       650.93      -802.28}
+  {      840.94      -850.94       788.07      -790.79}
+  {      840.94      -850.94       840.94      -816.93}
+  {      840.94      -816.93       829.76      -815.35}
+  {      840.94      -816.93       816.28      -813.31}
+  {      840.94      -816.93       830.66      -780.55}
+  {      840.94      -816.93       845.37      -811.26}
+  {      840.94      -816.93       836.95      -827.48}
+  {      840.94      -816.93       827.53      -786.54}
+  {      840.94      -816.93       809.04      -812.20}
+  {      840.94      -816.93       801.13      -829.06}
+  {      840.94      -816.93       884.88      -829.84}
+  {      840.94      -816.93       871.15      -825.91}
+  {      840.94      -816.93       873.36      -805.75}
+  {      840.94      -816.93       686.69      -849.53}
+  {      472.77      -909.21       767.73      -932.68}
+  {      767.73      -932.68       854.71      -913.31}
+  {      683.54      -932.68       541.09      -906.22}
+  {      683.54      -932.68       636.71      -927.32}
+  {      683.54      -932.68       694.44      -955.20}
+  {      683.54      -932.68       695.72      -879.61}
+  {      767.73      -932.68       868.53      -907.32}
+  {      683.54      -932.68       845.33      -834.25}
+  {      683.54      -932.68       806.60      -758.50}
+  {      683.54      -932.68       694.52      -871.42}
+  {      683.54      -932.68       866.37      -856.30}
+  {      683.54      -932.68       990.64      -884.17}
+  {      683.54      -932.68       282.01      -902.76}
+  {      683.54      -932.68       464.22      -828.11}
+  {      683.54      -932.68       511.02      -958.66}
+  {      683.54      -932.68       291.14      -961.02}
+  {      767.73      -932.68      1005.60      -916.46}
+  {     1005.60      -916.46      1004.88      -940.39}
+  {     1005.60      -916.46       996.46      -901.65}
+  {     1005.60      -916.46       968.11      -919.13}
+  {     1005.60      -916.46       860.46      -884.33}
+  {     1005.60      -916.46       816.10      -859.92}
+  {     1005.60      -916.46       860.63      -884.02}
+  {     1005.60      -916.46       970.96      -936.61}
+  {     1005.60      -916.46      1002.87      -932.52}
+  {     1005.60      -916.46       897.92      -900.71}
+  {      897.92      -900.71       823.31      -878.35}
+  {      897.92      -900.71       908.35      -879.13}
+  {      897.92      -900.71       993.03      -908.58}
+  {      897.92      -900.71       947.96      -921.81}
+  {      897.92      -900.71       858.36      -917.09}
+  {      897.92      -900.71       902.92      -942.76}
+  {      897.92      -900.71       897.45      -832.36}
+  {      897.92      -900.71       908.08      -814.57}
+  {      897.92      -900.71       897.92      -748.43}
+  {      897.92      -900.71       749.07      -794.57}
+  {      683.54      -932.68       683.54      -961.97}
+  {      683.54      -961.97       595.72      -943.86}
+  {      683.54      -961.97       654.54      -989.53}
+  {      683.54      -961.97       680.40      -928.11}
+  {      683.54      -961.97       713.31      -959.45}
+  {      683.54      -961.97       878.54      -938.03}
+  {      683.54      -961.97       859.60      -943.70}
+  {      683.54      -961.97       775.78      -955.67}
+  {      683.54      -961.97       593.56      -938.66}
+  {      683.54      -961.97       527.39      -933.46}
+  {      683.54      -961.97       557.81      -958.03}
+  {      683.54      -961.97       580.28      -979.92}
+  {    -2750.78      -961.97     -3384.23     -1052.20}
+  {      683.54      -961.97       683.54      -947.64}
+  {      683.54      -947.64       713.19      -934.09}
+  {      683.54      -947.64       688.92      -901.02}
+  {      683.54      -947.64       624.30      -900.39}
+  {      683.54      -947.64       663.66      -968.43}
+  {      683.54      -947.64       689.50      -975.83}
+  {      683.54      -947.64       723.02      -973.46}
+  {      683.54      -947.64       717.09      -915.98}
+  {      683.54      -947.64       672.29      -933.15}
+  {      683.54      -947.64       738.89      -932.52}
+  {      683.54      -947.64       744.46      -931.73}
+  {      683.54      -947.64       785.78      -922.60}
+  {      683.54      -947.64       862.61      -902.91}
+  {      683.54      -947.64       734.46      -945.59}
+  {      683.54      -947.64       743.43      -900.55}
+  {      683.54      -947.64       790.49      -896.61}
+  {      683.54      -947.64       754.51      -913.94}
+  {      683.54      -947.64       713.00      -923.07}
+  {      683.54      -947.64       830.66      -917.72}
+  {      830.66      -917.72       816.09      -910.31}
+  {      830.66      -917.72       870.36      -862.60}
+  {      830.66      -917.72       886.22      -904.33}
+  {      830.66      -917.72       754.30      -910.79}
+  {      830.66      -917.72       875.29      -934.72}
+  {      830.66      -917.72       943.69      -911.89}
+  {      830.66      -917.72       909.42      -901.18}
+  {      830.66      -917.72       866.43      -903.86}
+  {      830.66      -917.72       920.89      -915.83}
+  {      830.66      -917.72       961.16      -915.67}
+  {      830.66      -917.72       992.34      -914.25}
+  {      830.66      -917.72       898.16      -928.43}
+  {      830.66      -917.72      1034.84      -927.17}
+  {     1034.84      -927.17      1073.14      -904.65}
+  {     1034.84      -927.17       991.82      -890.16}
+  {     1034.84      -927.17       924.40      -922.60}
+  {     1034.84      -927.17      1054.13      -889.53}
+  {     1034.84      -927.17       995.98      -868.11}
+  {     1034.84      -927.17       800.70      -950.63}
+  {     1034.84      -927.17       815.44      -964.02}
+  {      815.44      -964.02       534.95      -954.88}
+  {      534.95      -954.88       475.52      -971.57}
+  {      683.54      -932.68       906.76      -834.72}
+  {      906.76      -834.72       892.66      -817.56}
+  {      906.76      -834.72       915.20      -711.10}
+  {      906.76      -834.72       918.12      -797.24}
+  {      906.76      -834.72      1072.95      -712.83}
+  {      906.76      -834.72      1033.18      -789.06}
+  {      906.76      -834.72       992.08      -819.76}
+  {      906.76      -834.72       934.09      -842.76}
+  {      906.76      -834.72      1081.15      -793.46}
+  {      906.76      -834.72      1155.72      -745.43}
+  {      906.76      -834.72      1078.88      -719.92}
+  {      906.76      -834.72      1105.60      -755.98}
+  {     1105.60      -755.98      1176.13      -738.50}
+  {     1105.60      -755.98      1075.15      -682.91}
+  {     1105.60      -755.98      1061.38      -782.44}
+  {     1105.60      -755.98      1034.25      -814.25}
+  {     1105.60      -755.98       873.67      -812.99}
+  {     1105.60      -755.98       759.10      -818.19}
+  {     1105.60      -755.98       723.11      -764.17}
+  {     1105.60      -755.98      1354.67      -710.63}
+  {     1105.60      -755.98      1492.35      -727.32}
+  {     1105.60      -755.98       992.09      -688.90}
+  {     1105.60      -755.98      1025.34      -734.72}
+  {     1105.60      -755.98       915.43      -686.38}
+  {     1105.60      -755.98       848.97      -635.20}
+  {     1105.60      -755.98       795.53      -541.34}
+  {     1105.60      -755.98       918.28      -459.76}
+  {     1105.60      -755.98      1099.82      -699.61}
+  {     1105.60      -755.98      1006.10      -654.57}
+  {     1105.60      -755.98      1036.28      -689.21}
+  {     1105.60      -755.98      1105.60      -412.83}
+  {     1105.60      -755.98      1105.60      -505.28}
+  {     1105.60      -505.28      1105.60      -111.57}
+  {     1105.60      -755.98      1244.38      -764.65}
+  {     1244.38      -764.65      1455.45      -721.97}
+  {     1244.38      -764.65      1335.05      -711.26}
+  {     1244.38      -764.65      1255.35      -719.45}
+  {     1244.38      -764.65      1154.75      -723.39}
+  {     1244.38      -764.65      1514.39      -753.78}
+  {     1244.38      -764.65      1242.54      -784.17}
+  {     1244.38      -764.65      1030.17      -824.96}
+  {     1244.38      -764.65      1129.51      -712.68}
+  {     1244.38      -764.65      1244.50      -819.92}
+  {     1244.38      -764.65      1246.31      -891.89}
+  {     1244.38      -764.65      1416.94      -844.65}
+  {     1244.38      -764.65      1386.84      -782.91}
+  {     1244.38      -764.65      1424.13      -788.11}
+  {     1244.38      -764.65      1386.34      -783.23}
+  {     1386.34      -783.23      1390.43      -762.60}
+  {     1386.34      -783.23      1448.32      -790.63}
+  {     1386.34      -783.23      1446.35      -797.40}
+  {     1386.34      -783.23      1438.91      -737.87}
+  {     1386.34      -783.23      1368.41      -770.79}
+  {     1386.34      -783.23      1376.09      -781.81}
+  {     1386.34      -783.23      1223.69      -762.76}
+  {     1386.34      -783.23      1473.36      -802.44}
+  {     1473.36      -802.44      1545.53      -841.81}
+  {     1473.36      -802.44      1485.74      -814.72}
+  {     1473.36      -802.44      1474.90      -797.09}
+  {     1473.36      -802.44      1474.31      -803.39}
+  {     1473.36      -802.44      1473.24      -821.18}
+  {     1473.36      -802.44      1506.84      -832.68}
+  {     1473.36      -802.44      1534.48      -815.67}
+  {     1473.36      -802.44      1455.99      -800.24}
+  {     1473.36      -802.44      1459.05      -798.82}
+  {     1473.36      -802.44      1546.15      -841.34}
+  {     1546.15      -841.34      1542.09      -836.30}
+  {     1546.15      -841.34      1536.58      -832.05}
+  {     1546.15      -841.34      1581.15      -804.33}
+  {     1546.15      -841.34      1563.72      -839.61}
+  {     1546.15      -841.34      1596.08      -819.45}
+  {     1596.08      -819.45      1603.64      -821.81}
+  {     1596.08      -819.45      1596.81      -815.35}
+  {     1596.08      -819.45      1595.15      -832.83}
+  {     1596.08      -819.45      1574.38      -834.09}
+  {     1596.08      -819.45      1633.98      -823.54}
+  {     1596.08      -819.45      1680.67      -807.01}
+  {     1596.08      -819.45      1668.18      -782.28}
+  {     1596.08      -819.45      1624.65      -791.57}
+  {     1596.08      -819.45      1630.94      -803.23}
+  {     1596.08      -819.45      1642.98      -795.83}
+  {     1596.08      -819.45      1560.64      -820.08}
+  {     1596.08      -819.45      1558.05      -834.41}
+  {     1596.08      -819.45      1524.12      -810.79}
+  {     1596.08      -819.45      1473.57      -773.94}
+  {     1596.08      -819.45      1596.08      -849.06}
+  {     1457.24      -621.81      1791.35      -591.57}
+  {     1457.24      -621.81      1474.95      -542.60}
+  {     1457.24      -621.81      1458.52      -635.20}
+  {    -1508.00      -621.81     -1331.67      -590.63     -1508.00      -199.13     -1331.67      -551.42     -1331.67      -599.13     -1508.00      -647.95}
+  {    -1331.67      -590.63     -1350.45      -569.53}
+  {    -1331.67      -590.63     -1309.07      -587.95}
+  {    -1331.67      -590.63     -1327.90      -530.16}
+  {    -1331.67      -590.63     -1330.46      -599.29}
+  {    -1331.67      -590.63     -1258.37      -555.20     -1331.67      -551.42     -1258.37      -519.45     -1258.37      -570.94     -1331.67      -599.13}
+  {    -1258.37      -555.20     -1245.48      -549.84}
+  {    -1258.37      -555.20     -1279.86      -544.65}
+  {    -1258.37      -555.20     -1256.12      -527.01}
+  {    -1258.37      -555.20     -1258.57      -570.79}
+  {    -1258.37      -555.20     -1152.21      -517.24     -1258.37      -519.45     -1152.21      -422.91     -1152.21      -532.52     -1258.37      -570.94}
+  {    -1152.21      -517.24     -1136.81      -497.87}
+  {    -1152.21      -517.24     -1222.82      -488.58}
+  {    -1152.21      -517.24     -1161.63      -360.55}
+  {    -1152.21      -517.24     -1151.81      -532.52}
+  {    -1152.21      -517.24      -701.88      -495.20     -1152.21      -422.91      -701.88      -283.07      -701.88      -530.00     -1152.21      -532.52}
+  {     -701.88      -495.20      -931.65      -388.58}
+  {     -701.88      -495.20      -727.62      -530.16}
+  {     -701.88      -495.20      -686.67      -443.70}
+  {     -701.88      -495.20      -701.14      -508.43}
+  {     -701.88      -495.20      -452.13      -493.46      -701.88      -283.07      -452.13      -357.09      -452.13      -531.57      -701.88      -530.00}
+  {     -452.13      -493.46      -401.29      -360.24}
+  {     -452.13      -493.46      -438.32      -531.42}
+  {     -452.13      -493.46      -447.16      -439.29}
+  {     -452.13      -493.46      -449.99      -515.98}
+  {     -452.13      -493.46       -33.82      -529.37      -452.13      -357.09       -33.82      -407.17       -33.82      -543.54      -452.13      -531.57}
+  {      -33.82      -529.37      -139.71      -387.32}
+  {      -33.82      -529.37       -87.24      -527.48}
+  {      -33.82      -529.37       -16.60      -336.77}
+  {      -33.82      -529.37       -36.43      -543.39}
+  {      -33.82      -529.37       412.09      -585.59       -33.82      -407.17       412.09      -338.50       412.09      -596.77       -33.82      -543.54}
+  {      412.09      -585.59       297.50      -596.77}
+  {      412.09      -585.59       419.32      -440.08}
+  {      412.09      -585.59       410.94      -592.99}
+  {      412.09      -585.59       826.90      -569.69       412.09      -338.50       826.90      -356.14       826.90      -625.59       412.09      -596.77}
+  {      826.90      -569.69       843.49      -505.12}
+  {      826.90      -569.69      1106.26      -539.92}
+  {      826.90      -569.69      1040.31      -533.94}
+  {      826.90      -569.69       832.90      -412.52}
+  {      826.90      -569.69       822.16      -625.75}
+  {      826.90      -569.69       576.02      -383.54}
+  {      826.90      -569.69       868.62      -508.11}
+  {      826.90      -569.69      1130.52      -535.35}
+  {      826.90      -569.69      1117.94      -550.16}
+  {      826.90      -569.69      1173.29      -636.46       826.90      -356.14      1173.29      -464.33      1173.29      -641.81       826.90      -625.59}
+  {     1173.29      -636.46      1173.29      -478.98      1001.16      -636.46      1001.16      -478.98      1178.65      -478.98      1178.65      -636.46}
+  {     1173.29      -636.46      1227.61      -605.75}
+  {     1173.29      -636.46      1170.63      -592.52}
+  {     1173.29      -636.46      1201.51      -482.13}
+  {     1173.29      -636.46      1173.80      -640.55}
+  {     1173.29      -636.46      1203.51      -579.92}
+  {     1173.29      -636.46      1202.26      -581.18}
+  {     1173.29      -636.46      1183.34      -492.20}
+  {     1173.29      -636.46      1171.77      -641.65}
+  {     1173.29      -636.46      1674.65      -581.02      1173.29      -464.33      1674.65      -573.62      1674.65      -600.55      1173.29      -641.81}
+  {     1674.65      -581.02      1950.56      -521.50}
+  {     1674.65      -581.02      1482.10      -532.20}
+  {     1674.65      -581.02      1675.53      -467.64}
+  {     1674.65      -581.02      1669.42      -600.71}
+  {      812.73      -581.02       568.22      -531.42       812.73      -573.62       568.22      -396.30       568.22      -541.81       812.73      -600.55}
+  {      568.22      -531.42       559.01      -524.80}
+  {      568.22      -531.42       498.93      -514.72}
+  {      568.22      -531.42       570.08      -501.81}
+  {      568.22      -531.42       567.59      -541.81}
+  {      568.22      -531.42       429.81      -527.48       568.22      -396.30       429.81      -506.85       429.81      -543.86       568.22      -541.81}
+  {      429.81      -527.48       410.74      -519.76}
+  {      429.81      -527.48       437.16      -525.75}
+  {      429.81      -527.48       429.74      -501.02}
+  {      429.81      -527.48       427.08      -544.02}
+  {      429.81      -527.48       109.81      -516.77       429.81      -506.85       109.81      -348.27       109.81      -546.06       429.81      -543.86}
+  {      109.81      -516.77       363.52      -525.28}
+  {      109.81      -516.77        37.83      -485.28}
+  {      109.81      -516.77       107.21      -453.31}
+  {      109.81      -516.77       106.73      -546.06}
+  {      109.81      -516.77       416.73      -547.95       109.81      -348.27       416.73      -326.38       416.73      -567.95       109.81      -546.06}
+  {      416.73      -547.95       418.20      -521.97}
+  {      416.73      -547.95       356.22      -512.20}
+  {      416.73      -547.95       420.91      -432.83}
+  {      416.73      -547.95       416.47      -567.95}
+  {      416.73      -547.95       831.42      -407.64       416.73      -326.38       831.42      -186.06       831.42      -427.64       416.73      -567.95}
+  {      416.73      -547.95       636.40      -487.64}
+  {      416.73      -547.95       810.03      -393.78}
+  {      416.73      -547.95       927.17      -353.78}
+  {      416.73      -547.95       930.83      -361.81}
+  {      416.73      -547.95       885.54      -398.35}
+  {      416.73      -547.95       682.77      -460.39}
+  {      109.81      -516.77       -53.58      -491.26       109.81      -348.27       -53.58      -405.59       -53.58      -504.80       109.81      -546.06}
+  {      -53.58      -491.26      -114.47      -483.54}
+  {      -53.58      -491.26         3.75      -469.37}
+  {      -53.58      -491.26       -50.70      -435.67}
+  {      -53.58      -491.26       -53.31      -504.80}
+  {      -53.58      -491.26       304.95      -407.17       -53.58      -405.59       304.95       -46.54       304.95      -427.80       -53.58      -504.80}
+  {      304.95      -407.17       177.24      -413.62}
+  {      304.95      -407.17       306.26      -378.35}
+  {      304.95      -407.17       305.37      -337.72}
+  {      304.95      -407.17       300.54      -427.80}
+  {      304.95      -407.17       577.54      -417.56       304.95       -46.54       577.54      -409.06       577.54      -433.78       304.95      -427.80}
+  {      577.54      -417.56       959.48      -408.11}
+  {      577.54      -417.56       727.95      -415.20}
+  {      577.54      -417.56       567.21      -331.73}
+  {      577.54      -417.56       577.22      -433.78}
+  {      577.54      -417.56       910.51      -415.35       577.54      -409.06       910.51      -406.85       910.51      -431.57       577.54      -433.78}
+  {      910.51      -415.35       878.11      -432.05}
+  {      910.51      -415.35      1048.79      -403.70}
+  {      910.51      -415.35       912.33      -364.80}
+  {      910.51      -415.35       912.70      -438.98}
+  {      910.51      -415.35      1376.29      -514.09       910.51      -406.85      1376.29      -514.09      1376.29      -514.09       910.51      -431.57}
+  {     1376.29      -514.09      1595.77      -565.91      1376.29      -514.09      1595.77      -480.55      1595.77      -592.83      1376.29      -514.09}
+  {     1595.77      -565.91      1585.68      -550.00}
+  {     1595.77      -565.91      1789.13      -519.76}
+  {     1595.77      -565.91      1599.11      -510.16}
+  {     1595.77      -565.91      1607.79      -592.99}
+  {     1595.77      -565.91      1674.65      -581.02      1595.77      -480.55      1674.65      -573.62      1674.65      -600.55      1595.77      -592.83}
+  {     1595.77      -565.91      1681.30      -583.07}
+  {      577.54      -417.56       837.93      -468.58       577.54      -409.06       837.93      -366.69       837.93      -494.57       577.54      -433.78}
+  {      837.93      -468.58       472.72      -353.15}
+  {      837.93      -468.58       825.85      -438.66}
+  {      837.93      -468.58       852.91      -364.49}
+  {      837.93      -468.58       838.57      -494.57}
+  {      837.93      -468.58      1293.94      -450.31       837.93      -366.69      1293.94       -85.43      1293.94      -466.22       837.93      -494.57}
+  {     1293.94      -450.31      1403.74      -428.90}
+  {     1293.94      -450.31      1216.82      -413.15}
+  {     1293.94      -450.31      1303.26      -336.93}
+  {     1293.94      -450.31      1296.83      -466.38}
+  {     1293.94      -450.31      1722.89      -517.40      1293.94       -85.43      1722.89      -393.94      1722.89      -551.42      1293.94      -466.22}
+  {     1722.89      -517.40      1397.29      -405.75}
+  {     1722.89      -517.40      1801.77      -435.51}
+  {     1722.89      -517.40      1721.58      -384.33}
+  {     1722.89      -517.40      1727.01      -551.26}
+  {     1722.89      -517.40      1893.08      -521.34      1722.89      -393.94      1893.08      -300.71      1893.08      -528.43      1722.89      -551.42}
+  {     1893.08      -521.34      1942.79      -471.57}
+  {     1893.08      -521.34      1822.07      -441.97}
+  {     1893.08      -521.34      1916.14      -395.83}
+  {     1893.08      -521.34      1892.52      -528.43}
+  {     1893.08      -521.34      2387.42      -476.30      1893.08      -300.71      2387.42      -296.77      2387.42      -501.02      1893.08      -528.43}
+  {     2387.42      -476.30      2395.02      -434.88}
+  {     2387.42      -476.30      2518.37      -445.75}
+  {     2387.42      -476.30      2492.84      -467.01}
+  {     2387.42      -476.30      2524.08      -470.79}
+  {     2387.42      -476.30      2367.13      -401.02}
+  {     2387.42      -476.30      2336.15      -343.39}
+  {     2387.42      -476.30      2388.29      -501.02}
+  {     2387.42      -476.30      2683.64      -518.50      2387.42      -296.77      2683.64      -518.03      2683.64      -518.50      2387.42      -501.02}
+  {     2683.64      -518.50      3106.59      -485.28}
+  {     2683.64      -518.50      2987.86      -496.14      2683.64      -518.03      2987.86      -443.39      2987.86      -525.28      2683.64      -518.50}
+  {     2987.86      -496.14      2965.45      -487.48}
+  {     2987.86      -496.14      2997.88      -498.66}
+  {     2987.86      -496.14      2983.10      -461.02}
+  {     2987.86      -496.14      2990.78      -525.28}
+  {     2987.86      -496.14      3367.82      -490.16      2987.86      -443.39      3367.82      -437.40      3367.82      -519.29      2987.86      -525.28}
+  {     2987.86      -496.14      3128.15      -495.20}
+  {     2987.86      -496.14      3267.48      -479.29}
+  {     2987.86      -496.14      3328.14      -494.88}
+  {     2987.86      -496.14      3384.23      -490.47}
+  {     2987.86      -496.14      3379.70      -492.68}
+  {     2987.86      -496.14      3231.24      -501.50}
+  {     2987.86      -496.14      3006.52      -492.36}
+  {     2387.42      -476.30      2613.92      -490.16      2387.42      -296.77      2613.92      -308.11      2613.92      -505.28      2387.42      -501.02}
+  {     2613.92      -490.16      2831.34      -444.96}
+  {     2613.92      -490.16      2562.16      -454.09}
+  {     2613.92      -490.16      2628.07      -306.69}
+  {     2613.92      -490.16      2613.62      -498.82}
+  {     -958.60      -490.16      -716.83      -466.85      -958.60      -308.11      -716.83      -277.56      -716.83      -475.83      -958.60      -505.28}
+  {     -716.83      -466.85      -605.74      -419.76}
+  {     -716.83      -466.85      -574.92      -360.87}
+  {     -716.83      -466.85      -691.33      -373.31}
+  {     -716.83      -466.85      -716.16      -475.83}
+  {     -716.83      -466.85      -456.33      -449.21      -716.83      -277.56      -456.33      -259.92      -456.33      -458.19      -716.83      -475.83}
+  {     -716.83      -466.85      -456.58      -449.69}
+  {     -716.83      -466.85      -663.96      -181.65      -902.95      -432.35      -850.08      -147.16      -655.14      -183.29      -708.00      -468.49}
+  {     -716.83      -466.85      -695.26      -133.46      -905.72      -454.63      -884.16      -121.25      -686.30      -134.04      -707.87      -467.43}
+  {     -456.33      -449.21      -493.80      -443.07}
+  {     -456.33      -449.21      -432.69      -414.09}
+  {     -456.33      -449.21      -425.37      -476.30}
+  {     -313.44      -465.12      -310.25      -458.19}
+  {     -313.44      -465.12      -298.86      -445.28}
+  {     -313.44      -465.12      -306.26      -415.35}
+  {     -313.44      -465.12      -314.03      -475.20}
+  {     -456.33      -449.21      -137.07      -484.96}
+  {     -456.33      -449.21      -313.44      -465.12      -456.33      -401.97      -313.44      -417.87      -313.44      -475.04      -456.33      -459.13}
+  {     -313.44      -465.12      -237.13      -453.78      -313.44      -417.87      -237.13      -406.54      -237.13      -463.70      -313.44      -475.04}
+  {     -237.13      -453.78      -239.39      -448.90}
+  {     -237.13      -453.78      -238.94      -457.72}
+  {     -237.13      -453.78      -233.60      -444.02}
+  {     -237.13      -453.78      -233.78      -466.22}
+  {     -237.13      -453.78       -60.71      -492.52}
+  {     -716.83      -466.85      -535.49      -435.04      -716.83      -277.56      -535.49      -247.95      -535.49      -454.72      -716.83      -475.83}
+  {      -60.71      -492.52        42.74      -466.22}
+  {     -535.49      -435.04      -572.78      -420.87}
+  {     -535.49      -435.04      -730.91      -405.75}
+  {     -535.49      -435.04      -527.14      -381.81}
+  {     -535.49      -435.04      -531.53      -454.57}
+  {     -535.49      -435.04      -325.42      -452.36      -535.49      -247.95      -325.42      -161.97      -325.42      -473.31      -535.49      -454.72}
+  {     -325.42      -452.36      -515.88      -435.35}
+  {     -325.42      -452.36      -494.06      -434.88}
+  {     -325.42      -452.36      -437.28      -449.84}
+  {     -325.42      -452.36      -347.46      -442.76}
+  {     -325.42      -452.36      -360.33      -433.78}
+  {     -325.42      -452.36      -407.34      -403.39}
+  {     -325.42      -452.36      -162.96      -391.57}
+  {     -325.42      -452.36      -251.91      -344.65}
+  {     -325.42      -452.36      -259.31      -226.54}
+  {     -325.42      -452.36      -330.37      -344.02}
+  {     -325.42      -452.36      -332.04      -357.87}
+  {     -325.42      -452.36      -327.54      -473.31}
+  {     -325.42      -452.36        84.09      -404.17      -325.42      -161.97        84.09      -127.48        84.09      -464.33      -325.42      -473.31}
+  {       84.09      -404.17         4.29      -382.91}
+  {       84.09      -404.17        48.07      -397.87}
+  {       84.09      -404.17       152.04      -446.54}
+  {       84.09      -404.17       236.10       -78.19        84.09      -127.48       236.10       198.50       236.10      -138.35        84.09      -464.33}
+  {       84.09      -404.17       168.83      -464.33}
+  {       84.09      -404.17       385.09      -377.40        84.09      -127.48       385.09      -287.32       385.09      -418.82        84.09      -464.33}
+  {      385.09      -377.40       -52.66      -356.61}
+  {      385.09      -377.40       455.54      -360.55}
+  {      385.09      -377.40       406.89      -418.66}
+  {      385.09      -377.40       410.23      -378.50}
+  {      385.09      -377.40       808.50      -333.62       385.09      -287.32       808.50      -198.03       808.50      -428.74       385.09      -418.82}
+  {      808.50      -333.62       885.50      -428.74}
+  {      808.50      -333.62      1116.14      -418.03}
+  {      808.50      -333.62       882.72      -241.34}
+  {      808.50      -333.62       996.26      -182.60}
+  {      808.50      -333.62       801.41      -127.95}
+  {      808.50      -333.62       811.37      -205.12}
+  {      808.50      -333.62       820.44      -347.01}
+  {      808.50      -333.62       821.49      -227.48}
+  {      808.50      -333.62       806.96      -349.69}
+  {      808.50      -333.62      1758.95        18.03       808.50      -198.03      1758.95       454.72      1758.95       -95.83       808.50      -428.74}
+  {     1758.95        18.03      1681.33        -1.18}
+  {     1758.95        18.03      1206.42       -95.83}
+  {     1758.95        18.03      1490.33       -67.32}
+  {     1758.95        18.03      1438.88       -59.76}
+  {     1758.95        18.03      1363.29       -65.91}
+  {     1758.95        18.03      1504.88       -65.75}
+  {     1758.95        18.03      1533.48       -68.58}
+  {     1758.95        18.03      1678.14       -21.65}
+  {     1758.95        18.03      1750.91       219.92}
+  {     1758.95        18.03      1754.40       -22.76}
+  {     1758.95        18.03      2233.74       272.52      1758.95       454.72      2233.74       709.21      2233.74       158.66      1758.95       -95.83}
+  {     2233.74       272.52      2126.85       120.24}
+  {     2233.74       272.52      2173.89       260.87}
+  {     2233.74       272.52      2241.97       366.54}
+  {     2233.74       272.52      2318.78       332.52}
+  {     2233.74       272.52      2236.37       199.92}
+  {     2233.74       272.52      2412.54       365.59}
+  {      385.09      -377.40       716.35      -337.72       385.09      -287.32       716.35      -247.64       716.35      -379.13       385.09      -418.82}
+  {      716.35      -337.72       742.28      -385.12}
+  {      716.35      -337.72       767.55      -319.29}
+  {      716.35      -337.72       747.50      -256.46}
+  {      716.35      -337.72       733.39      -262.91}
+  {      716.35      -337.72       698.05      -328.27}
+  {      716.35      -337.72       720.72      -356.46}
+  {      716.35      -337.72       879.78      -359.45       716.35      -247.64       879.78      -190.79       879.78      -391.73       716.35      -379.13}
+  {      879.78      -359.45      1138.66      -372.52       879.78      -190.79      1138.66      -255.98      1138.66      -402.76       879.78      -391.73}
+  {      879.78      -359.45       904.09      -349.21}
+  {      879.78      -359.45       903.27      -272.68}
+  {      879.78      -359.45       912.49      -222.91}
+  {      879.78      -359.45       925.83      -341.02}
+  {      879.78      -359.45       905.68      -391.73}
+  {     1138.66      -372.52      1126.62      -402.76}
+  {     1138.66      -372.52      1153.71      -267.80}
+  {     1138.66      -372.52      1248.23      -349.37}
+  {     1138.66      -372.52      1137.50      -383.86}
+  {     1138.66      -372.52      1555.42      -166.54      1138.66      -255.98      1555.42        10.47      1555.42      -193.15      1138.66      -402.76}
+  {     1555.42      -166.54      1366.12      -193.15}
+  {     1555.42      -166.54      1558.34       -76.46}
+  {     1555.42      -166.54      1640.59      -181.50}
+  {     1555.42      -166.54      1635.03       -58.98}
+  {     1555.42      -166.54      1734.68       -82.60      1555.42        10.47      1734.68         5.12      1734.68       -85.43      1555.42      -193.15}
+  {     1734.68       -82.60      1814.10       -85.43}
+  {     1734.68       -82.60      1746.14       -69.37}
+  {     1734.68       -82.60      1731.45       -62.44}
+  {     1734.68       -82.60      1686.61       -75.04}
+  {     1734.68       -82.60      1790.06       -60.24      1734.68         5.12      1790.06        27.48      1790.06       -63.07      1734.68       -85.43}
+  {     1790.06       -60.24      1813.56       -56.77}
+  {     1790.06       -60.24      1794.80       -14.09}
+  {     1790.06       -60.24      1825.91        49.69}
+  {     1790.06       -60.24      1743.78       -11.73}
+  {     1790.06       -60.24      1786.17       -70.47}
+  {     1555.42      -166.54      1556.40      -185.91      1732.21      -157.59      1556.40      -185.91      1556.40      -185.91      1528.84      -167.88}
+  {     1556.40      -185.91      1712.72      -241.18      1556.40      -185.91      1712.72      -241.18      1712.72      -241.18      1556.40      -185.91}
+  {     1712.72      -241.18      1693.70      -190.94}
+  {     1712.72      -241.18      1722.90      -240.39}
+  {     1712.72      -241.18      1713.75      -180.55}
+  {     1712.72      -241.18      1717.50      -102.76}
+  {     1712.72      -241.18      1687.47      -220.24}
+  {     1712.72      -241.18      1750.06      -316.14}
+  {     1712.72      -241.18      1729.83      -284.65}
+  {     1712.72      -241.18      1940.10      -364.65}
+  {      879.78      -359.45      1037.54      -370.00       879.78      -190.79      1037.54      -288.90      1037.54      -386.06       879.78      -391.73}
+  {     1037.54      -370.00      1019.15      -353.46}
+  {     1037.54      -370.00      1051.11      -303.70}
+  {     1037.54      -370.00      1113.42      -279.61}
+  {     1037.54      -370.00      1122.41      -332.36}
+  {     1037.54      -370.00      1049.81      -386.22}
+  {     1037.54      -370.00      1387.35      -381.02      1037.54      -288.90      1387.35      -315.98      1387.35      -401.34      1037.54      -386.06}
+  {     1387.35      -381.02      1320.76      -367.64}
+  {     1387.35      -381.02      1471.22      -361.65}
+  {     1387.35      -381.02      1552.33      -358.82}
+  {     1387.35      -381.02      1601.62      -372.83}
+  {     1387.35      -381.02      1524.67      -375.67}
+  {     1387.35      -381.02      1381.34      -360.55}
+  {     1387.35      -381.02      1389.85      -323.39}
+  {     1387.35      -381.02      1387.91      -401.34}
+  {     1387.35      -381.02      1486.87      -368.58      1387.35      -315.98      1486.87      -244.96      1486.87      -387.17      1387.35      -401.34}
+  {     1486.87      -368.58      1570.92      -368.58}
+  {     1486.87      -368.58      1654.50      -334.41}
+  {     1486.87      -368.58      1305.77      -332.83}
+  {     1486.87      -368.58      1368.84      -351.42}
+  {     1486.87      -368.58      1437.08      -358.82}
+  {     1486.87      -368.58      1342.57      -372.83}
+  {     1486.87      -368.58      1599.86      -342.60}
+  {     1486.87      -368.58      1501.59      -315.98}
+  {     1486.87      -368.58      1496.91      -387.17}
+  {     1486.87      -368.58      1688.45      -371.73}
+  {     1486.87      -368.58      1622.61      -368.27      1486.87      -244.96      1622.61      -237.09      1622.61      -374.25      1486.87      -387.17}
+  {     1622.61      -368.27      1646.61      -367.32}
+  {     1622.61      -368.27      1750.57      -299.61}
+  {     1622.61      -368.27      1679.83      -300.71}
+  {     1622.61      -368.27      1605.60      -364.80}
+  {     1622.61      -368.27      1626.59      -329.21}
+  {     1622.61      -368.27      1622.57      -374.25}
+  {     1622.61      -368.27      1735.94      -337.87      1622.61      -237.09      1735.94      -232.20      1735.94      -394.57      1622.61      -374.25}
+  {     1735.94      -337.87      1735.94        55.83      1630.27      -337.87      1630.27        55.83      1792.63        55.83      1792.63      -337.87}
+  {     1622.61      -368.27      1721.47      -340.71}
+  {     1735.94      -337.87      1854.21      -326.38}
+  {     1735.94      -337.87      1819.22      -329.37}
+  {     1735.94      -337.87      1870.44      -345.91}
+  {     1735.94      -337.87      1806.05      -394.41}
+  {     1735.94      -337.87      1737.98      -367.01}
+  {     1735.94      -337.87      1787.07      -260.08}
+  {     1735.94      -337.87      1863.36      -251.26}
+  {     1735.94      -337.87      1832.19      -150.16}
+  {     1735.94      -337.87      1696.74      -187.32}
+  {     1735.94      -337.87      1633.53       -16.77}
+  {     1735.94      -337.87      1918.29         6.06}
+  {     1735.94      -337.87      1667.53       -20.24}
+  {     1735.94      -337.87      1891.92      -411.10      1735.94      -232.20      1891.92      -349.84      1891.92      -419.92      1735.94      -394.57}
+  {     1891.92      -411.10      2059.11      -339.76}
+  {     1891.92      -411.10      1861.68      -412.36}
+  {     1891.92      -411.10      1889.58      -357.72}
+  {     1891.92      -411.10      1884.42      -420.08}
+  {     1891.92      -411.10      2222.60      -412.20      1891.92      -349.84      2222.60      -320.24      2222.60      -447.80      1891.92      -419.92}
+  {     2222.60      -412.20      2172.00      -385.12}
+  {     2222.60      -412.20      2208.24      -356.30}
+  {     2222.60      -412.20      2121.07      -428.90}
+  {     2222.60      -412.20      2162.79      -447.80}
+  {     2222.60      -412.20      2207.26       -73.46}
+  {     2222.60      -412.20      2192.26      -103.70}
+  {     2222.60      -412.20      2613.92      -490.16      2222.60      -320.24      2613.92      -308.11      2613.92      -505.28      2222.60      -447.80}
+  {     2613.92      -490.16      2596.01      -498.35}
+  {     2613.92      -490.16      2488.60      -498.03}
+  {     2613.92      -490.16      2406.16      -500.24}
+  {     2613.92      -490.16      2655.97      -505.28}
+  {     2613.92      -490.16      2730.87      -493.94}
+  {     2613.92      -490.16      2822.94      -494.88}
+  {     1457.24      -621.81      1561.75      -547.17}
+  {     1457.24      -621.81      1465.29      -542.76}
+  {     1457.24      -621.81      1584.85      -599.92}
+  {     1457.24      -621.81      1485.08      -647.95}
+  {    -1508.00      -621.81     -1166.96      -579.76     -1508.00      -199.13     -1166.96      -256.93     -1166.96      -627.95     -1508.00      -647.95}
+  {    -1166.96      -579.76     -1173.30      -518.50}
+  {    -1166.96      -579.76     -1160.08      -538.19}
+  {    -1166.96      -579.76     -1254.65      -627.80}
+  {    -1166.96      -579.76     -1241.21      -556.14}
+  {    -1166.96      -579.76     -1175.80      -603.70}
+  {    -1166.96      -579.76      -911.06      -572.05     -1166.96      -256.93      -911.06      -472.83      -911.06      -682.76     -1166.96      -627.95}
+  {     -911.06      -572.05      -941.43      -545.28}
+  {     -911.06      -572.05      -814.38      -565.12}
+  {     -911.06      -572.05     -1054.01      -634.72}
+  {     -911.06      -572.05      -922.62      -682.60}
+  {     -911.06      -572.05      -898.63      -572.83}
+  {     -911.06      -572.05      -914.66      -601.18}
+  {     -911.06      -572.05      -500.10      -604.33      -911.06      -472.83      -500.10      -393.15      -500.10      -635.35      -911.06      -682.76}
+  {     -500.10      -604.33      -429.01      -635.51}
+  {     -500.10      -604.33      -611.42      -530.47}
+  {     -500.10      -604.33      -521.65      -544.65}
+  {     -500.10      -604.33      -496.21      -629.53}
+  {     -500.10      -604.33      -365.49      -630.16      -500.10      -393.15      -365.49      -292.05      -365.49      -655.67      -500.10      -635.35}
+  {     -365.49      -630.16      -349.68      -628.27}
+  {     -365.49      -630.16      -348.01      -590.31}
+  {     -365.49      -630.16        -4.03      -570.79}
+  {     -365.49      -630.16      -344.99      -655.67}
+  {     -365.49      -630.16      -164.44      -639.13      -365.49      -292.05      -164.44      -512.36      -164.44      -676.77      -365.49      -655.67}
+  {     -164.44      -639.13        58.30      -599.76}
+  {     -164.44      -639.13      -126.24      -584.65}
+  {     -164.44      -639.13       -10.42      -353.15      -164.44      -512.36       -10.42      -226.38       -10.42      -390.79      -164.44      -676.77}
+  {     -164.44      -639.13      -180.67      -555.20}
+  {     -164.44      -639.13      -199.49      -579.61}
+  {     -164.44      -639.13      -164.42      -676.93}
+  {     -164.44      -639.13        32.04      -612.36      -164.44      -512.36        32.04      -247.01        32.04      -633.62      -164.44      -676.77}
+  {       32.04      -612.36        68.29      -619.92}
+  {       32.04      -612.36        41.83      -602.28}
+  {       32.04      -612.36        29.88      -593.31}
+  {       32.04      -612.36       -49.68      -599.61}
+  {       32.04      -612.36      -514.43      -585.91}
+  {       32.04      -612.36       -46.83      -591.73}
+  {       32.04      -612.36        20.15      -633.62}
+  {       32.04      -612.36       224.30      -612.36        32.04      -247.01       224.30      -545.12       224.30      -634.88        32.04      -633.62}
+  {      224.30      -612.36       137.34      -620.87}
+  {      224.30      -612.36       170.78      -575.67}
+  {      224.30      -612.36       223.49      -587.80}
+  {      224.30      -612.36       259.92      -599.29}
+  {      224.30      -612.36       223.74      -634.88}
+  {      224.30      -612.36       220.24      -597.72}
+  {      224.30      -612.36       263.83      -608.27}
+  {      224.30      -612.36       242.02      -634.57}
+  {      224.30      -612.36       464.82      -618.98       224.30      -545.12       464.82      -551.73       464.82      -641.50       224.30      -634.88}
+  {      464.82      -618.98       409.50      -610.94}
+  {      464.82      -618.98       540.60      -596.46}
+  {      464.82      -618.98       491.00      -590.31}
+  {      464.82      -618.98       476.90      -395.83}
+  {      464.82      -618.98       626.64      -672.68}
+  {      464.82      -618.98       602.66      -614.72}
+  {      464.82      -618.98       515.38      -665.75}
+  {      464.82      -618.98       561.87      -642.44       464.82      -551.73       561.87      -642.44       561.87      -642.44       464.82      -641.50}
+  {      561.87      -642.44       684.20      -623.23       561.87      -642.44       684.20      -392.20       684.20      -623.23       561.87      -642.44}
+  {      684.20      -623.23       691.54      -612.68}
+  {      684.20      -623.23       750.55      -506.06}
+  {      684.20      -623.23       706.38      -599.45}
+  {      684.20      -623.23       667.61      -610.47}
+  {      684.20      -623.23       576.66      -621.97}
+  {      684.20      -623.23       862.65      -626.85       684.20      -392.20       862.65      -395.83       862.65      -626.85       684.20      -623.23}
+  {      862.65      -626.85       940.35      -612.68}
+  {      862.65      -626.85       948.85      -647.32}
+  {      862.65      -626.85       943.29      -569.84}
+  {      862.65      -626.85       861.12      -601.18}
+  {      862.65      -626.85       961.85      -634.25}
+  {      862.65      -626.85       937.40      -658.66}
+  {      937.40      -658.66      1119.80      -635.20}
+  {     1119.80      -635.20      1421.74      -614.72}
+  {     1421.74      -614.72      1457.24      -621.81      1421.74      -192.05      1457.24      -199.13      1457.24      -647.95      1421.74      -640.87}
+}
+set XVIgrid  {-4168.1 -2015.83 78.7402 0.0 0.0 78.7402 106 51}

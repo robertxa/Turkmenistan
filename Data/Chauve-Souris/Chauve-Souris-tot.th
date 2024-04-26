@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Chauve-Souris -title "Grotte des Chauves-Souris"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Chauve-Souris.th
+	
+	# Import du dessin en plan
+	#input Data/Chauve-Souris.th2
+
+	# Import du dessin en coupe
+	#input Data/Chauve-Souris-coupe.th2
+
+	# Import des maps
+	#input Chauve-Souris-maps.th
+ 
+ endsurvey
+ 

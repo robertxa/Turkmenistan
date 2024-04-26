@@ -1,0 +1,202 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Alex7.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 332 stations, connectées par 331 visées.
+ 6> Il y a 0 bouclages.
+ 7> Longueur totale de la topographie =  567.23m ( 567.23m ajusté)
+ 8> Longueur totale en projection horizontale =  561.43m
+ 9> Longueur totale verticale =   54.62m
+10> Intervalle vertical = 16.25m (de 56 à 7.62m jusqu’à 332 à -8.63m)
+11> Intervalle Nord-Sud = 225.25m (de 263 à 87.38m jusqu’à 153 à -137.86m)
+12> Intervalle Est-Ouest = 182.70m (de 129 à 129.98m jusqu’à 300 à -52.72m)
+13>  293 1-nœuds.
+14>    1 2-nœud.
+15>    1 4-nœud.
+16>    1 5-nœud.
+17>    1 6-nœud.
+18>    7 8-nœuds.
+19>    9 9-nœuds.
+20>   10 10-nœuds.
+21>    3 11-nœuds.
+22>    4 12-nœuds.
+23>    1 16-nœud.
+24>    1 18-nœud.
+25> 
+######################### transcription ########################
+ 3> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+ 5> 332 : 41@Geophysicalskaya_07.Alex7 -- 331 : .@Geophysicalskaya_07.Alex7
+10> 56 : .@Geophysicalskaya_07.Alex7 -- 332 : 41@Geophysicalskaya_07.Alex7
+11> 263 : .@Geophysicalskaya_07.Alex7 -- 153 : .@Geophysicalskaya_07.Alex7
+12> 129 : 14@Geophysicalskaya_07.Alex7 -- 300 : .@Geophysicalskaya_07.Alex7
+13> 293 : .@Geophysicalskaya_07.Alex7
+14> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+15> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+16> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+17> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+18> 7 : .@Geophysicalskaya_07.Alex7
+19> 9 : .@Geophysicalskaya_07.Alex7
+20> 10 : 2@Geophysicalskaya_07.Alex7
+21> 3 : .@Geophysicalskaya_07.Alex7
+22> 4 : .@Geophysicalskaya_07.Alex7
+23> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+24> 1 : PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- Alex7.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+therion: warning -- Alex7.thconfig [303] -- object not found -- "MP-Alex7-plan"
+
+therion: warning -- Alex7.thconfig [304] -- object not found -- "MC-Alex7-coupe"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Alex7-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  16 APR 2024 15:32
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 6019 strings using 177109 characters
+ 3719792 bytes of node memory
+ 1740 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  16 APR 2024 15:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 494671
+ 3884 string characters out of 6148971
+ 68008 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 16503 words of font info for 54 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb>
+Output written on data.pdf (1 page, 27288 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Alex7-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  16 APR 2024 15:32
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 6122 strings using 183078 characters
+ 3736832 bytes of node memory
+ 1741 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  16 APR 2024 15:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 299 strings out of 494671
+ 4090 string characters out of 6148971
+ 72227 words of memory out of 5000000
+ 1930 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,322b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 49823 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Alex7.lox ... done
+therion: warning -- data not georeferenced -- unable to export KML file
+therion: warning -- data not georeferenced -- unable to export KML file
+writing Outputs/Alex7.html ... done
+compilation time: 3 sec

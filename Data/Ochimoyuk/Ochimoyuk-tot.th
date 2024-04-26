@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Ochimoyuk -title "Ochimoyuk"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Entree/Entree-tot.th
+	input Data/Fond/AshimyukFond-tot.th
+		equate B3@AshimyukFond.AshimyukFond B3@Entree2.Entree
+	
+	input Data/Boucle1/Boucle1-tot.th
+		equate B00@ochy_muyuk.Boucle1 B00@Entree2.Entree
+
+	
+	# Import des maps
+	#input Ochimoyuk-maps.th
+ 
+ endsurvey
+ 

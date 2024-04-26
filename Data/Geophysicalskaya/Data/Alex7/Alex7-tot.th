@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Alex7 -title "Alex7"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Geophysicalskaya_07.th
+	
+	# Import du dessin en plan
+	#input Data/Alex7.th2
+
+	# Import du dessin en coupe
+	#input Data/Alex7-coupe.th2
+
+	# Import des maps
+	#input Alex7-maps.th
+ 
+ endsurvey
+ 

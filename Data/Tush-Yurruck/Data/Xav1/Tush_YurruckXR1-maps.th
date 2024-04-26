@@ -1,0 +1,22 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Tush_YurruckXR1 -title "Tush Yurruck XR1"
+	SP-Xav1-1
+	break
+	SP-Xav1-2
+	break
+	SP-Xav1-3
+	break
+	SP-Xav1-5
+	break
+	SP-Xav1-4
+endmap
+
+#map MC-Tush_YurruckXR1 -title "Tush_YurruckXR1"
+#	SC-Tush_YurruckXR1-1
+#endmap
+   

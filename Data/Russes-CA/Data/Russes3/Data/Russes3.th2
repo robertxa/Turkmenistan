@@ -1,0 +1,70 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 285.0 250.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {118.898 1 1.0} {69.7594 0} Russes3-map.xvi 0 {}
+
+
+
+scrap SP-Russes3-1 -projection plan -station-names "" "@Russes3" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+point 95.75 121.0 entrance -orientation 189.6
+
+point 64.5 84.5 air-draught -orientation 9.4
+
+line rock-border -close on
+  119.5 67.0
+  112.25 82.75
+  117.75 83.0
+  125.5 64.75
+  119.5 67.0
+endline
+
+point 155.75 49.75 breakdown-choke -orientation 302.5
+
+line wall -subtype invisible
+  102.25 106.5
+  102.25 106.5 96.5 113.5 88.0 108.75
+  altitude .
+endline
+
+line wall -subtype blocks
+  154.0 54.75
+  altitude .
+  154.0 54.75 137.0 66.0 134.5 70.25
+  132.0 74.5 124.5 81.5 119.75 83.75
+  115.0 86.0 108.25 91.0 107.75 82.75
+  107.25 74.5 111.75 74.0 108.25 71.5
+  104.75 69.0 104.25 68.5 101.5 69.25
+  98.75 70.0 96.5 75.0 95.75 79.75
+  95.0 84.5 95.0 83.75 95.25 90.5
+  95.5 97.25 94.75 105.5 96.75 106.0
+  98.75 106.5 102.25 106.5 102.25 106.5
+  smooth off
+endline
+
+line wall -subtype blocks
+  88.0 108.75
+  88.0 108.75 91.5 107.75 91.5 105.5
+  91.5 103.25 88.25 90.25 88.0 87.25
+  87.75 84.25 87.75 80.0 85.25 77.75
+  82.75 75.5 80.75 75.75 84.5 70.25
+  88.25 64.75 88.75 64.25 96.75 62.0
+  104.75 59.75 113.5 57.0 116.75 57.75
+  120.0 58.5 120.75 63.25 125.75 59.75
+  130.75 56.25 149.75 49.0 149.75 49.0
+  smooth off
+endline
+
+point 94.328 105.9794 station -name 4
+
+point 90.868 87.8694 station -name 3
+
+point 100.94800000000001 63.4694 station -name 2
+
+point 118.898 69.7594 station -name 0
+
+point 146.458 53.5394 station -name 1
+
+endscrap
+
+

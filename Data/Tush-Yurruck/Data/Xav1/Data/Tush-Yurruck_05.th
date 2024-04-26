@@ -1,0 +1,36 @@
+# 2024.04.19 created by TopoDroid v 5.1.40
+
+survey Tush-Yurruck_05 -title "Tush-Yurruck 05"
+
+  centerline
+    date 2024.04.19 
+    # team Alex / Clan des Tritons Lyon 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend ignore
+    00 1 16.68 91.4 -11.5
+    # extend auto
+    1 . 0.61 183.1 0.6
+    1 . 0.95 192.3 78.2
+    1 . 0.87 131.3 -79.2
+    extend right
+    1 2 1.87 119.6 -40.6
+    # extend auto
+    2 . 0.36 12.3 -6.0
+    2 . 0.29 230.9 83.2
+    2 . 0.56 247.6 9.8
+    2 . 0.43 238.5 -58.4
+    extend right
+    2 3 4.55 91.1 -2.4
+    # extend auto
+    3 . 0.61 38.7 11.7
+    3 . 0.89 120.1 61.4
+    3 . 1.38 119.7 56.4
+    3 . 0.55 179.5 4.0
+    3 . 0.74 212.1 -82.0
+  endcenterline
+
+
+
+endsurvey

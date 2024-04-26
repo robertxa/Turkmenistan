@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThMapStyle"> <PolyStyle> <fill>1</fill> <outline>0</outline> </PolyStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconMap.png</href> </Icon>
+<name><![CDATA[Tush-Yurruck]]></name>
+<description><![CDATA[Longueur 3407 m<br>Dénivellation 50 m<br>]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Tush Yurruck]]></name>
+<Point> <coordinates>66.41443999048084,37.65694998763678,885.00000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
+<styleUrl>#ThMapStyle</styleUrl>
+<name><![CDATA[]]></name>
+<Style> <PolyStyle> <color>bfff0000</color> </PolyStyle> </Style>
+<MultiGeometry>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</kml>

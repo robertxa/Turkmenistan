@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 31.78m (surface 0.00m, duplicated 43.67m)\nvertical range: 12.59m (from 2.1.1@Escalade.Escalade at 12.59m to 1@Escalade.Escalade at 0.00m)\nnorth-south range: 31.65m (from 0@Escalade.Escalade at 6.34m to 2.1.1.2@Escalade.Escalade at -25.31m)\neast-west range: 36.49m (from 2.2@Escalade.Escalade at 31.30m to 0@Escalade.Escalade at -5.19m)\nnumber of shots: 55\nnumber of stations: 56"
+xth_cp_data_tree_insert 49 1 1 Escalade Escalade "Escalade" "Escalade" "length: 31.78m (surface 0.00m, duplicated 43.67m)\nvertical range: 12.59m (from 2.1.1@Escalade.Escalade at 12.59m to 1@Escalade.Escalade at 0.00m)\nnorth-south range: 31.65m (from 0@Escalade.Escalade at 6.34m to 2.1.1.2@Escalade.Escalade at -25.31m)\neast-west range: 36.49m (from 2.2@Escalade.Escalade at 31.30m to 0@Escalade.Escalade at -5.19m)\nnumber of shots: 55\nnumber of stations: 56"
+xth_cp_data_tree_insert 51 49 2 Escalade Escalade.Escalade "Geophysicalskaya, escalade " "Geophysicalskaya, escalade " "length: 31.78m (surface 0.00m, duplicated 43.67m)\nvertical range: 12.59m (from 2.1.1@Escalade.Escalade at 12.59m to 1@Escalade.Escalade at 0.00m)\nnorth-south range: 31.65m (from 0@Escalade.Escalade at 6.34m to 2.1.1.2@Escalade.Escalade at -25.31m)\neast-west range: 36.49m (from 2.2@Escalade.Escalade at 31.30m to 0@Escalade.Escalade at -5.19m)\nnumber of shots: 55\nnumber of stations: 56"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 78X1 p1 1 MP-Escalade MP-Escalade@Escalade "Escalade" "Escalade"
+xth_cp_map_tree_create
+xth_cp_comp_stat 32 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1713456366
+

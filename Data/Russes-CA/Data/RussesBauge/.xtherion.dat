@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 50.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.70m (from 16@RussesBauge.RussesBauge at 418.51m to 9@RussesBauge.RussesBauge at 414.81m)\nnorth-south range: 15.07m (from 14@RussesBauge.RussesBauge at 7356132.59m to 1@RussesBauge.RussesBauge at 7356117.52m)\neast-west range: 13.30m (from 14@RussesBauge.RussesBauge at 441116.83m to 4@RussesBauge.RussesBauge at 441103.53m)\nnumber of shots: 131\nnumber of stations: 132"
+xth_cp_data_tree_insert 51 1 1 RussesBauge RussesBauge "RussesBauge" "RussesBauge" "length: 50.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.70m (from 16@RussesBauge.RussesBauge at 418.51m to 9@RussesBauge.RussesBauge at 414.81m)\nnorth-south range: 15.07m (from 14@RussesBauge.RussesBauge at 7356132.59m to 1@RussesBauge.RussesBauge at 7356117.52m)\neast-west range: 13.30m (from 14@RussesBauge.RussesBauge at 441116.83m to 4@RussesBauge.RussesBauge at 441103.53m)\nnumber of shots: 131\nnumber of stations: 132"
+xth_cp_data_tree_insert 53 51 2 RussesBauge RussesBauge.RussesBauge "russesbauge" "russesbauge" "length: 50.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.70m (from 16@RussesBauge.RussesBauge at 418.51m to 9@RussesBauge.RussesBauge at 414.81m)\nnorth-south range: 15.07m (from 14@RussesBauge.RussesBauge at 7356132.59m to 1@RussesBauge.RussesBauge at 7356117.52m)\neast-west range: 13.30m (from 14@RussesBauge.RussesBauge at 441116.83m to 4@RussesBauge.RussesBauge at 441103.53m)\nnumber of shots: 131\nnumber of stations: 132"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 121X1 p1 1 MP-RussesBauge MP-RussesBauge@RussesBauge "RussesBauge" "RussesBauge"
+xth_cp_map_tree_create
+xth_cp_comp_stat 51 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1712851176
+

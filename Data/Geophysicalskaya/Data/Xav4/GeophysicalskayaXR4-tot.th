@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey GeophysicalskayaXR4 -title "GeophysicalskayaXR4"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/GeophysicalskayaXR4.th
+	
+	# Import du dessin en plan
+	input Data/GeophysicalskayaXR4.th2
+
+	# Import du dessin en coupe
+	#input Data/GeophysicalskayaXR4-coupe.th2
+
+	# Import des maps
+	input GeophysicalskayaXR4-maps.th
+ 
+ endsurvey
+ 

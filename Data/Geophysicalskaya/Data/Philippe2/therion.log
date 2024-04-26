@@ -1,0 +1,201 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Philippe2.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.5
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 79 stations, connectées par 78 visées.
+ 6> Il y a 0 bouclages.
+ 7> Longueur totale de la topographie =  211.83m ( 211.83m ajusté)
+ 8> Longueur totale en projection horizontale =  203.13m
+ 9> Longueur totale verticale =   45.41m
+10> Intervalle vertical = 27.34m (de 1 à 0.00m jusqu’à 41 à -27.34m)
+11> Intervalle Nord-Sud = 94.55m (de 70 à 87.11m jusqu’à 9 à -7.45m)
+12> Intervalle Est-Ouest = 128.10m (de 74 à 128.10m jusqu’à 1 à 0.00m)
+13>   64 1-nœuds.
+14>    2 5-nœuds.
+15>   10 6-nœuds.
+16>    2 7-nœuds.
+17>    1 8-nœud.
+18> 
+######################### transcription ########################
+ 3> 1 : PTR_FR24_A02_24@Geophysicaya_02.Philippe2
+ 5> 79 : .@Geophysicaya_02.Philippe2 -- 78 : .@Geophysicaya_02.Philippe2
+10> 1 : PTR_FR24_A02_24@Geophysicaya_02.Philippe2 -- 41 : .@Geophysicaya_02.Philippe2
+11> 70 : .@Geophysicaya_02.Philippe2 -- 9 : .@Geophysicaya_02.Philippe2
+12> 74 : 15@Geophysicaya_02.Philippe2 -- 1 : PTR_FR24_A02_24@Geophysicaya_02.Philippe2
+13> 64 : 13@Geophysicaya_02.Philippe2
+14> 2 : 1@Geophysicaya_02.Philippe2
+15> 10 : .@Geophysicaya_02.Philippe2
+16> 2 : 1@Geophysicaya_02.Philippe2
+17> 1 : PTR_FR24_A02_24@Geophysicaya_02.Philippe2
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- Philippe2.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+therion: warning -- Philippe2.thconfig [303] -- object not found -- "MP-Philippe2-plan"
+
+therion: warning -- Philippe2.thconfig [304] -- object not found -- "MC-Philippe2-coupe"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Philippe2-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  15 APR 2024 16:54
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3354 strings using 97208 characters
+ 3624320 bytes of node memory
+ 1740 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  15 APR 2024 16:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 494671
+ 3884 string characters out of 6148971
+ 34384 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 16503 words of font info for 54 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb>
+Output written on data.pdf (1 page, 19229 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+average distortion: 0.02%
+
+
+############### export maps & scraps selection #################
+M   -20.85 MP-Philippe2@Philippe2 (Philippe2)
+S   -20.85 SP-Geophysicalskaya_03@Philippe2 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Philippe2-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  15 APR 2024 16:54
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1]
+[Warning: scrap outline intersects itself in scrap SP-Geophysicalskaya_03@Phili
+ppe2] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3961 strings using 105885 characters
+ 3668112 bytes of node memory
+ 1741 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  15 APR 2024 16:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 303 strings out of 494671
+ 4140 string characters out of 6148971
+ 32300 words of memory out of 5000000
+ 1934 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 44911 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Philippe2.lox ....
+therion: warning -- SP-Geophysicalskaya_03@Philippe2 -- invalid scrap outline
+ done
+therion: warning -- data not georeferenced -- unable to export KML file
+therion: warning -- data not georeferenced -- unable to export KML file
+writing Outputs/Philippe2.html ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.02%    0.17%  SP-Geophysicalskaya_03@Philippe2
+################### end of scrap distortions ###################
