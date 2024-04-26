@@ -4,7 +4,7 @@ Caves' surveys of Koyten-dag (Turkmenistan)
 Overview
 --------
 
-This repository contains survey's data from Turkmenistan caves surveyed by the french expedition Koyten-dag 2024:
+This repository contains survey's data from Turkmenistan caves surveyed by the french expedition Koyten-dag 2024.
 
 
 Description
