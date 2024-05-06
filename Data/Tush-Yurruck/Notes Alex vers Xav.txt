@@ -1,0 +1,7 @@
+2024 05 06
+- Voir jonction dessin et superposition dans la zone Alex3 et Alex6
+- A finaliser le dessin
+- A finaliser les coordonnées et l'altitude
+- A finaliser les coordonnées dans le cartouche (entrance coordinate ?)
+- A voir si on fait une coupe (pas facile !)
+- Réduire taille des logos et du cartouche

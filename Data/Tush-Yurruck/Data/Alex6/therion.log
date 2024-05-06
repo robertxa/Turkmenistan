@@ -37,7 +37,7 @@ processing survey data ...
 24> 
 ######################### transcription ########################
  3> 1 : PTR_FR24_A79_00@Tush-Yurruck_06.Alex6
- 5> 159 : 21@Tush-Yurruck_06.Alex6 -- 158 : .@Tush-Yurruck_06.Alex6
+ 5> 159 : PTR_FR24_A65_21@Tush-Yurruck_06.Alex6 -- 158 : .@Tush-Yurruck_06.Alex6
 10> 9 : .@Tush-Yurruck_06.Alex6 -- 104 : .@Tush-Yurruck_06.Alex6
 11> 1 : PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 -- 121 : .@Tush-Yurruck_06.Alex6
 12> 67 : .@Tush-Yurruck_06.Alex6 -- 1 : PTR_FR24_A79_00@Tush-Yurruck_06.Alex6
@@ -64,6 +64,9 @@ C:\Program Files (x86)\Therion\therion.exe: warning -- Alex6.thconfig [303] -- o
 
 C:\Program Files (x86)\Therion\therion.exe: warning -- Alex6.thconfig [304] -- object not found -- "MC-Alex6-coupe"
 done
+processing projection plan ... done
+average distortion: 0.00%
+writing Data/Alex6-map.xvi ... done
 processing projection extended ... done
 
 
@@ -72,7 +75,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Alex6-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  19 APR 2024 15:08
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  28 APR 2024 07:15
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -83,7 +86,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
  
 Here is how much of MetaPost's memory you used:
- 3861 strings using 108661 characters
+ 3861 strings using 108551 characters
  2552068 bytes of node memory
  1743 symbolic tokens
  8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
@@ -94,7 +97,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  19 APR 2024 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  28 APR 2024 07:16
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -106,13 +109,13 @@ entering extended mode
 Here is how much of TeX's memory you used:
  273 strings out of 94604
  3855 string characters out of 1142524
- 41648 words of memory out of 5025376
+ 41640 words of memory out of 5025368
  1930 multiletter control sequences out of 15000+50000
  16503 words of font info for 54 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  7i,5n,6p,229b,42s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
-Output written on data.pdf (1 page, 20834 bytes).
+Output written on data.pdf (1 page, 20844 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
@@ -122,15 +125,16 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-processing projection plan ... done
 
 
 ############### export maps & scraps selection #################
-S     -.-- @ ()
+M    -5.72 MP-Alex6@Alex6 (Alex6)
+S    -3.54 SP-Alex6-1@Alex6 ()
+S    -7.90 SP-Alex6-2@Alex6 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Alex6-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  19 APR 2024 15:08
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  28 APR 2024 07:16
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -138,55 +142,65 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
-) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+[15] [1]
+[Warning: scrap outline intersects itself in scrap SP-Alex6-2@Alex6] [2] [3]
+[4] [5] [6] [7] [8] (./mptextmp.mp) [9] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [10] )
  
 Here is how much of MetaPost's memory you used:
- 3897 strings using 111097 characters
- 2563996 bytes of node memory
+ 5087 strings using 132437 characters
+ 2585312 bytes of node memory
  1744 symbolic tokens
  9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
-19 output files written: data-patt.1 .. data-patt.15
+25 output files written: data-patt.1 .. data-patt.15
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  19 APR 2024 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  28 APR 2024 07:16
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 51 numeric registers used out of 32768
+ 61 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 299 strings out of 94604
- 4061 string characters out of 1142524
- 43371 words of memory out of 5027099
- 1954 multiletter control sequences out of 15000+50000
+ 309 strings out of 94604
+ 4183 string characters out of 1142524
+ 34683 words of memory out of 5019411
+ 1964 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
- 9i,5n,8p,241b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 9i,5n,8p,712b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
 on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
 e1/csssi10.pfb>
-Output written on data.pdf (1 page, 42839 bytes).
+Output written on data.pdf (1 page, 51069 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing Outputs/Alex6.lox ... done
+writing Outputs/Alex6.lox ..... done
 C:\Program Files (x86)\Therion\therion.exe: warning -- data not georeferenced -- unable to export KML file
 C:\Program Files (x86)\Therion\therion.exe: warning -- data not georeferenced -- unable to export KML file
 writing Outputs/Alex6.html ... done
 writing xtherion file ... done
-compilation time: 4 sec
+compilation time: 16 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.03%  SP-Alex6-1@Alex6
+   0.00%    0.01%  SP-Alex6-2@Alex6
+################### end of scrap distortions ###################

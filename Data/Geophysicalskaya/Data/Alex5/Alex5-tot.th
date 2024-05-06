@@ -9,13 +9,13 @@ survey Alex5 -title "Alex5"
 	input Data/Geophysicalskaya_05.th
 	
 	# Import du dessin en plan
-	#input Data/Alex5.th2
+	input Data/Geophysicalskaya_05.th2
 
 	# Import du dessin en coupe
 	#input Data/Alex5-coupe.th2
 
 	# Import des maps
-	#input Alex5-maps.th
+	input Alex5-maps.th
  
  endsurvey
  

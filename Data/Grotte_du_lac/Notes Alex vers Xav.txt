@@ -1,0 +1,7 @@
+2024 05 06
+- A finaliser le dessin (la jonction des coupes)
+- A finaliser les coordonnées et l'altitude
+- A finaliser les coordonnées dans le cartouche (entrance coordinate ?)
+- PB de décalage des scraps ne fonctionne pas... (à voir si on laisse comme ça  ou pas ?)
+- Réduire taille des logos et du cartouche
+- A voir pour mettre plan & coupe sur le même pdf

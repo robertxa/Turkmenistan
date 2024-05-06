@@ -1,0 +1,205 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Entree.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.5877
+geomag declinations (deg):
+  2024.1.1  4.6331
+  2025.1.1  4.6780
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 216 stations, connect‚es par 215 vis‚es.
+ 5> Il y a 1 bouclage.
+ 6> La topographie contient 2 composants connect‚s.
+ 7> Longueur totale de la topographie =  377.65m ( 377.65m ajust‚)
+ 8> Longueur totale en projection horizontale =  371.42m
+ 9> Longueur totale verticale =   55.78m
+10> Intervalle vertical = 36.68m (de 4 … 642.22m jusqu'… 214 … 605.54m)
+11> Intervalle Nord-Sud = 251.19m (de 3 … 4169401.34m jusqu'… 207 … 4169150.15m)
+12> Intervalle Est-Ouest = 166.74m (de 161 … 270899.41m jusqu'… 2 … 270732.68m)
+13>  186 1-noeuds.
+14>    1 3-noeud.
+15>    9 6-noeuds.
+16>    1 7-noeud.
+17>    9 8-noeuds.
+18>    4 9-noeuds.
+19>    2 10-noeuds.
+20>    1 12-noeud.
+21>    2 13-noeuds.
+22>    1 14-noeud.
+23> 
+######################### transcription ########################
+ 4> 216 : .@Promeszutochnaya.Entree -- 215 : .@Promeszutochnaya.Entree
+ 5> 1 : Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree
+ 6> 2 : .@Promeszutochnaya.Entree
+10> 4 : .@Promeszutochnaya.Entree -- 214 : PTR_FR24_B35_29@Promeszutochnaya.Entree
+11> 3 : .@Promeszutochnaya.Entree -- 207 : .@Promeszutochnaya.Entree
+12> 161 : .@Promeszutochnaya.Entree -- 2 : .@Promeszutochnaya.Entree
+13> 186 : .@Promeszutochnaya.Entree
+14> 1 : Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree
+15> 9 : .@Promeszutochnaya.Entree
+16> 1 : Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree
+17> 9 : .@Promeszutochnaya.Entree
+18> 4 : .@Promeszutochnaya.Entree
+19> 2 : .@Promeszutochnaya.Entree
+20> 1 : Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree
+21> 2 : .@Promeszutochnaya.Entree
+22> 1 : Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- Entree.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- Entree.thconfig [303] -- object not found -- "MP-Entree-plan"
+
+C:\Program Files (x86)\Therion\therion.exe: warning -- Entree.thconfig [304] -- object not found -- "MC-Entree-coupe"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Entree-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  25 APR 2024 14:43
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 4708 strings using 138421 characters
+ 2573844 bytes of node memory
+ 1744 symbolic tokens
+ 8i,82n,16p,398b,5f stack positions out of 16i,98n,20p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  25 APR 2024 14:43
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 94604
+ 3855 string characters out of 1142524
+ 51918 words of memory out of 5034646
+ 1930 multiletter control sequences out of 15000+50000
+ 16503 words of font info for 54 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 7i,5n,6p,229b,42s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
+Output written on data.pdf (1 page, 24917 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Entree-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  25 APR 2024 14:43
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 4751 strings using 141880 characters
+ 2585772 bytes of node memory
+ 1745 symbolic tokens
+ 9i,82n,16p,399b,5f stack positions out of 16i,98n,20p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  25 APR 2024 14:43
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 299 strings out of 94604
+ 4061 string characters out of 1142524
+ 54934 words of memory out of 5037662
+ 1954 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,265b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/csssi10.pfb>
+Output written on data.pdf (1 page, 45962 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Entree.lox ... done
+writing Outputs/Entree.kml ... done
+writing Outputs/Entree-model.kml ... done
+writing Outputs/Entree.html ... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (66.401, 37.643) (66.401, 37.643)
+  [UTM42 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 â†’ LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 â†’ UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

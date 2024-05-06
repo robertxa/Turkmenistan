@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Cupp-Coutun -title "Cupp-Coutun-Entree"
+	SP-Cupp-Coutun-Entree
+endmap
+
+#map MC-Trush-Yurruck-Entree -title "Trush-Yurruck-Entree"
+#	SC-Trush-Yurruck-Entree-1
+#endmap
+   

@@ -323,13 +323,13 @@ layout layout-kml
 endlayout
 
 # 3-EXPORT
-select MP-Koytendag@Koytendag
+#select MP-Koytendag@Koytendag
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -proj plan -fmt pdf -o Outputs/Koytendag-plan.pdf -layout my_layout
+ #export map -proj plan -fmt pdf -o Outputs/Koytendag-plan.pdf -layout my_layout
 # export map -projection extended -fmt pdf -layout my_layout -o Outputs/Koytendag-coupe.pdf
- export atlas -o Outputs/Koytendag-atlas.pdf -layout atlas_layout
+ #export atlas -o Outputs/Koytendag-atlas.pdf -layout atlas_layout
 
 # Export du fichier 3d pour Loch
  export model -enable all -o Outputs/Koytendag.lox
@@ -347,11 +347,11 @@ select MP-Koytendag@Koytendag
 # export des statistiques de l'ensemble de la cavité
 #    Attention, les points de départ et d'arrivée de chaque centreline correspondent
 #    au second point et à l'avant dernier point de la série.
-#export database -fmt sql -o Outputs/databaseKoytendag-2022.sql
+export database -fmt sql -o Outputs/databaseKoytendag-2024.sql
 
 #export continuation-list -o Outputs/ContinuationsKoytendag-2022.html
 #export continuation-list -o Outputs/ContinuationsKoytendag-2022.kml
-#export survey-list -location on -o Outputs/SurveysKoytendag2022.html
-#export cave-list -location on -o Outputs/CavesKoytendag2022.html
-#export cave-list -location on -o Outputs/Caves-Koytendag.txt
+export survey-list -location on -o Outputs/SurveysKoytendag2024.html
+export cave-list -location on -o Outputs/CavesKoytendag2024.html
+export cave-list -location on -o Outputs/Caves-Koytendag.txt
 export cave-list -location on -o Outputs/Koytendag/Caves.txt

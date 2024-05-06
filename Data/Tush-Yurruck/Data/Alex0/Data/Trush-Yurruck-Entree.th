@@ -1,11 +1,11 @@
 # 2024.04.17 created by TopoDroid v 5.1.40
 
-survey Tush-Yurruck_Entree_00 -title "Trush-Yurruck Entree 00"
+survey Tush-Yurruck_Entree -title "Trush-Yurruck Entree"
 
   centerline
     date 2024.04.17 
-	    team "Alexandre Pont"
-	    team "Jo De-Waele"
+	  team "Alexandre Pont"
+	  team "Jo De-Waele"
 	  team "Bernard Lips"
 
     cs long-lat

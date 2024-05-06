@@ -296,7 +296,7 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-#export map -fmt xvi -layout xviexport -o Data/Alex3-map.xvi
+export map -fmt xvi -layout xviexport -o Data/Alex3-map.xvi
 #export map -proj extended -layout xviexport -fmt xvi -o Data/Alex3-coupe.xvi
 
 # Selection des Maps à exporter
@@ -305,7 +305,7 @@ select MC-Alex3-coupe@Alex3
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Alex3-coupe.pdf
+# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Alex3-coupe.pdf
  export map -proj plan -fmt pdf -o Outputs/Alex3-plan.pdf -layout my_layout
  
 
@@ -316,6 +316,6 @@ select MC-Alex3-coupe@Alex3
 # export map -proj plan -fmt esri -o Outputs/Alex3 -layout my_layout
 
 # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/Alex3.kml -layout layout-kml
+# export map -proj plan -fmt kml -o Outputs/Alex3.kml -layout layout-kml
  export model -fmt kml -o Outputs/Alex3-model.kml -enable all
- export cave-list -location on -o Outputs/Alex3.html
+# export cave-list -location on -o Outputs/Alex3.html

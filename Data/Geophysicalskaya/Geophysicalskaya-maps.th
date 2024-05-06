@@ -14,6 +14,12 @@ map MP-Geophysicalskaya -title "Geophysicalskaya"
 	MP-GeophysicalskayaXR4@GeophysicalskayaXR4
 	break
 	MP-GeophysicayaXR6@GeophysicayaXR6
+	break
+	MP-Alex3@Alex3
+	break
+	MP-Alex5@Alex5
+	break
+	MP-Alex7@Alex7
 
 endmap
 

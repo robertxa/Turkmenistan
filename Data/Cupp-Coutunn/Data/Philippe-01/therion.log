@@ -1,0 +1,191 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Philippe-01.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.5778
+geomag declinations (deg):
+  2024.1.1  4.5756
+  2025.1.1  4.6205
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 22 stations, connect‚es par 21 vis‚es.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =  395.68m ( 395.68m ajust‚)
+ 7> Longueur totale en projection horizontale =  386.06m
+ 8> Longueur totale verticale =   70.90m
+ 9> Intervalle vertical = 48.27m (de 22 … 730.00m jusqu'… 11 … 681.73m)
+10> Intervalle Nord-Sud = 373.07m (de 1 … 4151096.93m jusqu'… 22 … 4150723.86m)
+11> Intervalle Est-Ouest = 38.51m (de 2 … 270811.75m jusqu'… 21 … 270773.23m)
+12>    5 1-noeuds.
+13>   14 2-noeuds.
+14>    3 3-noeuds.
+15> 
+######################### transcription ########################
+ 4> 22 : 18@Cup_Coutun_01.Philippe-01-tot -- 21 : 17@Cup_Coutun_01.Philippe-01-tot
+ 9> 22 : 18@Cup_Coutun_01.Philippe-01-tot -- 11 : 8@Cup_Coutun_01.Philippe-01-tot
+10> 1 : PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot -- 22 : 18@Cup_Coutun_01.Philippe-01-tot
+11> 2 : 1@Cup_Coutun_01.Philippe-01-tot -- 21 : 17@Cup_Coutun_01.Philippe-01-tot
+12> 5 : 3@Cup_Coutun_01.Philippe-01-tot
+13> 14 : 11@Cup_Coutun_01.Philippe-01-tot
+14> 3 : 2@Cup_Coutun_01.Philippe-01-tot
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- Philippe-01.thconfig [56] -- source layout not found -- Coords_Header_CDa
+done
+selecting export objects ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- Philippe-01.thconfig [303] -- object not found -- "MP-Alex2-plan"
+
+C:\Program Files (x86)\Therion\therion.exe: warning -- Philippe-01.thconfig [304] -- object not found -- "MC-Alex2-coupe"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Alex2-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 APR 2024 15:31
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3562 strings using 105009 characters
+ 2542052 bytes of node memory
+ 1745 symbolic tokens
+ 8i,82n,16p,395b,5f stack positions out of 16i,98n,20p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  18 APR 2024 15:31
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 94604
+ 3855 string characters out of 1142524
+ 33604 words of memory out of 5018332
+ 1930 multiletter control sequences out of 15000+50000
+ 16503 words of font info for 54 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 7i,5n,6p,229b,42s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
+Output written on data.pdf (1 page, 19097 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Alex2-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  18 APR 2024 15:31
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3584 strings using 103871 characters
+ 2553980 bytes of node memory
+ 1746 symbolic tokens
+ 9i,82n,16p,396b,5f stack positions out of 16i,98n,20p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  18 APR 2024 15:31
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 299 strings out of 94604
+ 4061 string characters out of 1142524
+ 34552 words of memory out of 5019280
+ 1954 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,241b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/csssi10.pfb>
+Output written on data.pdf (1 page, 41297 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Alex2.lox ... done
+writing Outputs/Alex2.kml ... done
+writing Outputs/Alex2-model.kml ... done
+writing Outputs/Alex2.html ... done
+writing xtherion file ... done
+compilation time: 4 sec
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (66.408, 37.475) (66.408, 37.475)
+  [LONG-LAT â†’ LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT â†’ UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+  [LONG-LAT â†’ EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 â†’ LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 â†’ UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 â†’ EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 â†’ UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

@@ -12,15 +12,15 @@ survey Geophyscaya_03 -title "Geophyscaya 03"
    # a suprimer depart fr24 b59
    #  000 01 0.94 152.9 24.9
    # extend auto
-    PTR_FR24_B59 . 10.15 90.4 11.4
-    PTR_FR24_B59 . 14.98 52.7 10.8
-    PTR_FR24_B59 . 9.80 198.7 7.4
-    PTR_FR24_B59 . 16.41 238.6 3.5
-    PTR_FR24_B59 . 5.91 295.2 4.3
-    PTR_FR24_B59 . 0.66 186.4 -81.1
-    PTR_FR24_B59 . 5.49 223.5 85.6
+    PTR_FR24_B59_00 . 10.15 90.4 11.4
+    PTR_FR24_B59_00 . 14.98 52.7 10.8
+    PTR_FR24_B59_00 . 9.80 198.7 7.4
+    PTR_FR24_B59_00 . 16.41 238.6 3.5
+    PTR_FR24_B59_00 . 5.91 295.2 4.3
+    PTR_FR24_B59_00 . 0.66 186.4 -81.1
+    PTR_FR24_B59_00 . 5.49 223.5 85.6
     extend right
-    PTR_FR24_B59 12 25.43 168.5 4.8
+    PTR_FR24_B59_00 12 25.43 168.5 4.8
     # extend auto
     12 . 3.81 213.4 6.7
     12 . 13.09 138.8 9.3
@@ -110,7 +110,7 @@ survey Geophyscaya_03 -title "Geophyscaya 03"
     20 . 1.56 138.0 87.8
     extend left
   
-    19 22 19.93 265.8 -10.2  # 22 pt russe 141
+    PTR_FR24_A19_19 22 19.93 265.8 -10.2  # 22 pt russe 141
     # extend auto
     22 . 7.46 229.2 -8.1
     22 . 13.70 267.9 -21.8
@@ -172,7 +172,7 @@ survey Geophyscaya_03 -title "Geophyscaya 03"
     PTR_FR24_A11_29 . 1.12 51.8 -33.3
     PTR_FR24_A11_29 . 1.98 5.8 77.8
     extend right
-    19 30 8.96 143.2 9.1
+    PTR_FR24_A19_19 30 8.96 143.2 9.1
     # extend auto
     30 . 25.42 219.1 -9.0
     30 . 22.71 265.2 -11.9

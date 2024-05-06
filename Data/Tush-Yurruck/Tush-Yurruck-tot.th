@@ -1,40 +1,49 @@
 encoding  utf-8
 
-# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
-#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 survey Tush-Yurruck -title "Tush-Yurruck"
-	# Pour importer les différentes données de différents fichiers topos : 
+	# Pour importer les différentes données de différents fichiers topos :
 	#input Data/Tush-Yurruck.th
 	
 	input Data/Alex0/Alex0-tot.th
 	
 	input Data/Xav1/Tush_YurruckXR1-tot.th
-		equate  PTR_FR24_B12_37@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree B12@Tush_YurruckXR1.Tush_YurruckXR1
-	#	join	SP-Tush-Yurruck_03@Philippe2	SP-Tush-Yurruck_02@Entree
+	equate  PTR_FR24_B12_37@Tush-Yurruck_Entree.Trush-Yurruck-Entree B12@Tush_YurruckXR1.Tush_YurruckXR1
+	join	SP-Alex0-1@Trush-Yurruck-Entree	SP-Xav1-4@Tush_YurruckXR1
 	
 	input Data/Alex2/Alex2-tot.th
-		equate  PTR_FR24_B18_00@Tush-Yurruck_02.Alex2 B18@Tush_YurruckXR1.Tush_YurruckXR1
-		equate  PTR_FR24_B19_13@Tush-Yurruck_02.Alex2 B19@Tush_YurruckXR1.Tush_YurruckXR1
-		equate  PTR_FR24_A62_3@Tush-Yurruck_02.Alex2 PTR_FR24_A62_3@Tush_YurruckXR1.Tush_YurruckXR1
+	equate  PTR_FR24_B18_00@Tush-Yurruck_02.Alex2 B18@Tush_YurruckXR1.Tush_YurruckXR1
+	equate  PTR_FR24_B19_13@Tush-Yurruck_02.Alex2 B19@Tush_YurruckXR1.Tush_YurruckXR1
+	equate  PTR_FR24_A62_3@Tush-Yurruck_02.Alex2 PTR_FR24_A62_3@Tush_YurruckXR1.Tush_YurruckXR1
+	join	SP-Alex2-1@Alex2	SP-Xav1-3@Tush_YurruckXR1 -count 2
 	
 	input Data/Alex3/Alex3-tot.th
-		equate  PTR_FR24_B13_00@Tush-Yurruck_03.Alex3 B13@Tush_YurruckXR1.Tush_YurruckXR1
-	
-	#	join SP-Xav4-2@Tush-YurruckXR4	SP-Xav6-1@GeophysicayaXR6 -count 4
+	equate  PTR_FR24_B13_00@Tush-Yurruck_03.Alex3 B13@Tush_YurruckXR1.Tush_YurruckXR1
+	join	SP-Alex3-1@Alex3	SP-Xav1-4@Tush_YurruckXR1
 	
 	input Data/Alex4/Alex4-tot.th
-		equate  PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 PTR_FR24_A64_5@Tush-Yurruck_03.Alex3
-		equate  17@Tush-Yurruck_06.Alex6 39@Tush-Yurruck_03.Alex3
-		equate  PTR_FR24_B33_26@Tush-Yurruck_04.Alex4 B33@Tush_YurruckXR1.Tush_YurruckXR1
-		
+	equate  PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 PTR_FR24_A64_5@Tush-Yurruck_03.Alex3
+	equate  PTR_FR24_B33_26@Tush-Yurruck_04.Alex4 B33@Tush_YurruckXR1.Tush_YurruckXR1
+	join	SP-Alex4-1@Alex4	SP-Alex3-1@Alex3
+	join	SP-Alex4-1@Alex4	SP-Xav1-2@Tush_YurruckXR1
+	
+	
 	input Data/Alex6/Alex6-tot.th
-		equate  PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 PTR_FR24_A79_10@Tush-Yurruck_03.Alex3
-		equate  PTR_FR24_A65_21@Tush-Yurruck_06.Alex6 PTR_FR24_A65_15@Tush-Yurruck_03.Alex3
-
+	equate  PTR_FR24_A79_00@Tush-Yurruck_06.Alex6 PTR_FR24_A79_10@Tush-Yurruck_03.Alex3
+	equate  PTR_FR24_A65_21@Tush-Yurruck_06.Alex6 PTR_FR24_A65_15@Tush-Yurruck_03.Alex3
+	equate  17@Tush-Yurruck_06.Alex6 39@Tush-Yurruck_03.Alex3
+	join SP-Alex6-1@Alex6 SP-Alex3-1@Alex3 -count 3
+	join SP-Alex6-2@Alex6	SP-Alex3-2@Alex3
+	
+	input Data/Alex7/Alex7-tot.th
+	equate  PTR_FR24_A68_00@Tush-Yurruck_07.Alex7 PTR_FR24_A68_29@Tush-Yurruck_03.Alex3
+	join SP-Alex7-1@Alex7	SP-Alex3-1@Alex3
+	
+	
 	# Import des maps
 	#input Tush-Yurruck-maps.th
- 
- endsurvey
- 
+	
+endsurvey

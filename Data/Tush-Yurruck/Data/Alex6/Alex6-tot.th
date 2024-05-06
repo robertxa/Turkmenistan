@@ -9,13 +9,13 @@ survey Alex6 -title "Alex6"
 	input Data/Tush-Yurruck_06.th
 	
 	# Import du dessin en plan
-	#input Data/Alex6.th2
+	input Data/Tush-Yurruck_06.th2
 
 	# Import du dessin en coupe
 	#input Data/Alex6-coupe.th2
 
 	# Import des maps
-	#input Alex6-maps.th
+	input Alex6-maps.th
  
  endsurvey
  

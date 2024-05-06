@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Philippe-01-tot -title "Philippe-01-tot"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Cupp-Coutun_02
+	
+	# Import du dessin en plan
+	#input Data/Alex2.th2
+
+	# Import du dessin en coupe
+	#input Data/Alex2-coupe.th2
+
+	# Import des maps
+	#input Alex2-maps.th
+ 
+ endsurvey
+ 

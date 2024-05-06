@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
@@ -9,13 +9,13 @@ survey Trush-Yurruck-Entree -title "Trush-Yurruck-Entree"
 	input Data/Trush-Yurruck-Entree.th
 	
 	# Import du dessin en plan
-	#input Data/Trush-Yurruck-Entree.th2
+	input Data/Trush-Yurruck-Entree.th2
 
 	# Import du dessin en coupe
 	#input Data/Trush-Yurruck-Entree-coupe.th2
 
 	# Import des maps
-	#input Trush-Yurruck-Entree-maps.th
+	input Alex0-maps.th
  
  endsurvey
  
