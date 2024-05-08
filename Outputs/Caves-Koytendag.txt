@@ -2,51 +2,51 @@ Title	Length	Depth	Explored	X	Y	Altitude
 Karst de Koytendag	13574	1195				
   Grotte des Chauves-Souris	93	18				
     chauves	93	18				
-      G. des Chauves-Souris				451583.890000	7375731.560000	910.000000
+      G. des Chauves-Souris				279964.490000	4199004.530000	910.000000
   Cupp-Coutun	2205	72				
     Cupp-Coutun-Entree	1810	41				
       Cap Coutun	1810	41				
-        Cupp Coutun Entrée artificielle				2939160.420000	4538550.620000	730.000000
-    Philippe-01-tot	396	51				
-      Cup Coutun entrée naturelle	396	51				
-        Cupp-Coutun Entrée naturelle				2939581.560000	4538267.350000	770.000000
+        Cupp Coutun Entrée artificielle				271286.850000	4169219.390000	730.000000
+    Philippe-01-tot	396	53				
+      Cup Coutun entrée naturelle	396	53				
+        Cupp-Coutun Entrée naturelle				271570.790000	4168841.350000	770.000000
   Geophysicalskaya	3879	72				
     Entree	860	69				
       Geophysicaya 01 entree	860	69				
-        Geophysicalskaya				2936863.870000	4541770.100000	857.000000
+        Geophysicalskaya				270251.000000	4172755.000000	857.000000
   Hanaka	65	19				
     HanakaMain	65	19				
       Hanaka Main	65	19				
-        Hanaka Main				453366.360000	7393459.210000	1297.000000
+        Hanaka Main				294061.660000	4202337.890000	1297.000000
   Kaptarhana	574	35				
-    Kaptarhana	574	35		2932673.420000	4559797.900000	620.000000
+    Kaptarhana	574	35		272090.940000	4189902.570000	620.000000
   Petit-General	8	1				
     general	8	1				
-      G. du Petit Général				451074.120000	7378278.010000	1509.000000
+      G. du Petit Général				281928.810000	4197568.150000	1509.000000
   Russes-CA	63	5				
     Russes3	7	1				
       russes3	7	1				
-        Russes Bauge				2929621.700000	4541066.010000	420.000000
+        Russes Bauge				263661.030000	4174352.200000	420.000000
     Russes2	6	2				
       russes2	6	2				
-        Russes Bauge				2929603.110000	4541065.130000	419.000000
+        Russes Bauge				263644.400000	4174357.120000	419.000000
     RussesBauge	51	4				
       russesbauge	51	4				
-        Russes Bauge				2929591.360000	4541048.930000	417.000000
+        Russes Bauge				263629.090000	4174346.450000	417.000000
   Tush-Yurruck	3623	52				
     Trush-Yurruck-Entree	561	10				
       Trush-Yurruck Entree	561	10				
-        Tush Yurruck				2939211.850000	4540477.600000	885.000000
+        Tush Yurruck				271921.550000	4170899.210000	885.000000
   Vertikalnaya	545	72				
     Vertikalnaya	545	72				
-      Vertikalnaya Entrée				2936240.410000	4542625.420000	850.000000
-  Promeszutochnaya	1860	66				
-    Entree	378	36				
-      Promeszutochnaya	378	36				
-        Promeszutochnaya Tunnel 00				2938535.180000	4538538.560000	640.000000
+      Vertikalnaya Entrée				269964.170000	4173698.510000	850.000000
+  Promeszutochnaya	1860	68				
+    Entree	378	37				
+      Promeszutochnaya	378	37				
+        Promeszutochnaya Tunnel 00				270733.000000	4169400.000000	640.000000
     JPH2	117	5				
       Tunnel 2	117	5				
-        Promeszutochnaya Tunnel 01				2938544.980000	4538036.260000	640.000000
-    JPH3	123	19				
-      Entrée Naturelle	123	19				
-        Promeszutochnaya entrée Naturelle				2938493.790000	4538137.790000	593.000000
+        Promeszutochnaya Tunnel 01				270588.000000	4168955.000000	640.000000
+    JPH3	123	18				
+      Entrée Naturelle	123	18				
+        Promeszutochnaya entrée Naturelle				270574.000000	4169060.000000	593.000000
