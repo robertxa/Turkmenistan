@@ -4,10 +4,9 @@ survey Tush-Yurruck_03 -title "Tush-Yurruck 03"
 
   centerline
     date 2024.04.17 
-	 
-	 team "Alexandre Pont"
-	 team "Jo De-Waele"
-	 team "Bernard Lips"
+	    team "Alexandre Pont"
+	    team "Jo De-Waele"
+	    team "Bernard Lips"
 
 
     units length meters

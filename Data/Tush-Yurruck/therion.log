@@ -1,7 +1,9 @@
-therion 6.1.8 (2023-06-14)
-  - using Proj 9.2.1, compiled against 9.2.1
-initialization file: C:\Program Files (x86)\Therion/therion.ini
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
 reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: Tush-Yurruck_By_Alex.thconfig
 reading ... done
 reading source files ... done
@@ -17,48 +19,48 @@ calculating station coordinates ... done
 average loop error: 0.66%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright � 1990-2021 Olly Betts
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
  3> 
- 4> La topographie contient 2725 stations, connect�es par 2735 vis�es.
+ 4> La topographie contient 2725 stations, connectées par 2735 visées.
  5> Il y a 11 bouclages.
- 6> Longueur totale de la topographie = 3623.35m (3623.50m ajust�)
+ 6> Longueur totale de la topographie = 3623.35m (3623.50m ajusté)
  7> Longueur totale en projection horizontale = 3515.05m
  8> Longueur totale verticale =  499.26m
- 9> Intervalle vertical = 52.26m (de 1125 � 919.12m jusqu'� 2619 � 866.85m)
-10> Intervalle Nord-Sud = 430.56m (de 1323 � 4170986.47m jusqu'� 2617 � 4170555.90m)
-11> Intervalle Est-Ouest = 609.95m (de 2568 � 272527.34m jusqu'� 8 � 271917.38m)
-12> 2472 1-noeuds.
-13>   11 2-noeuds.
-14>    1 3-noeud.
-15>    1 4-noeud.
-16>   13 5-noeuds.
-17>   13 6-noeuds.
-18>    8 7-noeuds.
-19>    8 8-noeuds.
-20>   26 9-noeuds.
-21>   31 10-noeuds.
-22>   28 11-noeuds.
-23>   21 12-noeuds.
-24>   21 13-noeuds.
-25>   18 14-noeuds.
-26>   10 15-noeuds.
-27>    7 16-noeuds.
-28>    8 17-noeuds.
-29>    6 18-noeuds.
-30>    2 19-noeuds.
-31>    2 20-noeuds.
-32>    3 21-noeuds.
-33>    2 22-noeuds.
-34>    1 23-noeud.
-35>    2 25-noeuds.
-36>    2 26-noeuds.
-37>    2 27-noeuds.
-38>    2 31-noeuds.
-39>    1 33-noeud.
-40>    1 36-noeud.
-41>    1 37-noeud.
-42>    1 39-noeud.
+ 9> Intervalle vertical = 52.26m (de 1125 à 919.12m jusqu’à 2619 à 866.85m)
+10> Intervalle Nord-Sud = 430.56m (de 1323 à 4170986.47m jusqu’à 2617 à 4170555.90m)
+11> Intervalle Est-Ouest = 609.95m (de 2568 à 272527.34m jusqu’à 8 à 271917.38m)
+12> 2472 1-nœuds.
+13>   11 2-nœuds.
+14>    1 3-nœud.
+15>    1 4-nœud.
+16>   13 5-nœuds.
+17>   13 6-nœuds.
+18>    8 7-nœuds.
+19>    8 8-nœuds.
+20>   26 9-nœuds.
+21>   31 10-nœuds.
+22>   28 11-nœuds.
+23>   21 12-nœuds.
+24>   21 13-nœuds.
+25>   18 14-nœuds.
+26>   10 15-nœuds.
+27>    7 16-nœuds.
+28>    8 17-nœuds.
+29>    6 18-nœuds.
+30>    2 19-nœuds.
+31>    2 20-nœuds.
+32>    3 21-nœuds.
+33>    2 22-nœuds.
+34>    1 23-nœud.
+35>    2 25-nœuds.
+36>    2 26-nœuds.
+37>    2 27-nœuds.
+38>    2 31-nœuds.
+39>    1 33-nœud.
+40>    1 36-nœud.
+41>    1 37-nœud.
+42>    1 39-nœud.
 43> 
 ######################### transcription ########################
  4> 2725 : 31@Tush-Yurruck_07.Alex7.Tush-Yurruck
@@ -103,10 +105,10 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... 
-C:\Program Files (x86)\Therion\therion.exe: warning -- Tush-Yurruck_By_Alex.thconfig [311] -- object not found -- "MP-Tush-Yurruck"
+therion: warning -- Tush-Yurruck_By_Alex.thconfig [315] -- object not found -- "MP-Tush-Yurruck"
 done
 processing projection plan ... done
-average distortion: 0.99%
+average distortion: 0.98%
 
 
 ############### export maps & scraps selection #################
@@ -133,10 +135,10 @@ S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush-Yurruck-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 09:05
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:36
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -151,55 +153,56 @@ sh-Yurruck] [36] [37] [38] [39]
 [Warning: scrap outline intersects itself in scrap SP-Xav1-2@Tush_YurruckXR1.Tu
 sh-Yurruck] [40] [41] [42] [43] [44] [45] [46] (./mptextmp.mp) [47]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
-[75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] )
+(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] )
  
 Here is how much of MetaPost's memory you used:
- 23167 strings using 508835 characters
- 3518348 bytes of node memory
- 1755 symbolic tokens
- 11i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
-101 output files written: data-patt.1 .. data.86
+ 23515 strings using 522915 characters
+ 4885144 bytes of node memory
+ 1752 symbolic tokens
+ 11i,81n,16p,378b,5f stack positions out of 16i,96n,20p,390b,6f
+72 output files written: data-patt.1 .. data.57
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 MAY 2024 09:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:36
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map}<<th_go
-ur_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaad
-.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaaf.dat>><<th_gour_aaaaaag.dat>><<th
-_gour_aaaaaah.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaaj.dat>><<th_gour_aaaa
-aba.dat>><<th_gour_aaaaabb.dat>><<th_gour_aaaaabc.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <d:/08 GitHub/Turkmenist
-an/Data/Tush-Yurruck/Logo_TKM_2024.jpg> <d:/08 GitHub/Turkmenistan/Data/Tush-Yu
-rruck/Logo_FFS.jpg>) (./th_pages.tex)
- 178 numeric registers used out of 32768
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<
+th_gour_aaaaaad.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaaf.dat>><<th_gour_aa
+aaaag.dat>><<th_gour_aaaaaah.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaaj.dat>
+><<th_gour_aaaaaba.dat>><<th_gour_aaaaabb.dat>><<th_gour_aaaaabc.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex </Users/robertxaold/Documents/Speleo/Expes
+/Turkmenistan/Topos/Data/Tush-Yurruck/Logo_TKM_2024.jpg> </Users/robertxaold/Do
+cuments/Speleo/Expes/Turkmenistan/Topos/Data/Tush-Yurruck/Logo_FFS.jpg>)
+(./th_pages.tex)
+ 149 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 434 strings out of 94604
- 5412 string characters out of 1142524
- 153412 words of memory out of 5119140
- 2086 multiletter control sequences out of 15000+50000
- 21229 words of font info for 66 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 14i,6n,8p,712b,80s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
-on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
-e1/csssi10.pfb>
-Output written on data.pdf (1 page, 527336 bytes).
+ 402 strings out of 494671
+ 5201 string characters out of 6148971
+ 166105 words of memory out of 5000000
+ 2033 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 10i,6n,8p,712b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 505450 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1045 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 871 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -230,10 +233,10 @@ S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush-Yurruck-plan.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 09:05
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:36
 **data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -248,16 +251,14 @@ sh-Yurruck] [36] [37] [38] [39]
 [Warning: scrap outline intersects itself in scrap SP-Xav1-2@Tush_YurruckXR1.Tu
 sh-Yurruck] [40] [41] [42] [43] [44] [45] [46] (./mptextmp.mp) [47]
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
-[75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] )
+(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] )
  
 Here is how much of MetaPost's memory you used:
- 23167 strings using 508835 characters
- 3518348 bytes of node memory
- 1755 symbolic tokens
- 11i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
-101 output files written: data-patt.1 .. data.86
+ 23515 strings using 522915 characters
+ 4885144 bytes of node memory
+ 1752 symbolic tokens
+ 11i,81n,16p,378b,5f stack positions out of 16i,96n,20p,390b,6f
+72 output files written: data-patt.1 .. data.57
 
 
 #################### end of metapost log file ####################
@@ -265,12 +266,13 @@ converting scraps ... done
 making svg map ... done
 done
 writing Outputs/Tush-Yurruck.lox ......
-C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck -- multiple scrap outer outlines not supported yet
+therion: warning -- SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck -- multiple scrap outer outlines not supported yet
 .......... done
 writing Outputs/Tush-Yurruck.kml ... done
 writing Outputs/Tush-Yurruck-model.kml ... done
 writing Outputs/Tush-Yurruck.html ... done
-compilation time: 21 sec
+writing xtherion file ... done
+compilation time: 7 sec
 
 
 ######################### loop errors ##########################

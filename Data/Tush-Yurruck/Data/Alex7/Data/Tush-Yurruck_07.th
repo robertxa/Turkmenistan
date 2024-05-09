@@ -4,10 +4,8 @@ survey Tush-Yurruck_07 -title "Tush-Yurruck 07"
 
   centerline
     date 2024.04.29 
-	 
-	 team "Jo De-Wael"
-	 team "Alexandre Pont"
-	 
+	    team "Jo De-Waele"
+	    team "Alexandre Pont"
 	 
     units length meters
     units compass clino degrees

@@ -4,10 +4,9 @@ survey Tush-Yurruck_06 -title "Tush-Yurruck 06"
 
   centerline
     date 2024.04.19 
-	 
-	 team "Alexandre Pont"
-	 team "Philippe Audra"
-	 team "Jean-Marie Briffon"
+	    team "Alexandre Pont"
+	    team "Philippe Audra"
+	    team "Jean-Marie Briffon"
 	 
     units length meters
     units compass clino degrees
