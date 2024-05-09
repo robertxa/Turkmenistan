@@ -1,10 +1,8 @@
-therion 6.2.0+dev (compiled on 2024-03-19)
-  - using Proj 6.3.2, compiled against 6.3.2
-initialization file: /usr/local/etc/therion.ini
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: Tush-Yurruck.thconfig
+configuration file: Tush-Yurruck_By_Alex.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -16,234 +14,263 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 0.63%
+average loop error: 0.66%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.5
- 2> Copyright © 1990-2021 Olly Betts
+ 1> Survex 1.4.3
+ 2> Copyright � 1990-2021 Olly Betts
  3> 
- 4> La topographie contient 2523 stations, connectées par 2532 visées.
- 5> Il y a 10 bouclages.
- 6> Longueur totale de la topographie = 3407.05m (3407.16m ajusté)
- 7> Longueur totale en projection horizontale = 3301.65m
- 8> Longueur totale verticale =  479.41m
- 9> Intervalle vertical = 50.83m (de 1125 à 919.12m jusqu’à 1949 à 868.28m)
-10> Intervalle Nord-Sud = 391.09m (de 1323 à 4170986.47m jusqu’à 1964 à 4170595.37m)
-11> Intervalle Est-Ouest = 577.21m (de 1990 à 272494.59m jusqu’à 8 à 271917.38m)
-12> 2301 1-nœuds.
-13>    9 2-nœuds.
-14>    1 3-nœud.
-15>    1 4-nœud.
-16>    8 5-nœuds.
-17>    7 6-nœuds.
-18>    7 7-nœuds.
-19>    5 8-nœuds.
-20>   20 9-nœuds.
-21>   25 10-nœuds.
-22>   28 11-nœuds.
-23>   20 12-nœuds.
-24>   20 13-nœuds.
-25>   18 14-nœuds.
-26>   10 15-nœuds.
-27>    7 16-nœuds.
-28>    8 17-nœuds.
-29>    6 18-nœuds.
-30>    2 19-nœuds.
-31>    2 20-nœuds.
-32>    3 21-nœuds.
-33>    2 22-nœuds.
-34>    1 23-nœud.
-35>    2 25-nœuds.
-36>    2 26-nœuds.
-37>    2 27-nœuds.
-38>    2 31-nœuds.
-39>    1 33-nœud.
-40>    1 36-nœud.
-41>    1 37-nœud.
-42>    1 39-nœud.
+ 4> La topographie contient 2725 stations, connect�es par 2735 vis�es.
+ 5> Il y a 11 bouclages.
+ 6> Longueur totale de la topographie = 3623.35m (3623.50m ajust�)
+ 7> Longueur totale en projection horizontale = 3515.05m
+ 8> Longueur totale verticale =  499.26m
+ 9> Intervalle vertical = 52.26m (de 1125 � 919.12m jusqu'� 2619 � 866.85m)
+10> Intervalle Nord-Sud = 430.56m (de 1323 � 4170986.47m jusqu'� 2617 � 4170555.90m)
+11> Intervalle Est-Ouest = 609.95m (de 2568 � 272527.34m jusqu'� 8 � 271917.38m)
+12> 2472 1-noeuds.
+13>   11 2-noeuds.
+14>    1 3-noeud.
+15>    1 4-noeud.
+16>   13 5-noeuds.
+17>   13 6-noeuds.
+18>    8 7-noeuds.
+19>    8 8-noeuds.
+20>   26 9-noeuds.
+21>   31 10-noeuds.
+22>   28 11-noeuds.
+23>   21 12-noeuds.
+24>   21 13-noeuds.
+25>   18 14-noeuds.
+26>   10 15-noeuds.
+27>    7 16-noeuds.
+28>    8 17-noeuds.
+29>    6 18-noeuds.
+30>    2 19-noeuds.
+31>    2 20-noeuds.
+32>    3 21-noeuds.
+33>    2 22-noeuds.
+34>    1 23-noeud.
+35>    2 25-noeuds.
+36>    2 26-noeuds.
+37>    2 27-noeuds.
+38>    2 31-noeuds.
+39>    1 33-noeud.
+40>    1 36-noeud.
+41>    1 37-noeud.
+42>    1 39-noeud.
 43> 
 ######################### transcription ########################
- 4> 2523 : PTR_FR24_A65_21@Tush-Yurruck_06.Alex6.Tush-Yurruck
- 5> 10 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
- 9> 1125 : 61@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck -- 1949 : .@Tush-Yurruck_03.Alex3.Tush-Yurruck
-10> 1323 : .@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck -- 1964 : 30@Tush-Yurruck_03.Alex3.Tush-Yurruck
-11> 1990 : .@Tush-Yurruck_03.Alex3.Tush-Yurruck -- 8 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-12> 2301 : 20@Tush-Yurruck_04.Alex4.Tush-Yurruck
-13> 9 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-14> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-15> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-16> 8 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-17> 7 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-18> 7 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-19> 5 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-20> 20 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-21> 25 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-22> 28 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-23> 20 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-24> 20 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-25> 18 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-26> 10 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-27> 7 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-28> 8 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-29> 6 : .@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-30> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-31> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-32> 3 : 2@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-33> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-34> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-35> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-36> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-37> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-38> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-39> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-40> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-41> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
-42> 1 : 00@Tush-Yurruck_Entree_00.Trush-Yurruck-Entree.Tush-Yurruck
+ 4> 2725 : 31@Tush-Yurruck_07.Alex7.Tush-Yurruck
+ 5> 11 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+ 9> 1125 : 61@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck -- 2619 : .@Tush-Yurruck_07.Alex7.Tush-Yurruck
+10> 1323 : .@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck -- 2617 : .@Tush-Yurruck_07.Alex7.Tush-Yurruck
+11> 2568 : .@Tush-Yurruck_07.Alex7.Tush-Yurruck -- 8 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+12> 2472 : .@Tush-Yurruck_06.Alex6.Tush-Yurruck
+13> 11 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+14> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+15> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+16> 13 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+17> 13 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+18> 8 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+19> 8 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+20> 26 : PTR_FR24_A61_4@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+21> 31 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+22> 28 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+23> 21 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+24> 21 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+25> 18 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+26> 10 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+27> 7 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+28> 8 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+29> 6 : .@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+30> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+31> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+32> 3 : 2@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+33> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+34> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+35> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+36> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+37> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+38> 2 : PTR_FR24_A60_1@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+39> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+40> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+41> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
+42> 1 : 00@Tush-Yurruck_Entree.Trush-Yurruck-Entree.Tush-Yurruck
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... 
-therion: warning -- Tush-Yurruck.thconfig [306] -- object not found -- "MP-Tush-Yurruck"
-
-therion: warning -- Tush-Yurruck.thconfig [307] -- object not found -- "MC-Tush-Yurruck"
-done
-processing projection extended ... done
-
-
-############### export maps & scraps selection #################
-S     -.-- @ ()
-########## end of export maps & scraps selection ###############
-writing Outputs/Tush-Yurruck-coupe.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:42
-**data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
- 
-Here is how much of MetaPost's memory you used:
- 28608 strings using 904385 characters
- 5096544 bytes of node memory
- 1741 symbolic tokens
- 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
-19 output files written: data-patt.1 .. data-patt.15
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:42
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 51 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 278 strings out of 494671
- 3915 string characters out of 6148971
- 496701 words of memory out of 5000000
- 1909 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 9i,5n,6p,322b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 116142 bytes).
-PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
+C:\Program Files (x86)\Therion\therion.exe: warning -- Tush-Yurruck_By_Alex.thconfig [311] -- object not found -- "MP-Tush-Yurruck"
 done
 processing projection plan ... done
+average distortion: 0.99%
 
 
 ############### export maps & scraps selection #################
-S     -.-- @ ()
+M   870.17 MP-Alex7@Alex7.Tush-Yurruck (Alex7)
+S   870.17 SP-Alex7-1@Alex7.Tush-Yurruck ()
+M   875.11 MP-Alex3@Alex3.Tush-Yurruck (Alex3)
+S   875.96 SP-Alex3-1@Alex3.Tush-Yurruck ()
+S   874.27 SP-Alex3-2@Alex3.Tush-Yurruck ()
+M   875.57 MP-Alex6@Alex6.Tush-Yurruck (Alex6)
+S   877.75 SP-Alex6-1@Alex6.Tush-Yurruck ()
+S   873.39 SP-Alex6-2@Alex6.Tush-Yurruck ()
+M   876.97 MP-Trush-Yurruck-Entree@Trush-Yurruck-Entree.Tush-Yurruck (Trush-Yurruck-Entree)
+S   876.97 SP-Alex0-1@Trush-Yurruck-Entree.Tush-Yurruck ()
+M   880.07 MP-Alex2@Alex2.Tush-Yurruck (Alex2)
+S   880.07 SP-Alex2-1@Alex2.Tush-Yurruck ()
+M   885.81 MP-Alex4@Alex4.Tush-Yurruck (Alex4)
+S   885.81 SP-Alex4-1@Alex4.Tush-Yurruck ()
+M   887.73 MP-Tush_YurruckXR1@Tush_YurruckXR1.Tush-Yurruck (Tush Yurruck XR1)
+S   890.25 SP-Xav1-1@Tush_YurruckXR1.Tush-Yurruck ()
+S   887.10 SP-Xav1-2@Tush_YurruckXR1.Tush-Yurruck ()
+S   885.00 SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck ()
+S   894.77 SP-Xav1-5@Tush_YurruckXR1.Tush-Yurruck ()
+S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush-Yurruck-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:42
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 09:05
 **data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
-) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] )
+[15] [1] [2] [3] [4]
+[Warning: scrap outline intersects itself in scrap SP-Alex3-2@Alex3.Tush-Yurruc
+k] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[Warning: scrap outline intersects itself in scrap SP-Alex2-1@Alex2.Tush-Yurruc
+k] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-3@Tush_YurruckXR1.Tu
+sh-Yurruck] [36] [37] [38] [39]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-2@Tush_YurruckXR1.Tu
+sh-Yurruck] [40] [41] [42] [43] [44] [45] [46] (./mptextmp.mp) [47]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+[75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] )
  
 Here is how much of MetaPost's memory you used:
- 28323 strings using 879934 characters
- 4611264 bytes of node memory
- 1742 symbolic tokens
- 10i,81n,19p,456b,5f stack positions out of 16i,96n,20p,487b,6f
-20 output files written: data-patt.1 .. data-patt.15
+ 23167 strings using 508835 characters
+ 3518348 bytes of node memory
+ 1755 symbolic tokens
+ 11i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
+101 output files written: data-patt.1 .. data.86
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 MAY 2024 09:05
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}<<th_gour_aaaaaaa.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
- 59 numeric registers used out of 32768
-
-[1] ) 
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map}<<th_go
+ur_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaad
+.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaaf.dat>><<th_gour_aaaaaag.dat>><<th
+_gour_aaaaaah.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaaj.dat>><<th_gour_aaaa
+aba.dat>><<th_gour_aaaaabb.dat>><<th_gour_aaaaabc.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <d:/08 GitHub/Turkmenist
+an/Data/Tush-Yurruck/Logo_TKM_2024.jpg> <d:/08 GitHub/Turkmenistan/Data/Tush-Yu
+rruck/Logo_FFS.jpg>) (./th_pages.tex)
+ 178 numeric registers used out of 32768
+ [1] ) 
 Here is how much of TeX's memory you used:
- 315 strings out of 494671
- 4231 string characters out of 6148971
- 389178 words of memory out of 5000000
- 1943 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 124056 bytes).
+ 434 strings out of 94604
+ 5412 string characters out of 1142524
+ 153412 words of memory out of 5119140
+ 2086 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 14i,6n,8p,712b,80s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/csssi10.pfb>
+Output written on data.pdf (1 page, 527336 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 363 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1045 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-writing Outputs/Tush-Yurruck.lox ... done
+
+
+############### export maps & scraps selection #################
+M   870.17 MP-Alex7@Alex7.Tush-Yurruck (Alex7)
+S   870.17 SP-Alex7-1@Alex7.Tush-Yurruck ()
+M   875.11 MP-Alex3@Alex3.Tush-Yurruck (Alex3)
+S   875.96 SP-Alex3-1@Alex3.Tush-Yurruck ()
+S   874.27 SP-Alex3-2@Alex3.Tush-Yurruck ()
+M   875.57 MP-Alex6@Alex6.Tush-Yurruck (Alex6)
+S   877.75 SP-Alex6-1@Alex6.Tush-Yurruck ()
+S   873.39 SP-Alex6-2@Alex6.Tush-Yurruck ()
+M   876.97 MP-Trush-Yurruck-Entree@Trush-Yurruck-Entree.Tush-Yurruck (Trush-Yurruck-Entree)
+S   876.97 SP-Alex0-1@Trush-Yurruck-Entree.Tush-Yurruck ()
+M   880.07 MP-Alex2@Alex2.Tush-Yurruck (Alex2)
+S   880.07 SP-Alex2-1@Alex2.Tush-Yurruck ()
+M   885.81 MP-Alex4@Alex4.Tush-Yurruck (Alex4)
+S   885.81 SP-Alex4-1@Alex4.Tush-Yurruck ()
+M   887.73 MP-Tush_YurruckXR1@Tush_YurruckXR1.Tush-Yurruck (Tush Yurruck XR1)
+S   890.25 SP-Xav1-1@Tush_YurruckXR1.Tush-Yurruck ()
+S   887.10 SP-Xav1-2@Tush_YurruckXR1.Tush-Yurruck ()
+S   885.00 SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck ()
+S   894.77 SP-Xav1-5@Tush_YurruckXR1.Tush-Yurruck ()
+S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Tush-Yurruck-plan.svg ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 09:05
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4]
+[Warning: scrap outline intersects itself in scrap SP-Alex3-2@Alex3.Tush-Yurruc
+k] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[Warning: scrap outline intersects itself in scrap SP-Alex2-1@Alex2.Tush-Yurruc
+k] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-3@Tush_YurruckXR1.Tu
+sh-Yurruck] [36] [37] [38] [39]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-2@Tush_YurruckXR1.Tu
+sh-Yurruck] [40] [41] [42] [43] [44] [45] [46] (./mptextmp.mp) [47]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+[75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] )
+ 
+Here is how much of MetaPost's memory you used:
+ 23167 strings using 508835 characters
+ 3518348 bytes of node memory
+ 1755 symbolic tokens
+ 11i,82n,16p,378b,5f stack positions out of 16i,98n,20p,390b,6f
+101 output files written: data-patt.1 .. data.86
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making svg map ... done
+done
+writing Outputs/Tush-Yurruck.lox ......
+C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck -- multiple scrap outer outlines not supported yet
+.......... done
 writing Outputs/Tush-Yurruck.kml ... done
 writing Outputs/Tush-Yurruck-model.kml ... done
 writing Outputs/Tush-Yurruck.html ... done
-compilation time: 5 sec
+compilation time: 21 sec
 
 
 ######################### loop errors ##########################
@@ -251,6 +278,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   1.39%    1.1m   77.3m   8    0.2m   -1.0m   -0.4m [B20@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - 43 - B22 - 48 - 49 - 51 - B23 - 53 - B20]
   1.19%    0.7m   55.2m   5   -0.5m    0.0m   -0.4m [53@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - 55 - B21 - 34 - B20 - 53]
   1.01%    0.8m   80.0m   7   -0.2m   -0.4m    0.7m [PTR_FR24_A17_9@Tush-Yurruck_04.Alex4.Tush-Yurruck - 23 - 22 - 21 - 20 - 19 - 18 - PTR_FR24_A17_9]
+  0.98%    1.5m  149.2m  13    0.8m    0.5m    1.1m [PTR_FR24_A68_00@Tush-Yurruck_07.Alex7.Tush-Yurruck - 31 - 29 - 28 - 25 - 23 - 16 - 15 - 5 - 4 - 3 - 2 - 1 - PTR_FR24_A68_00]
   0.92%    1.7m  184.7m  11   -0.0m    1.3m   -1.1m [PTR_FR24_A62_3@Tush-Yurruck_02.Alex2.Tush-Yurruck - 4 - 5 - 7 - 8 - 11 - 12 - PTR_FR24_B19_13 = B19@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - B18 = PTR_FR24_B18_00@Tush-Yurruck_02.Alex2.Tush-Yurruck - 1 - 2 - PTR_FR24_A62_3]
   0.60%    0.6m  105.7m   6   -0.3m    0.5m    0.1m [B24@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - B27 - 65 - B26 - B25 - 58 - B24]
   0.60%    1.1m  187.7m   9   -0.0m   -0.8m    0.8m [B22@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - 45 - PTR_FR24_A62_3 = PTR_FR24_A62_3@Tush-Yurruck_02.Alex2.Tush-Yurruck - 2 - 1 - PTR_FR24_B18_00 = B18@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - B19 - B20 - 43 - B22]
@@ -259,6 +287,25 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   0.42%    2.6m  623.6m  40    1.2m   -0.6m   -2.2m [PTR_FR24_B13_00@Tush-Yurruck_03.Alex3.Tush-Yurruck - 1 - 2 - 3 - 4 - PTR_FR24_A64_5 = PTR_FR24_A64_00@Tush-Yurruck_04.Alex4.Tush-Yurruck - 1 - 2 - 3 - 4 - 5 - 6 - 8 - PTR_FR24_A17_9 - 23 - 22 - 21 - 24 - 25 - PTR_FR24_B33_26 = B33@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - 96 - 95 - B32 - 91 - 90 - B31 - 87 - 86 - B30 - B23 - 53 - B20 - B19 - B18 - 19 - B16 - 12 - B15 - 8 - B14 - B13 = PTR_FR24_B13_00@Tush-Yurruck_03.Alex3.Tush-Yurruck]
   0.18%    0.2m  111.1m   7    0.0m    0.0m    0.2m [B30@Tush_YurruckXR1.Tush_YurruckXR1.Tush-Yurruck - B23 - 53 - 55 - B24 - B27 - 83 - B30]
 ##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   1.05%  100.00%  SP-Alex7-1@Alex7.Tush-Yurruck
+  11.77%   76.65%  SP-Alex6-2@Alex6.Tush-Yurruck
+   2.31%   72.22%  SP-Alex4-1@Alex4.Tush-Yurruck
+   2.54%   69.57%  SP-Alex2-1@Alex2.Tush-Yurruck
+   1.28%   66.25%  SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck
+   0.70%   60.65%  SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck
+   1.70%   54.54%  SP-Alex6-1@Alex6.Tush-Yurruck
+   0.57%   49.58%  SP-Alex3-1@Alex3.Tush-Yurruck
+   2.99%   39.96%  SP-Alex3-2@Alex3.Tush-Yurruck
+   0.23%   30.18%  SP-Xav1-2@Tush_YurruckXR1.Tush-Yurruck
+   0.06%   14.74%  SP-Alex0-1@Trush-Yurruck-Entree.Tush-Yurruck
+   0.05%   10.12%  SP-Xav1-1@Tush_YurruckXR1.Tush-Yurruck
+   0.11%    1.41%  SP-Xav1-5@Tush_YurruckXR1.Tush-Yurruck
+################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
   Area of Use (AoU): (66.414, 37.657) (66.414, 37.657)

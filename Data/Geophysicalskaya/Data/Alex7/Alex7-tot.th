@@ -9,13 +9,13 @@ survey Alex7 -title "Alex7"
 	input Data/Geophysicalskaya_07.th
 	
 	# Import du dessin en plan
-	#input Data/Alex7.th2
+	input Data/Geophysicalskaya_07.th2
 
 	# Import du dessin en coupe
 	#input Data/Alex7-coupe.th2
 
 	# Import des maps
-	#input Alex7-maps.th
+	input Alex7-maps.th
  
  endsurvey
  

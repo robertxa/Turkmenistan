@@ -1,0 +1,63 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Entree_01.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.6213
+geomag declinations (deg):
+  2024.1.1  4.6424
+  2025.1.1  4.6874
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 105 stations, connect‚es par 104 vis‚es.
+ 5> Il y a 1 bouclage.
+ 6> La topographie contient 2 composants connect‚s.
+ 7> Longueur totale de la topographie =  137.97m ( 137.97m ajust‚)
+ 8> Longueur totale en projection horizontale =  127.87m
+ 9> Longueur totale verticale =   42.27m
+10> Intervalle vertical = 39.02m (de 1 … 353.00m jusqu'… 100 … 313.98m)
+11> Intervalle Nord-Sud = 66.33m (de 102 … 4171000.71m jusqu'… 73 … 4170934.37m)
+12> Intervalle Est-Ouest = 97.02m (de 48 … 266018.92m jusqu'… 78 … 265921.90m)
+13>   92 1-noeuds.
+14>    1 5-noeud.
+15>    3 7-noeuds.
+16>    3 8-noeuds.
+17>    1 9-noeud.
+18>    2 10-noeuds.
+19>    1 11-noeud.
+20>    1 12-noeud.
+21>    1 14-noeud.
+22> 
+######################### transcription ########################
+ 4> 105 : 13@Grotte_du_lac_01.Entree_01 -- 104 : .@Grotte_du_lac_01.Entree_01
+ 5> 1 : 00@Grotte_du_lac_01.Entree_01
+ 6> 2 : .@Grotte_du_lac_01.Entree_01
+10> 1 : 00@Grotte_du_lac_01.Entree_01 -- 100 : .@Grotte_du_lac_01.Entree_01
+11> 102 : .@Grotte_du_lac_01.Entree_01 -- 73 : .@Grotte_du_lac_01.Entree_01
+12> 48 : .@Grotte_du_lac_01.Entree_01 -- 78 : .@Grotte_du_lac_01.Entree_01
+13> 92 : 11@Grotte_du_lac_01.Entree_01
+14> 1 : 00@Grotte_du_lac_01.Entree_01
+15> 3 : .@Grotte_du_lac_01.Entree_01
+16> 3 : .@Grotte_du_lac_01.Entree_01
+17> 1 : 00@Grotte_du_lac_01.Entree_01
+18> 2 : .@Grotte_du_lac_01.Entree_01
+19> 1 : 00@Grotte_du_lac_01.Entree_01
+20> 1 : 00@Grotte_du_lac_01.Entree_01
+21> 1 : 00@Grotte_du_lac_01.Entree_01
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files (x86)\Therion\therion.exe: error -- Entree_01-maps.th [13] -- object does not exist -- SC-Entree_01-1
+writing xtherion file ... done

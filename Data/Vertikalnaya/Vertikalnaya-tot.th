@@ -1,0 +1,23 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Vertikalnaya -title "Vertikalnaya"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Vertikalnaya.th
+	
+	# Import du dessin en plan
+	input Data/Vertikalnaya-00.th2
+	
+	input Data/Vertikalnaya-01.th2
+
+	# Import du dessin en coupe
+	input Data/Vertikalnaya-Coupe-00.th2
+
+	# Import des maps
+	input Vertikalnaya-maps.th
+ 
+ endsurvey
+ 

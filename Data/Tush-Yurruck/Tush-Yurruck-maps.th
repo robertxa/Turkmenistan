@@ -2,20 +2,29 @@ encoding  utf-8
 
 # Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
-#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Tush-Yurruck -title "Tush-Yurruck"
-	MP-Entree@Entree
-	#break
-	#MP-Philippe2@Philippe2
-	#break
-	#MP-Tush-YurruckXR4@Tush-YurruckXR4
-	#break
-	#MP-GeophysicayaXR6@GeophysicayaXR6
-
+	SP-Alex0-1
+	break
+	SP-Xav4-1
+	break
+	SP-Alex2-1
+	break
+	SP-Alex3-1
+	break
+	SP-Alex3-2
+	break
+	SP-Alex4-1
+	break
+	SP-Alex6-1
+	break
+	SP-Alex6-2
+	break
+	SP-Alex7-1
 endmap
 
 #map MC-Tush-Yurruck -title "Tush-Yurruck"
 #	SC-Tush-Yurruck-1
 #endmap
-   
+

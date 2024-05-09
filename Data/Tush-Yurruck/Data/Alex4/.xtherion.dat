@@ -1,13 +1,13 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.38m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -8.02m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_A33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
-xth_cp_data_tree_insert 48 1 1 Alex4 Alex4 "Alex4" "Alex4" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.38m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -8.02m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_A33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
-xth_cp_data_tree_insert 50 48 2 Tush-Yurruck_04 Tush-Yurruck_04.Alex4 "Tush-Yurruck 04" "Tush-Yurruck 04" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.38m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -8.02m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_A33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.76m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -6.40m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_B33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
+xth_cp_data_tree_insert 48 1 1 Alex4 Alex4 "Alex4" "Alex4" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.76m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -6.40m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_B33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
+xth_cp_data_tree_insert 50 48 2 Tush-Yurruck_04 Tush-Yurruck_04.Alex4 "Tush-Yurruck 04" "Tush-Yurruck 04" "length: 354.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.76m (from 24@Tush-Yurruck_04.Alex4 at 12.36m to 17@Tush-Yurruck_04.Alex4 at -6.40m)\nnorth-south range: 149.19m (from 24@Tush-Yurruck_04.Alex4 at 149.19m to PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m)\neast-west range: 85.07m (from PTR_FR24_A64_00@Tush-Yurruck_04.Alex4 at 0.00m to PTR_FR24_B33_26@Tush-Yurruck_04.Alex4 at -85.07m)\nnumber of shots: 258\nnumber of stations: 258"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 106X1 p1 1 MP-Alex4 MP-Alex4@Alex4 "Alex4" "Alex4"
 xth_cp_map_tree_create
-xth_cp_comp_stat 354 0
+xth_cp_comp_stat 354 1
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1713531177
+set xth(th_exit_number) 1714899535
 

@@ -7,7 +7,7 @@ survey chauves -title "chauves"
       team "Gaël Cazes"
       team "Xavier Robert"
 
-    cs lat-long
+    cs long-lat
     fix 12  66.49701  37.911991 910
     station 12 "G. des Chauves-Souris" entrance
 

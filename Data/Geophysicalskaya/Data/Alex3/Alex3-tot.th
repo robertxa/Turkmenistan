@@ -9,13 +9,13 @@ survey Alex3 -title "Alex3"
 	input Data/Geophysicalskaya_03.th
 	
 	# Import du dessin en plan
-	#input Data/Alex3.th2
+	input Data/Geophysicalskaya_03.th2
 
 	# Import du dessin en coupe
 	#input Data/Alex3-coupe.th2
 
 	# Import des maps
-	#input Alex3-maps.th
+	input Alex3-maps.th
  
  endsurvey
  

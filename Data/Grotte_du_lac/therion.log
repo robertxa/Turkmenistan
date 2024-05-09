@@ -1,0 +1,297 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: Grotte_du_lac_By_Alex.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.6213
+geomag declinations (deg):
+  2024.1.1  4.6424
+  2025.1.1  4.6874
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.3
+ 2> Copyright ∏ 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 357 stations, connectÇes par 355 visÇes.
+ 5> Il y a 2 bouclages.
+ 6> La topographie contient 4 composants connectÇs.
+ 7> Longueur totale de la topographie =  658.18m ( 658.18m ajustÇ)
+ 8> Longueur totale en projection horizontale =  637.52m
+ 9> Longueur totale verticale =  123.16m
+10> Intervalle vertical = 56.67m (de 6 Ö 370.11m jusqu'Ö 157 Ö 313.44m)
+11> Intervalle Nord-Sud = 160.08m (de 354 Ö 4171000.71m jusqu'Ö 130 Ö 4170840.63m)
+12> Intervalle Est-Ouest = 265.10m (de 226 Ö 266187.00m jusqu'Ö 330 Ö 265921.90m)
+13>  313 1-noeuds.
+14>    2 5-noeuds.
+15>    1 6-noeud.
+16>    9 7-noeuds.
+17>    9 8-noeuds.
+18>    8 9-noeuds.
+19>    6 10-noeuds.
+20>    1 11-noeud.
+21>    5 12-noeuds.
+22>    1 13-noeud.
+23>    1 14-noeud.
+24>    1 16-noeud.
+25> 
+######################### transcription ########################
+ 4> 357 : 13@Grotte_du_lac_01.Entree_01.Grotte_du_lac -- 355 : .@Grotte_du_lac_01.Entree_01.Grotte_du_lac
+ 5> 2 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+ 6> 4 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+10> 6 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac -- 157 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+11> 354 : .@Grotte_du_lac_01.Entree_01.Grotte_du_lac -- 130 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+12> 226 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac -- 330 : .@Grotte_du_lac_01.Entree_01.Grotte_du_lac
+13> 313 : .@Grotte_du_lac_01.Entree_01.Grotte_du_lac
+14> 2 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+15> 1 : 00@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+16> 9 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+17> 9 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+18> 8 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+19> 6 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+20> 1 : 00@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+21> 5 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+22> 1 : 00@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+23> 1 : 00@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+24> 1 : 00@Grotte_du_lac_00.Entree_00.Grotte_du_lac
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+C:\Program Files (x86)\Therion\therion.exe: warning -- Grotte_du_lac_By_Alex.thconfig [313] -- object not found -- "MC-Grotte_du_lac-coupe"
+done
+processing projection extended ... done
+average distortion: 3.34%
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-Entree_00@Entree_00.Grotte_du_lac (Grotte du lac entr√©e 00 Coupe)
+S     0.00 SC-Entree-00-1@Entree_00.Grotte_du_lac ()
+S     0.00 SC-Entree-00-2@Entree_00.Grotte_du_lac ()
+S     0.00 SC-Entree-00-3@Entree_00.Grotte_du_lac ()
+M     0.00 MC-Entree_01@Entree_01.Grotte_du_lac (Grotte du lac entr√©e 01 Coupe)
+S     0.00 SC-Entree_01-1@Entree_01.Grotte_du_lac ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Grotte_du_lac-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 12:17
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8]
+[Warning: scrap outline intersects itself in scrap SC-Entree-00-1@Entree_00.Gro
+tte_du_lac] [9] [10] [11] [12] [13] [14] [15] (./mptextmp.mp) [16]
+(./mptextmp.mp) [17] [18] [19] [20] [21] [22] [23] [24] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5142 strings using 131395 characters
+ 2659620 bytes of node memory
+ 1745 symbolic tokens
+ 8i,82n,13p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+39 output files written: data-patt.1 .. data.24
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 MAY 2024 12:17
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map}<<th_go
+ur_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaad
+.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) <d:/08 GitHub/Turkmenist
+an/Data/Grotte_du_lac/Logo_TKM_2024.jpg> <d:/08 GitHub/Turkmenistan/Data/Grotte
+_du_lac/Logo_FFS.jpg>) (./th_pages.tex)
+ 84 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 314 strings out of 94604
+ 4271 string characters out of 1142524
+ 40777 words of memory out of 5025505
+ 1966 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 13i,6n,7p,278b,74s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb>
+Output written on data.pdf (1 page, 335889 bytes).
+PDF statistics:
+ 126 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-Entree_00@Entree_00.Grotte_du_lac (Grotte du lac entr√©e 00 Coupe)
+S     0.00 SC-Entree-00-1@Entree_00.Grotte_du_lac ()
+S     0.00 SC-Entree-00-2@Entree_00.Grotte_du_lac ()
+S     0.00 SC-Entree-00-3@Entree_00.Grotte_du_lac ()
+M     0.00 MC-Entree_01@Entree_01.Grotte_du_lac (Grotte du lac entr√©e 01 Coupe)
+S     0.00 SC-Entree_01-1@Entree_01.Grotte_du_lac ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Grotte_du_lac-coupe.svg ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 12:17
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8]
+[Warning: scrap outline intersects itself in scrap SC-Entree-00-1@Entree_00.Gro
+tte_du_lac] [9] [10] [11] [12] [13] [14] [15] (./mptextmp.mp) [16]
+(./mptextmp.mp) [17] [18] [19] [20] [21] [22] [23] [24] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5142 strings using 131395 characters
+ 2659620 bytes of node memory
+ 1745 symbolic tokens
+ 8i,82n,13p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+39 output files written: data-patt.1 .. data.24
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making svg map ... done
+done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M   328.13 MP-Grotte_du_lac@Grotte_du_lac (Grotte du lac)
+M   325.91 MP-Entree_00@Entree_00.Grotte_du_lac (Grotte du lac entr√©e 00)
+S   339.69 SP-Entree-00-1@Entree_00.Grotte_du_lac ()
+S   320.09 SP-Entree-00-2@Entree_00.Grotte_du_lac ()
+S   317.96 SP-Entree-00-3@Entree_00.Grotte_du_lac ()
+M   330.34 MP-Entree_01@Entree_01.Grotte_du_lac (Grotte du lac entr√©e 01)
+S   330.34 SP-Entree-01-1@Entree_01.Grotte_du_lac ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Grotte_du_lac-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 12:17
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1]
+[Warning: scrap outline intersects itself in scrap SP-Entree-00-3@Entree_00.Gro
+tte_du_lac] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+[Warning: scrap outline intersects itself in scrap SP-Entree-01-1@Entree_01.Gro
+tte_du_lac]
+[Warning: scrap outline intersects itself in scrap SP-Entree-01-1@Entree_01.Gro
+tte_du_lac] [14] [15] [16] (./mptextmp.mp) [17] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [18]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [19] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5355 strings using 136909 characters
+ 3687516 bytes of node memory
+ 1748 symbolic tokens
+ 11i,82n,19p,452b,5f stack positions out of 16i,98n,22p,487b,6f
+34 output files written: data-patt.1 .. data.19
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 MAY 2024 12:17
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map}<<th_go
+ur_aaaaaaa.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaag
+.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 96 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 352 strings out of 94604
+ 4658 string characters out of 1142524
+ 210732 words of memory out of 5179460
+ 2004 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 10i,6n,8p,712b,66s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therio
+n/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type
+1/csssi10.pfb>
+Output written on data.pdf (1 page, 156689 bytes).
+PDF statistics:
+ 148 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Grotte_du_lac-model.kml ... done
+writing Outputs/Grotte_du_lac.lox ......
+C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Entree-00-3@Entree_00.Grotte_du_lac -- invalid scrap outline
+. done
+writing Outputs/Grotte_du_lac.kml ... done
+writing Outputs/Grotte_du_lac-model.kml ... done
+writing Outputs/Grotte_du_lac.html ... done
+compilation time: 6 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.01%  SP-Entree-00-1@Entree_00.Grotte_du_lac
+   0.00%    0.01%  SP-Entree-01-1@Entree_01.Grotte_du_lac
+   0.00%    0.01%  SP-Entree-00-3@Entree_00.Grotte_du_lac
+   0.00%    0.01%  SP-Entree-00-2@Entree_00.Grotte_du_lac
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   5.74%  100.00%  SC-Entree-00-1@Entree_00.Grotte_du_lac
+  11.25%   86.01%  SC-Entree-00-3@Entree_00.Grotte_du_lac
+   0.12%   22.41%  SC-Entree-00-2@Entree_00.Grotte_du_lac
+   0.12%    7.38%  SC-Entree_01-1@Entree_01.Grotte_du_lac
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (66.347, 37.656) (66.347, 37.656)
+  [UTM42 ‚Üí LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 ‚Üí LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 ‚Üí UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 ‚Üí EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 ‚Üí UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

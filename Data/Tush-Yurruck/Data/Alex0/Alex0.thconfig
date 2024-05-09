@@ -27,7 +27,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appellera 
 # "jb.th" et a leur tour, "jb.th" appellera
 # "jb-dessin.th2")
-source Trush-Yurruck-Entree-tot.th
+source Alex0-tot.th
 
 # Add Coordinates
 #input legendes/entrances_coordinates.th
@@ -104,7 +104,7 @@ layout my_layout
   # Auteur 
   doc-author "Xavier Robert"
   # Titule
-  doc-title "Trush-Yurruck-Entree plan - 1:1000"
+  doc-title "Alex0 plan - 1:1000"
 
   # Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
   # Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -151,7 +151,7 @@ layout my_layout
 		\edef\nostring{}                 % empty string 
 		\ifx\temp\nostring             % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Trush-Yurruck-Entree} 
+			\cavename={Alex0} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Koytendag 2023}
@@ -159,7 +159,7 @@ layout my_layout
 	endcode   
 
   ## add extended-elev on the same pdf
-  #map-image 90 110 nw Outputs/Trush-Yurruck-Entree-coupe.pdf
+  #map-image 90 110 nw Outputs/Alex0-coupe.pdf
   
  endlayout
 # Fin de la definition du Layout "normal"
@@ -215,7 +215,7 @@ layout layout-coupe
   # Auteur 
   doc-author "Xavier Robert"
   # Titule
-  doc-title "Trush-Yurruck-Entree coupe développée - 1:1000"
+  doc-title "Alex0 coupe développée - 1:1000"
 
   # Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
   # Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -272,7 +272,7 @@ layout layout-coupe
 	#	\edef\nostring{}                 % empty string 
 	#	\ifx\temp\nostring             % test if cavename is empty
 	#		% if empty reassign cavename to describe selected maps as a group
-	#		\cavename={Gouffre Trush-Yurruck-Entree} 
+	#		\cavename={Gouffre Alex0} 
 	#	\else % if not empty keep the value set by therion, or assign an override cavename here
 	#	\fi
 	#	\newtoks\club \club={Koytendag 2023}
@@ -296,26 +296,26 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-#export map -fmt xvi -layout xviexport -o Data/Trush-Yurruck-Entree-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Trush-Yurruck-Entree-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/Alex0-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Alex0-coupe.xvi
 
 # Selection des Maps à exporter
-select MP-Trush-Yurruck-Entree-plan@Trush-Yurruck-Entree
-select MC-Trush-Yurruck-Entree-coupe@Trush-Yurruck-Entree
+select MP-Alex0-plan@Alex0
+select MC-Alex0-coupe@Alex0
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Trush-Yurruck-Entree-coupe.pdf
- export map -proj plan -fmt pdf -o Outputs/Trush-Yurruck-Entree-plan.pdf -layout my_layout
+ export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Alex0-coupe.pdf
+ export map -proj plan -fmt pdf -o Outputs/Alex0-plan.pdf -layout my_layout
  
 
 # Export du fichier 3d pour Loch
- export model -enable all -o Outputs/Trush-Yurruck-Entree.lox
+ export model -enable all -o Outputs/Alex0.lox
 
 # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/Trush-Yurruck-Entree -layout my_layout
+# export map -proj plan -fmt esri -o Outputs/Alex0 -layout my_layout
 
 # Export des fichiers kml
- export map -proj plan -fmt kml -o Outputs/Trush-Yurruck-Entree.kml -layout layout-kml
- export model -fmt kml -o Outputs/Trush-Yurruck-Entree-model.kml -enable all
- export cave-list -location on -o Outputs/Trush-Yurruck-Entree.html
+ export map -proj plan -fmt kml -o Outputs/Alex0.kml -layout layout-kml
+ export model -fmt kml -o Outputs/Alex0-model.kml -enable all
+ export cave-list -location on -o Outputs/Alex0.html

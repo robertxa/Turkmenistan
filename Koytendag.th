@@ -7,8 +7,18 @@ encoding  utf-8
 survey Koytendag -title "Karst de Koytendag"
 # Pour importer les différentes données de différents fichiers topos : 
 
-	input Data/Kaptarhana/Kaptarhana-tot.th
+	input Data/Chauve-Souris/Chauve-Souris-tot.th
+	input Data/Cupp-Coutunn/Cupp-Coutun-tot.th
 	input Data/Geophysicalskaya/Geophysicalskaya-tot.th
+	input Data/Hanaka/Hanaka-tot.th
+	input Data/Kaptarhana/Kaptarhana-tot.th
+	#input Data/Ochimoyuk/Ochimoyuk-tot.th
+	input Data/Petit-General/Petit-General-tot.th
+	input Data/Russes-CA/Russes-CA-tot.th
+	input Data/Tush-Yurruck/Tush-Yurruck-tot.th
+   input Data/Vertikalnaya/Vertikalnaya-tot.th
+	input Data/Grotte_du_lac/Grotte_du_lac-tot.th
+	input Data/Promeszutochnaya/Promeszutochnaya-tot.th
 
 	# Import maps
 	#input Koytendag-maps.th

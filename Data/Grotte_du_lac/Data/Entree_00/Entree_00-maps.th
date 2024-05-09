@@ -1,0 +1,22 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Entree_00 -title "Grotte du lac entrée 00"
+	SP-Entree-00-1
+	break
+	SP-Entree-00-2
+	break
+	SP-Entree-00-3
+endmap
+
+map MC-Entree_00 -title "Grotte du lac entrée 00 Coupe"
+	SC-Entree-00-1
+	break
+	SC-Entree-00-2
+	break
+	SC-Entree-00-3
+endmap
+

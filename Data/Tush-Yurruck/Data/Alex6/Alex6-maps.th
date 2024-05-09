@@ -6,6 +6,8 @@ encoding  utf-8
 
 map MP-Alex6 -title "Alex6"
 	SP-Alex6-1
+	break
+	SP-Alex6-2
 endmap
 
 #map MC-Alex6 -title "Alex6"

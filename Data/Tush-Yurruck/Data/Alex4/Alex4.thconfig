@@ -296,16 +296,16 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-#export map -fmt xvi -layout xviexport -o Data/Alex4-map.xvi
+export map -fmt xvi -layout xviexport -o Data/Alex4-map.xvi
 #export map -proj extended -layout xviexport -fmt xvi -o Data/Alex3-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Alex4-plan@Alex4
-select MC-Alex4-coupe@Alex4
+#select MC-Alex4-coupe@Alex4
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Alex4-coupe.pdf
+# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Alex4-coupe.pdf
  export map -proj plan -fmt pdf -o Outputs/Alex4-plan.pdf -layout my_layout
  
 

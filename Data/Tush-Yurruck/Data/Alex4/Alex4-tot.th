@@ -9,13 +9,13 @@ survey Alex4 -title "Alex4"
 	input Data/Tush-Yurruck_04.th
 	
 	# Import du dessin en plan
-	#input Data/Alex3.th2
+	input Data/Tush-Yurruck_04.th2
 
 	# Import du dessin en coupe
 	#input Data/Alex3-coupe.th2
 
 	# Import des maps
-	#input Alex3-maps.th
+	input Alex4-maps.th
  
  endsurvey
  

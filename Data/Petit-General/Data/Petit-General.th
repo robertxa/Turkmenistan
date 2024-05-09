@@ -7,7 +7,7 @@ survey general -title "general"
       team "Gaël Cazes"
       team "Xavier Robert"
     
-    cs lat-long
+    cs long-lat
     fix 0 66.51977  37.89953  1509
     station 0 "G. du Petit Général" entrance
     
