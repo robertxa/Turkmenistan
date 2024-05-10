@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Xav1-1 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
+scrap SP-Xav1-1 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
 
 point 960.0 3032.0 height -value [+15 m]
 
@@ -404,7 +404,7 @@ endscrap
 
 
 
-scrap SP-Xav1-3 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
+scrap SP-Xav1-3 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
 
 line wall
   2463.0 2921.0
@@ -1078,7 +1078,7 @@ endscrap
 
 
 
-scrap SP-Xav1-4 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
+scrap SP-Xav1-4 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
 
 point 3847.56 1732.6000000000001 station -name 11
 
@@ -1390,7 +1390,7 @@ endscrap
 
 
 
-scrap SP-Xav1-5 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
+scrap SP-Xav1-5 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
 
 line wall
   3297.0 1947.0
@@ -1475,7 +1475,7 @@ endscrap
 
 
 
-scrap SP-Xav1-2 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
+scrap SP-Xav1-2 -projection plan -station-names "" "@Tush_YurruckXR1" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-285.48 -206.73999999999978 4931.152599999999 -206.73999999999978 0.0 0.0 132.50246803999997 0.0 m]
 
 line slope
   2241.0 3308.0
