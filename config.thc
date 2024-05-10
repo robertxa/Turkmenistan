@@ -1687,6 +1687,8 @@ layout headerl
 	#<en> This one affects maps only
 	#<fr> Ceci ne touche que les maps (plans)
 	code tex-map
+
+		\def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage}
 		
 		\legendcontent={%
 			\hsize=\legendwidth
@@ -1807,6 +1809,8 @@ layout headerl
 		\formattedlegend
 		\color[0 0 0]
 		}
+		% Add Logos
+		#\legendbox{50}{60}{NW}{\loadpicture{Logos/Logo_FFS_small.jpg}}
 
 	endcode
 endlayout

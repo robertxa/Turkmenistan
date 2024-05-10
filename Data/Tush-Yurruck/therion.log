@@ -105,7 +105,7 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... 
-therion: warning -- Tush-Yurruck_By_Alex.thconfig [315] -- object not found -- "MP-Tush-Yurruck"
+therion: warning -- Tush-Yurruck_By_Alex.thconfig [320] -- object not found -- "MP-Tush-Yurruck"
 done
 processing projection plan ... done
 average distortion: 0.98%
@@ -135,7 +135,7 @@ S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush-Yurruck-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:36
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 10:27
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -167,7 +167,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,15 +180,15 @@ th_gour_aaaaaad.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaaf.dat>><<th_gour_aa
 aaaag.dat>><<th_gour_aaaaaah.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaaj.dat>
 ><<th_gour_aaaaaba.dat>><<th_gour_aaaaabb.dat>><<th_gour_aaaaabc.dat>>)
 (./th_formdef.tex) (./th_pagedef.tex </Users/robertxaold/Documents/Speleo/Expes
-/Turkmenistan/Topos/Data/Tush-Yurruck/Logo_TKM_2024.jpg> </Users/robertxaold/Do
-cuments/Speleo/Expes/Turkmenistan/Topos/Data/Tush-Yurruck/Logo_FFS.jpg>)
-(./th_pages.tex)
+/Turkmenistan/Topos/Data/Tush-Yurruck/../../Logos/Logo_TKM_2024_small.jpg> </Us
+ers/robertxaold/Documents/Speleo/Expes/Turkmenistan/Topos/Data/Tush-Yurruck/../
+../Logos/Logo_FFS_small.jpg>) (./th_pages.tex)
  149 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
  402 strings out of 494671
  5201 string characters out of 6148971
- 166105 words of memory out of 5000000
+ 166109 words of memory out of 5000000
  2033 multiletter control sequences out of 15000+600000
  20080 words of font info for 63 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
@@ -197,7 +197,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 505450 bytes).
+Output written on data.pdf (1 page, 338476 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
@@ -233,7 +233,7 @@ S   881.53 SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush-Yurruck-plan.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:36
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 10:27
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -271,7 +271,6 @@ therion: warning -- SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck -- multiple scrap out
 writing Outputs/Tush-Yurruck.kml ... done
 writing Outputs/Tush-Yurruck-model.kml ... done
 writing Outputs/Tush-Yurruck.html ... done
-writing xtherion file ... done
 compilation time: 7 sec
 
 

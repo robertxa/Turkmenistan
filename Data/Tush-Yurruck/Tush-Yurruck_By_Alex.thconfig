@@ -114,8 +114,11 @@ layout my_layout
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
 	map-header 0 50 nw
+	# Logos
+	map-image 12 51.5 nw	../../Logos/Logo_FFS_small.jpg
+	map-image 18 50 nw	../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
-	map-header-bg off
+	map-header-bg on
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
@@ -167,8 +170,10 @@ layout my_layout
 	## add extended-elev on the same pdf
 	#map-image 100 80 sw	Logo_TKM_2024.jpg
 	#map-image 85 80 sw	Logo_FFS.jpg
-	map-image 50 10 sw	Logo_TKM_2024.jpg
-	map-image 35 10 sw	Logo_FFS.jpg
+	#map-image 50 10 sw	Logo_TKM_2024.jpg
+	#map-image 35 10 sw	Logo_FFS.jpg
+
+	
 	
 	#map-image 90 110 nw Outputs/Tush-Yurruck-coupe.pdf
 	

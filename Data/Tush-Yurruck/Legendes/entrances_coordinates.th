@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
@@ -14,7 +14,7 @@ layout Entrances_coords_CDa
 
 	code tex-map
 		\def\thjunk{ }
-		\def\thlocationCDa{Geophysicalskaya    --  Lat. : 37.673152 N ; Long. : 66.394767 E ; Alt. : 856 m}
+		\def\thlocationCDa{Tush Yurruck    --  Lat. : 37.65695 N ; Long. : 66.41444 E ; Alt. : 885 m}
 	endcode 
 	
 endlayout

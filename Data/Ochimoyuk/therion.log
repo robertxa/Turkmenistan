@@ -14,8 +14,8 @@ calculating station coordinates ... done
 average loop error: 3.48%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.5
- 2> Copyright © 1990-2021 Olly Betts
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
  3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 50 à (0,0,0)
  4> 
  5> La topographie contient 1429 stations, connectées par 1438 visées.
@@ -103,7 +103,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Ochimoyuk-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 16:11
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:44
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -125,7 +125,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -166,7 +166,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Ochimoyuk-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 16:11
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:44
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -191,7 +191,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,7 +216,7 @@ Here is how much of TeX's memory you used:
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 105483 bytes).
+Output written on data.pdf (1 page, 105485 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
