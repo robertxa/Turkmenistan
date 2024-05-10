@@ -17,7 +17,7 @@ survey Mumiyskaya -title "Mumiyskaya" -entrance Mumiyskaya
         explo-team "Gaël Cazes"
     
     cs long-lat
-    fix Mumiyskaya 66:24:38 37:49:38	610
+    fix Mumiyskaya 66:24:26.30 37:49:38	610
     station Mumiyskaya "Mumiyskaya" entrance
 
     units length meters

@@ -9,10 +9,10 @@ reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM42
-meridian convergence (deg): 1.5887
+meridian convergence (deg): 1.5907
 geomag declinations (deg):
-  2024.1.1  4.6951
-  2025.1.1  4.7400
+  2024.1.1  4.6954
+  2025.1.1  4.7403
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -28,8 +28,8 @@ processing survey data ...
  8> Longueur totale en projection horizontale =  147.06m
  9> Longueur totale verticale =   25.91m
 10> Intervalle vertical = 9.50m (de 87 à 612.28m jusqu’à 75 à 602.78m)
-11> Intervalle Nord-Sud = 87.34m (de 85 à 4189804.95m jusqu’à 4 à 4189717.61m)
-12> Intervalle Est-Ouest = 77.84m (de 54 à 272107.77m jusqu’à 3 à 272029.92m)
+11> Intervalle Nord-Sud = 87.34m (de 85 à 4189812.89m jusqu’à 4 à 4189725.55m)
+12> Intervalle Est-Ouest = 77.85m (de 54 à 271821.68m jusqu’à 3 à 271743.84m)
 13>   71 1-nœuds.
 14>    1 2-nœud.
 15>    1 5-nœud.
@@ -70,7 +70,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Mumiyskaya-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:34
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -92,7 +92,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,14 +107,14 @@ tex.map})
 Here is how much of TeX's memory you used:
  273 strings out of 494671
  3884 string characters out of 6148971
- 38244 words of memory out of 5000000
+ 38242 words of memory out of 5000000
  1906 multiletter control sequences out of 15000+600000
  16503 words of font info for 54 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
  7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb>
-Output written on data.pdf (1 page, 20190 bytes).
+Output written on data.pdf (1 page, 20188 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
@@ -131,7 +131,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Mumiyskaya-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:34
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -156,7 +156,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,7 +172,7 @@ tex.map}<<th_gour_aaaaaaa.dat>>)
 Here is how much of TeX's memory you used:
  316 strings out of 494671
  4233 string characters out of 6148971
- 32895 words of memory out of 5000000
+ 32931 words of memory out of 5000000
  1942 multiletter control sequences out of 15000+600000
  22343 words of font info for 69 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
@@ -182,7 +182,7 @@ pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 51596 bytes).
+Output written on data.pdf (1 page, 51593 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
@@ -194,7 +194,7 @@ PDF statistics:
 done
 writing Outputs/Mumiyskaya.lox ... done
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:34
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -210,7 +210,7 @@ writing Outputs/Mumiyskaya.html ... done
 compilation time: 4 sec
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (66.411, 37.827) (66.411, 37.827)
+  Area of Use (AoU): (66.407, 37.827) (66.407, 37.827)
   [LONG-LAT → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LONG-LAT → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LONG-LAT → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
