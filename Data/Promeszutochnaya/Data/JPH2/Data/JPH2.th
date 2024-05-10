@@ -1,13 +1,17 @@
 encoding utf-8
 # Created at 2024.04.24 17:30:41 by Qave ver. 3.035 rev. 3.0
 
+# Copyright (C) 2024 Jean-Paul Héreil
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey JPH2  -title "Tunnel 2"
 
 centerline
 
 date 2024.04.24
-team "Jean-Paul Hereil"
-team "Jean-Marie Briffon"
+	team "Jean-Paul Héreil"
+	team "Jean-Marie Briffon"
 
 	 cs UTM42
 	 fix Promeszutochnaya_Tunnel_01 0270588 4168955 640 # Altitude Alti Philippe Audra / gps alex (Altitude Alex 620)	 

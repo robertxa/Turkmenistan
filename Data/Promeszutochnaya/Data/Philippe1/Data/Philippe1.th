@@ -1,12 +1,15 @@
 # 2024.04.24 created by TopoDroid v 6.2.32
 
+# Copyright (C) 2024 Philippe Audra
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Promeszutochnaya_01 -title "Promeszutochnaya_01"
 
   centerline
     date 2024.04.24 
-	 
-	 team "Philippe Audra"
-	 team "Jo De-Waele"
+	    team "Philippe Audra"
+	    team "Jo De-Waele"
 	 
     units length meters
     units compass clino degrees

@@ -1,15 +1,18 @@
 # 2024.04.16 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Geophysicalskaya_07 -title "Geophysicaya 07"
     # jo et alex depart fr24 13 
 
   centerline
-    date 2024.04.16
-	 	 
-	 team "Alexandre Pont"
-    team "Xavier Robert"
-	 team "Jo De-Waele"
-	 team "Bernard Lips"
+    date 2024.04.16 
+	    team "Alexandre Pont"
+      team "Xavier Robert"
+	    team "Jo De-Waele"
+	    team "Bernard Lips"
 	 
  
     units length meters

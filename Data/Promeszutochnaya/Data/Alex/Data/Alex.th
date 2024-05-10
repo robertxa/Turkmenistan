@@ -1,13 +1,16 @@
 # 2024.04.25 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Alex -title "Promeszutochnaya 04"
 
   centerline
     date 2024.04.25 
-	 
-	 team "Philippe Audra"
-	 team "Jo De-Waele"
-	 team "Alexandre Pont"
+	    team "Philippe Audra"
+	    team "Jo De-Waele"
+	    team "Alexandre Pont"
 	 
     units length meters
     units compass clino degrees

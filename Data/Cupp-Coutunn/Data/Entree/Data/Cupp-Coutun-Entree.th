@@ -1,12 +1,16 @@
 # 2024.04.18 created by TopoDroid v 5.1.40
 
-survey Cap_Coutun -title "Cap Coutun"
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Cap_Coutun -title "Cupp Coutunn"
 
   centerline
     date 2024.04.18 
-    team "Alexandre Pont"
-	 team "Jo De-Waele"
-	 team "Xavier Robert"
+      team "Alexandre Pont"
+	    team "Jo De-Waele"
+	    team "Xavier Robert"
 	 
 	 # cs UTM42
     # fix 00 0271313 4169207 732 # Coordonnées à valider # gps Alex
@@ -14,7 +18,7 @@ survey Cap_Coutun -title "Cap Coutun"
 	 
 	 cs long-lat
     fix 00 66:24:28 37:38:30 730 # Coordonnées à valider # gps Philippe  A
-    station 00 "Cupp Coutun Entrée artificielle" entrance
+    station 00 "Cupp Coutunn ; Entrée artificielle" entrance
 
 	 
 	 # team Alex / Clan des Tritons Lyon 

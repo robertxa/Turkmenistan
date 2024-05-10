@@ -1,18 +1,21 @@
 # 2024.04.22 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Vertikalnaya -title "Vertikalnaya"
 
   centerline
     date 2024.04.22 
-	 
-	 team "Jean-Marie Briffon"
-	 team "Philippe Audra"
-	 team "Jean-Philippe Grandcolas"
-	 team "Alexandre Pont"
+	    team "Jean-Marie Briffon"
+	    team "Philippe Audra"
+	    team "Jean-Philippe Grandcolas"
+	    team "Alexandre Pont"
 	 
 	 cs long-lat
     fix 00 66:23:29 37:40:54 850 # Coordonnées à valider # gps Philippe  A
-    station 00 "Vertikalnaya Entrée" entrance
+    station 00 "Vertikalnaya" entrance
 	 
     units length meters
     units compass clino degrees

@@ -1,20 +1,23 @@
 # 2024.04.23 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Grotte_du_lac_00 -title "Grotte du lac 00"
 	
 	centerline
-		date 2024.04.23
-		
-		team "Jean-Philippe Grandcolas"
-		team "Jean-Marie Briffond"
-		team "Claire Falgayrac"
-		team "Alexandre Pont"
+		date 2024.04.23		
+			team "Jean-Philippe Grandcolas"
+			team "Jean-Marie Briffond"
+			team "Claire Falgayrac"
+			team "Alexandre Pont"
 		
 		#cs long-lat
 		#fix 00  66.394767 37.673152	856 # exemple
 		cs UTM42
 		fix 00 0266003 4170934 353 # gps alex
-		station 00 "Grotte du lac entrée principale"
+		station 00 "Grotte du Lac" entrance
 		
 		units length meters
 		units compass clino degrees

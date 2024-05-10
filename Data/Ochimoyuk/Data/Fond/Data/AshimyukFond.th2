@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Ashi-1 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap SP-Ashi-1 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 line wall
   2626.0 2577.0
@@ -1327,7 +1327,7 @@ endscrap
 
 
 
-scrap SP-Ashi-2 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap SP-Ashi-2 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 3412.0 2316.0 height -value [-3 m]
 
@@ -1428,7 +1428,7 @@ endscrap
 
 
 
-scrap SP-Ashi-3 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap SP-Ashi-3 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 3035.0 2529.0 gypsum
 
@@ -1543,7 +1543,7 @@ endscrap
 
 
 
-scrap SP-Ashi-4 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap SP-Ashi-4 -projection plan -station-names "" "@AshimyukFond" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 line slope -reverse on
   2158.0 3054.0

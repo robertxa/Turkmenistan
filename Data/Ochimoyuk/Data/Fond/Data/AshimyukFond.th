@@ -1,5 +1,9 @@
 # 2024.04.12 created by TopoDroid v 6.2.44
 
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
 survey AshimyukFond -title "AshimyukFond"
 
   centerline

@@ -1,6 +1,10 @@
 encoding utf-8
 # Created at 2024.04.18 16:06:45 by Qave ver. 3.035 rev. 3.0
 
+# Copyright (C) 2024 Gaël Cazes
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Escalade -title "Geophysicalskaya, escalade "
 
 centerline

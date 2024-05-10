@@ -1,16 +1,19 @@
 # 2024.04.18 created by TopoDroid v 6.2.32
 
-survey Cup_Coutun_01 -title "Cup Coutun entrée naturelle"
+# Copyright (C) 2024 Philippe Audra
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Cup_Coutun_01 -title "Cupp Coutunn ; entrée naturelle"
 
   centerline
     date 2024.04.18 
-	 
-	 team "Philippe Audra"
-	 team "Lionnel Barriquand"
+	    team "Philippe Audra"
+	    team "Lionnel Barriquand"
 	 
 	 cs long-lat
     fix 18 66:24:40 37:38:18 770 # Coordonnées à revoir ?
-    station 18 "Cupp-Coutun Entrée naturelle" entrance
+    station 18 "Cupp Coutunn ; Entrée naturelle" entrance
 	 
     # team PhA 
     units length meters

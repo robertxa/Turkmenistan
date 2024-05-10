@@ -1,6 +1,10 @@
 encoding utf-8
 # Created at 2024.04.12 18:06:52 by Qave ver. 3.035 rev. 3.0
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Entree -title "Entrée Hochimoyouk "
 
 centerline
@@ -8,7 +12,7 @@ centerline
 date 2024.04.12
     team "Jean-Paul Héreil"
     team "Jean-Pierre Gruat"
-    team "Jo de\Welde"
+    team "Jo de-Waelde"
 
 cs lat-long
 #fix 5 lat long alt

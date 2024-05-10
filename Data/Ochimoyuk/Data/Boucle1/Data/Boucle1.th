@@ -1,11 +1,16 @@
 # 2024.04.15 created by TopoDroid v 6.2.32
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey ochy_muyuk -title "ochy muyuk"
 
   centerline
     date 2024.04.15 
       team "Philippe Audra"
     # team PhA 
+    
     units length meters
     units compass clino degrees
     data normal from to length compass clino

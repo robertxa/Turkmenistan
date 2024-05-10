@@ -1,16 +1,19 @@
 encoding utf-8
 # Created at 2024.04.24 17:32:06 by Qave ver. 3.035 rev. 3.0
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey JPH -title "JPH"
 
 centerline
 
 date 2024.04.24
-
-team "Jean-Paul Hereil"
-team "Alexandre Pont"
-team "Jean-Philippe Grandcolas"
-team "Jean-Marie Briffon"
+    team "Jean-Paul Héreil"
+    team "Alexandre Pont"
+    team "Jean-Philippe Grandcolas"
+    team "Jean-Marie Briffon"
 
 units length meters
 units compass clino degrees    

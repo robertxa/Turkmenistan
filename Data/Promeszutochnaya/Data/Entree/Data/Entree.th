@@ -1,20 +1,23 @@
 # 2024.04.24 created by TopoDroid v 5.1.40
 
+# Copyright (C) 2024 Alexandre Pont
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
 survey Promeszutochnaya -title "Promeszutochnaya"
 
   centerline
     date 2024.04.24 
-	 
-	 team "Jean-Philippe Grandcolas"
-	 team "Jean-Pierre Gruat"
-	 team "Alexandre Pont"
+	    team "Jean-Philippe Grandcolas"
+	    team "Jean-Pierre Gruat"
+	    team "Alexandre Pont"
 	 
 	 #cs long-lat
     #fix 00 66.394767 37.673152	856 # NOK 
 	 
 	 cs UTM42
 	 fix Promeszutochnaya_Tunnel_00 0270733 4169400 640 # Altitide Alti Philippe Audra / gps alex (Altitude Alex 620)	 
-    station Promeszutochnaya_Tunnel_00 "Promeszutochnaya Tunnel 00" entrance air-draught
+    station Promeszutochnaya_Tunnel_00 "Promeszutochnaya ; Tunnel" entrance air-draught
 	 
     units length meters
     units compass clino degrees
