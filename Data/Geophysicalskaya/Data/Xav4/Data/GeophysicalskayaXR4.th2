@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Xav4-1 -projection plan -station-names "" "@GeophysicalskayaXR4" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 5954.7748 -128.0 0.0 0.0 154.50247991999998 0.0 m]
+scrap SP-Xav4-1 -projection plan -station-names "" "@GeophysicalskayaXR4" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5954.7748 -128.0 0.0 0.0 154.50247991999998 0.0 m]
 
 line slope
   1304.0 2128.0

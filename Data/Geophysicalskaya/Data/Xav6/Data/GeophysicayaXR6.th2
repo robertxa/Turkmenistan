@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Xav6-1 -projection plan -station-names "" "@GeophysicayaXR6" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 2490.206 -128.0 0.0 0.0 66.5024324 0.0 m]
+scrap SP-Xav6-1 -projection plan -station-names "" "@GeophysicayaXR6" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2490.206 -128.0 0.0 0.0 66.5024324 0.0 m]
 
 line rock-border -close on
   1426.0 1183.0

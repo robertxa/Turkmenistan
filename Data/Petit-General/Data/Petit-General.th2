@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-PetitG-1 -projection plan -station-names "" "@general" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
+scrap SP-PetitG-1 -projection plan -station-names "" "@general" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
 
 point 28.0 125.5 narrow-end
 

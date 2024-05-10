@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-RussesBauge-1 -projection plan -station-names "" "@RussesBauge" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+scrap SP-RussesBauge-1 -projection plan -station-names "" "@RussesBauge" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 line pit
   159.0 125.0

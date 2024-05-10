@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-HanakaMain-1 -projection extended -station-names "" "@HanakaMain" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 836.6618 -128.0 0.0 0.0 24.50240972 0.0 m]
+scrap SC-HanakaMain-1 -projection extended -station-names "" "@HanakaMain" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 836.6618 -128.0 0.0 0.0 24.50240972 0.0 m]
 
 line wall
   473.0 484.0

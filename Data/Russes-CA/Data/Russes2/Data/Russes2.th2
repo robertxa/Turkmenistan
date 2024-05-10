@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Russes2-1 -projection plan -station-names "" "@Russes2" -author 2024 "Xavier Robert" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+scrap SP-Russes2-1 -projection plan -station-names "" "@Russes2" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
 
 point 14.0 71.5 breakdown-choke -orientation 70.0
 
