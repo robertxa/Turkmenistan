@@ -14,7 +14,7 @@ layout Entrances_coords_CDa
 
 	code tex-map
 		\def\thjunk{ }
-		\def\thlocationCDa{Vertikalnaya    --  Lat. : 37.8281 N ; Long. : 66.4104 E ; Alt. : 620 m}
+		\def\thlocationCDa{Vertikalnaya    --  Lat. : 37.6817 N ; Long. : 66.3914 E ; Alt. : 850 m}
 	endcode 
 	
 endlayout

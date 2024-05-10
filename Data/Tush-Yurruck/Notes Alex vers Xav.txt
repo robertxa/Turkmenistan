@@ -4,4 +4,4 @@
 - A finaliser les coordonnées et l'altitude
 - A finaliser les coordonnées dans le cartouche (entrance coordinate ?)
 - A voir si on fait une coupe (pas facile !)
-- Réduire taille des logos et du cartouche
+- Réduire taille des logos et du cartouche --> Done

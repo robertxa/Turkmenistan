@@ -80,7 +80,7 @@ layout my_layout
 	scale 1 500
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 100 m
+	scale-bar 50 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	grid bottom
@@ -112,19 +112,25 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 0 nw
+	#map-header 0 0 nw
+	map-header 5 65 nw
+	# Logos
+	map-image 28 66.5 nw	../../Logos/Logo_FFS_small.jpg
+	map-image 38 65 nw	../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
-	map-header-bg on
+	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 40 cm
-	legend-columns 4
+	#legend-width 40 cm
+	#legend-columns 4
+	legend-width 18 cm
+	#legend-columns 4
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Koyendag, Turménistan"
+	map-comment "<it>Plan - <ss>Koyendag, Turménistan"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -161,8 +167,8 @@ layout my_layout
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
-	map-image 100 -35 sw	Logo_TKM_2024.jpg
-	map-image 70 -40 sw	Logo_FFS.jpg
+	#map-image 100 -35 sw	Logo_TKM_2024.jpg
+	#map-image 70 -40 sw	Logo_FFS.jpg
 	## add extended-elev on the same pdf
 	#map-image 90 110 nw Outputs/Vertikalnaya-coupe.pdf
 	
@@ -229,26 +235,30 @@ layout layout-coupe
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 0 nw
+	map-header 5 0 nw
+	# Logos
+	map-image 66 -11.5 nw	../../Logos/Logo_FFS_small.jpg
+	map-image 68 -35 nw	../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 40 cm
-	legend-columns 5
+	#legend-width 40 cm
+	#legend-columns 5
+	legend-width 18 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	#map-comment "Koytendag, Turkménistan"
+	map-comment "<it>Coupe développée -<ss> Koytendag, Turkménistan"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
-	statistics explo off
+	#statistics explo off
 	statistics topo-length off
-	statistics topo off
-	statistics carto off
+	#statistics topo off
+	#statistics carto off
 	## Afficher un copyright
 	statistics copyright 2
 	#statistics copyright off
@@ -288,8 +298,8 @@ layout layout-coupe
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
-	map-image 110 -40 nw	Logo_TKM_2024.jpg
-	map-image 110 -40 sw	Logo_FFS.jpg
+	#map-image 110 -40 nw	Logo_TKM_2024.jpg
+	#map-image 110 -40 sw	Logo_FFS.jpg
 	
 endlayout
 # Fin de la definition du Layout "normal"
@@ -323,10 +333,10 @@ export map -proj plan -fmt pdf -o Outputs/Vertikalnaya-plan.pdf -layout my_layou
 
 # Export du fichier 3d pour Loch
 export model -enable all -o Outputs/Vertikalnaya.lox
-export model -enable all -o Outputs/Vertikalnaya.plt
+#export model -enable all -o Outputs/Vertikalnaya.plt
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Vertikalnaya
+#export map -proj plan -fmt esri -o Outputs/Vertikalnaya
 
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Vertikalnaya.kml -layout layout-kml

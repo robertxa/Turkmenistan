@@ -241,18 +241,22 @@ layout layout-coupe
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
 	map-header 0 0 nw
+	# Logos
+	map-image 12 51.5 nw	../../Logos/Logo_FFS_small.jpg
+	map-image 18 50 nw	../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
 	map-header-bg on
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend of
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 70 cm
-	legend-columns 8
+	#legend-width 70 cm
+	#legend-columns 8
+	legend-width 18 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	#map-comment "Koytendag, Turkménistan"
+	map-comment "<it>Coupe développée - <ss>Koytendag, Turkménistan"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -322,9 +326,9 @@ select MP-Tush-Yurruck@Tush-Yurruck
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
-# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Tush-Yurruck-coupe.pdf
+ #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Tush-Yurruck-coupe.pdf
 export map -proj plan -fmt pdf -o Outputs/Tush-Yurruck-plan.pdf -layout my_layout
-export map -proj plan -fmt svg -o Outputs/Tush-Yurruck-plan.svg -layout my_layout
+#export map -proj plan -fmt svg -o Outputs/Tush-Yurruck-plan.svg -layout my_layout
 
 
 # Export du fichier 3d pour Loch

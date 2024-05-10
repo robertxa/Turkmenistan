@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 3120.1276000000003 2253.9854
+##XTHERION## xth_me_area_adjust -128.00000000000006 -128.0 3120.1276000000003 2253.9854
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1246.77 1 1.0} {1787.56 00} Vertikalnaya-map.xvi 0 {}
 
@@ -23,7 +23,13 @@ line rock-edge -close on
   1244.0 1798.0
 endline
 
-line pit -reverse on
+point 2466.0 1284.0 height -value [-50 m]
+
+point 1728.0 1364.0 height -value [-50 m]
+
+point 1150.0 1946.0 label -text "entrée"
+
+line pit -reverse on -clip off
   1391.0 1911.0
   1391.0 1911.0 1337.0 1882.0 1306.0 1857.0
   1275.0 1832.0 1280.0 1810.5 1270.5 1812.5
@@ -223,6 +229,8 @@ point 1844.0900000000001 1512.44 station -name 3
 point 1528.5 1482.99 station -name 2
 
 point 1376.37 1623.62 station -name 1
+
+point 1180.0 1856.0 entrance -orientation 140.9
 
 point 1246.77 1787.56 station -name 00
 

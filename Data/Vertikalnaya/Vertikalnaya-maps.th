@@ -4,14 +4,14 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Vertikalnaya -title "Vertikalnaya Plan"
+map MP-Vertikalnaya -title "Vertikalnaya"
 	SP-Vertikalnaya-00
 	break
 	SP-Vertikalnaya-01  #[0 150 m] below
 	break
 endmap
 
-map MC-Vertikalnaya -title "Vertikalnaya Coupe"
+map MC-Vertikalnaya -title "Vertikalnaya"
 	SC-Vertikalnaya-Coupe-00
 	break
 	SC-Vertikalnaya-Coupe-01

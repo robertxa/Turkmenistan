@@ -1,8 +1,15 @@
 2024 05 06
 - A finaliser le dessin
+    --> j'ai ajouté quelques textes + verticales
+    --> j'ai ajouté le sigle de l'entrées
+    --> Est-ce qu'il ne faut pas remplacer le sigle blocs par une aire blocs ? --> Plus joli
 - A finaliser les coordonnées et l'altitude
-- A finaliser les coordonnées dans le cartouche (entrance coordinate ?)
-- PB de décalage des scraps ne fonctionne pas... (à voir si on laisse comme ça ?)
-- Pas réussi à dessiner la falaise extérieure ?
-- Réduire taille des logos et du cartouche
-- A voir pour mettre plan & coupe sur le même pdf
+- A finaliser les coordonnées dans le cartouche (entrance coordinate ?) --> Done
+- PB de décalage des scraps ne fonctionne pas... (à voir si on laisse comme ça ?) 
+        --> Tu ne peux pas décaler, des scraps, mais uniquement des maps
+            Pour faire un décalage, il faut faire 2 maps avec chacun 1 scrap (dans le cas de ce trou)
+            Puis ajouter une troisième map qui appelle les 2 autres maps, et là, tu vas pouvoir décaler
+- Pas réussi à dessiner la falaise extérieure ? --> Done, il manquait l'option "-clip off"
+- Réduire taille des logos et du cartouche --> Done
+- A voir pour mettre plan & coupe sur le même pdf 
+    --> Pour le rapport et l'article dans Spelunca, je garderai les 2 séparés

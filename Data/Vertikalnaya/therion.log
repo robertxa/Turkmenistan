@@ -75,14 +75,14 @@ average distortion: 0.15%
 
 
 ############### export maps & scraps selection #################
-M     0.00 MC-Vertikalnaya@Vertikalnaya (Vertikalnaya Coupe)
+M     0.00 MC-Vertikalnaya@Vertikalnaya (Vertikalnaya)
 S     0.00 SC-Vertikalnaya-Coupe-00@Vertikalnaya ()
 S     0.00 SC-Vertikalnaya-Coupe-01@Vertikalnaya ()
 S     0.00 SC-Vertikalnaya-Coupe-02@Vertikalnaya ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Vertikalnaya-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:42
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 11:38
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -90,28 +90,25 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[15] [1]
-[Warning: scrap outline intersects itself in scrap SC-Vertikalnaya-Coupe-02@Ver
-tikalnaya] [2] [3] [4] [5]
+[15] [1] [2] [3] [4] [5]
 [Warning: scrap outline intersects itself in scrap SC-Vertikalnaya-Coupe-01@Ver
 tikalnaya] [6] [7] [8] [9] [10] [11] [12] (./mptextmp.mp) [13] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-[29] [30] [31] [32] [33] )
+[14] )
  
 Here is how much of MetaPost's memory you used:
- 5734 strings using 144242 characters
- 3802992 bytes of node memory
- 1746 symbolic tokens
+ 5747 strings using 146072 characters
+ 3811080 bytes of node memory
+ 1747 symbolic tokens
  9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
-48 output files written: data-patt.1 .. data.33
+29 output files written: data-patt.1 .. data-patt.15
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -120,30 +117,32 @@ entering extended mode
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) </Users/robertxaold/Docu
-ments/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/Logo_TKM_2024.jpg> </Us
-ers/robertxaold/Documents/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/Log
-o_FFS.jpg>) (./th_pages.tex)
- 89 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex </Users/robertxaold/Documents/Speleo/Expes
+/Turkmenistan/Topos/Data/Vertikalnaya/../../Logos/Logo_FFS_small.jpg> </Users/r
+obertxaold/Documents/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/../../Lo
+gos/Logo_TKM_2024_small.jpg>) (./th_pages.tex)
+ 70 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 345 strings out of 494671
- 4528 string characters out of 6148971
- 42454 words of memory out of 5000000
- 1973 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 325 strings out of 494671
+ 4371 string characters out of 6148971
+ 44627 words of memory out of 5000000
+ 1954 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
- 13i,6n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 10i,6n,8p,712b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 341663 bytes).
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 180511 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
@@ -153,13 +152,13 @@ average distortion: 0.05%
 
 
 ############### export maps & scraps selection #################
-M   826.72 MP-Vertikalnaya@Vertikalnaya (Vertikalnaya Plan)
+M   826.72 MP-Vertikalnaya@Vertikalnaya (Vertikalnaya)
 S   849.59 SP-Vertikalnaya-00@Vertikalnaya ()
 S   803.84 SP-Vertikalnaya-01@Vertikalnaya ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Vertikalnaya-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:43
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 11:38
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -169,22 +168,21 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [15] [1] [2] [3] [4] [5] [6] [7] [8] (./mptextmp.mp) [9] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-[25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] )
+[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] )
  
 Here is how much of MetaPost's memory you used:
- 5410 strings using 137525 characters
- 4351920 bytes of node memory
- 1746 symbolic tokens
+ 5596 strings using 145466 characters
+ 4355944 bytes of node memory
+ 1748 symbolic tokens
  9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
-54 output files written: data-patt.1 .. data.39
+34 output files written: data-patt.1 .. data.19
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,50 +191,40 @@ entering extended mode
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
 (./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex) </Users/robertxaold/Docu
-ments/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/Logo_TKM_2024.jpg> </Us
-ers/robertxaold/Documents/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/Log
-o_FFS.jpg>) (./th_pages.tex)
- 92 numeric registers used out of 32768
+(./th_formdef.tex) (./th_pagedef.tex </Users/robertxaold/Documents/Speleo/Expes
+/Turkmenistan/Topos/Data/Vertikalnaya/../../Logos/Logo_FFS_small.jpg> </Users/r
+obertxaold/Documents/Speleo/Expes/Turkmenistan/Topos/Data/Vertikalnaya/../../Lo
+gos/Logo_TKM_2024_small.jpg>) (./th_pages.tex)
+ 72 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 348 strings out of 494671
- 4522 string characters out of 6148971
- 96026 words of memory out of 5000000
- 1976 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 328 strings out of 494671
+ 4362 string characters out of 6148971
+ 93841 words of memory out of 5000000
+ 1957 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
- 13i,6n,8p,712b,75s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 10i,6n,8p,712b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 360768 bytes).
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 194741 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing Outputs/Vertikalnaya.lox ..... done
-writing Outputs/Vertikalnaya.plt ... done
-####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:43
-**data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
-1 output file written: data.1
-
-
-#################### end of metapost log file ####################
-writing Outputs/Vertikalnaya ... done
 writing Outputs/Vertikalnaya.kml ... done
 writing Outputs/Vertikalnaya-model.kml ... done
 writing Outputs/Vertikalnaya.html ... done
+writing xtherion file ... done
 compilation time: 4 sec
 
 
@@ -251,9 +239,9 @@ compilation time: 4 sec
 ###################### scrap distortions #######################
  PROJECTION: extended
  AVERAGE  MAXIMAL  SCRAP
-   0.33%   33.40%  SC-Vertikalnaya-Coupe-01@Vertikalnaya
+   0.32%   33.40%  SC-Vertikalnaya-Coupe-01@Vertikalnaya
    0.02%    1.23%  SC-Vertikalnaya-Coupe-00@Vertikalnaya
-   0.03%    0.71%  SC-Vertikalnaya-Coupe-02@Vertikalnaya
+   0.04%    0.99%  SC-Vertikalnaya-Coupe-02@Vertikalnaya
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############

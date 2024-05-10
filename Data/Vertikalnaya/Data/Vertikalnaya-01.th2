@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 3120.1276000000003 2253.9854
+##XTHERION## xth_me_area_adjust -128.00000000000006 -128.0 3120.1276000000003 2253.9854
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1246.77 1 1.0} {1787.56 00} Vertikalnaya-map.xvi 0 {}
 
@@ -325,9 +325,17 @@ point 370.0 1773.0 vegetable-debris
 
 point 1774.0 1606.0 map-connection
 
-point 145.0 1795.0 breakdown-choke
+point 1868.0 1670.0 label -text "momie"
 
-line wall -subtype invisible
+point 352.0 1820.0 breakdown-choke -orientation 130.9
+
+point 340.0 1742.0 breakdown-choke -orientation 66.6
+
+point 324.0 1768.0 breakdown-choke -orientation 109.3
+
+point 333.0 1807.0 breakdown-choke -orientation 109.3
+
+line wall -subtype debris
   379.0 1834.0
   altitude .
   331.0 1814.0
