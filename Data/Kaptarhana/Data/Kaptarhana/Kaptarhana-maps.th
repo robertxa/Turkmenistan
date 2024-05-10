@@ -4,10 +4,8 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-map MP-Kaptarhana -title "Kaptarhana system"
-	MP-Kaptarhana@Kaptarhana
-	#break
-	#MP-Mumiyskaya@Mumiyskaya
+map MP-Kaptarhana -title "Kaptarhana"
+	SP-Kaptarhana-1
 endmap
 
 

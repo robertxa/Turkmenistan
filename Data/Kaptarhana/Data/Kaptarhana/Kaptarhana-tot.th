@@ -6,9 +6,13 @@ encoding  utf-8
 
 survey Kaptarhana -title "Kaptarhana"
 	# Pour importer les différentes données de différents fichiers topos : 
-	input Data/Kaptarhana/Kaptarhana-tot.th
-	input Data/Mumiyskaya/Mumiyskaya-tot.th
+	input Data/Kaptarhana.th
 	
+	# Import du dessin en plan
+	input Data/Kaptarhana.th2
+
+	# Import du dessin en coupe
+	#input Data/Kaptarhana-coupe.th2
 
 	# Import des maps
 	input Kaptarhana-maps.th

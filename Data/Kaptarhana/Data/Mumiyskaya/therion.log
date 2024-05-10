@@ -1,0 +1,222 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Mumiyskaya.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM42
+meridian convergence (deg): 1.5887
+geomag declinations (deg):
+  2024.1.1  4.6951
+  2025.1.1  4.7400
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
+ 3> 
+ 4> La topographie contient 88 stations, connectées par 87 visées.
+ 5> Il y a 1 bouclage.
+ 6> La topographie contient 2 composants connectés.
+ 7> Longueur totale de la topographie =  152.74m ( 152.74m ajusté)
+ 8> Longueur totale en projection horizontale =  147.06m
+ 9> Longueur totale verticale =   25.91m
+10> Intervalle vertical = 9.50m (de 87 à 612.28m jusqu’à 75 à 602.78m)
+11> Intervalle Nord-Sud = 87.34m (de 85 à 4189804.95m jusqu’à 4 à 4189717.61m)
+12> Intervalle Est-Ouest = 77.84m (de 54 à 272107.77m jusqu’à 3 à 272029.92m)
+13>   71 1-nœuds.
+14>    1 2-nœud.
+15>    1 5-nœud.
+16>   13 6-nœuds.
+17>    1 8-nœud.
+18>    1 10-nœud.
+19> 
+######################### transcription ########################
+ 4> 88 : .@Mumiyskaya.Mumiyskaya -- 87 : .@Mumiyskaya.Mumiyskaya
+ 5> 1 : 0@Mumiyskaya.Mumiyskaya
+ 6> 2 : 0b@Mumiyskaya.Mumiyskaya
+10> 87 : .@Mumiyskaya.Mumiyskaya -- 75 : .@Mumiyskaya.Mumiyskaya
+11> 85 : .@Mumiyskaya.Mumiyskaya -- 4 : .@Mumiyskaya.Mumiyskaya
+12> 54 : .@Mumiyskaya.Mumiyskaya -- 3 : .@Mumiyskaya.Mumiyskaya
+13> 71 : .@Mumiyskaya.Mumiyskaya
+14> 1 : 0@Mumiyskaya.Mumiyskaya
+15> 1 : 0@Mumiyskaya.Mumiyskaya
+16> 13 : .@Mumiyskaya.Mumiyskaya
+17> 1 : 0@Mumiyskaya.Mumiyskaya
+18> 1 : 0@Mumiyskaya.Mumiyskaya
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- Mumiyskaya.thconfig [305] -- object not found -- "MP-Mumiyskaya"
+
+therion: warning -- Mumiyskaya.thconfig [306] -- object not found -- "MC-Mumiyskaya-coupe"
+done
+processing projection plan ... done
+writing Data/Mumiyskaya-map.xvi ... done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Mumiyskaya-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3438 strings using 97133 characters
+ 3630440 bytes of node memory
+ 1741 symbolic tokens
+ 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 494671
+ 3884 string characters out of 6148971
+ 38244 words of memory out of 5000000
+ 1906 multiletter control sequences out of 15000+600000
+ 16503 words of font info for 54 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 7i,5n,6p,322b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb>
+Output written on data.pdf (1 page, 20190 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Mumiyskaya-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] (./mptextmp.mp) [2] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [3] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1769 strings using 51181 characters
+ 3646104 bytes of node memory
+ 1741 symbolic tokens
+ 10i,81n,19p,453b,5f stack positions out of 16i,96n,22p,487b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  10 MAY 2024 12:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 58 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 316 strings out of 494671
+ 4233 string characters out of 6148971
+ 32895 words of memory out of 5000000
+ 1942 multiletter control sequences out of 15000+600000
+ 22343 words of font info for 69 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 51596 bytes).
+PDF statistics:
+ 65 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Mumiyskaya.lox ... done
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  10 MAY 2024 12:17
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
+
+
+#################### end of metapost log file ####################
+writing Outputs/Mumiyskaya ... done
+writing Outputs/Mumiyskaya.kml ... done
+writing Outputs/Mumiyskaya-model.kml ... done
+writing Outputs/Mumiyskaya.html ... done
+compilation time: 4 sec
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (66.411, 37.827) (66.411, 37.827)
+  [LONG-LAT → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+  [LONG-LAT → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 → UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########
