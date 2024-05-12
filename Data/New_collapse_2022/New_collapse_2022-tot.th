@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey New_collapse_2022 -title "New collapse 2022"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/New_collapse_2022.th
+	
+	# Import du dessin en plan
+	input Data/New_collapse_2022.th2
+	
+	# Import du dessin en coupe
+	#input Data/New_collapse_2022-coupe.th2
+	
+	# Import des maps
+	input New_collapse_2022-maps.th
+	
+endsurvey
+

@@ -1,0 +1,60 @@
+# 2024.04.19 created by TopoDroid v 6.2.44
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert...@...ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+# Convertion depuis topo Vtopo Alex 2024 05 12
+
+survey New_collapse_2022 -title "New collapse 2022"
+	
+	centerline
+		date 2024.04.19
+		team "Philippe Audra"
+		
+		cs long-lat
+		fix 0 66.49701 37.595833 385
+		station 0 "New collapse 2022" entrance
+		
+		units length meters
+		units compass clino degrees
+		data normal from to length compass clino
+		
+		0          .                        10.18  356.00   -2.90
+		0          .                         7.47   50.30    2.70
+		0          .                        11.93  324.40   -5.10
+		0          .                         8.07  277.30   -6.70
+		0          .                        11.09  357.90  -11.80
+		0          .                        17.44  355.30  -28.80
+		0          .                        19.83  353.60  -40.10
+		0          .                        26.30  352.20  -45.80
+		0          .                        41.65  351.20  -49.10
+		0          .                        30.32  350.80  -48.60
+		0          .                        25.22  297.60  -43.60
+		0          .                        22.19   37.50  -45.40
+		0          .                        19.06    8.60  -38.80
+		0          .                        20.41    8.70  -43.10
+		0          .                        21.80    8.00  -46.40
+		0          .                        23.91    7.40  -47.50
+		0          .                        29.03    7.20  -49.20
+		0          .                        45.32    7.00  -50.90
+		0          1                        14.46   41.50    6.50
+		1          2                         5.42  349.40   -4.90
+		2          .                         9.08  190.50  -46.50
+		2          .                        31.16  198.40  -42.30
+		2          3                        50.96  218.50  -46.90
+		2          .                        48.83  238.30  -46.30
+		2          .                        38.88  253.50  -43.60
+		2          .                        48.80  253.90  -45.20
+		2          .                        12.56  282.30  -35.60
+		2          .                        40.75  269.00  -45.00
+		2          .                        32.06  235.40  -35.00
+		2          .                        11.80  237.40  -21.10
+		2          .                        33.33  238.00  -36.90
+		2          .                        37.12  237.50  -42.00
+		2          .                        49.47  238.70  -47.10
+		2          .                        50.71  235.90  -47.80
+		
+	endcenterline
+	
+endsurvey

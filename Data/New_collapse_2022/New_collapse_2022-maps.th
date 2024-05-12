@@ -1,0 +1,15 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-New_collapse_2022 -title "New collapse 2022"
+	SP-New_collapse_2022
+endmap
+
+
+#map MC-New_collapse_2022 -title "New collapse 2022"
+#	SC-New_collapse_2022
+#endmap
+

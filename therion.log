@@ -7,11 +7,11 @@ reading ... done
 reading source files ... done
 preprocessing database ... done
 output coordinate system: UTM42
-meridian convergence (deg): 1.5856
+meridian convergence (deg): 1.5798
 geomag declinations (deg):
-  2023.1.1  4.6123
-  2024.1.1  4.6572
-  2025.1.1  4.7020
+  2023.1.1  4.6101
+  2024.1.1  4.6549
+  2025.1.1  4.6997
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -21,36 +21,36 @@ processing survey data ...
  1> Survex 1.4.3
  2> Copyright ¸ 1990-2021 Olly Betts
  3> 
- 4> La topographie contient 8230 stations, connect‚es par 8240 vis‚es.
- 5> Il y a 34 bouclages.
- 6> La topographie contient 24 composants connect‚s.
- 7> Longueur totale de la topographie = 13574.02m (13582.97m ajust‚)
- 8> Longueur totale en projection horizontale = 13090.04m
- 9> Longueur totale verticale = 2169.95m
-10> Intervalle vertical = 1196.08m (de 3574 … 1509.52m jusqu'… 7000 … 313.44m)
-11> Intervalle Nord-Sud = 33514.08m (de 3425 … 4202339.73m jusqu'… 8227 … 4168825.65m)
-12> Intervalle Est-Ouest = 30436.23m (de 3424 … 294063.34m jusqu'… 3668 … 263627.10m)
-13> 7323 1-noeuds.
-14>   74 2-noeuds.
+ 4> La topographie contient 8485 stations, connect‚es par 8489 vis‚es.
+ 5> Il y a 40 bouclages.
+ 6> La topographie contient 36 composants connect‚s.
+ 7> Longueur totale de la topographie = 14034.31m (14043.25m ajust‚)
+ 8> Longueur totale en projection horizontale = 13483.44m
+ 9> Longueur totale verticale = 2363.55m
+10> Intervalle vertical = 1196.08m (de 3662 … 1509.52m jusqu'… 7088 … 313.44m)
+11> Intervalle Nord-Sud = 38496.03m (de 8377 … 4202405.51m jusqu'… 8452 … 4163909.47m)
+12> Intervalle Est-Ouest = 30436.23m (de 3424 … 294063.34m jusqu'… 3756 … 263627.10m)
+13> 7542 1-noeuds.
+14>   78 2-noeuds.
 15>   12 3-noeuds.
 16>    3 4-noeuds.
-17>   31 5-noeuds.
-18>   98 6-noeuds.
-19>   55 7-noeuds.
-20>   83 8-noeuds.
-21>  109 9-noeuds.
-22>  109 10-noeuds.
+17>   34 5-noeuds.
+18>  115 6-noeuds.
+19>   57 7-noeuds.
+20>   85 8-noeuds.
+21>  110 9-noeuds.
+22>  110 10-noeuds.
 23>   72 11-noeuds.
 24>   59 12-noeuds.
 25>   45 13-noeuds.
-26>   35 14-noeuds.
-27>   17 15-noeuds.
+26>   36 14-noeuds.
+27>   19 15-noeuds.
 28>   23 16-noeuds.
 29>   15 17-noeuds.
 30>   11 18-noeuds.
-31>    5 19-noeuds.
+31>    6 19-noeuds.
 32>    6 20-noeuds.
-33>    8 21-noeuds.
+33>   10 21-noeuds.
 34>    3 22-noeuds.
 35>    3 23-noeuds.
 36>    3 24-noeuds.
@@ -68,33 +68,33 @@ processing survey data ...
 48>    2 40-noeuds.
 49> 
 ######################### transcription ########################
- 4> 8230 : .@Alex.Alex.Promeszutochnaya.Koytendag
- 5> 34 : .@chauves.Chauve-Souris.Koytendag
- 6> 24 : .@chauves.Chauve-Souris.Koytendag
-10> 3574 : .@general.Petit-General.Koytendag -- 7000 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac.Koytendag
-11> 3425 : .@HanakaMain.HanakaMain.Hanaka.Koytendag -- 8227 : .@Alex.Alex.Promeszutochnaya.Koytendag
-12> 3424 : .@HanakaMain.HanakaMain.Hanaka.Koytendag -- 3668 : 4@RussesBauge.RussesBauge.Russes-CA.Koytendag
-13> 7323 : .@Promeszutochnaya.Entree.Promeszutochnaya.Koytendag
-14> 74 : .@chauves.Chauve-Souris.Koytendag
+ 4> 8485 : .@Suw-Oyuk.Suw-Oyuk.Koytendag
+ 5> 40 : 3@chauves.Chauve-Souris.Koytendag
+ 6> 36 : .@chauves.Chauve-Souris.Koytendag
+10> 3662 : .@general.Petit-General.Koytendag -- 7088 : .@Grotte_du_lac_00.Entree_00.Grotte_du_lac.Koytendag
+11> 8377 : .@Ahmethan.Ahmethan.Koytendag -- 8452 : 3@New_collapse_2022.New_collapse_2022.Koytendag
+12> 3424 : .@HanakaMain.HanakaMain.Hanaka.Koytendag -- 3756 : 4@RussesBauge.RussesBauge.Russes-CA.Koytendag
+13> 7542 : .@Promeszutochnaya_01.Philippe1.Promeszutochnaya.Koytendag
+14> 78 : .@chauves.Chauve-Souris.Koytendag
 15> 12 : .@chauves.Chauve-Souris.Koytendag
 16> 3 : .@chauves.Chauve-Souris.Koytendag
-17> 31 : .@chauves.Chauve-Souris.Koytendag
-18> 98 : .@chauves.Chauve-Souris.Koytendag
-19> 55 : .@chauves.Chauve-Souris.Koytendag
-20> 83 : .@chauves.Chauve-Souris.Koytendag
-21> 109 : 00@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag
-22> 109 : 00@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag
+17> 34 : .@chauves.Chauve-Souris.Koytendag
+18> 115 : .@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag
+19> 57 : .@chauves.Chauve-Souris.Koytendag
+20> 85 : .@chauves.Chauve-Souris.Koytendag
+21> 110 : 1@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag
+22> 110 : 1@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag
 23> 72 : .@chauves.Chauve-Souris.Koytendag
 24> 59 : .@chauves.Chauve-Souris.Koytendag
 25> 45 : .@chauves.Chauve-Souris.Koytendag
-26> 35 : .@chauves.Chauve-Souris.Koytendag
-27> 17 : 0b@chauves.Chauve-Souris.Koytendag
+26> 36 : .@chauves.Chauve-Souris.Koytendag
+27> 19 : .@chauves.Chauve-Souris.Koytendag
 28> 23 : .@chauves.Chauve-Souris.Koytendag
 29> 15 : .@chauves.Chauve-Souris.Koytendag
 30> 11 : .@chauves.Chauve-Souris.Koytendag
-31> 5 : .@chauves.Chauve-Souris.Koytendag
+31> 6 : .@chauves.Chauve-Souris.Koytendag
 32> 6 : .@chauves.Chauve-Souris.Koytendag
-33> 8 : .@chauves.Chauve-Souris.Koytendag
+33> 10 : .@chauves.Chauve-Souris.Koytendag
 34> 3 : .@chauves.Chauve-Souris.Koytendag
 35> 3 : .@chauves.Chauve-Souris.Koytendag
 36> 3 : .@chauves.Chauve-Souris.Koytendag
@@ -118,14 +118,16 @@ processing references ... done
 selecting export objects ... done
 writing Outputs/Koytendag.lox ...
 processing projection plan ... done
-average distortion: 0.46%
+average distortion: 0.49%
 .......................
 C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck.Koytendag -- multiple scrap outer outlines not supported yet
 ...............
 C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Entree-00-3@Entree_00.Grotte_du_lac.Koytendag -- invalid scrap outline
-. done
+..
+C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Ahmethan1@Ahmethan.Koytendag -- multiple scrap outer outlines not supported yet
+..... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 MAY 2024 18:44
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  12 MAY 2024 20:17
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -139,18 +141,19 @@ writing Outputs/Koytendag ... done
 writing Outputs/Koytendag-model.kml ... done
 writing Outputs/databaseKoytendag-2024.sql ... 
 processing projection extended ... done
-average distortion: 1.33%
+average distortion: 1.28%
 done
 writing Outputs/SurveysKoytendag2024.html ... done
 writing Outputs/CavesKoytendag2024.html ... done
 writing Outputs/Caves-Koytendag.txt ... done
 writing Outputs/Koytendag/Caves.txt ... done
-compilation time: 1552 sec
+writing xtherion file ... done
+compilation time: 1654 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  8.55%   56.0m  655.4m  30   55.2m    0.1m    9.8m [00@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11 - PTR_FR24_A21_12 = PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot.Cupp-Coutun.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18]
+  8.54%   56.0m  655.4m  30   55.1m    0.0m    9.8m [00@Cap_Coutun.Cupp-Coutun-Entree.Cupp-Coutun.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11 - PTR_FR24_A21_12 = PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot.Cupp-Coutun.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18]
   6.22%   19.2m  308.8m  28  -11.2m   -5.9m  -14.5m [Promeszutochnaya_Tunnel_01@JPH2.JPH2.Promeszutochnaya.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 = 00@Alex.Alex.Promeszutochnaya.Koytendag - 1 - 2 - 3 - 4 - 5 - 6 = 13@JPH3.JPH3.Promeszutochnaya.Koytendag - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - Promeszutochnaya_Entree_Nat]
   3.62%   10.4m  286.8m  32   -6.1m   -3.7m   -7.5m [A91@Promeszutochnaya_01.Philippe1.Promeszutochnaya.Koytendag - 41 - 40 - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - A93 - 30 - A92 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - A91]
   1.40%    0.9m   60.7m   5    0.1m    0.3m   -0.8m [PTR_FR24_A04_73@Geophysicaya_01_entree.Entree.Geophysicalskaya.Koytendag - 74 - 70 - 71 - 72 - PTR_FR24_A04_73]
@@ -185,42 +188,48 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  AVERAGE  MAXIMAL  SCRAP
    1.05%  100.00%  SP-Alex7-1@Alex7.Tush-Yurruck.Koytendag
    0.44%  100.00%  SP-Geophysicalskaya_01@Entree.Geophysicalskaya.Koytendag
-  11.75%   76.53%  SP-Alex6-2@Alex6.Tush-Yurruck.Koytendag
+  11.76%   76.48%  SP-Alex6-2@Alex6.Tush-Yurruck.Koytendag
    2.31%   72.21%  SP-Alex4-1@Alex4.Tush-Yurruck.Koytendag
-   2.53%   69.55%  SP-Alex2-1@Alex2.Tush-Yurruck.Koytendag
-   1.27%   66.26%  SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck.Koytendag
-   0.70%   60.65%  SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck.Koytendag
-   1.69%   54.55%  SP-Alex6-1@Alex6.Tush-Yurruck.Koytendag
-   0.36%   54.09%  SP-Xav4-1@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
-   0.57%   49.60%  SP-Alex3-1@Alex3.Tush-Yurruck.Koytendag
-   0.54%   43.97%  SP-Alex3-1@Alex3.Geophysicalskaya.Koytendag
-   0.23%   43.75%  SP-Xav6-1@GeophysicayaXR6.Geophysicalskaya.Koytendag
-   0.29%   42.17%  SP-Xav4-2@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
-   2.98%   40.00%  SP-Alex3-2@Alex3.Tush-Yurruck.Koytendag
-   0.25%   33.25%  SP-Geophysicalskaya_02@Entree.Geophysicalskaya.Koytendag
-   0.24%   30.34%  SP-Xav1-2@Tush_YurruckXR1.Tush-Yurruck.Koytendag
-   0.20%   22.27%  SP-Geophysicalskaya_03@Philippe2.Geophysicalskaya.Koytendag
+   2.54%   69.60%  SP-Alex2-1@Alex2.Tush-Yurruck.Koytendag
+   1.27%   66.25%  SP-Xav1-3@Tush_YurruckXR1.Tush-Yurruck.Koytendag
+   0.70%   60.69%  SP-Xav1-4@Tush_YurruckXR1.Tush-Yurruck.Koytendag
+   0.76%   56.27%  SP-Ahmethan1@Ahmethan.Koytendag
+   1.69%   54.53%  SP-Alex6-1@Alex6.Tush-Yurruck.Koytendag
+   0.36%   54.11%  SP-Xav4-1@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
+   0.57%   49.55%  SP-Alex3-1@Alex3.Tush-Yurruck.Koytendag
+   0.54%   43.96%  SP-Alex3-1@Alex3.Geophysicalskaya.Koytendag
+   0.23%   43.74%  SP-Xav6-1@GeophysicayaXR6.Geophysicalskaya.Koytendag
+  23.31%   42.94%  SP-Ahmethan2@Ahmethan.Koytendag
+   0.29%   42.23%  SP-Xav4-2@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
+   2.99%   39.95%  SP-Alex3-2@Alex3.Tush-Yurruck.Koytendag
+   0.25%   33.45%  SP-Geophysicalskaya_02@Entree.Geophysicalskaya.Koytendag
+   0.23%   30.38%  SP-Xav1-2@Tush_YurruckXR1.Tush-Yurruck.Koytendag
+   0.20%   22.22%  SP-Geophysicalskaya_03@Philippe2.Geophysicalskaya.Koytendag
    0.07%   14.73%  SP-Alex0-1@Trush-Yurruck-Entree.Tush-Yurruck.Koytendag
-   0.16%   11.76%  SP-Alex7-1@Alex7.Geophysicalskaya.Koytendag
-   0.04%   10.12%  SP-Xav1-1@Tush_YurruckXR1.Tush-Yurruck.Koytendag
+   0.16%   11.75%  SP-Alex7-1@Alex7.Geophysicalskaya.Koytendag
+   0.05%   10.12%  SP-Xav1-1@Tush_YurruckXR1.Tush-Yurruck.Koytendag
    0.08%    9.20%  SP-Geophysicalskaya_01_entree@Entree.Geophysicalskaya.Koytendag
-   0.21%    7.68%  SP-Kaptarhana-1@Kaptarhana.Koytendag
-   0.13%    7.40%  SP-Vertikalnaya-00@Vertikalnaya.Koytendag
-   0.07%    6.48%  SP-Alex5-1@Alex5.Geophysicalskaya.Koytendag
-   0.38%    5.56%  SP-Escalade-1@Escalade.Geophysicalskaya.Koytendag
-   0.09%    1.52%  SP-RussesBauge-1@RussesBauge.Russes-CA.Koytendag
+   0.21%    7.73%  SP-Kaptarhana-1@Kaptarhana.Kaptarhana.Koytendag
+   0.13%    7.38%  SP-Vertikalnaya-00@Vertikalnaya.Koytendag
+   0.07%    6.55%  SP-Alex5-1@Alex5.Geophysicalskaya.Koytendag
+   0.38%    5.51%  SP-Escalade-1@Escalade.Geophysicalskaya.Koytendag
+   0.10%    1.51%  SP-RussesBauge-1@RussesBauge.Russes-CA.Koytendag
+   0.06%    1.25%  SP-HanakaMain-1@HanakaMain.Hanaka.Koytendag
    0.13%    0.68%  SP-Russes3-1@Russes3.Russes-CA.Koytendag
-   0.07%    0.59%  SP-HanakaMain-1@HanakaMain.Hanaka.Koytendag
-   0.12%    0.53%  SP-HanakaMain-2@HanakaMain.Hanaka.Koytendag
-   0.02%    0.43%  SP-Entree-00-1@Entree_00.Grotte_du_lac.Koytendag
-   0.06%    0.39%  SP-Xav6-2@GeophysicayaXR6.Geophysicalskaya.Koytendag
-   0.00%    0.33%  SP-Vertikalnaya-01@Vertikalnaya.Koytendag
-   0.01%    0.28%  SP-Entree-01-1@Entree_01.Grotte_du_lac.Koytendag
-   0.04%    0.26%  SP-Xav1-5@Tush_YurruckXR1.Tush-Yurruck.Koytendag
+   0.02%    0.58%  SP-Vertikalnaya-01@Vertikalnaya.Koytendag
+   0.09%    0.46%  SP-Xav6-2@GeophysicayaXR6.Geophysicalskaya.Koytendag
+   0.16%    0.41%  SP-HanakaMain-2@HanakaMain.Hanaka.Koytendag
+   0.02%    0.39%  SP-Entree-01-1@Entree_01.Grotte_du_lac.Koytendag
+   0.06%    0.33%  SP-Xav4-3@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
+   0.05%    0.29%  SP-New_collapse_2022@New_collapse_2022.Koytendag
+   0.05%    0.27%  SP-Xav1-5@Tush_YurruckXR1.Tush-Yurruck.Koytendag
    0.08%    0.24%  SP-Russes2-1@Russes2.Russes-CA.Koytendag
-   0.04%    0.23%  SP-Xav4-3@GeophysicalskayaXR4.Geophysicalskaya.Koytendag
-   0.02%    0.12%  SP-Entree-00-3@Entree_00.Grotte_du_lac.Koytendag
-   0.01%    0.09%  SP-Entree-00-2@Entree_00.Grotte_du_lac.Koytendag
+   0.02%    0.21%  SP-Entree-00-3@Entree_00.Grotte_du_lac.Koytendag
+   0.01%    0.15%  SP-Entree-00-1@Entree_00.Grotte_du_lac.Koytendag
+   0.01%    0.14%  SP-Suw-Oyuk@Suw-Oyuk.Koytendag
+   0.01%    0.13%  SP-Entree-00-2@Entree_00.Grotte_du_lac.Koytendag
+   0.00%    0.00%  SP-SINKHOLE1@Cenotes_check-point.Koytendag
+   0.00%    0.00%  SP-SINKHOLE2@Cenotes_check-point.Koytendag
    0.00%    0.00%  SP-PetitG-1@Petit-General.Koytendag
 ################### end of scrap distortions ###################
 
@@ -230,16 +239,16 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
  AVERAGE  MAXIMAL  SCRAP
    5.74%  100.00%  SC-Entree-00-1@Entree_00.Grotte_du_lac.Koytendag
   11.25%   86.01%  SC-Entree-00-3@Entree_00.Grotte_du_lac.Koytendag
-   0.33%   33.40%  SC-Vertikalnaya-Coupe-01@Vertikalnaya.Koytendag
+   0.32%   33.40%  SC-Vertikalnaya-Coupe-01@Vertikalnaya.Koytendag
    0.12%   22.41%  SC-Entree-00-2@Entree_00.Grotte_du_lac.Koytendag
    0.12%    7.38%  SC-Entree_01-1@Entree_01.Grotte_du_lac.Koytendag
    0.02%    1.23%  SC-Vertikalnaya-Coupe-00@Vertikalnaya.Koytendag
-   0.03%    0.71%  SC-Vertikalnaya-Coupe-02@Vertikalnaya.Koytendag
+   0.04%    0.99%  SC-Vertikalnaya-Coupe-02@Vertikalnaya.Koytendag
    0.00%    0.02%  SC-HanakaMain-1@HanakaMain.Hanaka.Koytendag
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (66.319, 37.638) (66.656, 37.945)
+  Area of Use (AoU): (66.319, 37.596) (66.656, 37.945)
   [LONG-LAT â†’ LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LONG-LAT â†’ LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LONG-LAT â†’ UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]

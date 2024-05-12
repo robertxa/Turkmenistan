@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VisualTopo>
+	<Version>5.22</Version>
+	<Verification>1</Verification>
+	<Lignes>23</Lignes>
+	<Cavite>
+		<Entrees>
+			<Entree X="0.000000" Y="0.000000" Z="0.000000" Station="0" Ref="1" Ligne="0"/>
+		</Entrees>
+		<Toporobot>0</Toporobot>
+		<Couleur>0,0,0</Couleur>
+	</Cavite>
+	<Mesures>
+		<Param InstrDist="Deca" UnitDir="Degd" InstrPte="Clino" UnitPte="Degd" Declin="0.0000" SensDir="Dir" SensPte="Dir" SensLar="Dir" DimPt="Arr" Coul="Std" Date="11/04/2024" DeclinAuto="M">
+			<Visee Dep="0" Arr="0" Long="0.00" Az="0.00" Pte="0.00" G="0.00" D="0.00" H="0.00" B="0.00" Ref="1" Suiv="2"/>
+			<Visee Dep="0" Arr="16" Long="4.64" Az="357.12" Pte="-15.22" Ref="1"/>
+			<Visee Dep="0" Arr="17" Long="15.00" Az="2.74" Pte="-9.74" Ref="1"/>
+			<Visee Dep="0" Arr="18" Long="26.40" Az="1.20" Pte="-7.05" Ref="1"/>
+			<Visee Dep="0" Arr="19" Long="17.30" Az="2.08" Pte="-6.51" Ref="1"/>
+			<Visee Dep="0" Arr="20" Long="5.24" Az="354.33" Pte="-22.04" Ref="1"/>
+			<Visee Dep="0" Arr="21" Long="18.69" Az="353.79" Pte="-26.48" Ref="1"/>
+			<Visee Dep="0" Arr="22" Long="14.31" Az="8.96" Pte="-42.16" Ref="1"/>
+			<Visee Dep="0" Arr="23" Long="20.35" Az="6.40" Pte="-35.26" Ref="1"/>
+			<Visee Dep="0" Arr="24" Long="26.11" Az="3.30" Pte="-31.92" Ref="1"/>
+			<Visee Dep="0" Arr="25" Long="32.64" Az="0.92" Pte="-32.74" Ref="1"/>
+			<Visee Dep="0" Arr="26" Long="29.00" Az="8.59" Pte="-27.98" Ref="1"/>
+			<Visee Dep="0" Arr="27" Long="22.12" Az="16.67" Pte="-32.99" Ref="1"/>
+			<Visee Dep="0" Arr="28" Long="27.72" Az="2.13" Pte="-29.49" Ref="1"/>
+			<Visee Dep="0" Arr="29" Long="25.28" Az="3.65" Pte="-38.10" Ref="1"/>
+			<Visee Dep="0" Arr="30" Long="27.04" Az="2.52" Pte="-38.75" Ref="1"/>
+			<Visee Dep="0" Arr="31" Long="21.81" Az="359.65" Pte="-43.62" Ref="1"/>
+			<Visee Dep="0" Arr="32" Long="26.61" Az="2.99" Pte="-33.37" Ref="1"/>
+			<Visee Dep="0" Arr="33" Long="21.81" Az="356.99" Pte="-38.96" Ref="1"/>
+			<Visee Dep="0" Arr="34" Long="29.93" Az="359.75" Pte="-33.27" Ref="1"/>
+			<Visee Dep="0" Arr="35" Long="29.60" Az="358.88" Pte="-35.82" Ref="1"/>
+			<Visee Dep="0" Arr="36" Long="31.04" Az="358.19" Pte="-37.11" Ref="1"/>
+		</Param>
+	</Mesures>
+	<Configuration>
+		<Application Position="2,2,-32000,-32000,-1,-1,438,58,1833,1158">
+			<Toolbar>1</Toolbar>
+			<Statusbar>1</Statusbar>
+			<Commentaires>1</Commentaires>
+		</Application>
+		<Calcul Position="0,1,-1,-1,-1,-1,9,17,1248,641">
+			<Entree0>1</Entree0>
+			<Bissectrices>1</Bissectrices>
+			<Perpendiculaires>0</Perpendiculaires>
+			<Hauteurs>1</Hauteurs>
+			<Boucles>0</Boucles>
+			<Controles>1</Controles>
+			<Nord>1</Nord>
+			<Commentaires>0</Commentaires>
+			<Calcul>1</Calcul>
+			<Active>0</Active>
+		</Calcul>
+		<ExportDxf>
+			<Topo>2</Topo>
+			<Equidistance>13715092</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="1">1</Cheminement>
+			<Points Couleur="6">1</Points>
+			<Stations Couleur="7">1</Stations>
+			<Largeurs Couleur="4">0</Largeurs>
+			<Hauteurs Couleur="4">0</Hauteurs>
+			<ContoursLargeurs Couleur="3">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="3">0</ContoursHauteurs>
+			<Profondeurs Couleur="2">0</Profondeurs>
+			<Echelle Couleur="7">1</Echelle>
+			<Quadrillage Couleur="9">0</Quadrillage>
+			<Radiales Couleur="9">1</Radiales>
+			<Contours3D Couleur="3">0</Contours3D>
+		</ExportDxf>
+		<ExportSvg>
+			<Topo>0</Topo>
+			<Equidistance>100</Equidistance>
+			<Theta>0</Theta>
+			<Phi>0</Phi>
+			<Cheminement Couleur="165,42,0">1</Cheminement>
+			<Points Couleur="127,127,127">1</Points>
+			<Stations Couleur="0,0,255">1</Stations>
+			<Largeurs Couleur="0,147,0">1</Largeurs>
+			<Hauteurs Couleur="0,147,0">0</Hauteurs>
+			<ContoursLargeurs Couleur="0,0,139">0</ContoursLargeurs>
+			<ContoursHauteurs Couleur="0,0,139">0</ContoursHauteurs>
+			<Profondeurs Couleur="255,0,0">1</Profondeurs>
+			<Echelle Couleur="0,0,0">1</Echelle>
+			<Quadrillage Couleur="127,127,127">0</Quadrillage>
+			<Radiales Couleur="60,179,113">1</Radiales>
+			<Remplissage Couleur="255,173,91">0</Remplissage>
+			<Fond Couleur="192,192,192">0</Fond>
+			<Contours3D Couleur="0,0,139">0</Contours3D>
+		</ExportSvg>
+		<ExportKml>
+			<TypeCouleur>0</TypeCouleur>
+			<TypeKml>1</TypeKml>
+			<Altitudes>0</Altitudes>
+		</ExportKml>
+		<ExportShp>
+			<Coordonnees>0</Coordonnees>
+			<TypeFichier>0</TypeFichier>
+			<Forme3D>0</Forme3D>
+		</ExportShp>
+		<Colonnes>
+			<Départ>88</Départ>
+			<Arrivée>88</Arrivée>
+			<DepTopofil>72</DepTopofil>
+			<ArrTopofil>72</ArrTopofil>
+			<Longueur>72</Longueur>
+			<Azimut>72</Azimut>
+			<Pente>72</Pente>
+			<Gauche>72</Gauche>
+			<Droite>72</Droite>
+			<Haut>72</Haut>
+			<Bas>72</Bas>
+			<Inverse>16</Inverse>
+			<Exclusion>24</Exclusion>
+			<Detail>16</Detail>
+			<Section>16</Section>
+			<ComPhot>32</ComPhot>
+			<Separ1>2</Separ1>
+			<X>72</X>
+			<Y>72</Y>
+			<Z>72</Z>
+			<LDev>72</LDev>
+			<Dist>72</Dist>
+			<Separ2>2</Separ2>
+			<Commentaire>0</Commentaire>
+			<Photo>0</Photo>
+		</Colonnes>
+		<Plan Position="0,1,-1,-1,-1,-1,117,140,663,764">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>0</Largeurs>
+			<ContoursLargeurs>0</ContoursLargeurs>
+			<Hauteurs>0</Hauteurs>
+			<ContoursHauteurs>0</ContoursHauteurs>
+			<Cube>0</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>1</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>1</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>0</Remplissage>
+			<Exclues>0</Exclues>
+			<Entrees>1</Entrees>
+			<Dilatation>1.00</Dilatation>
+			<Equidistance>25</Equidistance>
+			<Quadrillage>0</Quadrillage>
+			<TypeCouleur>0</TypeCouleur>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>0</Active>
+		</Plan>
+		<Coupe Position="0,1,-1,-1,-1,-1,790,134,1373,725">
+			<Cheminement>1</Cheminement>
+			<Points>1</Points>
+			<Stations>1</Stations>
+			<Largeurs>0</Largeurs>
+			<ContoursLargeurs>0</ContoursLargeurs>
+			<Hauteurs>0</Hauteurs>
+			<ContoursHauteurs>0</ContoursHauteurs>
+			<Cube>0</Cube>
+			<Contours3D>0</Contours3D>
+			<Epaisseurs>0</Epaisseurs>
+			<Echelle>1</Echelle>
+			<Zoom>1</Zoom>
+			<Maillage>0</Maillage>
+			<Courbes>0</Courbes>
+			<Profondeurs>1</Profondeurs>
+			<Marqueurs>1</Marqueurs>
+			<Radiales>0</Radiales>
+			<Remplissage>0</Remplissage>
+			<Exclues>0</Exclues>
+			<Entrees>1</Entrees>
+			<Dilatation>1.00</Dilatation>
+			<Sens>0</Sens>
+			<TypeCouleur>0</TypeCouleur>
+			<DateMin>0</DateMin>
+			<DateMax>0</DateMax>
+			<Impression>
+				<Type>0</Type>
+				<Pages>1</Pages>
+				<Echelle>0</Echelle>
+			</Impression>
+			<Active>1</Active>
+		</Coupe>
+	</Configuration>
+</VisualTopo>
