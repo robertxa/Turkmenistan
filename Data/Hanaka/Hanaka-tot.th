@@ -7,7 +7,7 @@ encoding  utf-8
 survey Hanaka -title "Hanaka"
 	# Pour importer les différentes données de différents fichiers topos : 
 	input Data/HanakaMain/HanakaMain-tot.th
-	#input Data/HanakaDown/HanakaDown-tot.th
+	input Data/Ahmethan/Ahmethan-tot.th
 	
 	# Import des maps
 	#input Hanaka-maps.th
