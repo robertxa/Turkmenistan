@@ -8,18 +8,18 @@ configuration file: HanakaMain.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
-output coordinate system: UTM37
-meridian convergence (deg): 0.9684
+output coordinate system: UTM42
+meridian convergence (deg): 1.4417
 geomag declinations (deg):
-  2024.1.1  18.4542
-  2025.1.1  18.6604
+  2024.1.1  4.7127
+  2025.1.1  4.7570
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.5
- 2> Copyright © 1990-2021 Olly Betts
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
  3> 
  4> La topographie contient 110 stations, connectées par 109 visées.
  5> Il y a 1 bouclage.
@@ -28,8 +28,8 @@ processing survey data ...
  8> Longueur totale en projection horizontale =   52.54m
  9> Longueur totale verticale =   34.20m
 10> Intervalle vertical = 21.16m (de 2 à 1298.02m jusqu’à 45 à 1276.86m)
-11> Intervalle Nord-Sud = 28.50m (de 5 à 7393461.82m jusqu’à 102 à 7393433.32m)
-12> Intervalle Est-Ouest = 36.23m (de 4 à 453367.39m jusqu’à 110 à 453331.16m)
+11> Intervalle Nord-Sud = 33.98m (de 5 à 4202339.72m jusqu’à 109 à 4202305.74m)
+12> Intervalle Est-Ouest = 31.88m (de 4 à 294063.34m jusqu’à 110 à 294031.46m)
 13>  100 1-nœuds.
 14>    1 2-nœud.
 15>    2 9-nœuds.
@@ -44,7 +44,7 @@ processing survey data ...
  5> 1 : 0@HanakaMain.HanakaMain
  6> 2 : .@HanakaMain.HanakaMain
 10> 2 : .@HanakaMain.HanakaMain -- 45 : .@HanakaMain.HanakaMain
-11> 5 : .@HanakaMain.HanakaMain -- 102 : .@HanakaMain.HanakaMain
+11> 5 : .@HanakaMain.HanakaMain -- 109 : .@HanakaMain.HanakaMain
 12> 4 : .@HanakaMain.HanakaMain -- 110 : 10@HanakaMain.HanakaMain
 13> 100 : .@HanakaMain.HanakaMain
 14> 1 : 0@HanakaMain.HanakaMain
@@ -63,7 +63,7 @@ selecting export objects ...
 therion: warning -- HanakaMain.thconfig [306] -- object not found -- "MC-HanakaMain-coupe"
 done
 processing projection plan ... done
-average distortion: 0.00%
+average distortion: 0.07%
 writing Data/HanakaMain-map.xvi ... done
 processing projection extended ... done
 average distortion: 0.00%
@@ -76,7 +76,7 @@ S     0.00 SC-HanakaMain-1@HanakaMain ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/HanakaMain-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  21 APR 2024 16:04
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  13 MAY 2024 10:48
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -88,7 +88,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 3009 strings using 80080 characters
+ 3009 strings using 80082 characters
  3735464 bytes of node memory
  1745 symbolic tokens
  9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
@@ -99,7 +99,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  21 APR 2024 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  13 MAY 2024 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,15 +114,15 @@ tex.map})
 Here is how much of TeX's memory you used:
  303 strings out of 494671
  4143 string characters out of 6148971
- 42135 words of memory out of 5000000
+ 42483 words of memory out of 5000000
  1934 multiletter control sequences out of 15000+600000
  20080 words of font info for 63 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
- 9i,5n,8p,322b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9i,5n,8p,712b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 43780 bytes).
+Output written on data.pdf (1 page, 44123 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
@@ -141,7 +141,7 @@ S  1282.40 SP-HanakaMain-1@HanakaMain ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/HanakaMain-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  21 APR 2024 16:04
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  13 MAY 2024 10:48
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -157,8 +157,8 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [11] )
  
 Here is how much of MetaPost's memory you used:
- 3219 strings using 83143 characters
- 3806560 bytes of node memory
+ 3219 strings using 83174 characters
+ 3800032 bytes of node memory
  1745 symbolic tokens
  11i,81n,19p,456b,5f stack positions out of 16i,96n,22p,487b,6f
 26 output files written: data-patt.1 .. data-patt.15
@@ -168,7 +168,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  21 APR 2024 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  13 MAY 2024 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,16 +184,16 @@ tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>>)
 Here is how much of TeX's memory you used:
  326 strings out of 494671
  4363 string characters out of 6148971
- 50551 words of memory out of 5000000
+ 46704 words of memory out of 5000000
  1954 multiletter control sequences out of 15000+600000
  21229 words of font info for 66 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
- 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 10i,6n,8p,712b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 59351 bytes).
+Output written on data.pdf (1 page, 58970 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
@@ -206,15 +206,14 @@ done
 writing Outputs/HanakaMain.lox ..... done
 writing Outputs/HanakaMain.kml ... done
 writing Outputs/HanakaMain-model.kml ... done
-writing xtherion file ... done
-compilation time: 4 sec
+compilation time: 5 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.01%    0.04%  SP-HanakaMain-2@HanakaMain
-   0.00%    0.03%  SP-HanakaMain-1@HanakaMain
+   0.06%    0.77%  SP-HanakaMain-1@HanakaMain
+   0.17%    0.46%  SP-HanakaMain-2@HanakaMain
 ################### end of scrap distortions ###################
 
 
@@ -225,12 +224,12 @@ compilation time: 4 sec
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (37.945, 66.656) (37.945, 66.656)
-  [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [LAT-LONG → UTM37] AoU: [yes] transformation: [axis order change (2D) + UTM zone 37N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=37 ellps=WGS84] accuracy: [0.000 m]
-  [LAT-LONG → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [UTM37 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 37N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=37 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
-  [UTM37 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 37N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=37 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
-  [EPSG:4326 → UTM37] AoU: [yes] transformation: [axis order change (2D) + UTM zone 37N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=37 ellps=WGS84] accuracy: [0.000 m]
+  Area of Use (AoU): (66.656, 37.945) (66.656, 37.945)
+  [LONG-LAT → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LONG-LAT → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
+  [LONG-LAT → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM42 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM42 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM42] AoU: [yes] transformation: [axis order change (2D) + UTM zone 42N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=42 ellps=WGS84] accuracy: [0.000 m]
 ########## end of CRS transformations chosen by PROJ ###########

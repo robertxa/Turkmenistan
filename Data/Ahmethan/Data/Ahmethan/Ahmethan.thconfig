@@ -80,7 +80,7 @@ layout my_layout
 	scale 1 500
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 100 m
+	scale-bar 50 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	#grid bottom
@@ -112,7 +112,7 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 100 nw
+	map-header 0 0 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -123,7 +123,7 @@ layout my_layout
 	legend-width 15 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Koyendag, Turménistan"
+	map-comment "<it>Plan - <ss>Koyendag, Turménistan"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off

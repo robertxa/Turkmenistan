@@ -1,0 +1,393 @@
+set XVIgrids {5.0 m}
+set XVIstations {
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       258.19 0@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -413.27         5.59 1@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -468.90       -38.82 2@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -504.00       -39.92 3@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -633.00       -33.94 4@HanakaMain.HanakaMain.Hanaka}
+  {     -694.67       -15.98 5@HanakaMain.HanakaMain.Hanaka}
+  {     -694.67       -15.98 5@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -741.35        42.13 6@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -792.41        48.74 7@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -821.61        76.46 8@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -836.37       100.87 9@HanakaMain.HanakaMain.Hanaka}
+  {     -966.01       200.71 10@HanakaMain.HanakaMain.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {      -11.36       137.72 1@Ahmethan.Ahmethan.Hanaka}
+  {      -11.36       137.72 1@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      175.28        59.45 3@Ahmethan.Ahmethan.Hanaka}
+  {      175.28        59.45 3@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      886.32      -212.68 7@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      740.74      -305.43 8@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      961.73      -264.49 11@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      840.04      -162.76 12@Ahmethan.Ahmethan.Hanaka}
+  {      840.04      -162.76 12@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      965.83       -34.88 15@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {     -138.65       305.43 0@Ahmethan.Ahmethan.Hanaka}
+  {      -11.36       137.72 1@Ahmethan.Ahmethan.Hanaka}
+  {      -11.36       137.72 1@Ahmethan.Ahmethan.Hanaka}
+  {      -11.36       137.72 1@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      174.65        71.89 2@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      430.45      -153.15 4@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      619.87      -275.20 5@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      695.05      -266.06 6@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      783.22      -143.86 9@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      852.94      -164.17 10@Ahmethan.Ahmethan.Hanaka}
+  {      961.73      -264.49 11@Ahmethan.Ahmethan.Hanaka}
+  {      961.73      -264.49 11@Ahmethan.Ahmethan.Hanaka}
+  {      961.73      -264.49 11@Ahmethan.Ahmethan.Hanaka}
+  {      961.73      -264.49 11@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      873.74      -140.55 13@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+  {      886.10      -115.83 14@Ahmethan.Ahmethan.Hanaka}
+}
+set XVIshots {
+  {     -138.65       258.19      -241.47       274.25}
+  {     -138.65       258.19      -293.14       271.42}
+  {     -138.65       258.19      -169.42       257.72}
+  {     -138.65       258.19      -128.37       262.44}
+  {     -138.65       258.19      -115.55       244.33}
+  {     -138.65       258.19      -143.33       214.72}
+  {     -138.65       258.19      -291.28       123.54}
+  {     -138.65       258.19      -297.93       179.13}
+  {     -138.65       258.19      -316.07       103.07}
+  {     -138.65       258.19      -249.50       195.67}
+  {     -138.65       258.19      -413.27         5.59}
+  {     -413.27         5.59      -423.21        48.58}
+  {     -413.27         5.59      -409.29       118.98}
+  {     -413.27         5.59      -437.86        21.02}
+  {     -413.27         5.59      -389.51        18.03}
+  {     -413.27         5.59      -352.50        75.35}
+  {     -413.27         5.59      -341.68        93.78}
+  {     -413.27         5.59      -372.17        45.59}
+  {     -413.27         5.59      -324.38        33.78}
+  {     -413.27         5.59      -228.19       125.91}
+  {     -413.27         5.59      -169.74       196.77}
+  {     -413.27         5.59      -460.02       -21.02}
+  {     -413.27         5.59      -455.51       -23.54}
+  {     -413.27         5.59      -440.28        -8.58}
+  {     -413.27         5.59      -434.31       -38.66}
+  {     -413.27         5.59      -437.78       -57.56}
+  {     -413.27         5.59      -468.90       -38.82}
+  {     -468.90       -38.82      -477.72       -40.39}
+  {     -468.90       -38.82      -462.90       -58.35}
+  {     -468.90       -38.82      -457.87       -47.64}
+  {     -468.90       -38.82      -510.37       -36.77}
+  {     -468.90       -38.82      -536.41       -43.54}
+  {     -468.90       -38.82      -480.55       -33.62}
+  {     -468.90       -38.82      -502.70       -46.69}
+  {     -468.90       -38.82      -504.00       -39.92}
+  {     -504.00       -39.92      -500.40       -58.98}
+  {     -504.00       -39.92      -487.26       -51.26}
+  {     -504.00       -39.92      -520.15       -21.65}
+  {     -504.00       -39.92      -517.79       -48.27}
+  {     -504.00       -39.92      -456.58       -44.33}
+  {     -504.00       -39.92      -530.71       -32.05}
+  {     -504.00       -39.92      -540.91       -44.17}
+  {     -504.00       -39.92      -535.17       -42.60}
+  {     -504.00       -39.92      -536.05       -58.98}
+  {     -504.00       -39.92      -556.42       -38.98}
+  {     -504.00       -39.92      -685.11       -50.16}
+  {     -504.00       -39.92      -544.19       -30.94}
+  {     -504.00       -39.92      -633.00       -33.94}
+  {     -633.00       -33.94      -644.97       -33.62}
+  {     -633.00       -33.94      -631.50        16.77}
+  {     -633.00       -33.94      -578.67        -4.96}
+  {     -633.00       -33.94      -598.76       -57.72}
+  {     -633.00       -33.94      -668.31       -51.10}
+  {     -633.00       -33.94      -670.21       -57.40}
+  {     -633.00       -33.94      -648.16        -3.07}
+  {     -633.00       -33.94      -643.53       -37.09}
+  {     -633.00       -33.94      -619.60       -18.82}
+  {     -633.00       -33.94      -694.67       -15.98}
+  {     -694.67       -15.98      -741.35        42.13}
+  {     -741.35        42.13      -739.80        46.38}
+  {     -741.35        42.13      -743.76        51.73}
+  {     -741.35        42.13      -743.72        42.76}
+  {     -741.35        42.13      -751.04        32.68}
+  {     -741.35        42.13      -765.73        48.58}
+  {     -741.35        42.13      -752.49        43.54}
+  {     -741.35        42.13      -761.35        56.61}
+  {     -741.35        42.13      -792.41        48.74}
+  {     -792.41        48.74      -812.99        47.01}
+  {     -792.41        48.74      -798.19        21.50}
+  {     -792.41        48.74      -776.40        56.93}
+  {     -792.41        48.74      -791.28        70.47}
+  {     -792.41        48.74      -797.80        71.73}
+  {     -792.41        48.74      -785.12        48.27}
+  {     -792.41        48.74      -764.40        52.83}
+  {     -792.41        48.74      -781.81        20.08}
+  {     -792.41        48.74      -761.93        34.09}
+  {     -792.41        48.74      -780.16        34.09}
+  {     -792.41        48.74      -780.18       124.17}
+  {     -792.41        48.74      -773.89       167.95}
+  {     -792.41        48.74      -783.84        81.65}
+  {     -792.41        48.74      -822.14        75.51}
+  {     -792.41        48.74      -821.61        76.46}
+  {     -821.61        76.46      -824.21        78.82}
+  {     -821.61        76.46      -831.53        93.62}
+  {     -821.61        76.46      -818.59        86.06}
+  {     -821.61        76.46      -816.96        86.06}
+  {     -821.61        76.46      -822.15        64.33}
+  {     -821.61        76.46      -849.54       162.60}
+  {     -821.61        76.46      -851.21       158.50}
+  {     -821.61        76.46      -838.34       189.37}
+  {     -821.61        76.46      -835.80       100.55}
+  {     -821.61        76.46      -836.37       100.87}
+  {     -821.61        76.46      -835.56        99.92}
+  {     -821.61        76.46      -836.08       100.71}
+  {     -836.37       100.87      -844.00       108.74}
+  {     -836.37       100.87      -864.62       194.41}
+  {     -836.37       100.87      -782.97        98.66}
+  {     -836.37       100.87      -766.56        71.89}
+  {     -836.37       100.87      -802.39        78.82}
+  {     -836.37       100.87      -757.30       170.00}
+  {     -836.37       100.87      -794.62       150.79}
+  {     -836.37       100.87      -869.85       116.61}
+  {     -836.37       100.87      -921.36       152.20}
+  {     -836.37       100.87      -938.85       196.46}
+  {     -836.37       100.87      -885.06       205.91}
+  {     -836.37       100.87      -887.20       174.72}
+  {     -836.37       100.87      -844.84       161.65}
+  {     -836.37       100.87      -860.04       140.55}
+  {     -836.37       100.87      -966.01       200.71}
+  {     -138.65       305.43       -11.36       137.72      -138.65       329.84       -11.36       162.13       -11.36        70.47      -138.65       238.19}
+  {      -11.36       137.72       174.65        71.89       -11.36       162.13       174.65        76.93       174.65        63.23       -11.36        70.47}
+  {      174.65        71.89       175.28        59.45       179.68        72.14       175.28        59.45       175.28        59.45       166.00        71.45}
+  {      175.28        59.45       430.45      -153.15       175.28        59.45       430.45       -60.87       430.45      -174.72       175.28        59.45}
+  {      430.45      -153.15       619.87      -275.20       430.45       -60.87       619.87      -275.20       619.87      -301.65       430.45      -174.72}
+  {      619.87      -275.20       695.05      -266.06       619.87      -275.20       695.05      -256.14       695.05      -301.02       619.87      -301.65}
+  {      695.05      -266.06       886.32      -212.68       695.05      -256.14       886.32      -212.68       886.32      -212.68       695.05      -301.02}
+  {      619.87      -275.20       740.74      -305.43       619.87      -275.20       740.74      -305.43       740.74      -305.43       619.87      -301.65}
+  {      619.87      -275.20       783.22      -143.86       619.87      -275.20       783.22      -138.82       783.22      -173.15       619.87      -301.65}
+  {      783.22      -143.86       852.94      -164.17       783.22      -138.82       852.94      -151.26       852.94      -190.31       783.22      -173.15}
+  {      852.94      -164.17       961.73      -264.49       852.94      -151.26       961.73      -259.29       961.73      -275.20       852.94      -190.31}
+  {      783.22      -143.86       840.04      -162.76       783.22      -138.82       840.04      -162.76       840.04      -162.76       783.22      -173.15}
+  {      840.04      -162.76       873.74      -140.55       840.04      -162.76       873.74      -135.35       873.74      -150.16       840.04      -162.76}
+  {      873.74      -140.55       886.10      -115.83       873.74      -135.35       886.10       -61.65       886.10      -115.83       873.74      -150.16}
+  {      886.10      -115.83       965.83       -34.88       886.10       -61.65       965.83       -34.88       965.83       -34.88       886.10      -115.83}
+  {     -138.65       305.43      -127.06       272.36}
+  {     -138.65       305.43        18.77       285.59}
+  {     -138.65       305.43        78.04       298.66}
+  {     -138.65       305.43       -18.07       277.72}
+  {     -138.65       305.43      -148.13       285.28}
+  {     -138.65       305.43      -264.86       281.18}
+  {      -11.36       137.72        17.83       146.69}
+  {      -11.36       137.72       127.44       161.97}
+  {      -11.36       137.72       179.81        70.47}
+  {      174.65        71.89       203.67        76.14}
+  {      174.65        71.89       194.67        73.62}
+  {      174.65        71.89       132.95        63.23}
+  {      174.65        71.89       195.55        65.28}
+  {      174.65        71.89        83.93        76.93}
+  {      430.45      -153.15       540.90      -172.83}
+  {      430.45      -153.15       515.70      -165.28}
+  {      430.45      -153.15       571.38      -174.57}
+  {      430.45      -153.15       553.26      -127.17}
+  {      430.45      -153.15       490.09      -131.73}
+  {      430.45      -153.15       448.81      -122.60}
+  {      430.45      -153.15       405.95      -119.45}
+  {      430.45      -153.15       381.84      -145.28}
+  {      430.45      -153.15       441.26      -150.00}
+  {      430.45      -153.15       387.56      -136.14}
+  {      430.45      -153.15       304.05      -117.56}
+  {      430.45      -153.15       288.41      -110.16}
+  {      430.45      -153.15       436.93       -60.87}
+  {      619.87      -275.20       636.56      -301.65}
+  {      619.87      -275.20       639.49      -298.98}
+  {      695.05      -266.06       771.25      -256.14}
+  {      695.05      -266.06       763.72      -256.46}
+  {      695.05      -266.06       706.54      -271.57}
+  {      695.05      -266.06       660.84      -301.02}
+  {      783.22      -143.86       745.08      -158.19}
+  {      783.22      -143.86       815.26      -148.74}
+  {      783.22      -143.86       804.92      -138.82}
+  {      783.22      -143.86       790.25      -173.15}
+  {      783.22      -143.86       870.56      -156.93}
+  {      852.94      -164.17       856.58      -178.98}
+  {      852.94      -164.17       869.76      -172.83}
+  {      852.94      -164.17       847.23      -151.26}
+  {      852.94      -164.17       858.02      -190.31}
+  {      961.73      -264.49       966.01      -265.59}
+  {      961.73      -264.49       961.73      -266.54}
+  {      961.73      -264.49       963.49      -259.45}
+  {      961.73      -264.49       963.17      -275.20}
+  {      873.74      -140.55       886.83      -138.03}
+  {      873.74      -140.55       864.60      -140.39}
+  {      873.74      -140.55       873.05      -135.35}
+  {      873.74      -140.55       873.29      -150.31}
+  {      886.10      -115.83       892.52      -100.24}
+  {      886.10      -115.83       951.64       -69.21}
+  {      886.10      -115.83       797.22       -61.81}
+  {      886.10      -115.83       881.86       -86.54}
+  {      886.10      -115.83       922.35       -98.82}
+  {      886.10      -115.83       916.18      -106.69}
+  {      886.10      -115.83       860.08       -92.20}
+}
+set XVIgrid  {-1241.02 -560.709 78.7402 0.0 0.0 78.7402 31 14}
