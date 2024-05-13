@@ -1,0 +1,50 @@
+# 2024.04.19 created by TopoDroid v 6.2.44
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert...@...ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+# Convertion depuis topo Vtopo Alex 2024 05 12
+
+survey  Suw-Oyuk  -title "Suw Oyuk Sinkhole"
+	
+	centerline
+		date 2024.04.15    #Journée à confirmer
+		team "Philippe Audra"
+		
+		
+		cs long-lat
+		fix 0  66.405367  37.596767 350
+		station 0 "Suw Oyuk Sinkhole" entrance
+		
+		units length meters
+		units compass clino degrees
+		data normal from to length compass clino
+		
+		0          1                        12.48  243.80   -5.50
+		0          .                        20.19  272.00   -0.80
+		0          .                        26.61  299.10   -0.00
+		0          .                        38.84  317.70   -2.20
+		0          .                        26.43  335.30   -2.40
+		0          .                        13.72    0.00   -2.60
+		0          .                        20.40  265.90  -11.90
+		0          .                        22.37  264.30  -30.20
+		0          .                        21.84  255.90  -40.00
+		0          .                        27.09  250.20  -49.60
+		0          .                        19.23  241.50  -50.00
+		0          .                        20.47  262.00  -35.20
+		0          .                        14.82  260.50  -37.90
+		0          .                        26.42  260.30  -39.00
+		0          .                        28.00  260.10  -40.70
+		0          .                        28.02  259.70  -44.60
+		0          .                        30.61  269.50  -38.30
+		0          2                        31.48  268.30  -39.60
+		0          .                        24.29  245.70  -42.90
+		0          .                        25.17  247.50  -45.00
+		0          .                        25.95  247.50  -45.70
+		
+		
+		
+	endcenterline
+	
+endsurvey

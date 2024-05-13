@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Ahmethan -title "Ahmethan Gypsum Cave n° 2"
+	SP-Ahmethan2
+	break
+	SP-Ahmethan1
+endmap
+
+
+#map MC-Ahmethan -title "New collapse 2022"
+#	SC-Ahmethan
+#endmap
+

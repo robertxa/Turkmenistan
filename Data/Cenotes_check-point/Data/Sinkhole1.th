@@ -1,0 +1,44 @@
+# 2024.04.19 created by TopoDroid v 6.2.44
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+# Convertion depuis topo Vtopo Alex 2024 05 12
+
+survey SINKHOLE1 -title "Karabulak Gypsum Collapses 1"
+	
+	centerline
+		date 2024.04.11
+		team "Philippe Audra"
+		
+		
+		cs long-lat
+		fix 0 66.352552  37.618034 350
+		station 0 "Karabulak Gypsum Collapses 1" entrance
+		
+		units length meters
+		units compass clino degrees
+		data normal from to length compass clino
+		
+		
+		0 . 19.55 357.85 -0.69
+		0 . 12.93 355.26 0.08
+		0 . 21.63 2.78 -6.48
+		0 . 17.53 6.38 -5.90
+		0 . 22.04 5.42 -17.48
+		0 . 24.09 359.04 -21.91
+		0 . 27.25 357.75 -24.40
+		0 . 28.54 0.09 -28.46
+		0 . 28.60 359.10 -33.26
+		0 . 28.54 359.26 -32.36
+		0 . 25.61 2.79 -30.89
+		0 12 31.64 355.14 -39.94
+		0 . 28.06 358.23 -31.01
+		0 . 23.32 335.48 -36.21
+		
+		
+	endcenterline
+	
+	
+endsurvey

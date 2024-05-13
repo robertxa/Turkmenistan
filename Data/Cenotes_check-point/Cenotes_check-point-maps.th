@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Cenotes_check-point -title "Cénotes Check-point"
+	SP-SINKHOLE1
+	break
+	SP-SINKHOLE2
+endmap
+
+
+#map MC-Cenotes_check-point -title "Cenotes_check-point"
+#	SC-Cenotes_check-point-1
+#endmap
+
