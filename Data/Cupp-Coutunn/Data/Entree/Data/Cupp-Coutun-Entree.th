@@ -12,12 +12,13 @@ survey Cap_Coutun -title "Cupp Coutunn"
 	    team "Jo De-Waele"
 	    team "Xavier Robert"
 	 
-	 # cs UTM42
+	 cs UTM42
     # fix 00 0271313 4169207 732 # Coordonnées à valider # gps Alex
 	 # station 00 "Cupp Coutun Entrée artificielle" entrance
 	 
-	 cs long-lat
-    fix 00 66:24:28 37:38:30 730 # Coordonnées à valider # gps Philippe  A
+	 #cs long-lat
+    #fix 00 66:24:28 37:38:30 730 # Coordonnées à valider # gps Philippe  A
+	 fix 00 0271312.42 4169207.31 745 # Coordonnées moyennes By Alex, altitude alti PhA 
     station 00 "Cupp Coutunn ; Entrée artificielle" entrance
 
 	 

@@ -5,7 +5,7 @@ encoding utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey JPH2  -title "Tunnel 2"
+survey JPH2  -title "Tunnel aval"
 
 centerline
 
@@ -13,10 +13,10 @@ date 2024.04.24
 	team "Jean-Paul Héreil"
 	team "Jean-Marie Briffon"
 
-	 cs UTM42
-	 fix Promeszutochnaya_Tunnel_01 0270588 4168955 640 # Altitude Alti Philippe Audra / gps alex (Altitude Alex 620)	 
-	 
-    station Promeszutochnaya_Tunnel_01 "Promeszutochnaya Tunnel 01" entrance air-draught
+	cs UTM42
+ # fix Promeszutochnaya_Tunnel_01 0270588 4168955 640 # Altitude Alti Philippe Audra / gps alex (Altitude Alex 620)	 
+	fix Promeszutochnaya_Tunnel_01 0270586.61 4168955.97 640 # Moyenne pointages PhA / JPH By Alex. 	
+   station Promeszutochnaya_Tunnel_01 "Promeszutochnaya Tunnel aval" entrance air-draught
 	
 	units length meters
 	units compass clino degrees    

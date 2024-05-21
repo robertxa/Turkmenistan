@@ -10,12 +10,15 @@ survey Entree -title "Entrée Hochimoyouk "
 centerline
 
 date 2024.04.12
-    team "Jean-Paul Héreil"
-    team "Jean-Pierre Gruat"
-    team "Jo de-Waelde"
+team "Jean-Paul Héreil"
+team "Jean-Pierre Gruat"
+team "Jo de-Waelde"
 
-cs lat-long
-#fix 5 lat long alt
+	#cs lat-long
+	#fix 5 lat long alt
+
+cs UTM42	 
+fix 5 0269074.26 4169375.71 625 # # Moyenne pointages PhA / JPH, altitude PhA. By Alex.
 station 5 "Hochimoyouk" entrance
 
 units length meters

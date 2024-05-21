@@ -4,7 +4,7 @@
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey Promeszutochnaya -title "Promeszutochnaya"
+survey Promeszutochnaya -title "Promeszutochnaya tunnel amont"
 
   centerline
     date 2024.04.24 
@@ -16,8 +16,9 @@ survey Promeszutochnaya -title "Promeszutochnaya"
     #fix 00 66.394767 37.673152	856 # NOK 
 	 
 	 cs UTM42
-	 fix Promeszutochnaya_Tunnel_00 0270733 4169400 640 # Altitide Alti Philippe Audra / gps alex (Altitude Alex 620)	 
-    station Promeszutochnaya_Tunnel_00 "Promeszutochnaya ; Tunnel" entrance air-draught
+	#fix Promeszutochnaya_Tunnel_00 0270733 4169400 645 # Altitude Alti Philippe Audra / gps alex (Altitude Alex 620)	 
+    fix Promeszutochnaya_Tunnel_00 0270740.4 4169404.4 645 # # Moyenne pointages PhA / JPH By Alex.
+	 station Promeszutochnaya_Tunnel_00 "Promeszutochnaya ; Tunnel amont" entrance air-draught
 	 
     units length meters
     units compass clino degrees

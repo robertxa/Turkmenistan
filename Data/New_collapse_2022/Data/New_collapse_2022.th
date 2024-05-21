@@ -13,7 +13,7 @@ survey New_collapse_2022 -title "New collapse 2022"
 		team "Philippe Audra"
 		
 		cs long-lat
-		fix 0 66.49701 37.595833 385
+		fix 0 66.41666666666667 37.59583333333333 385   # Mise à jour Alex coordonnées PhA
 		station 0 "New collapse 2022" entrance
 		
 		units length meters

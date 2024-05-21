@@ -1,9 +1,7 @@
-therion 6.2.0+dev (compiled on 2024-03-19)
-  - using Proj 6.3.2, compiled against 6.3.2
-initialization file: /usr/local/etc/therion.ini
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: Promeszutochnaya.thconfig
 reading ... done
 reading source files ... done
@@ -16,35 +14,35 @@ geomag declinations (deg):
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
-average loop error: 2.51%
+average loop error: 1.72%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.8
- 2> Copyright © 1990-2024 Olly Betts
+ 1> Survex 1.4.3
+ 2> Copyright � 1990-2021 Olly Betts
  3> 
- 4> La topographie contient 1030 stations, connectées par 1031 visées.
+ 4> La topographie contient 1030 stations, connect�es par 1031 vis�es.
  5> Il y a 3 bouclages.
- 6> La topographie contient 2 composants connectés.
- 7> Longueur totale de la topographie = 1859.61m (1861.82m ajusté)
+ 6> La topographie contient 2 composants connect�s.
+ 7> Longueur totale de la topographie = 1859.61m (1861.09m ajust�)
  8> Longueur totale en projection horizontale = 1804.69m
  9> Longueur totale verticale =  319.11m
-10> Intervalle vertical = 71.77m (de 608 à 645.48m jusqu’à 1030 à 573.71m)
-11> Intervalle Nord-Sud = 575.60m (de 3 à 4169401.34m jusqu’à 1027 à 4168825.74m)
-12> Intervalle Est-Ouest = 326.52m (de 161 à 270900.52m jusqu’à 612 à 270574.00m)
-13>  878 1-nœuds.
-14>    7 2-nœuds.
-15>    1 4-nœud.
-16>    4 5-nœuds.
-17>   38 6-nœuds.
-18>   19 7-nœuds.
-19>   32 8-nœuds.
-20>   21 9-nœuds.
-21>   14 10-nœuds.
-22>    4 11-nœuds.
-23>    4 12-nœuds.
-24>    5 13-nœuds.
-25>    2 14-nœuds.
-26>    1 15-nœud.
+10> Intervalle vertical = 70.19m (de 608 � 651.03m jusqu'� 1030 � 580.84m)
+11> Intervalle Nord-Sud = 577.42m (de 3 � 4169405.74m jusqu'� 1027 � 4168828.32m)
+12> Intervalle Est-Ouest = 327.00m (de 161 � 270905.60m jusqu'� 612 � 270578.60m)
+13>  878 1-noeuds.
+14>    7 2-noeuds.
+15>    1 4-noeud.
+16>    4 5-noeuds.
+17>   38 6-noeuds.
+18>   19 7-noeuds.
+19>   32 8-noeuds.
+20>   21 9-noeuds.
+21>   14 10-noeuds.
+22>    4 11-noeuds.
+23>    4 12-noeuds.
+24>    5 13-noeuds.
+25>    2 14-noeuds.
+26>    1 15-noeud.
 27> 
 ######################### transcription ########################
  4> 1030 : .@Alex.Alex.Promeszutochnaya
@@ -73,9 +71,9 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... 
-therion: warning -- Promeszutochnaya.thconfig [306] -- object not found -- "MP-Promeszutochnaya"
+C:\Program Files (x86)\Therion\therion.exe: warning -- Promeszutochnaya.thconfig [306] -- object not found -- "MP-Promeszutochnaya"
 
-therion: warning -- Promeszutochnaya.thconfig [307] -- object not found -- "MC-Promeszutochnaya"
+C:\Program Files (x86)\Therion\therion.exe: warning -- Promeszutochnaya.thconfig [307] -- object not found -- "MC-Promeszutochnaya"
 done
 processing projection extended ... done
 
@@ -85,10 +83,10 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Promeszutochnaya-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:39
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 MAY 2024 14:42
 **data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -96,10 +94,10 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
  
 Here is how much of MetaPost's memory you used:
- 17531 strings using 531336 characters
- 4109480 bytes of node memory
- 1742 symbolic tokens
- 8i,81n,16p,438b,5f stack positions out of 16i,96n,20p,487b,6f
+ 17514 strings using 530735 characters
+ 2907656 bytes of node memory
+ 1745 symbolic tokens
+ 8i,82n,16p,448b,5f stack positions out of 16i,98n,20p,487b,6f
 19 output files written: data-patt.1 .. data-patt.15
 
 
@@ -107,30 +105,27 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  21 MAY 2024 14:42
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  51 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 278 strings out of 494671
- 3915 string characters out of 6148971
- 208529 words of memory out of 5000000
- 1909 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 9i,5n,6p,322b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 76457 bytes).
+ 278 strings out of 94604
+ 3886 string characters out of 1142524
+ 208713 words of memory out of 5177441
+ 1933 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,254b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb>
+Output written on data.pdf (1 page, 76036 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
@@ -148,10 +143,10 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Promeszutochnaya-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  9 MAY 2024 12:39
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 MAY 2024 14:42
 **data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -159,13 +154,13 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [1] (./mptextmp.mp) [2] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [3] (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [4] )
+[4] )
  
 Here is how much of MetaPost's memory you used:
- 1752 strings using 47616 characters
- 3885152 bytes of node memory
- 1742 symbolic tokens
- 10i,81n,19p,456b,5f stack positions out of 16i,96n,22p,487b,6f
+ 1747 strings using 47477 characters
+ 2721308 bytes of node memory
+ 1745 symbolic tokens
+ 10i,82n,19p,456b,5f stack positions out of 16i,98n,22p,487b,6f
 19 output files written: data-patt.1 .. data-patt.15
 
 
@@ -173,32 +168,30 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  9 MAY 2024 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  21 MAY 2024 14:42
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}<<th_gour_aaaaaaa.dat>>)
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map}<<th_go
+ur_aaaaaaa.dat>>)
 (./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
  58 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 314 strings out of 494671
- 4220 string characters out of 6148971
- 154658 words of memory out of 5000000
- 1942 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 58790 bytes).
+ 314 strings out of 94604
+ 4191 string characters out of 1142524
+ 154533 words of memory out of 5132261
+ 1966 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 10i,6n,8p,388b,66s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therio
+n/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type
+1/csssi10.pfb>
+Output written on data.pdf (1 page, 58406 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
@@ -212,19 +205,20 @@ writing Outputs/Promeszutochnaya.lox ... done
 writing Outputs/Promeszutochnaya.kml ... done
 writing Outputs/Promeszutochnaya-model.kml ... done
 writing Outputs/Promeszutochnaya.html ... done
-compilation time: 4 sec
+writing xtherion file ... done
+compilation time: 3 sec
 
 
 ######################### loop errors ##########################
 REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
-  6.22%   19.2m  308.8m  28  -11.1m   -5.9m  -14.5m [Promeszutochnaya_Tunnel_01@JPH2.JPH2.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 = 00@Alex.Alex.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 = 13@JPH3.JPH3.Promeszutochnaya - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - Promeszutochnaya_Entree_Nat]
   3.62%   10.4m  286.8m  32   -6.1m   -3.7m   -7.5m [A91@Promeszutochnaya_01.Philippe1.Promeszutochnaya - 41 - 40 - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - A93 - 30 - A92 - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - A91]
+  2.09%    6.4m  308.8m  28   -5.2m   -3.0m   -2.5m [Promeszutochnaya_Tunnel_01@JPH2.JPH2.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 = 00@Alex.Alex.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 = 13@JPH3.JPH3.Promeszutochnaya - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - Promeszutochnaya_Entree_Nat]
   1.17%    5.1m  432.2m  35   -0.8m    1.7m    4.7m [PTR_FR24_A98_0@Promeszutochnaya_01.Philippe1.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - A99 = 0@JPH.JPH.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - PTR_FR24_B35_9 = PTR_FR24_B35_29@Promeszutochnaya.Entree.Promeszutochnaya - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - PTR_FR24_A98_9 = PTR_FR24_A98_0@Promeszutochnaya_01.Philippe1.Promeszutochnaya]
-  0.88%    7.3m  822.5m  57   -3.4m   -2.0m   -6.1m [Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - PTR_FR24_A98_9 = PTR_FR24_A98_0@Promeszutochnaya_01.Philippe1.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - A99 = 0@JPH.JPH.Promeszutochnaya - 1 - 2 - 3 - 4 = 30@Alex.Alex.Promeszutochnaya - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 5 - 6 = 13@JPH3.JPH3.Promeszutochnaya - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - Promeszutochnaya_Entree_Nat]
+  0.82%    6.8m  822.5m  57   -6.2m   -2.5m    0.9m [Promeszutochnaya_Tunnel_00@Promeszutochnaya.Entree.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - PTR_FR24_A98_9 = PTR_FR24_A98_0@Promeszutochnaya_01.Philippe1.Promeszutochnaya - 1 - 2 - 3 - 4 - 5 - A99 = 0@JPH.JPH.Promeszutochnaya - 1 - 2 - 3 - 4 = 30@Alex.Alex.Promeszutochnaya - 29 - 28 - 27 - 26 - 25 - 24 - 23 - 22 - 21 - 20 - 19 - 18 - 17 - 16 - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 7 - 5 - 6 = 13@JPH3.JPH3.Promeszutochnaya - 12 - 11 - 10 - 9 - 8 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - Promeszutochnaya_Entree_Nat]
 ##################### end of loop errors #######################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (66.400, 37.639) (66.401, 37.643)
+  Area of Use (AoU): (66.400, 37.639) (66.402, 37.643)
   [UTM42 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM42 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 42N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=42 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM42 → UTM42] AoU: [yes] transformation: [Inverse of UTM zone 42N + UTM zone 42N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
