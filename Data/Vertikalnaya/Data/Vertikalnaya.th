@@ -13,8 +13,10 @@ survey Vertikalnaya -title "Vertikalnaya"
 	    team "Jean-Philippe Grandcolas"
 	    team "Alexandre Pont"
 	 
-	 cs long-lat
-    fix 00 66:23:29 37:40:54 850 # Coordonnées à valider # gps Philippe  A
+	 #cs long-lat
+    #fix 00 66:23:29 37:40:54 850 # Coordonnées à valider # gps Philippe  A
+	 cs UTM42
+	 fix 00 0269965.63 4173690.45 850 # Moyenne pointages PhA / APo, altitude PhA, By Alex. 	
     station 00 "Vertikalnaya" entrance
 	 
     units length meters

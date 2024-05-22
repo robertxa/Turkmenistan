@@ -8,12 +8,12 @@ survey Cup_Coutun_01 -title "Cupp Coutunn ; entrée naturelle"
 
   centerline
     date 2024.04.18 
-	    team "Philippe Audra"
-	    team "Lionnel Barriquand"
+	 team "Philippe Audra"
+	 team "Lionnel Barriquand"
 	 
 	 cs long-lat
-    fix 18 66:24:40 37:38:18 770 # Coordonnées à revoir ?
-    station 18 "Cupp Coutunn ; Entrée naturelle" entrance
+    fix 18 66:24:40 37:38:18 805 # Coordonnées PhA  / Altitude PhA
+	 station 18 "Cupp Coutunn ; Entrée naturelle" entrance
 	 
     # team PhA 
     units length meters

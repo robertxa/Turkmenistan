@@ -6,17 +6,18 @@ encoding utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey JPH3 -title "Entrée Naturelle"
+survey JPH3 -title "Entrée naturelle"
 
 	centerline
 
 	date 2024.04.24
-		team "Jean-Paul Héreil"
-		team "Jean-Marie Briffon"
+	team "Jean-Paul Héreil"
+	team "Jean-Marie Briffon"
 
-	 cs UTM42
-	 fix Promeszutochnaya_Entree_Nat 0270574 4169060 593 # gps alex 	 
-	 station Promeszutochnaya_Entree_Nat "Promeszutochnaya ; entrée Naturelle" entrance air-draught
+   cs UTM42
+ # fix Promeszutochnaya_Entree_Nat 0270574 4169060 593 # gps alex 	 
+	fix Promeszutochnaya_Entree_Nat 0270578.6 4169063.9 605 # Moyenne pointages APo/JPH, altitude PhA, By Alex. 	
+	station Promeszutochnaya_Entree_Nat "Promeszutochnaya ; Entrée naturelle" entrance air-draught
 	
 	units length meters
 	units compass clino degrees    
