@@ -1,0 +1,15 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Chevres -title "Grotte des Chèvres"
+	SP-Chevres-1
+endmap
+
+
+#map MC-Chevres -title "Grotte des Chèvres"
+#	SC-Chevres-1
+#endmap
+   
