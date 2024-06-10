@@ -1,0 +1,50 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Geophysicheskaya -title "Gulshirin (Geophysicheskaya)"
+	# Pour importer les différentes données de différents fichiers topos :
+	#input Data/Geophysicalskaya.th
+	
+	input Data/Entree/Entree-tot.th
+	
+	input Data/Philippe2/Philippe2-tot.th
+	equate  PTR_FR24_A02_24@Geophysicaya_02.Philippe2 PTR_FR24_A02_24@Geophysicaya_01_entree.Entree
+	equate  PTR_FR24_A09_2@Geophysicaya_02.Philippe2 PTR_FR24_A09_80@Geophysicaya_01_entree.Entree
+	join	SP-Geophysicalskaya_03@Philippe2	SP-Geophysicalskaya_02@Entree
+	
+	input Data/Xav4/GeophysicalskayaXR4-tot.th
+	equate A20@GeophysicalskayaXR4.GeophysicalskayaXR4 PTR_FR24_A20_16@Geophysicaya_02.Philippe2
+	join SP-Xav4-1@GeophysicalskayaXR4 SP-Geophysicalskaya_03@Philippe2
+	
+	input Data/Escalade/Escalade-tot.th
+	#equate 1@Escalade.Escalade	3@GeophysicalskayaXR4.GeophysicalskayaXR4
+	equate 2.2@Escalade.Escalade	5@GeophysicalskayaXR4.GeophysicalskayaXR4
+	join SP-Escalade-1@Escalade	SP-Xav4-1@GeophysicalskayaXR4
+	
+	input Data/Xav6/GeophysicayaXR6-tot
+	equate B56@GeophysicalskayaXR4.GeophysicalskayaXR4	B56@GeophysicayaXR6.GeophysicayaXR6
+	equate B55@GeophysicalskayaXR4.GeophysicalskayaXR4	B55@GeophysicayaXR6.GeophysicayaXR6
+	equate B54@GeophysicalskayaXR4.GeophysicalskayaXR4	B54@GeophysicayaXR6.GeophysicayaXR6
+	join SP-Xav4-2@GeophysicalskayaXR4	SP-Xav6-1@GeophysicayaXR6 -count 4
+	
+	input Data/Alex3/Alex3-tot.th
+	equate PTR_FR24_B50_43@Geophyscaya_03.Alex3 B50@GeophysicalskayaXR4.GeophysicalskayaXR4
+	equate PTR_FR24_B59_00@Geophyscaya_03.Alex3 B59@GeophysicalskayaXR4.GeophysicalskayaXR4
+	join SP-Alex3-1@Alex3 SP-Xav4-1@GeophysicalskayaXR4
+	join SP-Alex3-1@Alex3 SP-Xav4-2@GeophysicalskayaXR4
+	
+	input Data/Alex5/Alex5-tot.th
+	equate PTR_FR24_B58_11@Geophyscaya_05.Alex5 B58@GeophysicalskayaXR4.GeophysicalskayaXR4
+	join SP-Alex5-1@Alex5 SP-Xav4-1@GeophysicalskayaXR4
+	
+	input Data/Alex7/Alex7-tot.th
+	equate PTR_FR24_A13_46@Geophyscaya_03.Alex3	PTR_FR24_A13_46@Geophysicalskaya_07.Alex7
+	join SP-Alex3-1@Alex3 SP-Alex7-1@Alex7
+	
+	# Import des maps
+	input Geophysicheskaya-maps.th
+	
+endsurvey

@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Suwly-oyuk -title "Suwly-oyuk"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Suw-Oyuk.th
+	
+	# Import du dessin en plan
+	input  Data/Suw-Oyuk.th2
+	
+	# Import des maps
+	input Suwly-oyuk-maps.th
+	
+endsurvey

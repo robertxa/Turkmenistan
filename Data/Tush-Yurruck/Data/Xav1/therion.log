@@ -1,9 +1,7 @@
-therion 6.2.0+dev (compiled on 2024-03-19)
-  - using Proj 6.3.2, compiled against 6.3.2
-initialization file: /usr/local/etc/therion.ini
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: Tush_YurruckXR1.thconfig
 reading ... done
 reading source files ... done
@@ -14,49 +12,49 @@ calculating station coordinates ... done
 average loop error: 0.84%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.5
- 2> Copyright © 1990-2021 Olly Betts
- 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 1> Survex 1.4.3
+ 2> Copyright � 1990-2021 Olly Betts
+ 3> La topographie n'a pas de points fixes. Par cons�quent j'ai fix� 1 � (0,0,0)
  4> 
- 5> La topographie contient 1057 stations, connectées par 1060 visées.
+ 5> La topographie contient 1057 stations, connect�es par 1060 vis�es.
  6> Il y a 5 bouclages.
- 7> La topographie contient 2 composants connectés.
- 8> Longueur totale de la topographie = 1407.03m (1407.02m ajusté)
+ 7> La topographie contient 2 composants connect�s.
+ 8> Longueur totale de la topographie = 1407.03m (1407.02m ajust�)
  9> Longueur totale en projection horizontale = 1324.56m
 10> Longueur totale verticale =  281.35m
-11> Intervalle vertical = 42.78m (de 642 à 39.61m jusqu’à 519 à -3.16m)
-12> Intervalle Nord-Sud = 218.08m (de 985 à 180.95m jusqu’à 64 à -37.13m)
-13> Intervalle Est-Ouest = 251.06m (de 63 à 70.72m jusqu’à 847 à -180.35m)
-14>  989 1-nœuds.
-15>    1 2-nœud.
-16>    1 3-nœud.
-17>    1 4-nœud.
-18>    2 5-nœuds.
-19>    3 6-nœuds.
-20>    2 9-nœuds.
-21>    5 10-nœuds.
-22>    2 11-nœuds.
-23>    1 12-nœud.
-24>    4 13-nœuds.
-25>    9 14-nœuds.
-26>    3 15-nœuds.
-27>    5 16-nœuds.
-28>    3 17-nœuds.
-29>    5 18-nœuds.
-30>    1 19-nœud.
-31>    2 20-nœuds.
-32>    3 21-nœuds.
-33>    2 22-nœuds.
-34>    1 23-nœud.
-35>    2 25-nœuds.
-36>    2 26-nœuds.
-37>    2 27-nœuds.
-38>    1 30-nœud.
-39>    1 31-nœud.
-40>    1 33-nœud.
-41>    1 35-nœud.
-42>    1 36-nœud.
-43>    1 38-nœud.
+11> Intervalle vertical = 42.78m (de 642 � 39.61m jusqu'� 519 � -3.16m)
+12> Intervalle Nord-Sud = 218.08m (de 985 � 180.95m jusqu'� 64 � -37.13m)
+13> Intervalle Est-Ouest = 251.06m (de 63 � 70.72m jusqu'� 847 � -180.35m)
+14>  989 1-noeuds.
+15>    1 2-noeud.
+16>    1 3-noeud.
+17>    1 4-noeud.
+18>    2 5-noeuds.
+19>    3 6-noeuds.
+20>    2 9-noeuds.
+21>    5 10-noeuds.
+22>    2 11-noeuds.
+23>    1 12-noeud.
+24>    4 13-noeuds.
+25>    9 14-noeuds.
+26>    3 15-noeuds.
+27>    5 16-noeuds.
+28>    3 17-noeuds.
+29>    5 18-noeuds.
+30>    1 19-noeud.
+31>    2 20-noeuds.
+32>    3 21-noeuds.
+33>    2 22-noeuds.
+34>    1 23-noeud.
+35>    2 25-noeuds.
+36>    2 26-noeuds.
+37>    2 27-noeuds.
+38>    1 30-noeud.
+39>    1 31-noeud.
+40>    1 33-noeud.
+41>    1 35-noeud.
+42>    1 36-noeud.
+43>    1 38-noeud.
 44> 
 ######################### transcription ########################
  3> 1 : B12@Tush_YurruckXR1.Tush_YurruckXR1
@@ -101,10 +99,10 @@ done
 calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... 
-therion: warning -- Tush_YurruckXR1.thconfig [56] -- source layout not found -- Coords_Header_CDa
+C:\Program Files (x86)\Therion\therion.exe: warning -- Tush_YurruckXR1.thconfig [56] -- source layout not found -- Coords_Header_CDa
 done
 selecting export objects ... 
-therion: warning -- Tush_YurruckXR1.thconfig [304] -- object not found -- "MC-Tush_YurruckXR1"
+C:\Program Files (x86)\Therion\therion.exe: warning -- Tush_YurruckXR1.thconfig [304] -- object not found -- "MC-Tush_YurruckXR1"
 done
 processing projection plan ... done
 average distortion: 0.01%
@@ -117,10 +115,10 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush_YurruckXR1-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:50
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  3 JUN 2024 16:30
 **data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
@@ -128,10 +126,10 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) [4] )
  
 Here is how much of MetaPost's memory you used:
- 12316 strings using 382788 characters
- 4326896 bytes of node memory
- 1740 symbolic tokens
- 8i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+ 12316 strings using 382741 characters
+ 3067444 bytes of node memory
+ 1743 symbolic tokens
+ 8i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
 19 output files written: data-patt.1 .. data-patt.15
 
 
@@ -139,33 +137,29 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  3 JUN 2024 16:30
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  51 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 278 strings out of 494671
- 3915 string characters out of 6148971
- 231024 words of memory out of 5000000
- 1909 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 9i,5n,6p,322b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 65026 bytes).
+ 278 strings out of 94604
+ 3886 string characters out of 1142524
+ 230901 words of memory out of 5197629
+ 1933 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 61483 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
@@ -184,26 +178,28 @@ S     2.99 SP-Xav1-4@Tush_YurruckXR1 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Tush_YurruckXR1-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  19 APR 2024 15:50
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  3 JUN 2024 16:30
 **data.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [15] [1] [2] [3] [4] [5] [6] [7] [8]
 [Warning: scrap outline intersects itself in scrap SP-Xav1-3@Tush_YurruckXR1]
-[9] [10] [11] [12] [13] [14] [15] [16]
+[9] [10] [11] [12]
+[Warning: scrap outline intersects itself in scrap SP-Xav1-2@Tush_YurruckXR1]
+[13] [14] [15] [16]
 [Warning: scrap outline intersects itself in scrap SP-Xav1-1@Tush_YurruckXR1]
 [17] [18] [19] (./mptextmp.mp) [20] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [21] )
  
 Here is how much of MetaPost's memory you used:
- 9836 strings using 223604 characters
- 4298552 bytes of node memory
- 1749 symbolic tokens
- 11i,81n,16p,378b,5f stack positions out of 16i,96n,17p,390b,6f
+ 9880 strings using 224860 characters
+ 3016416 bytes of node memory
+ 1752 symbolic tokens
+ 11i,82n,16p,378b,5f stack positions out of 16i,98n,17p,390b,6f
 36 output files written: data-patt.1 .. data.21
 
 
@@ -211,31 +207,28 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  19 APR 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  3 JUN 2024 16:30
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
  78 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 326 strings out of 494671
- 4417 string characters out of 6148971
- 151755 words of memory out of 5000000
- 1957 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1420 hyphenation exceptions out of 8191
- 9i,5n,8p,322b,53s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 135116 bytes).
+ 326 strings out of 94604
+ 4388 string characters out of 1142524
+ 148319 words of memory out of 5115047
+ 1981 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,8p,712b,53s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Theri
+on/texmf/fonts/type1/csss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/csssi10.pfb>
+Output written on data.pdf (1 page, 134070 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
@@ -246,10 +239,10 @@ PDF statistics:
 ##################### end of pdftex log file #####################
 done
 writing Outputs/Tush_YurruckXR1.lox .....
-therion: warning -- SP-Xav1-3@Tush_YurruckXR1 -- multiple scrap outer outlines not supported yet
+C:\Program Files (x86)\Therion\therion.exe: warning -- SP-Xav1-3@Tush_YurruckXR1 -- multiple scrap outer outlines not supported yet
 ... done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 5 sec
 
 
 ######################### loop errors ##########################
