@@ -1,0 +1,29 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Geophysicheskaya -title "Gulshirin (Geophysicheskaya)"
+	MP-Entree@Entree
+	break
+	MP-Philippe2@Philippe2
+	break
+	MP-Escalade@Escalade
+	break
+	MP-GeophysicalskayaXR4@GeophysicalskayaXR4
+	break
+	MP-GeophysicayaXR6@GeophysicayaXR6
+	break
+	MP-Alex3@Alex3
+	break
+	MP-Alex5@Alex5
+	break
+	MP-Alex7@Alex7
+	
+endmap
+
+#map MC-Geophysicalskaya -title "Geophysicalskaya"
+#	SC-Geophysicalskaya-1
+#endmap
+

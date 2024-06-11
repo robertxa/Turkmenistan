@@ -249,7 +249,7 @@ layout layout-coupe
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend of
+	legend on
 	# Par défaut, la légende est de 14 cm de largeur
 	#legend-width 70 cm
 	#legend-columns 8

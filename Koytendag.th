@@ -10,18 +10,19 @@ survey Koytendag -title "Karst de Koytendag"
 	input Data/Ahmethan/Hanaka-tot.th
 	input Data/Cenotes_check-point/Cenotes_check-point-tot.th
 	input Data/Chauve-Souris/Chauve-Souris-tot.th
-	input Data/Cupp-Coutunn/Cupp-Coutun-tot.th
-	input Data/Geophysicalskaya/Geophysicalskaya-tot.th
+	input Data/Gap-Gotan/Gap-Gotan-tot.th
+	input Data/Geophysicheskaya/Geophysicheskaya-tot.th
 	input Data/Grotte_du_lac/Grotte_du_lac-tot.th
-	input Data/Kaptarhana/Kaptarhana-tot.th
+	input Data/Kaptarkhana/Kaptarkhana-tot.th
 	input Data/New_collapse_2022/New_collapse_2022-tot.th	
-	input Data/Ochimoyuk/Ochimoyuk-tot.th
+	input Data/Hashim-oyuk/Hashim-oyuk-tot.th
 	input Data/Petit-General/Petit-General-tot.th
-	input Data/Promeszutochnaya/Promeszutochnaya-tot.th
+	input Data/Promezhutochnaya/Promezhutochnaya-tot.th
 	input Data/Russes-CA/Russes-CA-tot.th
-	input Data/Suw-Oyuk/Suw-Oyuk-tot.th
+	input Data/Suwly-oyuk/Suwly-oyuk-tot.th
 	input Data/Tush-Yurruck/Tush-Yurruck-tot.th
    input Data/Vertikalnaya/Vertikalnaya-tot.th
+	input Data/Chevres/Chevres-tot.th
 	
 	
 	# Import maps

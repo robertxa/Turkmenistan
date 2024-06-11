@@ -1,0 +1,16 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Suwly-oyuk -title "Suwly-oyuk Sinkhole"
+	SP-Suw-Oyuk
+endmap
+
+
+#map MC-Suw-Oyuk -title "Suw-Oyuk"
+#	SC-Suw-Oyuk-1
+
+#endmap
+
