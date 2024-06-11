@@ -28,6 +28,7 @@ encoding  utf-8
 # "jb.th" et a leur tour, "jb.th" appellera
 # "jb-dessin.th2")
 source Hashim-oyuk-tot.th
+source Data/DEM-HashimOyuck.th
 
 # Add Coordinates
 input legendes/entrances_coordinates.th
@@ -298,8 +299,8 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-export map -fmt xvi -layout xviexport -o Data/Hashim-oyuk-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Hashim-oyuk-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/Hashim-oyuk-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Hashim-oyuk-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Hashim-oyuk@Hashim-oyuk
