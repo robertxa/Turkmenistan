@@ -321,7 +321,7 @@ select MC-Geophysicheskaya@Geophysicheskaya
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
 #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Geophysicheskaya-coupe.pdf
 export map -proj plan -fmt pdf -o Outputs/Geophysicheskaya-plan.pdf -layout my_layout
-export map -proj plan -fmt svg -o Outputs/Geophysicheskaya-plan.svg -layout my_layout
+#export map -proj plan -fmt svg -o Outputs/Geophysicheskaya-plan.svg -layout my_layout
 
 
 # Export du fichier 3d pour Loch

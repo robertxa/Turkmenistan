@@ -347,11 +347,11 @@ endlayout
 # export des statistiques de l'ensemble de la cavité
 #    Attention, les points de départ et d'arrivée de chaque centreline correspondent
 #    au second point et à l'avant dernier point de la série.
-export database -fmt sql -o Outputs/databaseKoytendag-2024.sql
+#export database -fmt sql -o Outputs/databaseKoytendag-2024.sql
 
 #export continuation-list -o Outputs/ContinuationsKoytendag-2022.html
 #export continuation-list -o Outputs/ContinuationsKoytendag-2022.kml
 export survey-list -location on -o Outputs/SurveysKoytendag2024.html
 export cave-list -location on -o Outputs/CavesKoytendag2024.html
-export cave-list -location on -o Outputs/Caves-Koytendag.txt
-export cave-list -location on -o Outputs/Koytendag/Caves.txt
+#export cave-list -location on -o Outputs/Caves-Koytendag.txt
+#export cave-list -location on -o Outputs/Koytendag/Caves.txt
