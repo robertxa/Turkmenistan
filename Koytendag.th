@@ -19,13 +19,14 @@ survey Koytendag -title "Karst de Koytendag"
 	input Data/Koyten/Data/Chauve-Souris/Chauve-Souris-tot.th
 	input Data/Koyten/Data/Petit-General/Petit-General-tot.th
 
-	input Data/Sud/Data/Hashim-oyuk/Hashim-oyuk-tot.th
-	input Data/Sud/Data/Gap-Gotan/Gap-Gotan-tot.th
-	#input Data/Promezhutochnaya/Promezhutochnaya-tot.th
-	input Data/Sud/Data/Geophysicheskaya/Geophysicheskaya-tot.th
-	input Data/Sud/Data/Tush-Yurruck/Tush-Yurruck-tot.th
-   	input Data/Sud/Data/Vertikalnaya/Vertikalnaya-tot.th
-	input Data/Sud/Data/Chevres/Chevres-tot.th
+	input Data/Sud/Sud-tot.th
+	#input Data/Sud/Data/Hashim-oyuk/Hashim-oyuk-tot.th
+	#input Data/Sud/Data/Gap-Gotan/Gap-Gotan-tot.th
+	##input Data/Promezhutochnaya/Promezhutochnaya-tot.th
+	#input Data/Sud/Data/Geophysicheskaya/Geophysicheskaya-tot.th
+	#input Data/Sud/Data/Tush-Yurruck/Tush-Yurruck-tot.th
+   	#input Data/Sud/Data/Vertikalnaya/Vertikalnaya-tot.th
+	#input Data/Sud/Data/Chevres/Chevres-tot.th
 	
 	
 	# Import maps
