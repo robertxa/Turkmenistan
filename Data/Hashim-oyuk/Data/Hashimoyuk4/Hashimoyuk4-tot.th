@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Hashimoyuk4 -title "Hashimoyuk4"
+	# Pour importer les différentes données de différents fichiers topos : 
+	input Data/Hashimoyuk4.th
+	
+	# Import du dessin en plan
+	#input Data/Hashimoyuk4.th2
+
+	# Import du dessin en coupe
+	#input Data/Hashimoyuk4-coupe.th2
+
+	# Import des maps
+	#input Hashimoyuk4-maps.th
+ 
+ endsurvey
+ 

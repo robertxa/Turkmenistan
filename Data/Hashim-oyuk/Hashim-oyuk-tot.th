@@ -8,10 +8,15 @@ survey Hashim-oyuk -title "Hashim-oyuk"
 	# Pour importer les différentes données de différents fichiers topos :
 	input Data/Entree/Entree-tot.th
 	input Data/Fond/AshimyukFond-tot.th
-	equate B3@AshimyukFond.AshimyukFond B3@Entree2.Entree
+		equate B3@AshimyukFond.AshimyukFond B3@Entree2.Entree
 	
 	input Data/Boucle1/Boucle1-tot.th
-	equate B00@ochy_muyuk.Boucle1 B00@Entree2.Entree
+		equate B00@ochy_muyuk.Boucle1 B00@Entree2.Entree
+
+	input Data/Hashimoyuk4/Hashimoyuk4-tot.th
+		equate 22.6@Hashimoyuk4.Hashimoyuk4 22.6@Entree2.Entree
+		equate 24@Hashimoyuk4.Hashimoyuk4 24@Entree2.Entree
+		equate B80@Hashimoyuk4.Hashimoyuk4 B80@ochy_muyuk.Boucle1
 	
 	
 	# Import des maps
