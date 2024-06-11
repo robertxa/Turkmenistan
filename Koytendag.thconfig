@@ -56,7 +56,7 @@ layout my_layout
 	copy headerl 
 	copy langue-fr
 	
-  cs UTM32
+  cs UTM41
   
   base-scale 1 1000
   scale 1 5000
