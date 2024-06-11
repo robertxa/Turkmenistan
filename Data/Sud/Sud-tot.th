@@ -1,0 +1,44 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Sud -title "Sud"
+	# Pour importer les différentes données de différents fichiers topos :
+	input Data/Chevres/Chevres-tot.th
+	input Data/Gap-Gotan/Gap-Gotan-tot.th
+	input Data/Geophysicheskaya/Geophysicheskaya-tot.th
+	input Data/Hashim-oyuk/Hashim-oyuk-tot.th
+	input Data/Tush-Yurruck/Tush-Yurruck-tot.th
+	input Data/Vertikalnaya/Vertikalnaya-tot.th
+	
+	#input Data/Philippe-01/Philippe-01-tot.th
+	#equate  PTR_FR24_A21_12@Cap_Coutun.Cupp-Coutun-Entree PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot
+	#	join	SP-Tush-Yurruck_03@Philippe2	SP-Tush-Yurruck_02@Entree
+	
+	#input Data/Alex2/Alex2-tot.th
+	#equate  PTR_FR24_B18_00@Tush-Yurruck_02.Alex2 B18@Tush_YurruckXR1.Tush_YurruckXR1
+	#equate  PTR_FR24_B19_13@Tush-Yurruck_02.Alex2 B19@Tush_YurruckXR1.Tush_YurruckXR1
+	#equate  PTR_FR24_A62_3@Tush-Yurruck_02.Alex2 PTR_FR24_A62_3@Tush_YurruckXR1.Tush_YurruckXR1
+	
+	#input Data/Alex3/Alex3-tot.th
+	#equate  PTR_FR24_B13_00@Tush-Yurruck_03.Alex3 B13@Tush_YurruckXR1.Tush_YurruckXR1
+	
+	#	join SP-Xav4-2@Tush-YurruckXR4	SP-Xav6-1@GeophysicayaXR6 -count 4
+	
+	#input Data/Alex3/Alex3-tot.th
+	#	equate PTR_FR24_B50_43@Geophyscaya_03.Alex3 B50@Tush-YurruckXR4.Tush-YurruckXR4
+	#	equate PTR_FR24_B59_43@Geophyscaya_03.Alex3 B59@Tush-YurruckXR4.Tush-YurruckXR4
+	
+	#input Data/Alex5/Alex5-tot.th
+	#	equate PTR_FR24_B58_11@Geophyscaya_05.Alex5 B58@Tush-YurruckXR4.Tush-YurruckXR4
+	
+	#input Data/Alex7/Alex7-tot.th
+	#	equate PTR_FR24_A13_46@Geophyscaya_03.Alex3	PTR_FR24_A13_46@Tush-Yurruck_07.Alex7
+	
+	
+	# Import des maps
+	#input Sud-maps.th
+	
+endsurvey

@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2023 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Sud -title "Sud"
+	MP-Sud@Entree
+	#break
+	#MP-Philippe2@Philippe2
+	#break
+	#MP-Tush-YurruckXR4@Tush-YurruckXR4
+	#break
+	#MP-GeophysicayaXR6@GeophysicayaXR6
+	
+endmap
+
+#map MC-Tush-Yurruck -title "Tush-Yurruck"
+#	SC-Tush-Yurruck-1
+#endmap
+

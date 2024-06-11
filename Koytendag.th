@@ -7,22 +7,25 @@ encoding  utf-8
 survey Koytendag -title "Karst de Koytendag"
 # Pour importer les différentes données des différents fichiers topos : 
 
-	input Data/Ahmethan/Hanaka-tot.th
-	input Data/Cenotes_check-point/Cenotes_check-point-tot.th
-	input Data/Chauve-Souris/Chauve-Souris-tot.th
-	input Data/Gap-Gotan/Gap-Gotan-tot.th
-	input Data/Geophysicheskaya/Geophysicheskaya-tot.th
-	input Data/Grotte_du_lac/Grotte_du_lac-tot.th
-	input Data/Kaptarkhana/Kaptarkhana-tot.th
-	input Data/New_collapse_2022/New_collapse_2022-tot.th	
-	input Data/Hashim-oyuk/Hashim-oyuk-tot.th
-	input Data/Petit-General/Petit-General-tot.th
-	input Data/Promezhutochnaya/Promezhutochnaya-tot.th
-	input Data/Russes-CA/Russes-CA-tot.th
-	input Data/Suwly-oyuk/Suwly-oyuk-tot.th
-	input Data/Tush-Yurruck/Tush-Yurruck-tot.th
-   input Data/Vertikalnaya/Vertikalnaya-tot.th
-	input Data/Chevres/Chevres-tot.th
+	input Data/Nord/Ahmethan/Hanaka-tot.th
+
+	input Data/Gypse/Cenotes_check-point/Cenotes_check-point-tot.th
+	input Data/Gypse/Suwly-oyuk/Suwly-oyuk-tot.th
+	input Data/Gypse/Grotte_du_lac/Grotte_du_lac-tot.th
+	input Data/Gypse/Kaptarkhana/Kaptarkhana-tot.th
+	input Data/Gypse/New_collapse_2022/New_collapse_2022-tot.th	
+	input Data/Gypse/Russes-CA/Russes-CA-tot.th
+
+	input Data/Koyten/Data/Chauve-Souris/Chauve-Souris-tot.th
+	input Data/Koyten/Data/Petit-General/Petit-General-tot.th
+
+	input Data/Sud/Data/Hashim-oyuk/Hashim-oyuk-tot.th
+	input Data/Sud/Data/Gap-Gotan/Gap-Gotan-tot.th
+	#input Data/Promezhutochnaya/Promezhutochnaya-tot.th
+	input Data/Sud/Data/Geophysicheskaya/Geophysicheskaya-tot.th
+	input Data/Sud/Data/Tush-Yurruck/Tush-Yurruck-tot.th
+   	input Data/Sud/Data/Vertikalnaya/Vertikalnaya-tot.th
+	input Data/Sud/Data/Chevres/Chevres-tot.th
 	
 	
 	# Import maps
