@@ -6,12 +6,12 @@ encoding  utf-8
 
 survey Gap-Gotan -title "Gap-Gotan"
 	# Pour importer les différentes données de différents fichiers topos :
-	input Data/Gap-Gotan/Gap-Gotan-tot.th
+	#input Data/Tush-Yurruck.th
 	
-	input Data/Promezhutochnaya/Promezhutochnaya-tot.th
+	input Data/Entree/Entree-tot.th
 	
-	#input Data/Philippe-01/Philippe-01-tot.th
-	#equate  PTR_FR24_A21_12@Cap_Coutun.Cupp-Coutun-Entree PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot
+	input Data/Philippe-01/Philippe-01-tot.th
+	equate  PTR_FR24_A21_12@Cap_Coutun.Cupp-Coutun-Entree PTR_FR24_A21_00@Cup_Coutun_01.Philippe-01-tot
 	#	join	SP-Tush-Yurruck_03@Philippe2	SP-Tush-Yurruck_02@Entree
 	
 	#input Data/Alex2/Alex2-tot.th
@@ -36,6 +36,6 @@ survey Gap-Gotan -title "Gap-Gotan"
 	
 	
 	# Import des maps
-	#input Gap-Gotan-maps.th
+	#input Tush-Yurruck-maps.th
 	
 endsurvey
