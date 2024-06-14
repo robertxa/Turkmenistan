@@ -1,6 +1,351 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 600.4412 1151.6226000000001
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {393.69899999999996 1 1.0} {236.22199999999998 0} Chauve-Souris-map.xvi 0 {}
+##XTHERION## xth_me_area_adjust -152.72600000000003 -147.27600000000007 654.4554 1211.0868
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {342.19899999999996 1 1.0} {232.22199999999998 0} Chauve-Souris-map.xvi 0 {}
+
+
+
+scrap SP-Chauve-1 -projection plan -station-names "" "@chauves" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 600.4412 -128.0 0.0 0.0 18.502406479999998 0.0 m]
+
+point 260.0 764.5 bridge
+
+point 407.5 178.0 guano
+
+point 405.0 198.5 guano
+
+point 400.0 258.0 guano
+
+point 345.5 404.5 guano
+
+point 406.5 315.5 guano
+
+point 332.0 442.5 guano
+
+point 342.5 541.5 guano
+
+point 318.0 612.0 guano
+
+point 311.5 676.5 guano
+
+line slope
+  251.5 680.0
+  251.5 680.0 314.5 727.0 344.0 725.0
+  l-size 12.0
+endline
+
+line slope
+  198.0 764.0
+  198.0 764.0 296.0 830.0 333.0 831.0
+  l-size 12.0
+endline
+
+line slope
+  230.0 709.5
+  230.0 709.5 300.5 756.5 331.0 749.0
+  l-size 12.0
+endline
+
+line slope
+  219.5 739.0
+  219.5 739.0 282.5 800.5 325.0 783.5
+  l-size 12.0
+endline
+
+point 436.5 112.5 narrow-end
+
+point 392.5 210.0 bat
+
+point 402.0 266.0 bat
+
+point 392.0 246.5 bat
+
+point 380.0 265.0 bat
+
+point 384.5 463.5 continuation -attr Code E -text "Suite en haut escalade ?"
+
+point 180.5 638.5 continuation -attr Code E -text "Suite en haut escalade ?"
+
+point 493.0 616.0 continuation -attr Code E -text "Suite en haut escalade ?"
+
+point 228.0 864.5 entrance -orientation 154.9
+
+line overhang -clip off
+  343.5 863.5
+  343.5 863.5 360.0 874.0 376.0 889.5
+  392.0 905.0 397.0 922.0 407.0 932.0
+  417.0 942.0 432.5 955.0 432.5 955.0
+  smooth off
+  461.0 976.0
+endline
+
+line overhang -clip off
+  98.0 753.0
+  98.0 753.0 116.0 752.5 140.0 762.0
+  164.0 771.5 195.0 784.5 195.0 784.5
+  smooth off
+endline
+
+line pit -reverse on -clip off
+  400.0 943.5
+  400.0 943.5 361.0 929.0 333.0 917.5
+  305.0 906.0 287.5 908.5 261.0 904.5
+  234.5 900.5 229.0 903.0 207.5 895.0
+  186.0 887.0 165.0 884.5 154.5 859.5
+  144.0 834.5 122.5 787.5 112.0 777.5
+  101.5 767.5 98.0 753.0 98.0 753.0
+  smooth off
+endline
+
+line pit
+  355.5 483.0
+  355.5 483.0 337.5 514.5 358.5 537.5
+endline
+
+line pit
+  430.0 592.0
+  430.0 592.0 446.5 613.5 422.5 635.5
+endline
+
+line pit
+  388.5 591.5
+  388.5 591.5 405.0 622.0 395.0 648.0
+endline
+
+line pit
+  378.5 579.0
+  378.5 579.0 371.0 635.5 374.5 644.5
+  378.0 653.5 388.0 656.5 383.0 668.5
+endline
+
+line pit
+  234.5 651.5
+  234.5 651.5 243.0 625.5 237.0 607.0
+endline
+
+line pit
+  265.5 666.5
+  265.5 666.5 277.0 640.5 271.0 610.5
+endline
+
+point 289.0 642.0 sand
+
+point 318.0 655.0 sand
+
+point 285.5 680.5 sand
+
+point 283.0 769.5 sand
+
+point 245.0 737.0 sand
+
+point 285.0 729.0 sand
+
+point 272.5 704.0 sand
+
+point 273.0 747.5 sand
+
+point 308.5 719.0 sand
+
+point 327.0 667.0 sand
+
+point 356.5 674.5 sand
+
+point 364.0 640.5 sand
+
+point 372.0 603.5 sand
+
+point 346.0 605.0 sand
+
+point 326.0 599.0 sand
+
+point 319.0 628.0 sand
+
+point 313.0 597.5 sand
+
+point 337.5 567.0 sand
+
+point 365.0 584.0 sand
+
+point 320.5 577.5 sand
+
+point 322.5 540.5 sand
+
+point 326.0 527.0 sand
+
+point 344.5 531.5 sand
+
+point 342.0 510.0 sand
+
+point 315.5 502.5 sand
+
+point 326.0 472.0 sand
+
+point 338.0 485.5 sand
+
+point 334.0 458.0 sand
+
+point 309.5 465.0 sand
+
+point 319.0 430.5 sand
+
+point 341.0 430.5 sand
+
+point 335.5 414.5 sand
+
+point 354.5 405.5 sand
+
+point 429.0 139.0 sand
+
+point 353.5 393.0 sand
+
+point 377.5 370.0 sand
+
+point 374.0 381.0 sand
+
+point 383.0 360.0 sand
+
+point 397.0 348.0 sand
+
+point 402.0 323.0 sand
+
+point 415.0 292.5 sand
+
+point 406.5 304.5 sand
+
+point 407.0 288.5 sand
+
+point 388.0 260.0 sand
+
+point 401.0 247.5 sand
+
+point 399.5 274.5 sand
+
+point 378.0 274.0 sand
+
+point 381.5 252.0 sand
+
+point 383.5 236.5 sand
+
+point 404.5 232.0 sand
+
+point 403.0 215.5 sand
+
+point 390.0 219.0 sand
+
+point 393.0 197.5 sand
+
+point 414.5 202.5 sand
+
+point 416.0 181.5 sand
+
+point 420.0 172.0 sand
+
+line wall
+  206.0 616.0
+  206.0 616.0 244.0 619.0 261.5 617.0
+  279.0 615.0 297.0 595.5 301.0 569.5
+  305.0 543.5 307.5 538.5 306.5 511.5
+  305.5 484.5 299.5 449.5 307.5 434.5
+  315.5 419.5 312.0 419.5 326.5 408.0
+  341.0 396.5 346.0 394.5 360.0 380.0
+  374.0 365.5 385.5 349.5 393.0 334.0
+  400.5 318.5 402.0 317.0 399.0 303.0
+  396.0 289.0 400.5 285.5 392.0 289.5
+  383.5 293.5 372.0 288.5 369.5 274.5
+  367.0 260.5 369.5 239.5 378.5 217.5
+  387.5 195.5 398.0 172.0 404.0 172.0
+  410.0 172.0 418.5 169.5 422.5 151.5
+  426.5 133.5 429.5 129.5 429.5 129.5
+  smooth off
+endline
+
+line wall
+  195.0 784.5
+  altitude .
+  195.0 784.5 214.0 763.5 224.5 745.5
+  235.0 727.5 234.0 709.0 243.0 694.0
+  252.0 679.0 279.0 678.0 271.5 665.0
+  264.0 652.0 237.5 645.5 229.5 645.5
+  221.5 645.5 210.0 647.0 210.0 647.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  343.5 863.5
+  343.5 863.5 292.5 849.5 272.5 842.5
+  252.5 835.5 207.5 802.0 203.0 795.5
+  198.5 789.0 195.0 784.5 195.0 784.5
+  smooth off
+endline
+
+line wall
+  471.5 628.0
+  471.5 628.0 410.0 629.0 399.5 633.5
+  389.0 638.0 390.5 647.0 382.5 658.0
+  374.5 669.0 367.5 674.5 356.0 687.5
+  344.5 700.5 337.5 718.0 328.5 731.5
+  319.5 745.0 309.5 773.0 309.5 785.0
+  309.5 797.0 314.5 819.5 319.5 828.5
+  324.5 837.5 338.5 860.0 343.5 863.5
+endline
+
+line wall
+  383.0 483.5
+  383.0 483.5 355.5 516.5 358.5 537.5
+  361.5 558.5 370.5 572.0 373.5 583.0
+  376.5 594.0 378.0 606.5 393.0 605.5
+  408.0 604.5 472.0 605.5 472.0 605.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  366.5 477.0
+  366.5 477.0 381.5 472.0 383.0 483.5
+endline
+
+line wall
+  434.5 132.0
+  altitude .
+  434.5 132.0 427.0 166.5 424.0 183.5
+  421.0 200.5 423.5 202.5 420.5 215.0
+  417.5 227.5 409.0 231.5 406.5 241.0
+  404.0 250.5 421.0 283.5 422.0 295.0
+  423.0 306.5 423.0 318.5 414.0 331.0
+  405.0 343.5 382.0 377.5 373.0 389.5
+  364.0 401.5 341.5 434.5 344.0 437.0
+  346.5 439.5 348.5 432.0 352.0 445.0
+  355.5 458.0 348.0 499.5 358.0 491.5
+  368.0 483.5 366.5 477.0 366.5 477.0
+  smooth off
+endline
+
+point 428.979 150.86199999999997 station -name 1
+
+point 412.909 229.92199999999997 station -name 0b
+
+point 393.69899999999996 236.22199999999998 station -name 0
+
+point 418.269 316.38199999999995 station -name 2
+
+point 319.839 452.912 station -name 3
+
+point 348.979 505.192 station -name 7
+
+point 214.32899999999998 622.992 station -name 8
+
+point 459.36899999999997 618.422 station -name 5
+
+point 368.979 626.7719999999999 station -name 4
+
+point 341.729 690.712 station -name 6
+
+point 252.759 785.352 station -name 9
+
+point 222.67899999999997 817.952 station -name 10
+
+point 193.539 865.0419999999999 station -name 11
+
+point 180.94899999999998 902.992 station -name 12
+
+endscrap
 
 

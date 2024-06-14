@@ -64,7 +64,8 @@ layout my_layout
 	
 	# Définition du système de projection du plan
 	#cs UTM32
-	cs EPSG:2154
+	#cs EPSG:2154
+	cs UTM41
 	
 	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
 	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,

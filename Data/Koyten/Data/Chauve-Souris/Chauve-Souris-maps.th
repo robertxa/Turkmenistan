@@ -4,12 +4,12 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-map MP-Chauve-Souris -title "Chauve-Souris"
-	SP-Chauve-Souris-1
+map MP-Chauve-Souris -title "Grotte des Chauves-Souris"
+	SP-Chauve-1
 endmap
 
 
-#map MC-Chauve-Souris -title "Chauve-Souris"
+#map MC-Chauve-Souris -title "Grotte des Chauves-Souris"
 #	SC-Chauve-Souris-1
 #endmap
    
