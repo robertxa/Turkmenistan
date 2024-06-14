@@ -33,7 +33,7 @@ source Chevres-tot.th
 input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../config.thc 
+input ../../../../config.thc 
   
  # 2-LAYOUT
 # Ici, on peut specifier des choses comme les symboles à utiliser (UIS, etc)
@@ -70,17 +70,17 @@ layout my_layout
   # après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
   # Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
   # des caractères et des traits.
-  base-scale 1 500
+  base-scale 1 250
 
   # Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
   # La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
   # pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
   # C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
   # ou similaire, sinon, l'échelle sera changée pendant l'impression! 
-  scale 1 500
+  scale 1 250
 
   # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-  scale-bar 50 m
+  scale-bar 25 m
 
   # Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
   #grid bottom
@@ -112,7 +112,7 @@ layout my_layout
   # Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
   # Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
   # ou une autre combination...
-  map-header 0 0 nw
+  map-header 100 100 nw
   # arrière plan de la manchette
   map-header-bg off
   # Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -123,7 +123,7 @@ layout my_layout
   legend-width 15 cm
   # Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
   # dont le nom est probablement le titule de la topo.
-  map-comment "Koytendag, Turménistan"
+  map-comment "<it>Plan> -<ss> Bulock Dara Canyon, Koytendag, Turménistan"
   # Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
   # si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
   statistics explo-length off
@@ -134,11 +134,11 @@ layout my_layout
   # Dessin ou pas du cheminement topo
   #symbol-hide point station        
   #debug scrap-names
-  debug station-names
-  #symbol-hide line survey
+  #debug station-names
+  symbol-hide line survey
   
-  color map-fg altitude
-  color-legend smooth
+  #color map-fg altitude
+  #color-legend smooth
 
   layers on
 

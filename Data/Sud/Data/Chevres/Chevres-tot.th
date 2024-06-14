@@ -9,13 +9,13 @@ survey Chevres -title "Grotte des Chèvres"
 	input Data/Chevres.th
 	
 	# Import du dessin en plan
-	#input Data/Chevres.th2
+	input Data/Chevres.th2
 
 	# Import du dessin en coupe
 	#input Data/Chevres-coupe.th2
 
 	# Import des maps
-	#input Chevres-maps.th
+	input Chevres-maps.th
  
  endsurvey
  

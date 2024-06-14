@@ -5,7 +5,7 @@ encoding utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-survey 0tkm_79 -title "Grotte des chèvres "
+survey Chevres -title "Grotte des Chèvres "
 
 centerline
 
