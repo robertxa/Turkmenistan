@@ -298,16 +298,16 @@ endlayout
 # 3-EXPORT
 
 # Export des xvi pour le dessin si besoin
-export map -fmt xvi -layout xviexport -o Data/Chevres-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Chevres-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/Chevres-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Chevres-coupe.xvi
 
 # Selection des Maps à exporter
 select MP-Chevres@Chevres
-select MC-Chevres-coupe@Chevres
+#select MC-Chevres-coupe@Chevres
 
 # Export des fichiers pdf, plan et coupe. 
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
- export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Chevres-coupe.pdf
+# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Chevres-coupe.pdf
  export map -proj plan -fmt pdf -o Outputs/Chevres-plan.pdf -layout my_layout
  
 

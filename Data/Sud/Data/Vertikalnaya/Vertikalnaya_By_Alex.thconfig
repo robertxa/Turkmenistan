@@ -115,8 +115,8 @@ layout my_layout
 	#map-header 0 0 nw
 	map-header 5 65 nw
 	# Logos
-	map-image 28 66.5 nw	../../Logos/Logo_FFS_small.jpg
-	map-image 38 65 nw	../../Logos/Logo_TKM_2024_small.jpg
+	map-image 28 66.5 nw	../../../../Logos/Logo_FFS_small.jpg
+	map-image 38 65 nw	../../../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -237,8 +237,8 @@ layout layout-coupe
 	# ou une autre combination...
 	map-header 5 0 nw
 	# Logos
-	map-image 66 -11.5 nw	../../Logos/Logo_FFS_small.jpg
-	map-image 68 -35 nw	../../Logos/Logo_TKM_2024_small.jpg
+	map-image 66 -11.5 nw	../../../../Logos/Logo_FFS_small.jpg
+	map-image 68 -35 nw	../../../../Logos/Logo_TKM_2024_small.jpg
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés

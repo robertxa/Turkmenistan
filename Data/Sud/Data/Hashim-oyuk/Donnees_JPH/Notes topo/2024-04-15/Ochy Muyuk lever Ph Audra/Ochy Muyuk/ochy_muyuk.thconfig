@@ -1,0 +1,15 @@
+# 2024.04.15 created by TopoDroid v 6.2.32
+
+source "../th/ochy_muyuk.th"
+
+layout topodroid
+  legend on
+  symbol-hide group centerline
+  symbol-show point station
+  debug station-names
+endlayout
+
+export map -layout topodroid -o ochy_muyuk-p.pdf -proj plan 
+
+export map -layout topodroid -o ochy_muyuk-s.pdf -proj extended 
+

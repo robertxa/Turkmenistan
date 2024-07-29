@@ -44,6 +44,6 @@ survey Tush-Yurruck -title "Tush-Yurruck"
 	
 	
 	# Import des maps
-	#input Tush-Yurruck-maps.th
+	input Tush-Yurruck-maps.th
 	
 endsurvey
