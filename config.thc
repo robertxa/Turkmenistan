@@ -710,7 +710,7 @@ layout drawingconfig
 				pickup pencircle scaled (0.16cm * defaultscale);
 				p:=(0.4cm,0.6cm);
 				thdraw ((p--(p yscaled -1)--(p xscaled -1)--(p scaled -1)) shifted (0,-1.0cm));
-				label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+				label.rt(thTEX("") scaled 1.6, (.6cm,-1.6cm)) transformed T;
 			endgroup;
 		enddef;
 
@@ -2068,7 +2068,8 @@ layout header_coupe
 #     Ce code de redéfinition est expérimental experimental et basé sur le travail de
 #     Bruce Mutton           Therion 5.3.15 fait appel à de nouvelles variables
 
-	copy scalebar_horiz
+	#copy scalebar_horiz
+	copy scalebar_vert
 
 	#<en> This one affects maps only (extended view)
 	#<fr> Ceci ne touche que les maps (coupes développées)
@@ -2595,7 +2596,7 @@ layout LayoutAtlasNorthArrow
 				pickup pencircle scaled (0.16cm * defaultscale);
 				p:=(0.4cm,0.6cm);
 				thdraw ((p--(p yscaled -1)--(p xscaled -1)--(p scaled -1)) shifted (0,-1.0cm));
-				label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+				label.rt(thTEX("") scaled 1.6, (.6cm,-1.6cm)) transformed T;
 			endgroup;
 		enddef;
 	endcode
