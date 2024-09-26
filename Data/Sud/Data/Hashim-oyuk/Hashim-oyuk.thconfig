@@ -63,7 +63,8 @@ layout my_layout
 	copy langue-fr
 	
 	# Définition du système de projection du plan
-	cs EPSG:2154
+	cs UTM41
+	# cs EPSG:2154
 	
 	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
 	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,
@@ -78,17 +79,16 @@ layout my_layout
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 1000
+	scale 1 2000
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 100 m
+	scale-bar 250 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
-	#grid bottom
-	grid off
+	grid bottom
 	# Une ligne pour specifier que la grille est 1000x1000x1000 m
 	# (Trois dimensions, oui, ça sert pour la coupe aussi)
-	#grid-size 250 250 250 m
+	grid-size 250 250 250 m
 	
 	# la topo est transparente (on peut voir les galeries sousjacentes)
 	# C'est on par défaut, donc, pas vraiment besoin de specifier
@@ -104,7 +104,7 @@ layout my_layout
 	# Auteur
 	doc-author "Xavier Robert"
 	# Titule
-	doc-title "Hashim-oyuk plan - 1:1000"
+	doc-title "Hashim-oyuk plan - 1:2000"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -113,15 +113,16 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 0 nw
+	map-header 50 -10 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend off
+	legend on
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 30 cm
+	legend-columns 4
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
 	map-comment "Koyendag, Turménistan"
@@ -133,13 +134,16 @@ layout my_layout
 	statistics copyright 2
 	
 	# Dessin ou pas du cheminement topo
-	#symbol-hide point station
+	symbol-hide point station
+	symbol-hide line survey
+	symbol-hide point u:symbol_plan
+	symbol-hide point u:symbol_extend
 	#debug scrap-names
 	debug station-names
 	#symbol-hide line survey
 	
 	color map-fg altitude
-	color-legend smooth
+	color-legend off
 	
 	layers on
 	
@@ -154,13 +158,15 @@ layout my_layout
 		\edef\nostring{}                 % empty string
 		\ifx\temp\nostring             % test if cavename is empty
 		% if empty reassign cavename to describe selected maps as a group
-		\cavename={Grotte Russes Bauge}
+		\cavename={Hashim-oyuk}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Koytendag 2024}
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
+	map-image -40 -50 sw ../../../../Logos/Logo_TKM_2024.jpg
+	map-image 0 -55 sw	../../../../Logos/Logo_FFS.jpg
 	## add extended-elev on the same pdf
 	#map-image 90 110 nw Outputs/Hashim-oyuk-coupe.pdf
 	
@@ -304,11 +310,11 @@ endlayout
 
 # Selection des Maps à exporter
 select MP-Hashim-oyuk@Hashim-oyuk
-select MC-Hashim-oyuk-coupe@Hashim-oyuk
+#select MC-Hashim-oyuk-coupe@Hashim-oyuk
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
-export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Hashim-oyuk-coupe.pdf
+#export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Hashim-oyuk-coupe.pdf
 export map -proj plan -fmt pdf -o Outputs/Hashim-oyuk-plan.pdf -layout my_layout
 
 
@@ -319,6 +325,6 @@ export model -enable all -o Outputs/Hashim-oyuk.lox
 # export map -proj plan -fmt esri -o Outputs/Hashim-oyuk
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Hashim-oyuk.kml -layout layout-kml
-export model -fmt kml -o Outputs/Hashim-oyuk-model.kml -enable all
+#export map -proj plan -fmt kml -o Outputs/Hashim-oyuk.kml -layout layout-kml
+#export model -fmt kml -o Outputs/Hashim-oyuk-model.kml -enable all
 #export cave-list -location on -o Outputs/Hashim-oyuk.html

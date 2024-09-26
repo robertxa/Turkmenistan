@@ -5,11 +5,13 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Hashim-oyuk -title "Hashim-oyuk"
-	MP-Russes3@Russes3
+	MP-Boucle1@Boucle1
 	break
-	MP-Russes2@Russes2
+	MP-Entree@Entree
 	break
-	MP-RussesBauge@RussesBauge
+	MP-Hashimoyuk4@Hashimoyuk4
+	break
+	MP-AshimyukFond@AshimyukFond
 endmap
 
 

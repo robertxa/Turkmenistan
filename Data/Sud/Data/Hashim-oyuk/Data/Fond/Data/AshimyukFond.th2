@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -131.0 -131.0 4222.490400000001 3750.0492
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {551.19 1 1.0} {629.9200000000001 B80} AshimyukFond-map.xvi 0 {}
 
 
@@ -53,6 +53,7 @@ line wall
   2982.0 1954.0 2997.0 1948.0 2957.0 1967.0
   2917.0 1986.0 2838.0 2019.0 2838.0 2058.0
   2838.0 2097.0 2880.0 2089.0 2892.0 2137.0
+  smooth off
 endline
 
 point 625.0 760.0 air-draught -orientation 63.5 -scale xs
@@ -62,6 +63,7 @@ point 506.0 708.0 breakdown-choke -orientation 143.8
 line wall -subtype invisible
   539.0 706.0
   539.0 706.0 490.0 692.0 490.0 677.0
+  smooth off
 endline
 
 line pit
@@ -426,18 +428,21 @@ line slope
   2161.0 1638.0 2131.0 1644.0 2072.0 1608.0
   2013.0 1572.0 1955.0 1502.0 1921.0 1489.0
   1887.0 1476.0 1881.0 1455.0 1875.0 1450.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   2176.0 1463.0
   2176.0 1463.0 2248.0 1536.0 2314.0 1542.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   2114.0 1477.0
   2114.0 1477.0 2182.0 1540.0 2290.0 1546.0
+  smooth off
   l-size 15.0
 endline
 
@@ -462,18 +467,21 @@ line slope
   1894.0 1095.0
   1894.0 1095.0 2021.0 1102.0 2049.0 1130.0
   2077.0 1158.0 2110.0 1263.0 2112.0 1279.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   2042.0 834.0
   2042.0 834.0 2029.0 873.0 2050.0 881.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   1987.0 777.0
   1987.0 777.0 1972.0 875.0 2020.0 899.0
+  smooth off
   l-size 15.0
 endline
 
@@ -488,11 +496,13 @@ endline
 line wall
   2079.0 876.0
   2079.0 876.0 2032.0 873.0 2019.0 875.0
+  smooth off
 endline
 
 line wall
   2036.0 847.0
   2036.0 847.0 2074.0 848.0 2079.0 851.0
+  smooth off
 endline
 
 line wall
@@ -503,6 +513,7 @@ line wall
   1632.36 785.0 1610.0 722.0 1662.0 740.0
   1704.75 754.8 1760.0 721.0 1801.0 764.0
   1842.0 807.0 2021.0 812.0 2036.0 847.0
+  smooth off
 endline
 
 point 838.0 1187.0 continuation -attr Code A -text "A voir"
@@ -553,12 +564,14 @@ endline
 line slope
   2204.0 2720.0
   2204.0 2720.0 2261.0 2684.0 2289.0 2689.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   2181.0 2700.0
   2181.0 2700.0 2252.0 2664.0 2290.0 2673.0
+  smooth off
   l-size 12.0
 endline
 
@@ -566,6 +579,7 @@ line slope
   2554.0 2620.0
   l-size 12.0
   2554.0 2620.0 2419.0 2603.0 2392.0 2638.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -940,42 +954,49 @@ endline
 line slope -reverse on
   782.0 573.0
   782.0 573.0 804.0 560.0 804.0 537.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   956.0 550.0
   956.0 550.0 887.0 708.0 848.0 721.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   913.0 546.0
   913.0 546.0 893.0 670.0 842.0 692.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   824.0 548.0
   824.0 548.0 825.0 581.0 806.0 586.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   692.0 720.0
   692.0 720.0 735.0 663.0 735.0 642.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   637.0 695.0
   637.0 695.0 693.0 633.0 693.0 604.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   664.0 702.0
   664.0 702.0 715.0 649.0 715.0 616.0
+  smooth off
   l-size 15.0
 endline
 
@@ -1023,12 +1044,14 @@ line wall
   1927.0 2493.0 1947.0 2478.0 1920.0 2463.0
   1893.0 2448.0 1860.0 2414.0 1884.0 2388.0
   1908.0 2362.0 1904.0 2335.0 1929.0 2337.0
+  smooth off
 endline
 
 line wall -outline in
   2002.0 2286.0
   2002.0 2286.0 1984.0 2184.0 1978.0 2140.0
   1972.0 2096.0 1956.0 2064.0 1972.0 2048.0
+  smooth off
 endline
 
 line wall -outline in
@@ -1037,6 +1060,7 @@ line wall -outline in
   2080.0 2342.0 2105.0 2311.0 2100.0 2287.0
   2095.0 2263.0 2068.0 2259.0 2047.0 2220.0
   2026.0 2181.0 1992.0 2082.0 1972.0 2048.0
+  smooth off
 endline
 
 line wall
@@ -1056,6 +1080,7 @@ line wall
   1769.0 1463.0 1766.0 1438.0 1759.0 1416.0
   1752.0 1394.0 1613.0 1349.0 1579.0 1315.0
   1545.0 1281.0 1401.0 1191.0 1351.0 1158.0
+  smooth off
 endline
 
 line wall
@@ -1386,6 +1411,7 @@ point 3300.0 2465.0 continuation
 line pit
   3240.0 2359.0
   3240.0 2359.0 3255.0 2298.0 3240.0 2281.0
+  smooth off
 endline
 
 line wall
@@ -1467,26 +1493,31 @@ point 2645.0 2547.0 gypsum
 line pit
   2897.0 2555.0
   2897.0 2555.0 2822.0 2549.0 2815.0 2577.0
+  smooth off
 endline
 
 line pit
   3000.0 2477.0
   3000.0 2477.0 2961.0 2523.0 2978.0 2544.0
+  smooth off
 endline
 
 line pit
   2751.0 2382.0
   2751.0 2382.0 2805.0 2395.0 2829.0 2374.0
+  smooth off
 endline
 
 line pit
   2739.0 2433.0
   2739.0 2433.0 2830.0 2442.0 2860.0 2416.0
+  smooth off
 endline
 
 line pit
   2947.0 2461.0
   2947.0 2461.0 2921.0 2515.0 2921.0 2534.0
+  smooth off
 endline
 
 point 2773.0 2320.0 continuation
@@ -1549,18 +1580,21 @@ line slope -reverse on
   2158.0 3054.0
   2158.0 3054.0 2245.0 2884.0 2263.0 2841.0
   2281.0 2798.0 2304.0 2745.0 2307.0 2705.0
+  smooth off
   l-size 15.0
 endline
 
 line slope
   2641.0 2817.0
   2641.0 2817.0 2588.0 2859.0 2631.0 2875.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   2592.0 2803.0
   2592.0 2803.0 2568.0 2877.0 2602.0 2886.0
+  smooth off
   l-size 12.0
 endline
 
@@ -1575,6 +1609,7 @@ endline
 line slope
   2392.0 2695.0
   2392.0 2695.0 2512.0 2688.0 2533.0 2701.0
+  smooth off
   l-size 12.0
 endline
 
@@ -1582,12 +1617,6 @@ line slope
   2535.0 2669.0
   l-size 12.0
   2535.0 2669.0 2436.0 2652.0 2405.0 2661.0
-endline
-
-line wall -subtype invisible
-  2547.0 3050.0
-  2547.0 3050.0 2369.0 3076.0 2308.0 3072.0
-  2247.0 3068.0 2084.0 3027.0 2084.0 3027.0
   smooth off
 endline
 
@@ -1602,11 +1631,11 @@ endline
 
 point 2516.0 3014.0 u:boss
 
-point 2420.0 3046.0 u:boss
+point 2434.75 2983.5 u:boss
 
-point 2197.0 3023.0 u:boss
+point 2245.5 3001.5 u:boss
 
-point 2305.0 3018.0 u:boss
+point 2327.75 2974.0 u:boss
 
 point 2161.0 2799.0 u:boss
 
@@ -1679,7 +1708,7 @@ point 2186.0 2925.0 gypsum
 
 point 2283.0 2992.0 gypsum
 
-point 2166.0 2987.0 gypsum
+point 2202.0 2966.5 gypsum
 
 point 2163.0 2854.0 gypsum
 
@@ -1688,11 +1717,14 @@ point 2252.0 2751.0 gypsum
 point 2196.0 2759.0 gypsum
 
 line wall
-  2084.0 3027.0
-  2084.0 3027.0 2098.0 2940.0 2121.0 2910.0
+  2207.5 3041.5
+  2207.5 3041.5 2215.0 3008.5 2185.0 3002.5
+  2147.94 2995.09 2131.88 2992.01 2111.5 2967.0
+  2100.5 2953.5 2098.0 2940.0 2121.0 2910.0
   2144.0 2880.0 2126.0 2830.0 2123.0 2798.0
   2120.0 2766.0 2112.0 2729.0 2137.0 2723.0
   2162.0 2717.0 2218.0 2719.0 2220.0 2719.0
+  smooth off
 endline
 
 line pit -close on
@@ -1708,6 +1740,7 @@ endline
 line pit -reverse on
   2893.0 2881.0
   2893.0 2881.0 2940.0 2857.0 2920.0 2840.0
+  smooth off
 endline
 
 line wall
@@ -1748,8 +1781,8 @@ line wall
   2681.0 3047.0 2686.0 3052.0 2658.0 3042.0
   2630.0 3032.0 2660.0 3032.0 2633.0 3023.0
   2606.0 3014.0 2583.0 3016.0 2573.0 3020.0
-  2563.0 3024.0 2553.0 3017.0 2550.0 3026.0
-  2547.0 3035.0 2547.0 3050.0 2547.0 3050.0
+  2563.0 3024.0 2532.0 3021.0 2529.0 3030.0
+  2526.0 3039.0 2531.0 3053.0 2531.0 3053.0
   smooth off
 endline
 

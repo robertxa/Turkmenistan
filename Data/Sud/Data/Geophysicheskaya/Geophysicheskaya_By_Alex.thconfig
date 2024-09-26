@@ -173,8 +173,8 @@ layout my_layout
 	
 	# Add logos to the map
 	# Ajout des logos du club
-	map-image 100 -35 sw	Logo_TKM_2024.jpg
-	map-image 85 -40 sw	Logo_FFS.jpg
+	map-image 100 -35 sw ../../../../Logos/Logo_TKM_2024.jpg
+	map-image 85 -40 sw	../../../../Logos/Logo_FFS.jpg
 	
 endlayout
 # Fin de la definition du Layout "normal"
