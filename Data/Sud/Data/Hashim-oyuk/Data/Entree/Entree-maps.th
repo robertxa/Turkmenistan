@@ -2,16 +2,16 @@ encoding  utf-8
 
 # Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
-#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Entree -title "Entree"
-	#
-	#break
-	SP-Ashi-1
+	SP-Hochimoyouk_01_entree
+	break
+	SP-Hochimoyouk_02_entree
 endmap
 
 
 #map MC-Entree -title "Entree"
 #	SC-Entree-1
 #endmap
-   
+

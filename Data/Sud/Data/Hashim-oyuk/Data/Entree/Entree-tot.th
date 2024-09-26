@@ -2,22 +2,21 @@ encoding  utf-8
 
 # Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
-#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 survey Entree -title "Ashimyuk Entree"
-	# Pour importer les différentes données de différents fichiers topos : 
+	# Pour importer les différentes données de différents fichiers topos :
 	input Data/Entree.th
 	input Data/Hochimoyouk.th
-		equate 0@Entree 0@Entree2
+	equate 0@Entree 0@Entree2
 	
 	# Import du dessin en plan
-	#input Data/Entree.th2
-
+	input Data/Hochimoyouk.th2
+	
 	# Import du dessin en coupe
 	#input Data/Entree-coupe.th2
-
+	
 	# Import des maps
-	#input Entree-maps.th
- 
- endsurvey
- 
+	input Entree-maps.th
+	
+endsurvey
