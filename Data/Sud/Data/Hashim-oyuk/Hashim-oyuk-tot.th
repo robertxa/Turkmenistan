@@ -8,18 +8,23 @@ survey Hashim-oyuk -title "Hashim-oyuk"
 	# Pour importer les différentes données de différents fichiers topos :
 	input Data/Entree/Entree-tot.th
 	input Data/Fond/AshimyukFond-tot.th
-		equate B3@AshimyukFond.AshimyukFond B3@Entree2.Entree
+	equate B3@AshimyukFond.AshimyukFond B3@Entree2.Entree
+	join SP-Hochimoyouk_02_entree@Entree SP-Ashi-4@AshimyukFond
+	
 	
 	input Data/Boucle1/Boucle1-tot.th
-		equate B00@ochy_muyuk.Boucle1 B00@Entree2.Entree
-
-	input Data/Hashimoyuk4/Hashimoyuk4-tot.th
-		equate 22.6@Hashimoyuk4.Hashimoyuk4 22.6@Entree2.Entree
-		equate 24@Hashimoyuk4.Hashimoyuk4 24@Entree2.Entree
-		equate B80@Hashimoyuk4.Hashimoyuk4 B80@ochy_muyuk.Boucle1
+	equate B00@ochy_muyuk.Boucle1 B00@Entree2.Entree
+	join SP-Hochimoyouk_02_entree@Entree SP-Hochimoyouk_01_boucle1@Boucle1
 	
+	input Data/Hashimoyuk4/Hashimoyuk4-tot.th
+	equate 22.6@Hashimoyuk4.Hashimoyuk4 22.6@Entree2.Entree
+	equate 24@Hashimoyuk4.Hashimoyuk4 24@Entree2.Entree
+	equate B80@Hashimoyuk4.Hashimoyuk4 B80@ochy_muyuk.Boucle1
+	join SP-Hochimoyouk_02_entree@Entree SP-Hashimoyuk4_01@Hashimoyuk4 -count 2
+	join SP-Hochimoyouk_02_boucle1@Boucle1 SP-Hashimoyuk4_02@Hashimoyuk4
+	join SP-Hochimoyouk_01_boucle1@Boucle1 SP-Hashimoyuk4_02@Hashimoyuk4
 	
 	# Import des maps
-	#input Hashim-oyuk-maps.th
+	input Hashim-oyuk-maps.th
 	
 endsurvey

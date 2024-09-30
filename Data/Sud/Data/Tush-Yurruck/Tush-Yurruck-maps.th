@@ -5,23 +5,19 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Tush-Yurruck -title "Tush Yurruck"
-	SP-Alex0-1
+	MP-Trush-Yurruck-Entree@Trush-Yurruck-Entree
 	break
-	SP-Xav4-1
+	MP-Tush_YurruckXR1@Tush_YurruckXR1
 	break
-	SP-Alex2-1
+	MP-Alex2@Alex2
 	break
-	SP-Alex3-1
+	MP-Alex3@Alex3
 	break
-	SP-Alex3-2
+	MP-Alex4@Alex4
 	break
-	SP-Alex4-1
+	MP-Alex6@Alex6
 	break
-	SP-Alex6-1
-	break
-	SP-Alex6-2
-	break
-	SP-Alex7-1
+	MP-Alex7@Alex7
 endmap
 
 #map MC-Tush-Yurruck -title "Tush-Yurruck"

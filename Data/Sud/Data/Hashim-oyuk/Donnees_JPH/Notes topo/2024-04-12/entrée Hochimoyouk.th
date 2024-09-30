@@ -1,0 +1,25 @@
+encoding utf-8
+# Created at 2024.04.12 18:06:52 by Qave ver. 3.035 rev. 3.0
+
+survey 0tkm_74 \
+-title "Entrée Hochimoyouk "
+
+centerline
+team ""
+date 2024.04.12
+data normal from to tape compass clino
+
+0 1  3.584 329.053 16.794
+1 2  5.742 230.160 31.362
+2 3  5.648 317.576 33.957
+3 4  2.530 246.110 25.058
+4 5  3.404 345.829 33.259
+
+5 - 20.582 118.531 7.262
+5 - 14.449 93.746 2.192
+5 - 17.581 64.462 10.789
+5 - 13.524 163.328 0.242
+5 - 9.531 49.834 1.165
+
+endcenterline
+endsurvey
