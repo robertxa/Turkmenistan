@@ -55,12 +55,14 @@ endlayout
 
 #debut de la definition du layout "my_layout"
 layout my_layout
+   
 	# Rajout des coordonnées de l'entrée
 	copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
+	copy fontsize
 	
 	# Définition du système de projection du plan
 	cs UTM41
@@ -80,7 +82,7 @@ layout my_layout
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
 	scale 1 2000
-	
+
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
 	scale-bar 250 m
 	

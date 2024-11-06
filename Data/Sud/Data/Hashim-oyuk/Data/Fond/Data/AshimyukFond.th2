@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -131.0 -131.0 4222.490400000001 3750.0492
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {551.19 1 1.0} {629.9200000000001 B80} AshimyukFond-map.xvi 0 {}
 
 
@@ -522,7 +522,7 @@ point 1426.0 424.0 continuation -attr Code A -text "A voir"
 
 point 2120.0 865.0 continuation -attr Code A -text "A voir"
 
-point 3606.0 1709.0 label -text "Fleurs de gypse"
+point 3604.0 1731.0 label -text "Fleurs de gypse" -align right
 
 line wall
   2019.0 875.0
@@ -1654,13 +1654,13 @@ line arrow
   2568.0 2841.0
 endline
 
-point 2709.0 2743.0 label -text "Le Fantôme"
+point 2765.0 2741.0 label -text "Le Fantôme" -align right
 
 point 2952.0 2864.0 continuation
 
-point 2919.0 2929.0 height -value [+25 m]
+point 2927.0 2955.0 height -value [+25 m]
 
-point 2760.0 2906.0 height -value [+25 m]
+point 2762.0 2932.0 height -value [+25 m]
 
 point 2695.0 2851.0 gypsum
 

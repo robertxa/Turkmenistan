@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 6978.395200000001 8238.2432
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {866.1399999999999 1 1.0} {2913.39 0@Entree.Entree} Entree-map.xvi 0 {}
 
 # By alex 2024 09 26 d'après top topocalcaire Jean-Paul Hereil
@@ -408,6 +408,14 @@ line slope
   smooth off
 endline
 
+point 2260.0 2816.0 label -text A -scale s
+
+point 2604.0 3916.0 label -text A -scale s
+
+point 280.0 2780.0 label -text Entrée
+
+point 468.0 2940.0 entrance -orientation 87.8
+
 point 1682.0 2145.0 narrow-end
 
 line wall -subtype presumed
@@ -428,7 +436,7 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 2104.0 4200.0 section -scrap SS-Hochimoyouk_01_entree
+point 2556.0 2168.0 section -scrap SS-Hochimoyouk_01_entree
 
 line wall
   1585.0 2297.0
@@ -627,7 +635,7 @@ point 4714.0 2916.0 stalagmite
 
 point 5062.0 2682.0 stalagmite
 
-point 5234.0 3146.0 label -text [''l'Oeuf'']
+point 5374.0 3166.0 label -text [''l'Oeuf'']
 
 line arrow
   5205.0 3087.0
@@ -712,7 +720,7 @@ line wall
   smooth off
 endline
 
-point 4540.0 1163.0 label -text [''Cratère'' de gypse -5m] -align right
+point 4588.0 1167.0 label -text [''Cratère'' de gypse -5m] -align right
 
 point 3617.0 976.0 height -value [+?]
 
@@ -731,6 +739,7 @@ line wall
   3848.0 993.0
   3894.0 1005.0 3912.0 1000.0 3964.0 994.0
   4016.0 988.0 4035.0 1010.0 4040.0 988.0
+  smooth off
 endline
 
 line wall
@@ -921,7 +930,7 @@ endscrap
 
 
 
-scrap SS-Hochimoyouk_01_entree -projection none -author 2024 "Jean-Paul Héreil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SS-Hochimoyouk_01_entree -projection none -author 2024 "Jean-Paul Héreil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1724.0 4084.0 2428.0 4084.0 0.0 0.0 40.64 0.0 m]
 
 line rock-border -close on
   1944.0 4280.0
@@ -962,6 +971,8 @@ line rock-border -close on
   2214.0 4244.0
   2220.0 4288.0
 endline
+
+point 2100.0 4836.0 label -text "Section A-A" -align center -scale s
 
 line rock-border -close on
   2292.0 4286.0

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 7135.8778 6190.9954
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1732.28 1 1.0} {1102.36 B00} Boucle1-map.xvi 0 {}
 
 # By alex 2024 09 26 d'après top topocalcaire Jean-Paul Hereil
@@ -128,22 +128,20 @@ line wall -subtype invisible
 endline
 
 line section -direction end
-  4128.0 2234.0
-  4176.0 2068.0
+  4096.0 2320.0
+  4152.0 2152.0
 endline
+
+point 4238.0 2204.0 label -text B -scale s
+
+point 4004.0 3342.0 label -text B -scale s
 
 line section -direction begin
   3916.0 3336.0
   3934.0 3242.0
 endline
 
-line arrow
-  2368.0 4604.0
-  3576.0 4408.0
-  3888.0 3464.0
-endline
-
-point 1976.0 4640.0 section -scrap SS-Hochimoyouk_03_boucle1
+point 4494.0 1892.0 section -scrap SS-Hochimoyouk_03_boucle1
 
 point 4234.0 3026.0 pillar
 
@@ -771,7 +769,7 @@ endscrap
 
 
 
-scrap SS-Hochimoyouk_03_boucle1 -projection none -author 2024 "Jean-Paul Héreil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SS-Hochimoyouk_03_boucle1 -projection none -author 2024 "Jean-Paul Héreil" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [1576.0 4572.0 2332.0 4572.0 0.0 0.0 40.64 0.0 m]
 
 point 1902.0 4834.0 stalagmite
 
@@ -780,6 +778,8 @@ point 2266.0 4832.0 stalagmite
 point 1698.0 4840.0 stalagmite
 
 point 2072.0 4842.0 pillar
+
+point 1982.0 5078.0 label -text "Section B-B" -scale s -align center
 
 line wall -subtype clay
   1586.0 4802.0

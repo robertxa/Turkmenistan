@@ -330,6 +330,18 @@ layout langue-en
 	
 endlayout
 
+
+layout fontsize
+  code metapost
+     
+	 #fonts_setup(<xs>,<s>,<m>,<l>,<xl>);
+	 #fonts_setup(8,16,20,25,32); 
+	 fonts_setup(8,14,20,25,32); 
+	 #fonts_setup(7,8,10,20,30);
+	 % default values depend on scale; for 1:200 they are 7,8,10,20,30 
+  endcode
+endlayout
+
 ###<en> End of the layouts languages
 ###<fr> Fin des layouts languages
 #______________________________
@@ -342,7 +354,7 @@ layout drawingconfig
 	#<en> pdf-Author
 	#<fr> Auteur du pdf
 	doc-author "Xavier Robert"
-
+	
 	#<en> Set the symology you want to use: UIS, ASF (Australie) CCNP (Etats Units) ou
 	#                                       SKB (tchecoslovakia)
 	#<fr> Définit la banque de symboles que nous voulons utiliser : 
@@ -429,7 +441,7 @@ layout drawingconfig
 
 	####### Metapost-changes ############
 	code metapost
-
+		
 		#<en> Modify length/depth statistics to print
 		#<fr> Modifier l'aspect et les données des statistiques de longueur affichées si besoin
 		#code tex-map
@@ -713,6 +725,7 @@ layout drawingconfig
 				label.rt(thTEX("") scaled 1.6, (.6cm,-1.6cm)) transformed T;
 			endgroup;
 		enddef;
+		 
 
 #		#<en> Change Scale bar type
 #	 	#<fr> Pour modifier la barre d'échelle
@@ -1507,9 +1520,11 @@ layout drawingconfig
 				thdrawoptions();
 			fi;
 		enddef;
-
+	
 	endcode
 	# Endcode for all the definition
+	
+
 
 
 	code tex-map
