@@ -31,7 +31,7 @@ source Hashim-oyuk-tot.th
 source Data/DEM-HashimOyuck.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../../../config.thc
@@ -57,7 +57,7 @@ endlayout
 layout my_layout
    
 	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	#copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
@@ -74,17 +74,17 @@ layout my_layout
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 1000
+	base-scale 1 2500
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 2000
+	scale 1 1000
 
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 250 m
+	scale-bar 150 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	grid bottom
@@ -104,9 +104,11 @@ layout my_layout
 	surface-opacity 100
 	
 	# Auteur
-	doc-author "Xavier Robert"
+	doc-author "Alexandre Pont, Jean-Paul Héreil"
 	# Titule
 	doc-title "Hashim-oyuk plan - 1:2000"
+	doc-subject  "Grotte Hashim-oyuk, topographie en plan"
+	doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Hashim-oyuk"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -115,19 +117,19 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 50 -10 nw
+	map-header 65 25 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 30 cm
+	legend-width 18 cm
 	legend-columns 4
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Koyendag, Turménistan"
+	map-comment "<it>Plan - <ss>Koyendag, Turménistan<br>Coordonnées, Lat. : 37.642520 N ; Long. : 66.382674 E ; Alt. : 625 m"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -149,6 +151,8 @@ layout my_layout
 	
 	layers on
 	
+	overlap 3 cm
+	
 	# Modification du Titre de la topo
 	code tex-map
 		% Output map title as determined by Therion is stored in cavename, défini par la une Map.
@@ -164,16 +168,161 @@ layout my_layout
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Koytendag 2024}
+		\newtoks\datat \datat={https://github.com/robertxa/Turkmenistan}
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
-	map-image -40 -50 sw ../../../../Logos/Logo_TKM_2024.jpg
-	map-image 0 -55 sw	../../../../Logos/Logo_FFS.jpg
+	map-image 60 -12 sw ../../../../Logos/Logo_TKM_2024.jpg
+	map-image 80 -15 sw	../../../../Logos/Logo_FFS.jpg
 	## add extended-elev on the same pdf
 	#map-image 90 110 nw Outputs/Hashim-oyuk-coupe.pdf
 	
 endlayout
 # Fin de la definition du Layout "normal"
+
+
+layout my_layout_Spelunca
+	# Rajout des coordonnées de l'entrée
+	#copy Coords_Header_CDa
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy headerl
+	copy langue-fr
+	
+	# Définition du système de projection du plan
+	cs UTM41
+	# cs EPSG:2154
+	
+	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
+	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,
+	# il faut enlever le "#" et spécifier l'échelle vraiment employée, comme c'est le cas
+	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
+	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
+	# des caractères et des traits.
+	base-scale 1 1000
+	
+	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
+	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
+	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
+	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
+	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
+	scale 1 2000
+	
+	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
+	scale-bar 250 m
+	
+	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
+	grid bottom
+	#grid off
+	# Une ligne pour specifier que la grille est 1000x1000x1000 m
+	# (Trois dimensions, oui, ça sert pour la coupe aussi)
+	grid-size 250 250 250 m
+	
+	# la topo est transparente (on peut voir les galeries sousjacentes)
+	# C'est on par défaut, donc, pas vraiment besoin de specifier
+	transparency on
+	# Couleur de la topographie
+	color map-fg [100 100 80]
+	# ça marche seulement si transparency est "on" 90% blanc= 10% noir
+	opacity 75
+	
+	#surface bottom
+	#surface-opacity 100
+	
+	# Auteur
+	doc-author "Alexandre Pont"
+	# Titule
+	doc-title "Hashim-oyuk plan - 1:2000"
+	
+	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
+	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
+	# 0 0, c'est en bas, à gauche, 100 100, c'est en haut, à droite
+	# La manchette a des "points cardinaux" autour : n, s, ne, sw, etc.
+	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
+	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
+	# ou une autre combination...
+	map-header 0 105 nw
+	# arrière plan de la manchette
+	#map-header-bg off
+	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
+	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
+	# "legend off" = pas de legende
+	legend off
+	# Par défaut, la légende est de 14 cm de largeur
+	legend-width 32 cm
+	legend-columns 8
+	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
+	# dont le nom est probablement le titule de la topo.
+	#map-comment "Koytendag, Turménistan"
+	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
+	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
+	statistics explo-length off
+	statistics topo-length off
+	# Afficher un copyright
+	statistics copyright off
+	
+	# Dessin ou pas du cheminement topo
+	symbol-hide point station
+	symbol-hide line survey
+	symbol-hide point u:symbol_plan
+	symbol-hide point u:symbol_extend
+	symbol-hide point label
+	symbol-hide point height
+	symbol-hide point wall-altitude
+	# debug scrap-names
+	# debug station-names
+	# symbol-hide line survey
+	
+	# color map-fg [100 100 80]
+	color map-fg altitude
+	color-legend off
+	
+	layers on
+	
+	code tex-map
+		\cavelength={} %empty
+		\cavedepth={}  %empty
+		\cavename={}   %empty
+		\thcoords={}   %empty
+		\thproj={}   %empty
+		\outcsname={}   %empty
+		\northdir={}   %empty
+		\magdecl={}   %empty
+		\exploteam={}   %empty
+		\topoteam={}   %empty
+		\cartoteam={}   %empty
+		\thversion={}   %empty
+	endcode
+	
+endcode
+# Modification du Titre de la topo
+#code tex-map
+#	% Output map title as determined by Therion is stored in cavename, défini par la une Map.
+#	% It will be empty if there are multiple maps selected for any one projection
+#	% AND there are multiple source surveys identified in the thconfig file
+#	% ie Therion can not infer a unique title from the input data given.
+#	% This code allows you to define an output map title {cavename} if it happens to be empty
+#	\edef\temp{\the\cavename}        % cavename from Therion
+#	\edef\nostring{}                 % empty string
+#	\ifx\temp\nostring             % test if cavename is empty
+#	% if empty
+#	reassign cavename to describe selected maps as a group
+#	\cavename={Gulshirin (Geophysicheskaya)}
+#	\else % if not empty keep the value set by therion, or assign an override cavename here
+#	\fi
+#	\newtoks\club \club={Koytendag 2024}
+#	%\newtoks\synth \synth={Xavier Robert}
+#endcode
+
+## add extended-elev on the same pdf
+#map-image 90 110 nw Outputs/Geophysicheskaya-coupe.pdf
+
+# Add logos to the map
+# Ajout des logos du club
+#map-image 100 -35 sw	Logo_TKM_2024.jpg
+#map-image 85 -40 sw	Logo_FFS.jpg
+
+endlayout
 
 #debut de la definition du layout "layout-coupe"
 layout layout-coupe
@@ -318,15 +467,18 @@ select MP-Hashim-oyuk@Hashim-oyuk
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
 #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Hashim-oyuk-coupe.pdf
 export map -proj plan -fmt pdf -o Outputs/Hashim-oyuk-plan.pdf -layout my_layout
+export map -proj plan -fmt pdf -o Outputs/Hashim-oyuk-plan_Spelunca.pdf -layout my_layout_Spelunca
 
 
 # Export du fichier 3d pour Loch
 export model -enable all -o Outputs/Hashim-oyuk.lox
 
+export database -o Outputs/database_Hashim-oyuk-2024.sql
+
 # Export des fichiers ESRI
 # export map -proj plan -fmt esri -o Outputs/Hashim-oyuk
 
 # Export des fichiers kml
-#export map -proj plan -fmt kml -o Outputs/Hashim-oyuk.kml -layout layout-kml
-#export model -fmt kml -o Outputs/Hashim-oyuk-model.kml -enable all
-#export cave-list -location on -o Outputs/Hashim-oyuk.html
+export map -proj plan -fmt kml -o Outputs/Hashim-oyuk.kml -layout layout-kml
+export model -fmt kml -o Outputs/Hashim-oyuk-model.kml -enable all
+export cave-list -location on -o Outputs/Hashim-oyuk.html

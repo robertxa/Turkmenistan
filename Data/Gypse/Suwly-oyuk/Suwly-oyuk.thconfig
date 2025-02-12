@@ -30,10 +30,10 @@ encoding  utf-8
 source Suwly-oyuk-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../../../config.thc
+input ../../../config.thc
 
 # 2-LAYOUT
 # Ici, on peut specifier des choses comme les symboles à utiliser (UIS, etc)
@@ -62,7 +62,7 @@ layout my_layout
 	copy langue-fr
 	
 	# Définition du système de projection du plan
-	cs EPSG:2154
+	cs UTM41
 	
 	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
 	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,
@@ -70,17 +70,17 @@ layout my_layout
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 1500
+	base-scale 1 250
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 1000
+	scale 1 100
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 100 m
+	scale-bar 10 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	#grid bottom
@@ -103,8 +103,10 @@ layout my_layout
 	# Auteur
 	doc-author "Xavier Robert"
 	# Titule
-	doc-title "Suwly-oyuk plan - 1:1000"
-	
+	doc-title "Suwly-oyuk plan"
+	doc-subject  "Grotte Suwly-oyuk, topographie en Plan"
+   doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Suwly-oyuk"
+  
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
 	# 0 0, c'est en bas, à gauche, 100 100, c'est en haut, à droite
@@ -112,7 +114,7 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 100 nw
+	map-header 0 -5 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -123,7 +125,7 @@ layout my_layout
 	legend-width 15 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Koyendag, Turménistan"
+	map-comment "<it>Plan - <ss>Koyendag, Turménistan<br>Coordonnées, Lat. : 37.596767 N ; Long. : 66.405367 E ; Alt. : 350 m"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -138,9 +140,11 @@ layout my_layout
 	symbol-hide line survey
 	
 	color map-fg altitude
-	color-legend smooth
+	color-legend off
 	
 	layers on
+	
+	overlap 3 cm
 	
 	# Modification du Titre de la topo
 	code tex-map
@@ -156,9 +160,13 @@ layout my_layout
 		\cavename={Suwly-oyuk}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Koytendag 2023}
+		\newtoks\club \club={Koytendag 2024}
+		\newtoks\datat \datat={https://github.com/robertxa/Turkmenistan}
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
+	
+	map-image 5 -42 nw ../../../Logos/Logo_TKM_2024.jpg
+	map-image 45 -45 nw	../../../Logos/Logo_FFS.jpg
 	
 	## add extended-elev on the same pdf
 	#map-image 90 110 nw Outputs/Suwly-oyuk-coupe.pdf

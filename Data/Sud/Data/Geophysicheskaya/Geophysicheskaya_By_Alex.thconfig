@@ -31,7 +31,7 @@ source Geophysicheskaya-tot.th
 source Data/DEM-Geophy.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../../../config.thc
@@ -56,11 +56,10 @@ endlayout
 #debut de la definition du layout "my_layout"
 layout my_layout
 	# Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
-	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
+	copy fontsize
 	
 	# Définition du système de projection du plan
 	cs UTM41
@@ -79,10 +78,10 @@ layout my_layout
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 1000
+	scale 1 800
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 250 m
+	scale-bar 100 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	grid bottom
@@ -105,7 +104,9 @@ layout my_layout
 	# Auteur
 	doc-author "Xavier Robert"
 	# Titule
-	doc-title "Gulshirin (Geophysicheskaya) plan - 1:1000"
+	doc-title "Gulshirin (Geophysicheskaya) plan"
+	doc-subject  "Grotte Gulshirin (Geophysicheskaya), topographie en Plan"
+	doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Gulshirin, Geophysicheskaya"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -114,19 +115,19 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 0 0 nw
+	map-header 38 28 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
 	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
 	# "legend off" = pas de legende
-	legend on
+	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 70 cm
+	legend-width 18 cm
 	legend-columns 8
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
-	map-comment "Koytendag, Turménistan"
+	map-comment "<it>Plan - <ss>Koyendag, Turménistan<br>Coordonnées, Lat. : 37.673152 N ; Long. : 66.394767 E ; Alt. : 856 m"
 	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
 	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
 	statistics explo-length off
@@ -149,6 +150,8 @@ layout my_layout
 	
 	layers on
 	
+	overlap 3 cm
+	
 	# Modification du Titre de la topo
 	code tex-map
 		% Output map title as determined by Therion is stored in cavename, défini par la une Map.
@@ -159,12 +162,12 @@ layout my_layout
 		\edef\temp{\the\cavename}        % cavename from Therion
 		\edef\nostring{}                 % empty string
 		\ifx\temp\nostring             % test if cavename is empty
-		% if empty
-		reassign cavename to describe selected maps as a group
-		\cavename={Gulshirin (Geophysicheskaya)}
+		% if empty reassign cavename to describe selected maps as a group
+		\cavename={Hashim-oyuk}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Koytendag 2024}
+		\newtoks\datat \datat={https://github.com/robertxa/Turkmenistan}
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
@@ -173,8 +176,8 @@ layout my_layout
 	
 	# Add logos to the map
 	# Ajout des logos du club
-	map-image 100 -35 sw ../../../../Logos/Logo_TKM_2024.jpg
-	map-image 85 -40 sw	../../../../Logos/Logo_FFS.jpg
+	map-image 20 2 sw ../../../../Logos/Logo_TKM_2024.jpg
+	map-image 5 0 sw	../../../../Logos/Logo_FFS.jpg
 	
 endlayout
 # Fin de la definition du Layout "normal"
@@ -247,7 +250,7 @@ layout my_layout_Spelunca
 	# "legend off" = pas de legende
 	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 40 cm
+	legend-width 18 cm
 	legend-columns 8
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
@@ -459,7 +462,7 @@ endlayout
 
 # Selection des Maps à exporter
 select MP-Geophysicheskaya@Geophysicheskaya
-select MC-Geophysicheskaya@Geophysicheskaya
+# select MC-Geophysicheskaya@Geophysicheskaya
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !

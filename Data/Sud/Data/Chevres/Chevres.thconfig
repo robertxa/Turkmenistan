@@ -30,7 +30,7 @@ encoding  utf-8
 source Chevres-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+# input legendes/entrances_coordinates.th
 
 # Add config file
 input ../../../../config.thc 
@@ -77,10 +77,9 @@ layout my_layout
   # pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
   # C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
   # ou similaire, sinon, l'échelle sera changée pendant l'impression! 
-  scale 1 250
-
+  scale 1 80
   # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-  scale-bar 25 m
+  scale-bar 10 m
 
   # Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
   #grid bottom
@@ -104,6 +103,8 @@ layout my_layout
   doc-author "Xavier Robert"
   # Titule
   doc-title "Chevres plan - 1:1000"
+  doc-subject  "Grotte des chèvres (Markhors), topographie en Plan"
+doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Grotte des chèvres (Markhors)"
 
   # Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
   # Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -123,7 +124,7 @@ layout my_layout
   legend-width 15 cm
   # Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
   # dont le nom est probablement le titule de la topo.
-  map-comment "<it>Plan> -<ss> Bulock Dara Canyon, Koytendag, Turménistan"
+  map-comment "<it>Plan - <ss>Koyendag, Bulock Dara Canyon, Turménistan<br>Coordonnées, Lat. : 37.64471 N ; Long. : 66.43184 E ; Alt. : 912 m"
   # Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
   # si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
   statistics explo-length off
@@ -137,11 +138,14 @@ layout my_layout
   #debug station-names
   symbol-hide line survey
   
-  #color map-fg altitude
+  color map-fg altitude
+  color-legend off
+	
   #color-legend smooth
 
   layers on
-
+  overlap 3 cm
+  
 	# Modification du Titre de la topo
 	code tex-map
 		% Output map title as determined by Therion is stored in cavename, défini par la une Map. 
@@ -156,12 +160,16 @@ layout my_layout
 			\cavename={Chevres} 
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Koytendag 2023}
+		\newtoks\club \club={Koytendag 2024}
+		\newtoks\datat \datat={https://github.com/robertxa/Turkmenistan}
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode   
 
   ## add extended-elev on the same pdf
   #map-image 90 110 nw Outputs/Chevres-coupe.pdf
+  	map-image 100 35 sw ../../../../Logos/Logo_TKM_2024.jpg
+	map-image 100 8 sw	../../../../Logos/Logo_FFS.jpg
+	
   
  endlayout
 # Fin de la definition du Layout "normal"
