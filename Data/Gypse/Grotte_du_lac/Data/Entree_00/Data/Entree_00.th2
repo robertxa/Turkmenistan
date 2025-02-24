@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4616.1914 3120.1276000000003
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1228.3500000000001 1 1.0} {1952.76 00} Entree_00-map.xvi 0 {}
 
 
@@ -218,6 +218,8 @@ line border
   smooth off
 endline
 
+point 522.0 2054.0 entrance -orientation 90.0
+
 line wall -subtype pit
   580.0 1848.0
   580.0 1848.0 700.0 1848.0 784.0 1852.0
@@ -249,6 +251,7 @@ line wall -reverse on -subtype pit
   548.0 2280.0
   548.0 2280.0 740.0 2532.0 1164.0 2543.0
   1252.06 2545.28 1513.46 2557.22 1588.0 2492.0
+  altitude .
   1652.0 2436.0 1676.0 2264.0 1688.0 2160.0
   1699.5 2060.34 1692.0 1948.0 1660.0 1880.0
   1628.0 1812.0 1588.17 1805.39 1528.5 1747.0
@@ -838,7 +841,7 @@ endline
 line label
 endline
 
-line wall
+line wall -reverse on
   2768.0 1844.0
   2768.0 1844.0 2863.0 1924.0 2922.0 1940.0
   2982.42 1956.38 3036.0 1968.0 3096.0 1968.0

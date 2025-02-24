@@ -11,7 +11,7 @@ map MP-Grotte_du_lac -title "Grotte du lac"
 endmap
 
 
-map MC-Grotte_du_lac -title "Grotte du lac Coupe"
+map MC-Grotte_du_lac -title "Grotte du lac"
 	MC-Entree_00@Entree_00
 	break
 	MC-Entree_01@Entree_01

@@ -4,14 +4,14 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-map MP-HanakaMain -title "Hanaka Main"
+map MP-HanakaMain -title "Ahmethan n°1"
 	SP-HanakaMain-2
 	break
 	SP-HanakaMain-1
 endmap
 
 
-map MC-HanakaMain -title "HanakaMain"
+map MC-HanakaMain -title "Ahmethan n°1"
 	SC-HanakaMain-1
 endmap
    

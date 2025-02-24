@@ -30,10 +30,10 @@ encoding  utf-8
 source HanakaMain-tot.th
 
 # Add Coordinates
-input legendes/entrances_coordinates.th
+#input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../../../../../config.thc 
+input ../../../../../config.thc 
   
  # 2-LAYOUT
 # Ici, on peut specifier des choses comme les symboles à utiliser (UIS, etc)
@@ -137,8 +137,8 @@ layout my_layout
   #debug station-names
   symbol-hide line survey
   
-  color map-fg altitude
-  color-legend smooth
+  #color map-fg altitude
+  #color-legend smooth
 
   layers on
 
@@ -194,7 +194,7 @@ layout layout-coupe
   scale 1 500
 
   # Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-  scale-bar 50 m
+  scale-bar 25 m
 
   # Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
   #grid bottom
@@ -226,9 +226,9 @@ layout layout-coupe
   # Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
   # Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
   # ou une autre combination...
-  map-header 0 -30 nw
+  map-header -15 140 nw
   # arrière plan de la manchette
-  map-header-bg on
+  map-header-bg off
   # Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
   # sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
   # "legend off" = pas de legende
@@ -237,7 +237,7 @@ layout layout-coupe
   legend-width 15 cm
   # Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
   # dont le nom est probablement le titule de la topo.
-  #map-comment "Koytendag, Turkménistan"
+  map-comment "<it>Coupe développée -<ss> Koytendag, Turkménistan"
   # Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
   # si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
   statistics explo-length off

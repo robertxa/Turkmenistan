@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 5639.814 1939.0246
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {1181.1000000000001 1 1.0} {1149.605 00} Entree_00-coupe.xvi 0 {}
+##XTHERION## xth_me_area_adjust -206.73999999999955 -130.00000000000003 6269.7358 2015.7648
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1181.1000000000001 1 1.0} {1147.605 00} Entree_00-coupe.xvi 0 {}
 
 
 
@@ -19,11 +19,14 @@ line wall -reverse on
   smooth off
 endline
 
+point 326.0 1468.0 entrance -orientation 121.6
+
 line wall
   235.5 1417.0
   235.5 1417.0 881.0 1216.0 912.0 1201.0
   943.0 1186.0 995.0 1171.0 1046.0 1160.0
   1097.0 1149.0 1164.32 1138.76 1185.0 1135.0
+  altitude .
   1207.0 1131.0 1283.12 1122.15 1291.0 1119.0
   smooth off
 endline
@@ -33,6 +36,7 @@ line wall
   1301.0 1115.0 1310.44 1116.97 1318.0 1104.0
   1325.0 1092.0 1321.0 1094.0 1327.0 1080.0
   1330.96 1070.76 1330.94 1057.44 1330.0 1048.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -200,6 +204,19 @@ line wall -subtype blocks
   smooth off
 endline
 
+area u:galerie
+  l63-4148-560
+endarea
+
+line border -id l63-4148-560 -close on
+  4112.0 620.0
+  4112.0 620.0 4090.0 574.0 4100.0 566.0
+  4110.0 558.0 4146.0 536.0 4150.0 554.0
+  4154.0 572.0 4148.0 586.0 4136.0 598.0
+  4124.0 610.0 4112.0 620.0 4112.0 620.0
+  smooth off
+endline
+
 line wall
   4775.0 545.5
   4792.0 544.5 4799.0 555.5 4800.0 563.5
@@ -278,6 +295,21 @@ line label -id l70-4332-592 -close on
   4199.5 588.0
 endline
 
+line wall -subtype blocks
+  3597.55 561.2650000000001
+  3597.55 561.2650000000001 3874.0 562.0 3942.0 568.0
+  4010.0 574.0 4120.5 579.5 4120.5 579.5
+  smooth off
+endline
+
+line wall
+  4077.5 620.5
+  4077.5 620.5 3996.0 614.0 3944.0 608.0
+  3892.0 602.0 3840.0 622.0 3804.0 622.0
+  3768.0 622.0 3586.0 612.0 3586.0 612.0
+  smooth off
+endline
+
 line wall
   5130.5 602.5
   5130.0 612.0 5129.5 617.5 5122.0 623.0
@@ -301,9 +333,7 @@ point 4230.97 608.5050000000001 station -name 27
 
 point 4104.62 608.5050000000001 station -name 33
 
-point 3861.2200000000003 581.105 station -name 20
-
-point 3803.44 567.715 station -name 25
+point 3802.76 563.715 station -name 25
 
 point 3597.55 561.2650000000001 station -name 21
 

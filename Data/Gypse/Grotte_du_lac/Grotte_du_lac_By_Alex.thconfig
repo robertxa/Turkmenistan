@@ -70,17 +70,17 @@ layout my_layout
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 800
+	base-scale 1 1200
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 300
+	scale 1 1000
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 25 m
+	scale-bar 100 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	#grid bottom
@@ -122,7 +122,7 @@ layout my_layout
 	# "legend off" = pas de legende
 	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 20 cm
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
 	map-comment "<it>Plan - <ss>Koyendag, Turménistan<br>Coordonnées, UTM42WGS84 X : 266.003 ; Y : 4170.934 ; Alt. : 353 m"
@@ -140,8 +140,8 @@ layout my_layout
 	#debug station-names
 	symbol-hide line survey
 	
-	color map-fg altitude
-	color-legend off
+	#color map-fg altitude
+	#color-legend off
 	
 	layers on
 	
@@ -166,8 +166,8 @@ layout my_layout
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
-	map-image 50 -5 nw ../../../Logos/Logo_TKM_2024.jpg
-	map-image 80 -5 nw	../../../Logos/Logo_FFS.jpg
+	#map-image 50 -5 nw ../../../Logos/Logo_TKM_2024.jpg
+	#map-image 80 -5 nw	../../../Logos/Logo_FFS.jpg
 	
 	## add extended-elev on the same pdf
 	#map-image 90 110 nw Outputs/Grotte_du_lac-coupe.pdf
@@ -178,10 +178,11 @@ endlayout
 #debut de la definition du layout "layout-coupe"
 layout layout-coupe
 	## Rajout des coordonnées de l'entrée
-	copy Coords_Header_CDa
+	#copy Coords_Header_CDa
 	# Call the config settings (Layout config inside the config.thc file)
 	copy drawingconfig
-	copy headerl
+	#copy headerl
+	copy header_coupe
 	copy langue-fr
 	
 	# Définition du système de projection du plan
@@ -193,17 +194,17 @@ layout layout-coupe
 	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
 	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
 	# des caractères et des traits.
-	base-scale 1 800
+	base-scale 1 1000
 	
 	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
 	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
 	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
 	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
 	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
-	scale 1 300
+	scale 1 1000
 	
 	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
-	scale-bar 25 m
+	scale-bar 50 m
 	
 	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
 	#grid bottom
@@ -228,7 +229,7 @@ layout layout-coupe
 	# Titule
 	doc-title "Grotte du lac - Coupe développée"
 	doc-subject  "Grotte du lac, topographie en coupe"
-   doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Grotte du lac"
+    doc-keywords "Cave, Survey, Köýtendag, Turkménistan, Expédition, Grotte du lac"
 	
 	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
 	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
@@ -237,7 +238,8 @@ layout layout-coupe
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 10 -5 nw
+	#map-header 10 -5 nw
+	map-header -5 160 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -245,7 +247,7 @@ layout layout-coupe
 	# "legend off" = pas de legende
 	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 15 cm
+	legend-width 20 cm
 	legend-columns 5
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
@@ -266,13 +268,13 @@ layout layout-coupe
 	# endcode
 	
 	# Dessin ou pas du cheminement topo
-	symbol-hide point station
+	#symbol-hide point station
 	symbol-hide line survey
 	symbol-hide point u:symbol_plan
 	symbol-hide point u:symbol_extend
 	
-	color map-fg altitude
-	color-legend off #smooth
+	#color map-fg altitude
+	#color-legend off #smooth
 	
 	layers on
 	
@@ -297,8 +299,8 @@ layout layout-coupe
 		%\newtoks\synth \synth={Xavier Robert}
 	endcode
 	
-	map-image 25 -10 nw	Logo_TKM_2024.jpg
-	map-image 35 -9 nw	Logo_FFS.jpg
+	#map-image 25 -10 nw	Logo_TKM_2024.jpg
+	#map-image 35 -9 nw	Logo_FFS.jpg
 	
 endlayout
 # Fin de la definition du Layout "normal"
@@ -327,12 +329,12 @@ select MC-Grotte_du_lac-coupe@Grotte_du_lac
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
 export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Grotte_du_lac-coupe.pdf
-export map -projection extended -fmt svg -layout layout-coupe -o Outputs/Grotte_du_lac-coupe.svg
+#export map -projection extended -fmt svg -layout layout-coupe -o Outputs/Grotte_du_lac-coupe.svg
 export map -proj plan -fmt pdf -o Outputs/Grotte_du_lac-plan.pdf -layout my_layout
-export model -fmt kml -o Outputs/Grotte_du_lac-model.kml -enable all
+#export model -fmt kml -o Outputs/Grotte_du_lac-model.kml -enable all
 
 # Export du fichier 3d pour Loch
-export model -enable all -o Outputs/Grotte_du_lac.lox
+#export model -enable all -o Outputs/Grotte_du_lac.lox
 
 # Export des fichiers ESRI
 # export map -proj plan -fmt esri -o Outputs/Grotte_du_lac.pdf
@@ -340,4 +342,4 @@ export model -enable all -o Outputs/Grotte_du_lac.lox
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Grotte_du_lac.kml -layout layout-kml
 export model -fmt kml -o Outputs/Grotte_du_lac-model.kml -enable all
-export cave-list -location on -o Outputs/Grotte_du_lac.html
+#export cave-list -location on -o Outputs/Grotte_du_lac.html
