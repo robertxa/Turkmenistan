@@ -33,7 +33,7 @@ source Kaptarkhana-tot.th
 input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../../../config.thc
+input ../../../config.thc
 
 # 2-LAYOUT
 # Ici, on peut specifier des choses comme les symboles à utiliser (UIS, etc)
@@ -303,12 +303,12 @@ export map -fmt xvi -layout xviexport -o Data/Kaptarkhana-map.xvi
 
 # Selection des Maps à exporter
 select MP-Kaptarkhana@Kaptarkhana
-select MC-Kaptarkhana-coupe@Kaptarkhana
+# select MC-Kaptarkhana-coupe@Kaptarkhana
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
-export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Kaptarkhana-coupe.pdf
-export map -proj plan -fmt pdf -o Outputs/Kaptarkhana-plan.pdf -layout my_layout
+# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Kaptarkhana-coupe.pdf
+# export map -proj plan -fmt pdf -o Outputs/Kaptarkhana-plan.pdf -layout my_layout
 
 
 # Export du fichier 3d pour Loch

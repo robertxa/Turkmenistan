@@ -309,8 +309,8 @@ endlayout
 
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
-export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Gap-Gotan-coupe.pdf
-export map -proj plan -fmt pdf -o Outputs/Gap-Gotan-plan.pdf -layout my_layout
+# export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Gap-Gotan-coupe.pdf
+# export map -proj plan -fmt pdf -o Outputs/Gap-Gotan-plan.pdf -layout my_layout
 
 
 # Export du fichier 3d pour Loch

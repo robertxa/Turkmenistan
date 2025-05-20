@@ -33,7 +33,7 @@ source Cenotes_check-point-tot.th
 input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../../../config.thc
+input ../../../config.thc
 
 # 2-LAYOUT
 # Ici, on peut specifier des choses comme les symboles à utiliser (UIS, etc)
@@ -308,7 +308,7 @@ select MP-Cenotes_check-point@Cenotes_check-point
 # Export des fichiers pdf, plan et coupe.
 # ATTENTION, la topo étant énorme, il faut mettre l'option ne traçant pas la centerline !
 #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Cenotes_check-point-coupe.pdf
-export map -proj plan -fmt pdf -o Outputs/Cenotes_check-point-plan.pdf -layout my_layout
+# export map -proj plan -fmt pdf -o Outputs/Cenotes_check-point-plan.pdf -layout my_layout
 
 
 # Export du fichier 3d pour Loch
