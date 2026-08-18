@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 3907.5296 4616.1914
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1338.58 1 1.0} {2677.17 PTR_FR24_A13_46} Alex7-map.xvi 0 {}
 
 
 
-scrap SP-Alex7-1 -station-names "" "@Geophysicalskaya_07" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4458.711 -128.0 0.0 0.0 116.5024594 0.0 m]
+scrap SP-Alex7-1 -station-names "" "@Geophysicalskaya_07" -author 2026 "Etienne Fabre" -author 2024 "Alexandre Pont" -copyright 2026 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4458.711 -128.0 0.0 0.0 116.5024594 0.0 m]
 
 area sand
 endarea
@@ -382,12 +382,46 @@ line rock-border -close on
   2950.0 726.0 2924.0 730.0 2913.0 732.0
 endline
 
+line wall -subtype unsurveyed
+endline
+
+point 2819.0 462.5 continuation -align left
+
+line pit
+  2890.0 580.0
+  2890.0 580.0 2942.0 518.0 2977.0 509.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  2858.5 494.0
+  2869.0 477.5
+endline
+
+line wall -reverse on -subtype unsurveyed
+  2943.0 510.0
+  2943.0 510.0 2917.0 502.5 2869.0 477.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  2898.0 551.0
+  2898.0 551.0 2883.11 535.26 2884.0 529.0
+  2887.0 508.0 2875.0 508.0 2858.5 494.0
+  smooth off
+endline
+
 line wall -reverse on -subtype presumed
   3096.0 532.0
   altitude .
   3092.0 502.0 3090.0 508.0 3079.0 501.0
-  3057.75 487.48 3045.0 459.0 2959.0 529.0
-  2873.0 599.0 2878.0 644.0 2828.0 668.0
+  3057.75 487.48 2992.0 536.0 2943.0 510.0
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  2898.0 551.0
+  2930.0 580.0 2878.0 644.0 2828.0 668.0
   smooth off
 endline
 
@@ -549,6 +583,17 @@ point 2113.07 2854.34 station -name 4
 point 1997.95 2853.3900000000003 station -name 3
 
 point 1912.13 2860.63 station -name 2
+
+point 1065.0 2938.0 continuation
+
+line pit-chimney -close on
+  1032.0 2869.0
+  1021.0 2868.0 1009.0 2863.0 1009.0 2844.0
+  1009.0 2825.0 1008.0 2789.0 1034.0 2784.0
+  1060.0 2779.0 1088.0 2756.0 1109.0 2773.0
+  1130.0 2790.0 1126.0 2837.0 1109.0 2853.0
+  1092.0 2869.0 1043.0 2870.0 1032.0 2869.0
+endline
 
 point 1719.69 2828.04 station -name 1
 

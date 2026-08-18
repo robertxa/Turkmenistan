@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Geophysicalskaya_01_entree -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
+scrap SP-Geophysicalskaya_01_entree -author 2026 "Etienne Fabre" -author 2024 "Alexandre Pont" -copyright 2026 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
 
 line floor-step -close on
   1282.0 4652.0
@@ -117,6 +117,7 @@ line wall -reverse on
   838.75 5258.0 830.5 5247.0 849.0 5250.0
   867.5 5253.0 880.0 5251.0 883.5 5261.5
   887.0 5272.0 873.0 5294.5 885.0 5303.5
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
@@ -460,6 +461,7 @@ point 713.0 5380.0 air-draught -orientation 308.4 -subtype summer
 line wall -reverse on -subtype presumed
   963.5 5343.0
   978.0 5342.0 993.5 5330.0 999.5 5326.0
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
@@ -590,9 +592,9 @@ point 2388.0 1070.0 gypsum
 
 point 2412.0 1010.0 gypsum
 
-point 2564.0 1038.0 gypsum
+point 2533.0 1019.0 gypsum
 
-point 2656.0 1100.0 gypsum
+point 2680.0 1113.0 gypsum
 
 point 2692.0 976.0 gypsum
 
@@ -793,7 +795,7 @@ point 2420.0 946.0 gypsum
 
 point 2518.0 1074.0 blocks
 
-point 2702.0 1090.0 blocks
+point 2749.0 1084.0 blocks
 
 point 2880.0 1058.0 blocks
 
@@ -801,7 +803,7 @@ point 2812.0 1074.0 blocks
 
 point 2784.0 990.0 blocks
 
-point 2634.0 1036.0 blocks
+point 2637.0 990.0 blocks
 
 point 2502.0 960.0 blocks
 
@@ -827,7 +829,49 @@ line rock-edge -close on
   2025.5 936.0
 endline
 
-point 1732.0 738.0 low-end
+point 2566.0 1153.5 continuation -align top
+
+line pit-chimney -close on
+  2616.0 1083.0
+  2607.5 1083.5 2593.0 1080.0 2593.0 1072.0
+  2593.0 1064.0 2594.0 1040.0 2613.0 1045.0
+  2632.0 1050.0 2651.0 1062.0 2642.5 1073.0
+  2634.0 1084.0 2624.5 1082.5 2616.0 1083.0
+endline
+
+line floor-step -reverse on
+  1757.5 725.5
+  1757.5 725.5 1785.0 686.5 1789.5 680.5
+  smooth off
+endline
+
+line floor-step -reverse on
+  1784.0 736.5
+  1792.5 719.0 1817.0 697.0 1817.0 697.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  1744.5 706.0
+  1744.5 706.0 1731.97 696.32 1734.5 690.0
+  1738.5 680.0 1745.0 680.0 1754.0 682.5
+  smooth off
+endline
+
+line wall -reverse on -subtype invisible
+  1972.0 842.5
+  1972.0 842.5 1984.0 854.0 1991.5 843.0
+  1999.0 832.0 1998.0 831.5 1992.0 822.0
+  smooth off
+endline
+
+line pit -reverse on
+  1916.5 830.0
+  1916.5 830.0 1874.5 789.5 1860.5 784.5
+  smooth off
+endline
+
+point 1692.0 759.5 low-end
 
 line arrow
   2285.5 955.5
@@ -854,24 +898,28 @@ line border -reverse on
   2797.5 1347.5
   2797.5 1347.5 2925.5 1335.0 2945.5 1328.5
   2965.5 1322.0 3074.0 1277.5 3081.0 1272.0
+  smooth off
 endline
 
 line border
   2623.0 898.0
   2623.0 898.0 2479.0 880.0 2456.5 872.5
   2434.0 865.0 2397.0 851.0 2352.0 833.0
+  smooth off
 endline
 
 line border -reverse on
   2281.0 1006.0
   2281.0 1006.0 2268.5 975.5 2269.5 951.5
   2270.5 927.5 2279.5 885.5 2282.5 880.5
+  smooth off
 endline
 
 line border
   2872.0 924.5
   2872.0 924.5 2867.5 853.0 2872.5 837.0
   2877.5 821.0 2923.5 742.0 2925.0 739.5
+  smooth off
 endline
 
 line arrow
@@ -888,6 +936,26 @@ endline
 line border -reverse on
   2824.0 1732.0
   2824.0 1732.0 3064.0 1912.0 3282.0 1748.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  1873.0 794.5
+  1873.0 794.5 1883.0 782.0 1841.0 758.5
+  1799.0 735.0 1744.5 706.0 1744.5 706.0
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  1992.0 822.0
+  1992.0 822.0 1795.0 702.5 1754.0 682.5
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  1903.5 815.5
+  1903.5 815.5 1912.5 805.0 1927.0 813.0
+  1941.5 821.0 1964.0 837.0 1972.0 842.5
   smooth off
 endline
 
@@ -921,10 +989,14 @@ line wall -reverse on
   2220.0 902.0 2226.5 896.5 2164.5 881.5
   2102.5 866.5 2094.5 882.5 2073.0 886.0
   2015.72 895.32 2011.0 897.0 1982.0 883.0
-  1953.0 869.0 1946.0 862.0 1920.0 845.0
-  1894.0 828.0 1873.0 820.0 1854.0 808.0
-  altitude .
-  1835.0 796.0 1820.0 784.0 1813.0 781.0
+  1953.0 869.0 1950.5 867.0 1938.5 858.5
+  1913.15 840.54 1896.5 828.0 1903.5 815.5
+  smooth off
+endline
+
+line wall -reverse on
+  1873.0 794.5
+  1863.32 814.82 1820.0 784.0 1813.0 781.0
   smooth off
 endline
 
@@ -950,6 +1022,7 @@ line wall
   1940.0 923.0 1922.0 914.0 1900.0 900.0
   1878.0 886.0 1878.0 896.0 1874.0 874.0
   1870.0 852.0 1858.0 839.0 1845.0 834.0
+  altitude .
   1832.0 829.0 1814.0 818.0 1803.0 811.0
   smooth off
 endline
@@ -972,7 +1045,7 @@ line wall -close on -outline in
   smooth off
 endline
 
-point 1880.0 1828.0 label -text "Salle blanche"
+point 2268.0 2148.0 label -text "Salle blanche" -align left -scale xl
 
 line wall
   2582.0 2818.0
@@ -1195,6 +1268,7 @@ line border
   3590.0 2607.5 3633.5 2609.0 3674.5 2596.0
   3715.5 2583.0 3784.5 2551.0 3793.0 2545.0
   3801.5 2539.0 3853.0 2511.5 3861.5 2479.0
+  smooth off
 endline
 
 line arrow
@@ -1220,6 +1294,7 @@ line border
   4052.0 2785.5 3982.5 2705.0 3976.0 2685.5
   3969.5 2666.0 3953.5 2577.0 3954.5 2560.5
   3955.5 2544.0 3959.0 2503.5 3963.5 2481.5
+  smooth off
 endline
 
 line rock-border

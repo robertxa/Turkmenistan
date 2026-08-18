@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -127.99999999999983 5954.7748 4222.490400000001
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {629.9200000000001 1 1.0} {2440.94 A20} GeophysicalskayaXR4-map.xvi 0 {}
 
 
 
-scrap SP-Xav4-1 -projection plan -station-names "" "@GeophysicalskayaXR4" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5954.7748 -128.0 0.0 0.0 154.50247991999998 0.0 m]
+scrap SP-Xav4-1 -projection plan -station-names "" "@GeophysicalskayaXR4" -author 2026 "Etienne Fabre"  -author 2024 "Xavier Robert" -copyright 2026 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5954.7748 -128.0 0.0 0.0 154.50247991999998 0.0 m]
 
 line slope
   1304.0 2128.0
@@ -354,9 +354,9 @@ point 1921.0 1796.0 popcorn
 
 point 1959.0 1796.0 popcorn
 
-point 1859.0 1434.0 label -text "<center>aiguilles<br>de gypse"
+point 1859.0 1434.0 label -text "<center>aiguilles<br>de gypse" -align bottom
 
-point 1403.0 1477.0 label -text "<center>aiguilles<br>de gypse"
+point 1265.0 1643.0 label -text "<center>aiguilles<br>de gypse" -align bottom-left
 
 point 1466.0 1570.0 gypsum
 
@@ -699,7 +699,7 @@ point 775.0 2783.0 gypsum-flower
 
 point 743.0 2786.0 gypsum-flower
 
-point 511.0 2852.0 narrow-end
+point 523.0 2908.0 narrow-end
 
 line floor-meander
   819.0 2785.0
@@ -1244,8 +1244,13 @@ line wall
   4288.0 1822.0 4343.0 1734.0 4386.0 1677.0
   4429.0 1620.0 4433.0 1449.0 4452.0 1406.0
   4471.0 1363.0 4551.0 1304.0 4569.0 1276.0
-  4587.0 1248.0 4678.0 1208.0 4680.0 1171.0
-  4682.0 1134.0 4684.5 1124.5 4684.5 1124.5
+  4587.0 1248.0 4680.5 1197.0 4682.5 1160.0
+  smooth off
+endline
+
+line wall
+  4682.5 1160.0
+  4684.5 1147.5 4684.5 1124.5 4684.5 1124.5
   smooth off
 endline
 
@@ -1304,8 +1309,39 @@ line wall
   3351.0 2836.0 3425.0 2842.0 3449.0 2827.0
   3473.0 2812.0 3476.0 2710.0 3511.0 2687.0
   3546.0 2664.0 3693.0 2546.0 3718.0 2521.0
-  3743.0 2496.0 3831.0 2466.0 3831.0 2466.0
+  3743.0 2496.0 3772.25 2486.5 3772.25 2486.5
   smooth off
+endline
+
+point 3715.75 2418.25 continuation
+
+point 3694.0 2469.5 height -align top-left -value [+5 m]
+
+line pit
+  3772.25 2486.5
+  3808.25 2474.75
+endline
+
+line wall -subtype invisible
+  3738.25 2444.25
+  3755.25 2435.5
+endline
+
+line wall -subtype presumed
+  3808.25 2474.75
+  3808.25 2474.75 3767.5 2454.75 3755.25 2435.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  3772.25 2486.5
+  3772.25 2486.5 3746.0 2451.25 3738.25 2444.25
+  smooth off
+endline
+
+line wall
+  3808.25 2474.75
+  3831.0 2466.0
 endline
 
 line wall

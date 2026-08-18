@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4458.711 3198.8678
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {708.6599999999999 1 1.0} {2519.69 PTR_FR24_B59_00} Alex3-map.xvi 0 {}
 
 
@@ -133,6 +133,7 @@ line border -reverse on
   1578.0 1532.0
   1600.0 1324.0
   1600.0 1324.0 1608.0 1290.0 1598.0 1162.0
+  smooth off
 endline
 
 line wall -reverse on

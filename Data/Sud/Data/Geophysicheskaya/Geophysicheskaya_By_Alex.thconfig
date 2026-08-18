@@ -115,7 +115,7 @@ layout my_layout
 	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
 	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
 	# ou une autre combination...
-	map-header 38 28 nw
+	map-header 38 20 nw
 	# arrière plan de la manchette
 	map-header-bg off
 	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
@@ -123,7 +123,7 @@ layout my_layout
 	# "legend off" = pas de legende
 	legend off
 	# Par défaut, la légende est de 14 cm de largeur
-	legend-width 18 cm
+	legend-width 24 cm
 	legend-columns 8
 	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
 	# dont le nom est probablement le titule de la topo.
@@ -325,6 +325,434 @@ endcode
 
 endlayout
 
+
+layout my_layout_Livre_1
+	# Rajout des coordonnées de l'entrée
+	#copy Coords_Header_CDa
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy headerl
+	copy langue-fr
+	
+	# Définition du système de projection du plan
+	cs UTM41
+	# cs EPSG:2154
+	
+	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
+	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,
+	# il faut enlever le "#" et spécifier l'échelle vraiment employée, comme c'est le cas
+	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
+	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
+	# des caractères et des traits.
+	base-scale 1 1500
+	
+	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
+	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
+	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
+	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
+	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
+	scale 1 1000
+	
+	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
+	scale-bar 100 m
+	
+	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
+	# grid bottom
+	grid off
+	# Une ligne pour specifier que la grille est 1000x1000x1000 m
+	# (Trois dimensions, oui, ça sert pour la coupe aussi)
+	grid-size 250 250 250 m
+	
+	# la topo est transparente (on peut voir les galeries sousjacentes)
+	# C'est on par défaut, donc, pas vraiment besoin de specifier
+	transparency on
+	
+	
+	# ça marche seulement si transparency est "on" 90% blanc= 10% noir
+	opacity 75
+	
+	#surface bottom
+	#surface-opacity 100
+	
+	# Auteur
+	doc-author "Alexandre Pont"
+	# Titule
+	doc-title "Gulshirin (Geophysicheskaya) plan"
+	
+	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
+	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
+	# 0 0, c'est en bas, à gauche, 100 100, c'est en haut, à droite
+	# La manchette a des "points cardinaux" autour : n, s, ne, sw, etc.
+	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
+	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
+	# ou une autre combination...
+	map-header 35 15 nw
+	# arrière plan de la manchette
+	#map-header-bg off
+	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
+	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
+	# "legend off" = pas de legende
+	legend off
+	# Par défaut, la légende est de 14 cm de largeur
+	legend-width 24 cm
+	legend-columns 8
+	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
+	# dont le nom est probablement le titule de la topo.
+	#map-comment "Koytendag, Turménistan"
+	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
+	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
+	statistics explo-length off
+	statistics topo-length off
+	# Afficher un copyright
+	statistics copyright off
+	
+	# Dessin ou pas du cheminement topo
+	symbol-hide point station
+	symbol-hide line survey
+	symbol-hide point u:symbol_plan
+	symbol-hide point u:symbol_extend
+	# symbol-hide point label
+	# symbol-hide point height
+	# symbol-hide point wall-altitude
+	# symbol-hide point guano
+	# symbol-hide point height	
+	# symbol-hide point dig
+	# symbol-hide point camp
+	# symbol-hide point air-draught
+	# symbol-hide point continuation
+	# symbol-hide point masonry
+	# symbol-hide point low-end
+	# symbol-hide point narrow-end
+	# symbol-hide point flowstone-choke
+	# symbol-hide point breakdown-choke
+	# symbol-hide point clay-choke
+	# symbol-hide point bones
+	# symbol-hide point bat
+	# symbol-hide point rope
+	# symbol-hide point traverse
+	# symbol-hide point u:man_w
+	# symbol-hide point stalagmites
+	# symbol-hide point stalagmite
+	# symbol-hide point paleo-material
+	# symbol-hide point section
+	# symbol-hide point gate
+	
+	# debug scrap-names
+	# debug station-names
+	# symbol-hide line survey
+	
+	symbol-color line wall:flowstone [0 0 0]
+	symbol-color line flowstone [0 0 0]
+	symbol-color point altitude [0 0 0]
+	symbol-color point wall-altitude [0 0 0] 
+	symbol-color point aragonite [0 0 0]
+	symbol-color point blocks [0 0 0]    						     # Marron : (87, 56, 8)
+	symbol-color point breakdown-choke [0 0 0]    		   	          # Marron : (87, 56, 8)
+	symbol-color point cave-pearl [0 0 0]
+	symbol-color point clay [0 0 0]								# Color to verify
+	symbol-color point clay-choke [0 0 0]							# Color to verify
+	symbol-color point curtain [0 0 0]
+	symbol-color point curtains [0 0 0]
+	symbol-color point disc-pillar [0 0 0]
+	symbol-color point disc-pillars [0 0 0]
+	symbol-color point disc-stalactite [0 0 0]
+	symbol-color point disc-stalactites [0 0 0]
+	symbol-color point disc-stalagmite [0 0 0]
+	symbol-color point disc-stalagmites [0 0 0]
+	symbol-color point disk [0 0 0]
+	symbol-color point flowstone [0 0 0]
+	symbol-color point flowstone-choke [0 0 0]
+	symbol-color point helictite [0 0 0]
+	symbol-color point helictites [0 0 0]
+	symbol-color point ice [0 0 0]
+	symbol-color point ice-pillar [0 0 0]
+	symbol-color point ice-stalactite [0 0 0]
+	symbol-color point ice-stalagmite [0 0 0]
+	symbol-color point moonmilk [0 0 0]					     	# Change the color ?
+	symbol-color point mud [0 0 0]								# Color to verify
+	symbol-color point mudcrack [0 0 0]							# Color to verify
+	symbol-color point pillar [0 0 0]
+	symbol-color point pillar-with-curtains [0 0 0]
+	symbol-color point pillars [0 0 0]
+	symbol-color point pillars-with-curtains [0 0 0]
+	symbol-color point popcorn [0 0 0]
+	symbol-color point rimstone-dam [0 0 0]
+	symbol-color point rimstone-pool [0 0 0]
+	symbol-color point root [0 0 0]
+	symbol-color point seed-germination [0 0 0]
+	symbol-color point snow [0 0 0]
+	symbol-color point soda-straw [0 0 0]
+	symbol-color point spring [0 0 0]
+	symbol-color point stalactite [0 0 0]
+	symbol-color point stalactite-stalagmite [0 0 0]
+	symbol-color point stalactite-stalagmite [0 0 0]
+	symbol-color point stalactites [0 0 0]
+	symbol-color point stalactites-stalagmites [0 0 0]
+	symbol-color point stalactites-stalagmites [0 0 0]
+	symbol-color point stalagmite [0 0 0]
+	symbol-color point stalagmites [0 0 0]
+	symbol-color point station [0 0 0]
+	symbol-color point station-name [0 0 0]				   		  # light grey
+	symbol-color point vegetable-debris [0 0 0]
+	symbol-color point volcano [0 0 0]						     	# Color to verify
+	symbol-color point wall-altitude [0 0 0]                    # Gris
+	symbol-color point wall-calcite [0 0 0]
+	symbol-color point water [0 0 0]
+	symbol-color point water-drip [0 0 0]
+	symbol-color point water-flow [0 0 0]
+	symbol-color point water-flow:intermittent [0 0 0]
+	symbol-color point water-flow:paleo [0 0 0]
+	
+	
+	symbol-color area clay [0 0 0]								# Color to verify
+	symbol-color area pebbles [0 0 0]	
+	symbol-color area flowstone [0 0 0]
+	symbol-color area ice [0 0 0]
+	symbol-color area moonmilk [0 0 0]							# Change the color ?
+	symbol-color area mudcrack [0 0 0]							# Color to verify ; Maybe to darken
+	symbol-color area pillar [0 0 0]
+	symbol-color area pillar-with-curtains [0 0 0]
+	symbol-color area sand [0 0 0]							   	# Color to verify
+	symbol-color area snow [0 0 0]
+	symbol-color area stalactite [0 0 0]
+	symbol-color area stalactite-stalagmite [0 0 0]
+	symbol-color area stalagmite [0 0 0]
+	
+	color map-fg [100 100 100]
+	# color map-fg altitude
+	color-legend off
+	
+	layers on
+	
+	code tex-map
+		\cavelength={} %empty
+		\cavedepth={}  %empty
+		\cavename={}   %empty
+		\thcoords={}   %empty
+		\thproj={}   %empty
+		\outcsname={}   %empty
+		\northdir={}   %empty
+		\magdecl={}   %empty
+		\exploteam={}   %empty
+		\topoteam={}   %empty
+		\cartoteam={}   %empty
+		\thversion={}   %empty
+	endcode
+	
+endcode
+# Modification du Titre de la topo
+#code tex-map
+#	% Output map title as determined by Therion is stored in cavename, défini par la une Map.
+#	% It will be empty if there are multiple maps selected for any one projection
+#	% AND there are multiple source surveys identified in the thconfig file
+#	% ie Therion can not infer a unique title from the input data given.
+#	% This code allows you to define an output map title {cavename} if it happens to be empty
+#	\edef\temp{\the\cavename}        % cavename from Therion
+#	\edef\nostring{}                 % empty string
+#	\ifx\temp\nostring             % test if cavename is empty
+#	% if empty
+#	reassign cavename to describe selected maps as a group
+#	\cavename={Gulshirin (Geophysicheskaya)}
+#	\else % if not empty keep the value set by therion, or assign an override cavename here
+#	\fi
+#	\newtoks\club \club={Koytendag 2024}
+#	%\newtoks\synth \synth={Xavier Robert}
+#endcode
+
+## add extended-elev on the same pdf
+#map-image 90 110 nw Outputs/Geophysicheskaya-coupe.pdf
+
+# Add logos to the map
+# Ajout des logos du club
+#map-image 100 -35 sw	Logo_TKM_2024.jpg
+#map-image 85 -40 sw	Logo_FFS.jpg
+
+endlayout
+
+
+layout my_layout_Livre_2
+	# Rajout des coordonnées de l'entrée
+	#copy Coords_Header_CDa
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy headerl
+	copy langue-fr
+	
+	# Définition du système de projection du plan
+	cs UTM41
+	# cs EPSG:2154
+	
+	# La ligne base-scale specifie l'échelle auquel nous avons dessiné nos croquis.
+	# Par defaut, Therion pense que c'est une échelle 1:200. Si on a utilisé une autre échelle,
+	# il faut enlever le "#" et spécifier l'échelle vraiment employée, comme c'est le cas
+	# après avoir dessiné la topo sur un cheminement exporté avec le layout "xviexport".
+	# Jouer avec le ration base-scale/scale permet de jouer globalement sur les tailles
+	# des caractères et des traits.
+	base-scale 1 1500
+	
+	# Maitenant on va mettre une ligne "scale" pour specifier l'échelle pour imprimer la topo.
+	# La combination entre scale et base-scale controlle l'épaisseur des lignes, rotation, etc, convenable
+	# pour faire l'ampliation-réduction entre dessin et le resultat de l'imprimante
+	# C'est tres important s'assurer que la configuration de l'imprimante ne specifie pas l'option "Fit in page"
+	# ou similaire, sinon, l'échelle sera changée pendant l'impression!
+	scale 1 1000
+	
+	# Echelle graphique 100 m ampleur (Généralement, le choix scale/10 est plutôt pas mal)
+	scale-bar 100 m
+	
+	# Voici une ligne pour specifier qu'il faut imprimer une grille au dessous de la topo
+	# grid bottom
+	grid off
+	# Une ligne pour specifier que la grille est 1000x1000x1000 m
+	# (Trois dimensions, oui, ça sert pour la coupe aussi)
+	grid-size 250 250 250 m
+	
+	# la topo est transparente (on peut voir les galeries sousjacentes)
+	# C'est on par défaut, donc, pas vraiment besoin de specifier
+	transparency on
+	
+	
+	# ça marche seulement si transparency est "on" 90% blanc= 10% noir
+	opacity 75
+	
+	#surface bottom
+	#surface-opacity 100
+	
+	# Auteur
+	doc-author "Alexandre Pont"
+	# Titule
+	doc-title "Gulshirin (Geophysicheskaya) plan"
+	
+	# Maitenant on spécifie la position de la manchette, dont l'interieur est ocuppé par le titule, auteurs, etc.
+	# Nous pouvons indiquer les cordonnées du point de la topo ou l'on veut la manchette :
+	# 0 0, c'est en bas, à gauche, 100 100, c'est en haut, à droite
+	# La manchette a des "points cardinaux" autour : n, s, ne, sw, etc.
+	# Il faut specifier un de ces points comme ce que sera placé sur les cordonnées.
+	# Alors nous pouvons specifier que le sud-ouest de la manchette soit placé en bas, a gauche,
+	# ou une autre combination...
+	map-header 35 15 nw
+	# arrière plan de la manchette
+	#map-header-bg off
+	# Légende pour expliciter les symboles. "on" imprimera seulement la legende des symboles dessinés
+	# sur la topo. Si l'on veut pour tous les symboles, utilisés ou pas, il faut indiquer "all".
+	# "legend off" = pas de legende
+	legend off
+	# Par défaut, la légende est de 14 cm de largeur
+	legend-width 24 cm
+	legend-columns 8
+	# Un commentaire à ajounter au titule, on pourrait indiquer ici la mairie où est placée la cavité
+	# dont le nom est probablement le titule de la topo.
+	#map-comment "Koytendag, Turménistan"
+	# Afficher les statistiques d'explo/topo par équipe/nom. C'est lourd
+	# si la cavité est importante et qu'il y a beaucoup d'explorateurs/topogrpahes.
+	statistics explo-length off
+	statistics topo-length off
+	# Afficher un copyright
+	statistics copyright off
+	
+	# Dessin ou pas du cheminement topo
+	symbol-hide point station
+	symbol-hide line survey
+	symbol-hide point u:symbol_plan
+	symbol-hide point u:symbol_extend
+	symbol-hide point label
+	symbol-hide point height
+	symbol-hide point wall-altitude
+	symbol-hide point guano
+	symbol-hide point height	
+	symbol-hide point dig
+	symbol-hide point camp
+	symbol-hide point air-draught
+	symbol-hide point continuation
+	symbol-hide point masonry
+	symbol-hide point low-end
+	symbol-hide point narrow-end
+	symbol-hide point flowstone-choke
+	symbol-hide point breakdown-choke
+	symbol-hide point clay-choke
+	symbol-hide point bones
+	symbol-hide point bat
+	symbol-hide point rope
+	symbol-hide point traverse
+	symbol-hide point u:man_w
+	symbol-hide point stalagmites
+	symbol-hide point stalagmite
+	symbol-hide point paleo-material
+	symbol-hide point section
+	symbol-hide point gate
+	
+	symbol-hide group water
+	symbol-hide group speleothems
+	symbol-hide group text	
+	# symbol-hide group all 
+	
+	symbol-hide area u:boue 
+	symbol-hide area flowstone
+	symbol-hide area clay
+	symbol-hide area pebbles
+	symbol-hide area blocks
+	symbol-hide area u:guano
+	symbol-hide area mudcrack
+	
+	symbol-hide line label
+	
+	symbol-color line wall:flowstone [0 0 0]	
+	
+	# debug scrap-names
+	# debug station-names
+	# symbol-hide line survey
+	
+	color map-fg [100 100 100] 
+	# color map-fg altitude
+	color-legend off
+	
+	layers on
+	
+	code tex-map
+		\cavelength={} %empty
+		\cavedepth={}  %empty
+		\cavename={}   %empty
+		\thcoords={}   %empty
+		\thproj={}   %empty
+		\outcsname={}   %empty
+		\northdir={}   %empty
+		\magdecl={}   %empty
+		\exploteam={}   %empty
+		\topoteam={}   %empty
+		\cartoteam={}   %empty
+		\thversion={}   %empty
+	endcode
+	
+endcode
+# Modification du Titre de la topo
+#code tex-map
+#	% Output map title as determined by Therion is stored in cavename, défini par la une Map.
+#	% It will be empty if there are multiple maps selected for any one projection
+#	% AND there are multiple source surveys identified in the thconfig file
+#	% ie Therion can not infer a unique title from the input data given.
+#	% This code allows you to define an output map title {cavename} if it happens to be empty
+#	\edef\temp{\the\cavename}        % cavename from Therion
+#	\edef\nostring{}                 % empty string
+#	\ifx\temp\nostring             % test if cavename is empty
+#	% if empty
+#	reassign cavename to describe selected maps as a group
+#	\cavename={Gulshirin (Geophysicheskaya)}
+#	\else % if not empty keep the value set by therion, or assign an override cavename here
+#	\fi
+#	\newtoks\club \club={Koytendag 2024}
+#	%\newtoks\synth \synth={Xavier Robert}
+#endcode
+
+## add extended-elev on the same pdf
+#map-image 90 110 nw Outputs/Geophysicheskaya-coupe.pdf
+
+# Add logos to the map
+# Ajout des logos du club
+#map-image 100 -35 sw	Logo_TKM_2024.jpg
+#map-image 85 -40 sw	Logo_FFS.jpg
+
+endlayout
+
 #debut de la definition du layout "layout-coupe"
 layout layout-coupe
 	## Rajout des coordonnées de l'entrée
@@ -469,6 +897,9 @@ select MP-Geophysicheskaya@Geophysicheskaya
 #export map -projection extended -fmt pdf -layout layout-coupe -o Outputs/Geophysicheskaya-coupe.pdf
 export map -proj plan -fmt pdf -o Outputs/Geophysicheskaya-plan.pdf -layout my_layout
 export map -proj plan -fmt pdf -o Outputs/Geophysicheskaya-plan_Spelunca.pdf -layout my_layout_Spelunca
+export map -proj plan -fmt pdf -o Outputs/Geophysicheskaya-plan_Livre_1.pdf -layout my_layout_Livre_1
+export map -proj plan -fmt pdf -o Outputs/Geophysicheskaya-plan_Livre_2.pdf -layout my_layout_Livre_2
+
 #export map -proj plan -fmt jpg -o Outputs/Geophysicheskaya-plan_Spelunca.jpg -layout my_layout_Spelunca
 #export map -proj plan -fmt svg -o Outputs/Geophysicheskaya-plan.svg -layout my_layout
 
