@@ -680,6 +680,10 @@ layout my_layout_Livre_2
 	symbol-hide point paleo-material
 	symbol-hide point section
 	symbol-hide point gate
+	symbol-hide point blocks
+	symbol-hide point gradient
+	symbol-hide point clay
+	symbol-hide point sand
 	
 	symbol-hide group water
 	symbol-hide group speleothems
@@ -689,15 +693,29 @@ layout my_layout_Livre_2
 	symbol-hide area u:boue 
 	symbol-hide area flowstone
 	symbol-hide area clay
+	symbol-hide area sand
 	symbol-hide area pebbles
+	symbol-hide area debris
 	symbol-hide area blocks
+	symbol-hide area water
+	symbol-hide area moonmilk
 	symbol-hide area u:guano
 	symbol-hide area mudcrack
 	
+	
 	symbol-hide line label
+	symbol-hide line arrow 
+	symbol-hide line border
+	symbol-hide line floor-step
+	symbol-hide line rock-border
+	symbol-hide line rock-edge
+	symbol-hide line floor-meander
+	symbol-hide line pit
+	symbol-hide line pit-chimney
+	symbol-hide line slope
+	symbol-hide line fault	
 	
 	symbol-color line wall:flowstone [0 0 0]	
-	
 	# debug scrap-names
 	# debug station-names
 	# symbol-hide line survey

@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 5159.3728 11471.515
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {724.4099999999999 1 1.0} {5275.59 PTR_FR24_A00_Geophysicalskaya} Geophysicalskaya-map.xvi 0 {}
 
 
 
 scrap SP-Geophysicalskaya_01_entree -author 2026 "Etienne Fabre" -author 2024 "Alexandre Pont" -copyright 2026 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5639.814 -128.0 0.0 0.0 146.5024756 0.0 m]
 
-line floor-step -close on
+line rock-border -close on
   1282.0 4652.0
   1270.0 4640.5
   1303.0 4622.5
@@ -811,7 +811,7 @@ point 2356.0 1018.0 height
 
 point 1698.0 828.0 dig
 
-line rock-edge -close on
+line rock-border -close on -clip off
   1819.5 808.5
   1812.0 808.0 1797.5 803.0 1797.5 803.0
   smooth off
@@ -821,7 +821,7 @@ line rock-edge -close on
   1815.0 791.0 1827.0 809.0 1819.5 808.5
 endline
 
-line rock-edge -close on
+line rock-border -close on
   2025.5 936.0
   2008.5 922.5
   2025.0 906.0
